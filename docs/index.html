@@ -57,6 +57,11 @@ details summary{cursor:pointer;color:var(--muted);font-size:12px}
     <div class="card"><h3>散户关注度（Stocktwits 消息 / Reddit 帖子）</h3><canvas id="cAtt" height="200"></canvas></div>
   </div>
 
+  <h2>散户帖子原文（Stocktwits 最新 60 条 / Reddit）</h2>
+  <div class="card"><div class="sub" style="margin-bottom:6px">机器人/聚合账号（Stocktwits 官方、OpenOutcrier、Zacks、Form 4 提醒等）用灰色标出；情绪为发帖人自标。点击时间可打开原帖。</div>
+    <table id="posts"><thead><tr><th>时间（UTC）</th><th>用户（粉丝）</th><th>情绪</th><th>内容</th></tr></thead><tbody></tbody></table>
+    <div id="redditWrap" style="margin-top:10px"></div></div>
+
   <h2>持有人</h2>
   <div class="two">
     <div class="card"><h3 id="h13title">13F 机构持有人</h3><table id="h13"><thead><tr><th>机构</th><th class="num">本期股数</th><th class="num">上期</th><th class="num">变动</th></tr></thead><tbody></tbody></table></div>
@@ -123,6 +128,12 @@ fetch('data/dashboard.json?v='+Date.now()).then(r=>r.json()).then(D=>{
   const O=D.options;new Chart($('#cOpt'),{data:{labels:O.map(x=>x.date.slice(5)),datasets:[{type:'line',label:'看涨 OI',data:O.map(x=>x.calls_oi),borderColor:C.green,borderWidth:1.4,pointRadius:2},{type:'line',label:'看跌 OI',data:O.map(x=>x.puts_oi),borderColor:C.red,borderWidth:1.4,pointRadius:2}]},options:{responsive:true}});
   const ot=(D.options_top&&D.options_top.top)||[];$('#optTop').innerHTML=ot.length?'OI≥20 的合约：'+ot.map(t=>`<span class="chip">${t.expiry.slice(2)} ${t.type}${t.strike} · OI ${t.oi}</span>`).join(' '):'';
   const A=D.attention.slice(-90);new Chart($('#cAtt'),{data:{labels:A.map(x=>x.date.slice(5)),datasets:[{type:'bar',label:'Stocktwits 消息/日',data:A.map(x=>x.st_msgs),backgroundColor:C.blue+'99'},{type:'bar',label:'Reddit 帖子/日',data:A.map(x=>x.reddit_posts),backgroundColor:C.gold+'99'}]},options:{responsive:true,scales:{x:{stacked:true},y:{stacked:true}}}});
+  // posts
+  const BOT=/^(Stocktwits|OpenOutcrier|EarningsInside|Form4Alerts|ZacksSCR|Sidoti|Stock_Catcher|topstockalerts|G101SPM|IPO_Candy_bot|MarketBeat|Benzinga|InvestingLive|Quiver)/i;
+  const P=(D.stocktwits_recent||[]).slice().reverse();
+  $('#posts tbody').innerHTML=P.map(p=>{const bot=BOT.test(p.user||'');const sent=p.sentiment==='Bullish'?'<span class="chip green">看多</span>':p.sentiment==='Bearish'?'<span class="chip red">看空</span>':'';return `<tr class="${bot?'sub':''}"><td style="white-space:nowrap"><a href="https://stocktwits.com/${esc(p.user)}/message/${esc(p.id)}" target="_blank" rel="noopener">${esc(String(p.created_at).replace('T',' ').slice(0,16))}</a></td><td style="white-space:nowrap">${esc(p.user)}${p.followers?` <span class="sub">(${fi(p.followers)})</span>`:''}${bot?' <span class="chip">bot</span>':''}</td><td>${sent}</td><td>${esc(p.body)}</td></tr>`}).join('')||'<tr><td colspan="4" class="sub">暂无</td></tr>';
+  const R=(D.reddit_recent||[]).slice().reverse();
+  $('#redditWrap').innerHTML=R.length?`<h3>Reddit</h3><table><thead><tr><th>时间</th><th>版块</th><th>标题</th><th class="num">赞/评论</th></tr></thead><tbody>${R.map(r=>`<tr><td>${esc(r.created)}</td><td>r/${esc(r.subreddit)}</td><td><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></td><td class="num">${esc(r.score)}/${esc(r.comments)}</td></tr>`).join('')}</tbody></table>`:'<div class="sub">Reddit：公开搜索接口在 GitHub 机器上被挡，暂无数据（需 Reddit API key）。</div>';
   // holders
   const H=D.holders_13f;$('#h13title').textContent=`13F 机构持有人（${H.latest_period||'无数据'}${H.prev_period?' vs '+H.prev_period:''}）`+(H.totals&&H.totals.shares?` · 合计 ${fi(H.totals.shares)} 股 = A 类 ${H.totals.pct_of_A}%`:'')+((H.partial||[]).length?` · 进行中：${H.partial.map(p=>`${p.period} 已报 ${p.filers_so_far} 家/${fi(p.shares_so_far)} 股（截止 ${p.deadline}）`).join('；')}`:'');
   $('#h13 tbody').innerHTML=(H.rows||[]).slice(0,40).map(r=>`<tr><td>${esc(r.filer)}</td><td class="num">${fi(r.shares)}</td><td class="num">${fi(r.prev_shares)}</td><td class="num ${sgn(r.change)}">${r.change==null?'—':(r.change>0?'+':'')+fi(r.change)}</td></tr>`).join('')||'<tr><td colspan="4" class="sub">暂无（首次运行后约 1 小时内填充；Q3 名单 11/16 后出）</td></tr>';

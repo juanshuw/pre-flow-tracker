@@ -37,7 +37,7 @@ def update_stocktwits(status):
             for m in msgs:
                 if int(m["id"]) <= last_id: stop = True; continue
                 s = ((m.get("entities") or {}).get("sentiment") or {}).get("basic") or ""
-                rows.append(dict(id=int(m["id"]), created_at=m["created_at"], user=(m.get("user") or {}).get("username", ""), followers=(m.get("user") or {}).get("followers", ""), sentiment=s, body=re.sub(r"\s+", " ", m.get("body", ""))[:200]))
+                rows.append(dict(id=int(m["id"]), created_at=m["created_at"], user=(m.get("user") or {}).get("username", ""), followers=(m.get("user") or {}).get("followers", ""), sentiment=s, body=re.sub(r"\s+", " ", m.get("body", ""))[:400]))
             if stop or not (j.get("cursor") or {}).get("more"): break
             mx = (j.get("cursor") or {}).get("max"); time.sleep(0.4)
         if rows: upsert(DATA / "stocktwits_messages.csv", rows, ["id"], sort=["created_at"])

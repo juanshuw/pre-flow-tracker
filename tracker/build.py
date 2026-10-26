@@ -221,7 +221,10 @@ def build(status_rows):
            "daily": _recs(d.assign(flags=d["flags"].apply(lambda x: "|".join(x))), ["date", "open", "high", "low", "close", "volume", "ret_pct", "turnover_pct", "vol_x_adv20", "close_pos", "gap_pct", "intraday_pct", "ma20", "ma50", "ma200", "rsi14", "pct_b", "vwap", "close_vs_vwap_pct", "first30_pct", "last30_pct", "max_1m_vol", "max_1m_time", "short", "short_exempt", "offexch_total", "short_pct", "offexch_pct", "in_effect", "triggered_today", "trigger_time", "on_threshold_list", "acc_day", "dist_day", "flags"], n=260),
            "weekly": _recs(summ, n=40), "venue_weeks": venue_weeks, "venue_pivot": venue_pivot,
            "short_interest": _recs(si, n=40), "ftd": _recs(ftd, n=80), "borrow": _recs(borrow, n=120), "options": _recs(opt_tot, n=120), "options_top": load_json(DATA / "options_top_latest.json", {}),
-           "attention": att_rows[-120:], "holders_13f": holders, "nasdaq_inst": nq_inst,
+           "attention": att_rows[-120:],
+           "stocktwits_recent": _recs(_sorted(stm, "created_at"), ["id", "created_at", "user", "followers", "sentiment", "body"], n=60),
+           "reddit_recent": _recs(_sorted(rd, "created"), ["id", "created", "subreddit", "title", "score", "comments", "url"], n=30),
+           "holders_13f": holders, "nasdaq_inst": nq_inst,
            "form4": _recs(_sorted(f4, "filing_date"), n=40), "insiders_nasdaq": _recs(ins, n=30),
            "filings": _recs(_sorted(filings, "filing_date"), ["filing_date", "form", "description", "tags", "pct_of_class", "snippet", "url"], n=80),
            "analysts": {"actions": _recs(aa, n=30), "targets": _recs(at, n=1)}, "news": _recs(_sorted(news, "date"), n=40)}

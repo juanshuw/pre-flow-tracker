@@ -1,165 +1,153 @@
 {
  "meta": {
   "symbol": "PRE",
-  "built_at": "2026-10-26 02:54 UTC",
+  "built_at": "2026-10-26 09:20 UTC",
   "last_trade_date": "2026-10-23",
   "shares_a": 15356748,
   "sources": [
    {
-    "source": "prices.yahoo",
-    "status": "ok",
-    "note": "454 rows",
-    "ts": "2026-10-26T02:54:03"
-   },
-   {
-    "source": "prices.stooq",
+    "source": "prices.daily",
     "status": "skip",
-    "note": "empty/blocked",
-    "ts": "2026-10-26T02:54:03"
-   },
-   {
-    "source": "prices.nasdaq",
-    "status": "ok",
-    "note": "454 rows",
-    "ts": "2026-10-26T02:54:05"
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
     "source": "prices.peers",
-    "status": "ok",
-    "note": "454 rows",
-    "ts": "2026-10-26T02:54:06"
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
-    "source": "prices.intraday_1m",
-    "status": "ok",
-    "note": "7 days",
-    "ts": "2026-10-26T02:54:06"
+    "source": "prices.intraday",
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
-    "source": "finra.regsho_daily",
-    "status": "ok",
-    "note": "+16 days, total 252",
-    "ts": "2026-10-26T02:54:07"
+    "source": "finra.regsho",
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
-    "source": "finra.otc_weekly",
-    "status": "ok",
-    "note": "244 rows since 2026-07-16; latest week 2026-09-14",
-    "ts": "2026-10-26T02:54:07"
+    "source": "finra.weekly",
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
-    "source": "finra.otc_monthly",
-    "status": "ok",
-    "note": "8 rows",
-    "ts": "2026-10-26T02:54:08"
+    "source": "finra.monthly",
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
-    "source": "finra.short_interest",
-    "status": "ok",
-    "note": "latest 2026-09-30",
-    "ts": "2026-10-26T02:54:08"
+    "source": "finra.si",
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
-    "source": "sec.edgar_filings",
-    "status": "ok",
-    "note": "97 filings; latest 2026-10-13",
-    "ts": "2026-10-26T02:54:08"
+    "source": "sec.filings",
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
     "source": "sec.form4",
-    "status": "ok",
-    "note": "+4 filings parsed",
-    "ts": "2026-10-26T02:54:10"
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
-    "source": "sec.edgar_events",
-    "status": "ok",
-    "note": "+24 docs tagged",
-    "ts": "2026-10-26T02:54:17"
+    "source": "sec.events",
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
     "source": "sec.13f",
-    "status": "ok",
-    "note": "298 hits; nothing new",
-    "ts": "2026-10-26T02:54:20"
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
     "source": "sec.ftd",
-    "status": "ok",
-    "note": "fetched ['202609b']; +1 rows",
-    "ts": "2026-10-26T02:54:21"
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
     "source": "sec.shares",
-    "status": "ok",
-    "note": "latest 16,874,089 as of 2025-12-31",
-    "ts": "2026-10-26T02:54:22"
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
-    "source": "nasdaq.circuit_breaker",
-    "status": "ok",
-    "note": "up to date",
-    "ts": "2026-10-26T02:54:22"
+    "source": "nasdaq.cb",
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
     "source": "nasdaq.threshold",
-    "status": "ok",
-    "note": "up to date",
-    "ts": "2026-10-26T02:54:22"
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
     "source": "nasdaq.institutional",
-    "status": "ok",
-    "note": "inst own 8.04%; holders 40",
-    "ts": "2026-10-26T02:54:25"
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
     "source": "nasdaq.insiders",
-    "status": "ok",
-    "note": "14 rows",
-    "ts": "2026-10-26T02:54:28"
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
-    "source": "nasdaq.short_interest",
-    "status": "ok",
-    "note": "24 rows",
-    "ts": "2026-10-26T02:54:30"
+    "source": "nasdaq.si",
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
-    "source": "options.yahoo",
-    "status": "ok",
-    "note": "OI C1059/P107",
-    "ts": "2026-10-26T02:54:31"
+    "source": "options",
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:37"
    },
    {
     "source": "social.stocktwits",
     "status": "ok",
-    "note": "watch 2897; +0 msgs",
-    "ts": "2026-10-26T02:54:32"
+    "note": "watch 2896; +0 msgs",
+    "ts": "2026-10-26T09:20:38"
    },
    {
     "source": "social.reddit",
     "status": "skip",
-    "note": "blocked",
-    "ts": "2026-10-26T02:54:32"
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:38"
    },
    {
-    "source": "borrow.iborrowdesk",
+    "source": "borrow",
     "status": "skip",
-    "note": "unreachable",
-    "ts": "2026-10-26T02:54:37"
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:38"
    },
    {
-    "source": "analysts.yahoo",
-    "status": "ok",
-    "note": "PT mean 38.125",
-    "ts": "2026-10-26T02:54:37"
+    "source": "analysts",
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:38"
    },
    {
-    "source": "news.google_rss",
-    "status": "ok",
-    "note": "200 items",
-    "ts": "2026-10-26T02:54:38"
+    "source": "news",
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:20:38"
    }
   ],
   "baseline_ats_pct": 24.7
@@ -349,7 +337,7 @@
   {
    "group": "散户 / 活跃交易者",
    "signal": "Stocktwits 近 7 日消息 / 关注数",
-   "value": "1 条 / 2897",
+   "value": "1 条 / 2896",
    "reading": "沉默=无追涨盘也无接盘；放量讨论+下跌=投降",
    "source": "Stocktwits API",
    "asof": "2026-10-23"
@@ -689,7 +677,7 @@
    "date": "2025-10-20",
    "open": 15.640000343322754,
    "high": 16.639999389648438,
-   "low": 15.100000381469727,
+   "low": 15.100000381469728,
    "close": 16.239999771118164,
    "volume": 145400,
    "ret_pct": 8.27,
@@ -873,9 +861,9 @@
   {
    "date": "2025-10-27",
    "open": 13.970000267028809,
-   "high": 14.420000076293945,
-   "low": 12.420000076293945,
-   "close": 13.079999923706055,
+   "high": 14.420000076293944,
+   "low": 12.420000076293944,
+   "close": 13.079999923706056,
    "volume": 819500,
    "ret_pct": -21.96,
    "turnover_pct": 5.34,
@@ -911,7 +899,7 @@
    "date": "2025-10-28",
    "open": 13.880000114440918,
    "high": 13.880000114440918,
-   "low": 12.100000381469727,
+   "low": 12.100000381469728,
    "close": 12.229999542236328,
    "volume": 277000,
    "ret_pct": -6.5,
@@ -947,9 +935,9 @@
   {
    "date": "2025-10-29",
    "open": 12.239999771118164,
-   "high": 14.180000305175781,
+   "high": 14.18000030517578,
    "low": 12.039999961853027,
-   "close": 13.819999694824219,
+   "close": 13.81999969482422,
    "volume": 195200,
    "ret_pct": 13.0,
    "turnover_pct": 1.27,
@@ -986,7 +974,7 @@
    "open": 14.0,
    "high": 14.989999771118164,
    "low": 13.510000228881836,
-   "close": 14.149999618530273,
+   "close": 14.149999618530272,
    "volume": 213600,
    "ret_pct": 2.39,
    "turnover_pct": 1.39,
@@ -1022,8 +1010,8 @@
    "date": "2025-10-31",
    "open": 14.869999885559082,
    "high": 15.260000228881836,
-   "low": 14.399999618530273,
-   "close": 14.819999694824219,
+   "low": 14.399999618530272,
+   "close": 14.81999969482422,
    "volume": 242100,
    "ret_pct": 4.73,
    "turnover_pct": 1.58,
@@ -1057,10 +1045,10 @@
   },
   {
    "date": "2025-11-03",
-   "open": 14.795000076293945,
+   "open": 14.795000076293944,
    "high": 14.800000190734863,
    "low": 13.510000228881836,
-   "close": 13.569999694824219,
+   "close": 13.56999969482422,
    "volume": 181100,
    "ret_pct": -8.43,
    "turnover_pct": 1.18,
@@ -1094,10 +1082,10 @@
   },
   {
    "date": "2025-11-04",
-   "open": 13.579999923706055,
+   "open": 13.579999923706056,
    "high": 13.699999809265137,
    "low": 12.760000228881836,
-   "close": 12.805000305175781,
+   "close": 12.80500030517578,
    "volume": 142700,
    "ret_pct": -5.64,
    "turnover_pct": 0.93,
@@ -1133,7 +1121,7 @@
    "date": "2025-11-05",
    "open": 13.229999542236328,
    "high": 13.890000343322754,
-   "low": 12.670000076293945,
+   "low": 12.670000076293944,
    "close": 12.720000267028809,
    "volume": 132400,
    "ret_pct": -0.66,
@@ -1169,7 +1157,7 @@
   {
    "date": "2025-11-06",
    "open": 12.65999984741211,
-   "high": 13.170000076293945,
+   "high": 13.170000076293944,
    "low": 12.050000190734863,
    "close": 12.345000267028809,
    "volume": 171500,
@@ -1242,7 +1230,7 @@
   },
   {
    "date": "2025-11-10",
-   "open": 13.079999923706055,
+   "open": 13.079999923706056,
    "high": 13.25,
    "low": 11.640000343322754,
    "close": 11.890000343322754,
@@ -1282,7 +1270,7 @@
    "open": 12.5,
    "high": 13.0,
    "low": 12.234999656677246,
-   "close": 12.930000305175781,
+   "close": 12.93000030517578,
    "volume": 154700,
    "ret_pct": 8.75,
    "turnover_pct": 1.01,
@@ -1316,9 +1304,9 @@
   },
   {
    "date": "2025-11-12",
-   "open": 13.180000305175781,
-   "high": 13.975000381469727,
-   "low": 12.814000129699707,
+   "open": 13.18000030517578,
+   "high": 13.975000381469728,
+   "low": 12.814000129699709,
    "close": 13.869999885559082,
    "volume": 172100,
    "ret_pct": 7.27,
@@ -1355,7 +1343,7 @@
    "date": "2025-11-13",
    "open": 13.380000114440918,
    "high": 13.979999542236328,
-   "low": 13.194999694824219,
+   "low": 13.19499969482422,
    "close": 13.470000267028809,
    "volume": 119600,
    "ret_pct": -2.88,
@@ -1503,7 +1491,7 @@
    "date": "2025-11-19",
    "open": 12.40999984741211,
    "high": 13.0600004196167,
-   "low": 11.975000381469727,
+   "low": 11.975000381469728,
    "close": 12.710000038146973,
    "volume": 140700,
    "ret_pct": 3.21,
@@ -1578,7 +1566,7 @@
    "open": 12.970000267028809,
    "high": 12.970000267028809,
    "low": 12.324999809265137,
-   "close": 12.680000305175781,
+   "close": 12.68000030517578,
    "volume": 68800,
    "ret_pct": -1.55,
    "turnover_pct": 0.45,
@@ -1613,9 +1601,9 @@
   {
    "date": "2025-11-24",
    "open": 13.1899995803833,
-   "high": 14.600000381469727,
+   "high": 14.600000381469728,
    "low": 12.699999809265137,
-   "close": 14.100000381469727,
+   "close": 14.100000381469728,
    "volume": 185800,
    "ret_pct": 11.2,
    "turnover_pct": 1.21,
@@ -1650,7 +1638,7 @@
   {
    "date": "2025-11-25",
    "open": 14.239999771118164,
-   "high": 15.319999694824219,
+   "high": 15.31999969482422,
    "low": 13.960000038146973,
    "close": 15.3100004196167,
    "volume": 136700,
@@ -1723,8 +1711,8 @@
   },
   {
    "date": "2025-11-28",
-   "open": 14.430000305175781,
-   "high": 14.928999900817871,
+   "open": 14.43000030517578,
+   "high": 14.928999900817873,
    "low": 14.3100004196167,
    "close": 14.550000190734863,
    "volume": 60500,
@@ -1834,7 +1822,7 @@
   },
   {
    "date": "2025-12-03",
-   "open": 14.170000076293945,
+   "open": 14.170000076293944,
    "high": 14.720000267028809,
    "low": 13.699999809265137,
    "close": 14.390000343322754,
@@ -1873,8 +1861,8 @@
    "date": "2025-12-04",
    "open": 14.3100004196167,
    "high": 14.3100004196167,
-   "low": 12.930000305175781,
-   "close": 13.930000305175781,
+   "low": 12.93000030517578,
+   "close": 13.93000030517578,
    "volume": 138100,
    "ret_pct": -3.2,
    "turnover_pct": 0.9,
@@ -1946,9 +1934,9 @@
   {
    "date": "2025-12-08",
    "open": 14.270000457763672,
-   "high": 14.428999900817871,
+   "high": 14.428999900817873,
    "low": 13.760000228881836,
-   "close": 14.319999694824219,
+   "close": 14.31999969482422,
    "volume": 119600,
    "ret_pct": 2.36,
    "turnover_pct": 0.78,
@@ -1982,9 +1970,9 @@
   },
   {
    "date": "2025-12-09",
-   "open": 13.899999618530273,
-   "high": 14.430000305175781,
-   "low": 13.899999618530273,
+   "open": 13.899999618530272,
+   "high": 14.43000030517578,
+   "low": 13.899999618530272,
    "close": 14.03499984741211,
    "volume": 137000,
    "ret_pct": -1.99,
@@ -2019,8 +2007,8 @@
   },
   {
    "date": "2025-12-10",
-   "open": 14.069999694824219,
-   "high": 14.899999618530273,
+   "open": 14.06999969482422,
+   "high": 14.899999618530272,
    "low": 14.010000228881836,
    "close": 14.300000190734863,
    "volume": 132800,
@@ -2056,7 +2044,7 @@
   },
   {
    "date": "2025-12-11",
-   "open": 14.350000381469727,
+   "open": 14.350000381469728,
    "high": 15.699999809265137,
    "low": 14.140000343322754,
    "close": 15.470000267028809,
@@ -2093,8 +2081,8 @@
   },
   {
    "date": "2025-12-12",
-   "open": 15.649999618530273,
-   "high": 15.649999618530273,
+   "open": 15.649999618530272,
+   "high": 15.649999618530272,
    "low": 14.609999656677246,
    "close": 14.854999542236328,
    "volume": 124000,
@@ -2131,7 +2119,7 @@
   {
    "date": "2025-12-15",
    "open": 14.9399995803833,
-   "high": 15.559000015258789,
+   "high": 15.559000015258787,
    "low": 14.020000457763672,
    "close": 14.630000114440918,
    "volume": 104900,
@@ -2167,9 +2155,9 @@
   },
   {
    "date": "2025-12-16",
-   "open": 14.680000305175781,
+   "open": 14.68000030517578,
    "high": 17.0,
-   "low": 14.545000076293945,
+   "low": 14.545000076293944,
    "close": 16.579999923706055,
    "volume": 215200,
    "ret_pct": 13.33,
@@ -2502,7 +2490,7 @@
    "date": "2025-12-30",
    "open": 16.299999237060547,
    "high": 16.5,
-   "low": 15.399999618530273,
+   "low": 15.399999618530272,
    "close": 15.739999771118164,
    "volume": 100600,
    "ret_pct": -3.32,
@@ -2611,10 +2599,10 @@
   },
   {
    "date": "2026-01-05",
-   "open": 15.899999618530273,
+   "open": 15.899999618530272,
    "high": 16.030000686645508,
    "low": 15.0,
-   "close": 15.850000381469727,
+   "close": 15.850000381469728,
    "volume": 111000,
    "ret_pct": 0.44,
    "turnover_pct": 0.72,
@@ -2650,7 +2638,7 @@
    "date": "2026-01-06",
    "open": 16.229999542236328,
    "high": 16.405000686645508,
-   "low": 15.694999694824219,
+   "low": 15.69499969482422,
    "close": 16.299999237060547,
    "volume": 323600,
    "ret_pct": 2.84,
@@ -2799,7 +2787,7 @@
    "open": 15.760000228881836,
    "high": 16.0,
    "low": 14.65999984741211,
-   "close": 15.829999923706055,
+   "close": 15.829999923706056,
    "volume": 200600,
    "ret_pct": 1.93,
    "turnover_pct": 1.31,
@@ -2836,7 +2824,7 @@
    "open": 16.0,
    "high": 16.200000762939453,
    "low": 15.645000457763672,
-   "close": 15.829999923706055,
+   "close": 15.829999923706056,
    "volume": 187300,
    "ret_pct": 0.0,
    "turnover_pct": 1.22,
@@ -3092,8 +3080,8 @@
   },
   {
    "date": "2026-01-23",
-   "open": 18.860000610351562,
-   "high": 18.860000610351562,
+   "open": 18.86000061035156,
+   "high": 18.86000061035156,
    "low": 17.540000915527344,
    "close": 18.420000076293945,
    "volume": 238400,
@@ -3241,7 +3229,7 @@
   {
    "date": "2026-01-29",
    "open": 19.299999237060547,
-   "high": 20.889999389648438,
+   "high": 20.88999938964844,
    "low": 19.299999237060547,
    "close": 20.479999542236328,
    "volume": 323100,
@@ -3388,7 +3376,7 @@
   },
   {
    "date": "2026-02-04",
-   "open": 19.389999389648438,
+   "open": 19.38999938964844,
    "high": 19.489999771118164,
    "low": 17.915000915527344,
    "close": 18.93000030517578,
@@ -3501,7 +3489,7 @@
    "date": "2026-02-09",
    "open": 19.040000915527344,
    "high": 21.68000030517578,
-   "low": 18.985000610351562,
+   "low": 18.98500061035156,
    "close": 21.1200008392334,
    "volume": 631600,
    "ret_pct": 9.77,
@@ -3573,8 +3561,8 @@
   },
   {
    "date": "2026-02-11",
-   "open": 22.860000610351562,
-   "high": 22.860000610351562,
+   "open": 22.86000061035156,
+   "high": 22.86000061035156,
    "low": 20.5,
    "close": 21.399999618530273,
    "volume": 344000,
@@ -3834,7 +3822,7 @@
    "date": "2026-02-23",
    "open": 16.229999542236328,
    "high": 16.690000534057617,
-   "low": 14.829999923706055,
+   "low": 14.829999923706056,
    "close": 15.609999656677246,
    "volume": 734700,
    "ret_pct": -8.45,
@@ -3871,8 +3859,8 @@
    "date": "2026-02-24",
    "open": 15.5,
    "high": 16.389999389648438,
-   "low": 14.899999618530273,
-   "close": 15.899999618530273,
+   "low": 14.899999618530272,
+   "close": 15.899999618530272,
    "volume": 473500,
    "ret_pct": 1.86,
    "turnover_pct": 3.08,
@@ -3908,7 +3896,7 @@
    "date": "2026-02-25",
    "open": 16.010000228881836,
    "high": 17.09000015258789,
-   "low": 15.850000381469727,
+   "low": 15.850000381469728,
    "close": 16.940000534057617,
    "volume": 170800,
    "ret_pct": 6.54,
@@ -4019,7 +4007,7 @@
    "date": "2026-03-02",
    "open": 16.5,
    "high": 17.139999389648438,
-   "low": 15.819999694824219,
+   "low": 15.81999969482422,
    "close": 15.84000015258789,
    "volume": 187800,
    "ret_pct": -6.33,
@@ -4131,7 +4119,7 @@
    "open": 15.25,
    "high": 15.270000457763672,
    "low": 14.550000190734863,
-   "close": 15.069999694824219,
+   "close": 15.06999969482422,
    "volume": 208700,
    "ret_pct": -2.02,
    "turnover_pct": 1.36,
@@ -4189,7 +4177,7 @@
    "max_1m_time": null,
    "short": 57787.594785,
    "short_exempt": 0.0,
-   "offexch_total": 151509.36762900001,
+   "offexch_total": 151509.367629,
    "short_pct": 38.1,
    "offexch_pct": 36.8,
    "in_effect": 0.0,
@@ -4537,7 +4525,7 @@
    "date": "2026-03-20",
    "open": 21.079999923706055,
    "high": 21.790000915527344,
-   "low": 19.610000610351562,
+   "low": 19.61000061035156,
    "close": 19.6200008392334,
    "volume": 119900,
    "ret_pct": -7.23,
@@ -4683,7 +4671,7 @@
   },
   {
    "date": "2026-03-26",
-   "open": 21.139999389648438,
+   "open": 21.13999938964844,
    "high": 22.040000915527344,
    "low": 20.969999313354492,
    "close": 21.31999969482422,
@@ -4757,7 +4745,7 @@
   },
   {
    "date": "2026-03-30",
-   "open": 20.639999389648438,
+   "open": 20.63999938964844,
    "high": 20.670000076293945,
    "low": 19.450000762939453,
    "close": 19.950000762939453,
@@ -4794,9 +4782,9 @@
   },
   {
    "date": "2026-03-31",
-   "open": 19.889999389648438,
+   "open": 19.88999938964844,
    "high": 20.850000381469727,
-   "low": 19.139999389648438,
+   "low": 19.13999938964844,
    "close": 19.31999969482422,
    "volume": 122600,
    "ret_pct": -3.16,
@@ -4981,7 +4969,7 @@
    "date": "2026-04-08",
    "open": 20.020000457763672,
    "high": 20.040000915527344,
-   "low": 19.360000610351562,
+   "low": 19.36000061035156,
    "close": 19.75,
    "volume": 82600,
    "ret_pct": 3.4,
@@ -5017,7 +5005,7 @@
   {
    "date": "2026-04-09",
    "open": 19.209999084472656,
-   "high": 20.121999740600586,
+   "high": 20.121999740600582,
    "low": 17.204999923706055,
    "close": 17.469999313354492,
    "volume": 217600,
@@ -5350,7 +5338,7 @@
   {
    "date": "2026-04-22",
    "open": 18.0,
-   "high": 18.639999389648438,
+   "high": 18.63999938964844,
    "low": 17.809999465942383,
    "close": 17.959999084472656,
    "volume": 92600,
@@ -5722,7 +5710,7 @@
    "open": 17.420000076293945,
    "high": 17.420000076293945,
    "low": 15.75,
-   "close": 15.899999618530273,
+   "close": 15.899999618530272,
    "volume": 261500,
    "ret_pct": -4.96,
    "turnover_pct": 1.7,
@@ -6002,7 +5990,7 @@
    "max_1m_time": null,
    "short": 54435.101456,
    "short_exempt": 10.0,
-   "offexch_total": 116727.33249100001,
+   "offexch_total": 116727.332491,
    "short_pct": 46.6,
    "offexch_pct": 30.4,
    "in_effect": 1.0,
@@ -6015,7 +6003,7 @@
   },
   {
    "date": "2026-05-18",
-   "open": 15.850000381469727,
+   "open": 15.850000381469728,
    "high": 16.6200008392334,
    "low": 14.390000343322754,
    "close": 14.539999961853027,
@@ -6128,8 +6116,8 @@
    "date": "2026-05-21",
    "open": 15.770000457763672,
    "high": 16.559999465942383,
-   "low": 15.475000381469727,
-   "close": 15.920000076293945,
+   "low": 15.475000381469728,
+   "close": 15.920000076293944,
    "volume": 163300,
    "ret_pct": 2.91,
    "turnover_pct": 1.06,
@@ -6312,7 +6300,7 @@
   {
    "date": "2026-05-29",
    "open": 20.0,
-   "high": 21.990999221801758,
+   "high": 21.99099922180176,
    "low": 19.406999588012695,
    "close": 21.100000381469727,
    "volume": 378600,
@@ -6351,7 +6339,7 @@
    "open": 21.100000381469727,
    "high": 21.799999237060547,
    "low": 20.25,
-   "close": 20.389999389648438,
+   "close": 20.38999938964844,
    "volume": 300800,
    "ret_pct": -3.36,
    "turnover_pct": 1.96,
@@ -6499,7 +6487,7 @@
    "open": 20.579999923706055,
    "high": 21.03499984741211,
    "low": 19.219999313354492,
-   "close": 19.860000610351562,
+   "close": 19.86000061035156,
    "volume": 197600,
    "ret_pct": -4.47,
    "turnover_pct": 1.29,
@@ -6792,8 +6780,8 @@
   },
   {
    "date": "2026-06-17",
-   "open": 20.639999389648438,
-   "high": 20.753000259399414,
+   "open": 20.63999938964844,
+   "high": 20.753000259399418,
    "low": 19.299999237060547,
    "close": 19.854999542236328,
    "volume": 148700,
@@ -6831,7 +6819,7 @@
    "date": "2026-06-18",
    "open": 19.940000534057617,
    "high": 20.815000534057617,
-   "low": 19.860000610351562,
+   "low": 19.86000061035156,
    "close": 20.5,
    "volume": 140300,
    "ret_pct": 3.25,
@@ -6890,7 +6878,7 @@
    "max_1m_time": null,
    "short": 20953.03447,
    "short_exempt": 0.0,
-   "offexch_total": 62850.481504999996,
+   "offexch_total": 62850.481505,
    "short_pct": 33.3,
    "offexch_pct": 35.7,
    "in_effect": 0.0,
@@ -7297,7 +7285,7 @@
    "max_1m_time": null,
    "short": 37552.937112,
    "short_exempt": 0.0,
-   "offexch_total": 53650.530528999996,
+   "offexch_total": 53650.530529,
    "short_pct": 70.0,
    "offexch_pct": 31.4,
    "in_effect": 0.0,
@@ -7593,7 +7581,7 @@
    "max_1m_time": null,
    "short": 46388.125927,
    "short_exempt": 0.0,
-   "offexch_total": 115844.38238499999,
+   "offexch_total": 115844.382385,
    "short_pct": 40.0,
    "offexch_pct": 39.7,
    "in_effect": 0.0,
@@ -7646,7 +7634,7 @@
    "open": 21.040000915527344,
    "high": 22.75,
    "low": 20.6299991607666,
-   "close": 21.860000610351562,
+   "close": 21.86000061035156,
    "volume": 310600,
    "ret_pct": -0.88,
    "turnover_pct": 2.02,
@@ -7667,7 +7655,7 @@
    "max_1m_time": null,
    "short": 44454.349224,
    "short_exempt": 0.0,
-   "offexch_total": 126335.53594100001,
+   "offexch_total": 126335.535941,
    "short_pct": 35.2,
    "offexch_pct": 40.7,
    "in_effect": 0.0,
@@ -7904,8 +7892,8 @@
    "date": "2026-07-31",
    "open": 19.059999465942383,
    "high": 19.56999969482422,
-   "low": 18.408000946044922,
-   "close": 18.639999389648438,
+   "low": 18.40800094604492,
+   "close": 18.63999938964844,
    "volume": 42500,
    "ret_pct": -3.12,
    "turnover_pct": 0.28,
@@ -8013,7 +8001,7 @@
   },
   {
    "date": "2026-08-05",
-   "open": 18.639999389648438,
+   "open": 18.63999938964844,
    "high": 20.0,
    "low": 18.0,
    "close": 18.459999084472656,
@@ -8088,7 +8076,7 @@
   {
    "date": "2026-08-07",
    "open": 17.860000610351562,
-   "high": 18.610000610351562,
+   "high": 18.61000061035156,
    "low": 17.860000610351562,
    "close": 18.260000228881836,
    "volume": 69600,
@@ -8792,7 +8780,7 @@
    "date": "2026-09-03",
    "open": 26.260000228881836,
    "high": 26.579999923706055,
-   "low": 25.110000610351562,
+   "low": 25.11000061035156,
    "close": 25.6299991607666,
    "volume": 203500,
    "ret_pct": -1.61,
@@ -9495,7 +9483,7 @@
    "date": "2026-10-01",
    "open": 23.280000686645508,
    "high": 23.604000091552734,
-   "low": 21.889999389648438,
+   "low": 21.88999938964844,
    "close": 21.950000762939453,
    "volume": 89400,
    "ret_pct": -5.1,
@@ -9567,8 +9555,8 @@
   },
   {
    "date": "2026-10-05",
-   "open": 20.639999389648438,
-   "high": 21.360000610351562,
+   "open": 20.63999938964844,
+   "high": 21.36000061035156,
    "low": 20.100000381469727,
    "close": 20.959999084472656,
    "volume": 156400,
@@ -9827,7 +9815,7 @@
   {
    "date": "2026-10-14",
    "open": 21.299999237060547,
-   "high": 21.639999389648438,
+   "high": 21.63999938964844,
    "low": 20.399999618530273,
    "close": 20.600000381469727,
    "volume": 154500,
@@ -9900,7 +9888,7 @@
   },
   {
    "date": "2026-10-16",
-   "open": 20.110000610351562,
+   "open": 20.11000061035156,
    "high": 20.3799991607666,
    "low": 18.049999237060547,
    "close": 18.520000457763672,
@@ -9924,7 +9912,7 @@
    "max_1m_time": "11:05",
    "short": 56621.224074,
    "short_exempt": 1.0,
-   "offexch_total": 111645.61710599999,
+   "offexch_total": 111645.617106,
    "short_pct": 50.7,
    "offexch_pct": 33.4,
    "in_effect": 1.0,
@@ -10035,7 +10023,7 @@
    "max_1m_time": "11:31",
    "short": 42799.361793,
    "short_exempt": 560.0,
-   "offexch_total": 124511.94264800001,
+   "offexch_total": 124511.942648,
    "short_pct": 34.4,
    "offexch_pct": 42.6,
    "in_effect": 1.0,
@@ -10533,7 +10521,7 @@
   {
    "week": "2026-06-01",
    "consol_vol": 1395500.0,
-   "week_close": 19.860000610351562,
+   "week_close": 19.86000061035156,
    "ats_shares": 367250.0,
    "ats_trades": 5718.0,
    "ats_avg_size": 64,
@@ -10669,7 +10657,7 @@
   {
    "week": "2026-07-27",
    "consol_vol": 437400.0,
-   "week_close": 18.639999389648438,
+   "week_close": 18.63999938964844,
    "ats_shares": 153470.0,
    "ats_trades": 4858.0,
    "ats_avg_size": 32,
@@ -12328,9 +12316,492 @@
    "date": "2026-10-26",
    "st_msgs": 0,
    "reddit_posts": 0,
-   "st_watchlist": 2897.0
+   "st_watchlist": 2896.0
   }
  ],
+ "stocktwits_recent": [
+  {
+   "id": 647120760,
+   "created_at": "2026-03-10T15:40:22Z",
+   "user": "rroycenyc",
+   "followers": 24,
+   "sentiment": "Bullish",
+   "body": "$PRE"
+  },
+  {
+   "id": 647622158,
+   "created_at": "2026-03-16T13:41:45Z",
+   "user": "STACKD0E",
+   "followers": 396,
+   "sentiment": "Bullish",
+   "body": "$PRE 🙃✨"
+  },
+  {
+   "id": 647634016,
+   "created_at": "2026-03-16T14:46:48Z",
+   "user": "DARKP00L",
+   "followers": 3342,
+   "sentiment": null,
+   "body": "$PRE 10:17 on Mar. 16 2026 Lake Street Initiates Coverage On Prenetics Global with Buy Rating, Announces Price Target of $29 #tradeideas"
+  },
+  {
+   "id": 648005657,
+   "created_at": "2026-03-19T17:17:58Z",
+   "user": "positiveguy",
+   "followers": 7,
+   "sentiment": null,
+   "body": "$PRE PLEASE BUY IGNITON FROM GAIA . THEY HAVE NO CLUE."
+  },
+  {
+   "id": 648115896,
+   "created_at": "2026-03-20T16:55:37Z",
+   "user": "Sidoti",
+   "followers": 70,
+   "sentiment": null,
+   "body": "Prenetics Global Limited ($PRE) Management Team presented at the Sidoti Small-Cap Virtual Conference this week. Watch the replay here: https://sidoti.zoom.us/webinar/register/WN_1d-20z12RkKM5y8lzKf6Xw"
+  },
+  {
+   "id": 648912814,
+   "created_at": "2026-03-30T12:21:52Z",
+   "user": "Sidoti",
+   "followers": 70,
+   "sentiment": null,
+   "body": "New research today on @Prenetics $PRE #sidotiresearch Read note: https://portal.sidoti.com/company-details/1000550/Prenetics%20Global%20Ltd/1000549/CSR #investing #smallcap #microcap"
+  },
+  {
+   "id": 649342629,
+   "created_at": "2026-04-02T19:57:46Z",
+   "user": "focafoca99",
+   "followers": 151,
+   "sentiment": null,
+   "body": "$PRE Giannis Antetokounmpo is joining IM8 as a global partner and shareholder under a multi-year deal, giving the brand a much bigger athlete face."
+  },
+  {
+   "id": 649720827,
+   "created_at": "2026-04-08T15:27:47Z",
+   "user": "ZacksSCR",
+   "followers": 236,
+   "sentiment": null,
+   "body": "Initiating Coverage of Rapid-Growing $PRE https://buff.ly/216Ezbz"
+  },
+  {
+   "id": 650658778,
+   "created_at": "2026-04-17T22:30:46Z",
+   "user": "ZacksSCR",
+   "followers": 236,
+   "sentiment": null,
+   "body": "$PRE initiated at $30 price target. IM8 brand hit $120M ARR in 12 months. Company debt-free with $170M cash. Athlete partnerships structured as equity, not endorsement fees. https://youtu.be/IIfurXL7w"
+  },
+  {
+   "id": 651962775,
+   "created_at": "2026-05-01T00:25:25Z",
+   "user": "SuperGreenToday",
+   "followers": 1994,
+   "sentiment": null,
+   "body": "$PRE Share Price: $16.62 Contract Selected: Nov 20, 2026 $20 Calls Buy Zone: $2.12 – $2.62 Target Zone: $3.77 – $4.60 Potential Upside: 67% ROI Time to Expiration: 203 Days | Updates via https://fxcap"
+  },
+  {
+   "id": 652172396,
+   "created_at": "2026-05-04T13:50:14Z",
+   "user": "focafoca99",
+   "followers": 151,
+   "sentiment": null,
+   "body": "$PRE outlined its complete Bitcoin treasury divestment, selling about 510 BTC."
+  },
+  {
+   "id": 653252980,
+   "created_at": "2026-05-13T17:30:15Z",
+   "user": "Sidoti",
+   "followers": 70,
+   "sentiment": null,
+   "body": "New research today on @Prenetics $PRE #sidotiresearch Read note: http://dlvr.it/TSWppr #investing #smallcap #microcap"
+  },
+  {
+   "id": 653339061,
+   "created_at": "2026-05-14T12:24:27Z",
+   "user": "focafoca99",
+   "followers": 151,
+   "sentiment": null,
+   "body": "$PRE installed Brian J. Rosin as Chief Financial Officer of IM8."
+  },
+  {
+   "id": 653346192,
+   "created_at": "2026-05-14T13:15:37Z",
+   "user": "StocktwitsEarnings",
+   "followers": 132287,
+   "sentiment": null,
+   "body": "$PRE Q1 &#39;26 Earnings Results &amp; Recap Prenetics raised its full-year 2026 IM8 revenue guidance to $190 million to $210 million, up from the prior range of $180 million to $200 million. Prenetic"
+  },
+  {
+   "id": 653394952,
+   "created_at": "2026-05-14T16:42:32Z",
+   "user": "ZacksSCR",
+   "followers": 236,
+   "sentiment": null,
+   "body": "$PRE Continues Astounding Growth, While Expanding Product Line https://buff.ly/UD4qC7E"
+  },
+  {
+   "id": 653420985,
+   "created_at": "2026-05-14T19:06:47Z",
+   "user": "MarketBeat",
+   "followers": 11216,
+   "sentiment": null,
+   "body": "https://marketbeat.com/a/8654885/ $PRE Prenetics Global Q1 Earnings Call Highlights"
+  },
+  {
+   "id": 656004581,
+   "created_at": "2026-06-10T15:12:17Z",
+   "user": "ZacksSCR",
+   "followers": 236,
+   "sentiment": null,
+   "body": "$PRE Continues to Post Rapid Growth https://buff.ly/VX7WdKG"
+  },
+  {
+   "id": 657154160,
+   "created_at": "2026-06-23T11:32:18Z",
+   "user": "Sidoti",
+   "followers": 70,
+   "sentiment": null,
+   "body": "New research this week on @Prenetics $PRE #sidotiresearch Read note: http://dlvr.it/TT9cH2 #investing #smallcap #microcap"
+  },
+  {
+   "id": 657238435,
+   "created_at": "2026-06-23T20:58:20Z",
+   "user": "ZacksSCR",
+   "followers": 236,
+   "sentiment": null,
+   "body": "$PRE CEO Danny Yeung discusses Prenetics&#39; transition from a COVID-era diagnostics business to a wellness brand, and management&#39;s view of the category&#39;s market opportunity in our latest CEO"
+  },
+  {
+   "id": 659027629,
+   "created_at": "2026-07-14T17:37:45Z",
+   "user": "future__investor",
+   "followers": 181,
+   "sentiment": "Bullish",
+   "body": "$PRE"
+  },
+  {
+   "id": 659027834,
+   "created_at": "2026-07-14T17:39:12Z",
+   "user": "TheBullishTrade",
+   "followers": 5882,
+   "sentiment": null,
+   "body": "$PRE Prenetics&#39; IM8 Secures $1 Billion Growth Financing from General Catalyst&#39;s Customer Value Fund (CVF) Tuesday, 14th July at 1:35 pm IM8 is the fastest-growing premium supplement brand ever"
+  },
+  {
+   "id": 659033647,
+   "created_at": "2026-07-14T18:23:18Z",
+   "user": "MIKE5223",
+   "followers": 12,
+   "sentiment": "Bearish",
+   "body": "$PRE shorted"
+  },
+  {
+   "id": 659125773,
+   "created_at": "2026-07-15T16:06:53Z",
+   "user": "ZacksSCR",
+   "followers": 236,
+   "sentiment": null,
+   "body": "$PRE Continues to Exceed Expectations and Receive Preferential Financing https://buff.ly/vAl32E5"
+  },
+  {
+   "id": 659155545,
+   "created_at": "2026-07-15T19:28:22Z",
+   "user": "Sidoti",
+   "followers": 70,
+   "sentiment": null,
+   "body": "New research today on @Prenetics $PRE #sidotiresearch Read note: http://dlvr.it/TTYM9G #investing #smallcap #microcap"
+  },
+  {
+   "id": 659264085,
+   "created_at": "2026-07-16T18:14:21Z",
+   "user": "positiveguy",
+   "followers": 7,
+   "sentiment": null,
+   "body": "$PRE earnings pushed out at least a year and losses going up. Worth waiting. Saw this story at Gaia. Hasnt had a good effect on the stock to say the least."
+  },
+  {
+   "id": 661151548,
+   "created_at": "2026-08-06T16:24:45Z",
+   "user": "Sidoti",
+   "followers": 70,
+   "sentiment": null,
+   "body": "New research today on @Prenetics $PRE #sidotiresearch Read note: http://dlvr.it/TTtt5x #investing #smallcap #microcap"
+  },
+  {
+   "id": 661356378,
+   "created_at": "2026-08-08T22:49:03Z",
+   "user": "KaylasPort",
+   "followers": 45,
+   "sentiment": "Bullish",
+   "body": "$PRE we are crushing it bulls"
+  },
+  {
+   "id": 662068454,
+   "created_at": "2026-08-17T15:04:15Z",
+   "user": "focafoca99",
+   "followers": 151,
+   "sentiment": null,
+   "body": "$PRE chosen new independent director Caroline Levy, who will join the audit, compensation and governance committees."
+  },
+  {
+   "id": 662080619,
+   "created_at": "2026-08-17T16:32:03Z",
+   "user": "27R",
+   "followers": 73,
+   "sentiment": null,
+   "body": "$PRE Buckle up — earnings before the open tomorrow."
+  },
+  {
+   "id": 662146517,
+   "created_at": "2026-08-18T11:30:43Z",
+   "user": "Stock_Catcher",
+   "followers": 11708,
+   "sentiment": "Bullish",
+   "body": "$PRE Prenetics’ IM8 Reports Q2 2026 Revenue Growth of 288% YoY; Raises FY 2026 IM8 Revenue Guidance to $220–230 Million; July Was the First Month of Positive Consolidated Adjusted Free Cash Flow and E"
+  },
+  {
+   "id": 662147715,
+   "created_at": "2026-08-18T11:49:17Z",
+   "user": "StocktwitsEarnings",
+   "followers": 132287,
+   "sentiment": null,
+   "body": "$PRE Q2 &#39;26 Earnings Results &amp; Recap • Reported GAAP EPS of -$0.52 up 44.68% YoY • Reported revenue of $46.49M up 288.57% YoY • Prenetics raised its full-year 2026 total revenue guidance to $2"
+  },
+  {
+   "id": 662150709,
+   "created_at": "2026-08-18T12:27:32Z",
+   "user": "OpenOutcrier",
+   "followers": 211534,
+   "sentiment": null,
+   "body": "$PRE (+4.0% pre) Prenetics’ IM8 Reports Q2 2026 Revenue Growth of 288% YoY; Raises FY 2026 IM8 Revenue Guidance https://ooc.bz/l/111466"
+  },
+  {
+   "id": 662150742,
+   "created_at": "2026-08-18T12:27:54Z",
+   "user": "IPO_Candy",
+   "followers": 2885,
+   "sentiment": null,
+   "body": "$PRE It&#39;s not a typical IPO but we are treating this like one. The company has had some incarnations and now is in the health and wellness space. More to come."
+  },
+  {
+   "id": 662164568,
+   "created_at": "2026-08-18T14:07:09Z",
+   "user": "StocktwitsNews",
+   "followers": 113007,
+   "sentiment": null,
+   "body": "Prenetics’ IM8 Reports Q2 2026 Revenue Growth of 288% YoY; Raises FY 2026 IM8 Revenue Guidance to $220–230 Million; July Was the First Month of Positive Consolidated Adjusted Free Cash Flow and Expect"
+  },
+  {
+   "id": 662164600,
+   "created_at": "2026-08-18T14:07:18Z",
+   "user": "IPO_Candy",
+   "followers": 2885,
+   "sentiment": "Bullish",
+   "body": "$PRE Well I don&#39;t know. Why use this platform and then only take questions from Wall Street analysts? People here with good questions should be part of the dialog. Good call though, nothing wrong "
+  },
+  {
+   "id": 662166314,
+   "created_at": "2026-08-18T14:16:15Z",
+   "user": "EarningsInsider",
+   "followers": 52913,
+   "sentiment": null,
+   "body": "https://www.marketbeat.com/earnings/reports/2026-8-19-prenetics-group-limited-stock/ $PRE Prenetics Global Earnings Transcript"
+  },
+  {
+   "id": 662179897,
+   "created_at": "2026-08-18T15:35:00Z",
+   "user": "ZacksSCR",
+   "followers": 236,
+   "sentiment": null,
+   "body": "$PRE Posts Blockbuster Results https://buff.ly/nK6ML14"
+  },
+  {
+   "id": 662189458,
+   "created_at": "2026-08-18T16:46:10Z",
+   "user": "TaoistTrader",
+   "followers": 134,
+   "sentiment": null,
+   "body": "$PRE if I had a fucking dollar for every time I accidentally clicked on the ad to add this dumb stock to my watch list"
+  },
+  {
+   "id": 662280377,
+   "created_at": "2026-08-19T14:15:18Z",
+   "user": "Sidoti",
+   "followers": 70,
+   "sentiment": null,
+   "body": "New research today on @Prenetics $PRE #sidotiresearch Read note: http://dlvr.it/TV4wH3 #investing #smallcap #microcap"
+  },
+  {
+   "id": 662299860,
+   "created_at": "2026-08-19T15:51:38Z",
+   "user": "IPO_Candy",
+   "followers": 2885,
+   "sentiment": "Bullish",
+   "body": "$PRE These guys are performing very well and trading a big discount to recent transactions in the space. Am adding at these prices FWIW..."
+  },
+  {
+   "id": 662395417,
+   "created_at": "2026-08-20T13:00:24Z",
+   "user": "Stock_Catcher",
+   "followers": 11708,
+   "sentiment": "Bullish",
+   "body": "$PRE Prenetics’ IM8 Announces Two-Time Golden Globe-Nominated Actress and Producer Lily Collins as IM8 Global Ambassador and Shareholder in Multi-Year Partnership"
+  },
+  {
+   "id": 662420014,
+   "created_at": "2026-08-20T15:10:06Z",
+   "user": "focafoca99",
+   "followers": 151,
+   "sentiment": null,
+   "body": "$PRE mentions a multi-year global partnership with actress Lily Collins."
+  },
+  {
+   "id": 662496124,
+   "created_at": "2026-08-21T07:20:57Z",
+   "user": "AdelinaBinette1049",
+   "followers": 0,
+   "sentiment": null,
+   "body": "$SPY $GLD $ASST $PRE $APP SPY provides broad U.S. equity exposure, gold benefits from safe-haven and macro demand, ASST remains highly speculative, PRE remains execution-dependent, and AppLovin benefi"
+  },
+  {
+   "id": 662620461,
+   "created_at": "2026-08-22T19:20:14Z",
+   "user": "LivermoresGhost",
+   "followers": 6,
+   "sentiment": "Bullish",
+   "body": "$CVAT Cavitation Technologies has execute a buyout for this company at 35 million $. This translate to 10.8c per share, you can finds this on the company SEC filing. The stock right now trades 3.9c, t"
+  },
+  {
+   "id": 662670462,
+   "created_at": "2026-08-24T10:13:25Z",
+   "user": "BettyFurches617",
+   "followers": 0,
+   "sentiment": null,
+   "body": "$PRE $VOYG $IBIT $TEM PRE remains execution-dependent, VOYG remains speculative, IBIT provides direct Bitcoin exposure, and Tempus benefits from AI-powered precision medicine. I&#39;m watching company"
+  },
+  {
+   "id": 662871960,
+   "created_at": "2026-08-26T12:38:29Z",
+   "user": "Stock_Catcher",
+   "followers": 11708,
+   "sentiment": "Bullish",
+   "body": "$PRE Prenetics’ IM8 CEO and CFO Purchase $1.0 Million of Shares in the Open Market Following Second Quarter Results"
+  },
+  {
+   "id": 662891541,
+   "created_at": "2026-08-26T14:51:23Z",
+   "user": "G101SPM",
+   "followers": 1701,
+   "sentiment": null,
+   "body": "#INSIDERS $AMT Director bought 2,829 shares at $177.00 worth approximately $501K (transaction date 8/21). $ASYS President and Chief Executive Officer bought 3,450 shares at $14.333 worth approximately"
+  },
+  {
+   "id": 662908538,
+   "created_at": "2026-08-26T17:03:55Z",
+   "user": "OptionRunners",
+   "followers": 35942,
+   "sentiment": null,
+   "body": "$PRE unusual call buyer here, stock spiking with it."
+  },
+  {
+   "id": 662909414,
+   "created_at": "2026-08-26T17:11:23Z",
+   "user": "OptionRunners",
+   "followers": 35942,
+   "sentiment": null,
+   "body": "$PRE still ripping after that call buyer stepped in. $25+ Calls are $1.50 x $2.50 now. Really bad spreads."
+  },
+  {
+   "id": 662913316,
+   "created_at": "2026-08-26T17:45:57Z",
+   "user": "OptionRunners",
+   "followers": 35942,
+   "sentiment": null,
+   "body": "$PRE don&#39;t you just love how when you buy some calls and the stock rips 5% immediately on it and you&#39;re just magically up 50% on them. Happens to everyone all the time right 🙄"
+  },
+  {
+   "id": 662942708,
+   "created_at": "2026-08-26T21:32:25Z",
+   "user": "topstockalerts",
+   "followers": 110040,
+   "sentiment": null,
+   "body": "$PRE this is actually holding up way better than I thought"
+  },
+  {
+   "id": 662954650,
+   "created_at": "2026-08-26T23:59:02Z",
+   "user": "Modo6177",
+   "followers": 34,
+   "sentiment": "Bullish",
+   "body": "$PRE hidden Gem"
+  },
+  {
+   "id": 662959855,
+   "created_at": "2026-08-27T01:36:10Z",
+   "user": "Form4Alerts",
+   "followers": 7,
+   "sentiment": null,
+   "body": "$PRE — CFO of IM8 (US) LLC Brian J. Rosin bought $498K · Chief Executive Officer Danny Sheng Wu Yeung bought $502K alongside them. · 2 insiders have bought $1.00M here in the last 3 days. · CFO — the "
+  },
+  {
+   "id": 663084496,
+   "created_at": "2026-08-28T11:12:03Z",
+   "user": "themarketreaper7",
+   "followers": 10,
+   "sentiment": null,
+   "body": "$PRE insiders just bought. 👀"
+  },
+  {
+   "id": 664221089,
+   "created_at": "2026-09-14T18:10:09Z",
+   "user": "NVDAMillionaire",
+   "followers": 941,
+   "sentiment": null,
+   "body": "$PRE Excellent article that nails exactly where PRE stands right now. So if you want to update your PRE knowledge or get acquainted with PRE, this is a must read. https://everyticker.com/quote/PRE/ana"
+  },
+  {
+   "id": 665954720,
+   "created_at": "2026-10-07T14:47:11Z",
+   "user": "CoffeeRocks",
+   "followers": 399,
+   "sentiment": null,
+   "body": "$PRE $RETO $SDEV $DRUG $RGC Health care company pRE pivoted to BTC treasury"
+  },
+  {
+   "id": 665958219,
+   "created_at": "2026-10-07T15:09:46Z",
+   "user": "CoffeeRocks",
+   "followers": 399,
+   "sentiment": "Bullish",
+   "body": "$PRE $SDEV SDEV needs a treasury to keep its ass up"
+  },
+  {
+   "id": 665973667,
+   "created_at": "2026-10-07T17:11:02Z",
+   "user": "CoffeeRocks",
+   "followers": 399,
+   "sentiment": null,
+   "body": "$SDEV $PRE ASST$NAKA All of these pivoted from health care to Digital treasuries All of these have been above 10$ SDEV more room to 🏃‍♂️"
+  },
+  {
+   "id": 666268916,
+   "created_at": "2026-10-12T13:30:00Z",
+   "user": "Rayvio_News_Filter",
+   "followers": 24,
+   "sentiment": null,
+   "body": "$PRE 🤝 Prenetics Global Limited&#39;s IM8 (US) LLC announced a multiyear collaboration with the National Basketball Association making IM8 the Official Nutrition Partner of the NBA in Australia and ei"
+  },
+  {
+   "id": 666665378,
+   "created_at": "2026-10-16T06:14:30Z",
+   "user": "PiXeLsalaT",
+   "followers": 76,
+   "sentiment": "Bullish",
+   "body": "$NIVF For those who scream endless dilution and China scam: Andy Cheung, the mastermind behind K25.ai and success-driven transformer at NIVF, joined the board of Prenetics Global Limited ($PRE) as an "
+  }
+ ],
+ "reddit_recent": [],
  "holders_13f": {
   "periods": [
    "2024-09-30",

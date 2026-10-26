@@ -173,3 +173,27 @@ social.reddit,skip,blocked,2026-10-26T02:54:32,2026-10-26 02:54
 borrow.iborrowdesk,skip,unreachable,2026-10-26T02:54:37,2026-10-26 02:54
 analysts.yahoo,ok,PT mean 38.125,2026-10-26T02:54:37,2026-10-26 02:54
 news.google_rss,ok,200 items,2026-10-26T02:54:38,2026-10-26 02:54
+prices.daily,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+prices.peers,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+prices.intraday,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+finra.regsho,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+finra.weekly,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+finra.monthly,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+finra.si,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+sec.filings,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+sec.form4,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+sec.events,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+sec.13f,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+sec.ftd,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+sec.shares,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+nasdaq.cb,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+nasdaq.threshold,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+nasdaq.institutional,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+nasdaq.insiders,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+nasdaq.si,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+options,skip,skipped by flag,2026-10-26T09:20:37,2026-10-26 09:20
+social.stocktwits,ok,watch 2896; +0 msgs,2026-10-26T09:20:38,2026-10-26 09:20
+social.reddit,skip,skipped by flag,2026-10-26T09:20:38,2026-10-26 09:20
+borrow,skip,skipped by flag,2026-10-26T09:20:38,2026-10-26 09:20
+analysts,skip,skipped by flag,2026-10-26T09:20:38,2026-10-26 09:20
+news,skip,skipped by flag,2026-10-26T09:20:38,2026-10-26 09:20
