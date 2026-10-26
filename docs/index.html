@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IM8 / PRE 参与方追踪</title>
+<meta name="description" content="Prenetics (PRE / IM8) 所有市场参与方交易行为的每日追踪看板：散户、做市商、暗池机构、13F、空头、内部人、公司、分析师、期权。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{--bg:#f6f7f9;--card:#ffffff;--ink:#1b1f24;--muted:#5d6670;--line:#e3e6ea;--red:#c0392b;--green:#1e8e5a;--blue:#2e86c1;--gold:#b7950b;--grey:#95a5a6;--chip:#eef1f4;--ok:#e8f6ef;--bad:#fdecea;--warn:#fff6e0}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0f1317;--card:#171c22;--ink:#e6e9ed;--muted:#9aa4af;--line:#2a313a;--chip:#232a33;--ok:#13301f;--bad:#3a1a17;--warn:#3a2f10}}
+:root[data-theme="dark"]{--bg:#0f1317;--card:#171c22;--ink:#e6e9ed;--muted:#9aa4af;--line:#2a313a;--chip:#232a33;--ok:#13301f;--bad:#3a1a17;--warn:#3a2f10}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:16px}
+h1{font-size:20px;margin:0 0 4px}h2{font-size:16px;margin:28px 0 10px;border-left:4px solid var(--blue);padding-left:8px}h3{font-size:14px;margin:14px 0 6px;color:var(--muted)}
+.sub{color:var(--muted);font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:12px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}.kpi .l{font-size:11px;color:var(--muted)}.kpi .v{font-size:20px;font-weight:600;margin-top:2px}.kpi .s{font-size:11px;color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;margin-top:10px;overflow:auto}
+table{border-collapse:collapse;width:100%;font-size:12.5px}th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:var(--muted);font-weight:500;white-space:nowrap}td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.chip{display:inline-block;background:var(--chip);border-radius:6px;padding:1px 6px;margin:1px 2px;font-size:11px}.chip.red{background:var(--bad);color:var(--red)}.chip.green{background:var(--ok);color:var(--green)}.chip.warn{background:var(--warn);color:var(--gold)}
+.pass{color:var(--green);font-weight:600}.fail{color:var(--red);font-weight:600}.near{color:var(--gold);font-weight:600}.na{color:var(--muted)}
+.neg{color:var(--red)}.pos{color:var(--green)}
+canvas{max-height:360px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:800px){.two{grid-template-columns:1fr}}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+.foot{color:var(--muted);font-size:12px;margin:30px 0 10px}
+details summary{cursor:pointer;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>IM8 / PRE 参与方交易行为追踪</h1>
+  <div class="sub" id="meta">加载中…</div>
+  <div class="grid" id="kpis"></div>
+
+  <h2>见底打分（四阶段框架）</h2>
+  <div class="card"><div id="stage" style="font-size:15px;margin-bottom:8px"></div><table id="score"><thead><tr><th>#</th><th>指标</th><th>现值</th><th>见底要求</th><th>判定</th><th>备注</th></tr></thead><tbody></tbody></table></div>
+
+  <h2>参与方矩阵（谁在做什么）</h2>
+  <div class="card"><table id="parts"><thead><tr><th>参与方</th><th>信号</th><th>现值</th><th>读法</th><th>来源</th><th>截至</th></tr></thead><tbody></tbody></table></div>
+
+  <h2>价格、成交与卖空占比（日度）</h2>
+  <div class="card"><canvas id="cPrice" height="150"></canvas><div class="sub" style="margin-top:6px">成交柱颜色：红=卖空占场外成交 &lt;35%（多头主动卖）；灰=35–55%；蓝=&gt;55%（做市商/空头主导）。线：收盘、50 日线、200 日线。</div></div>
+  <div class="card"><h3>最近 30 个交易日</h3><table id="daily"><thead><tr><th>日期</th><th class="num">收盘</th><th class="num">涨跌</th><th class="num">成交</th><th class="num">×均量</th><th class="num">收盘位置</th><th class="num">收/VWAP</th><th class="num">尾盘30分</th><th class="num">场外%</th><th class="num">卖空%</th><th>标签</th></tr></thead><tbody></tbody></table></div>
+
+  <h2>暗池 / 做市商（FINRA OTC 周度，Tier 2 滞后约 5 周）</h2>
+  <div class="card"><canvas id="cWeekly" height="140"></canvas></div>
+  <div class="card"><h3>各暗池周成交（最近 8 周，股）</h3><table id="venues"><thead></thead><tbody></tbody></table></div>
+
+  <div class="two">
+    <div class="card"><h3>空头持仓（双周）与 DTC</h3><canvas id="cSI" height="200"></canvas></div>
+    <div class="card"><h3>失败交收 FTD / 借券</h3><canvas id="cFTD" height="200"></canvas><div class="sub" id="borrowNote"></div></div>
+  </div>
+  <div class="two">
+    <div class="card"><h3>期权未平仓（看涨 / 看跌）</h3><canvas id="cOpt" height="200"></canvas><div class="sub" id="optTop"></div></div>
+    <div class="card"><h3>散户关注度（Stocktwits 消息 / Reddit 帖子）</h3><canvas id="cAtt" height="200"></canvas></div>
+  </div>
+
+  <h2>持有人</h2>
+  <div class="two">
+    <div class="card"><h3 id="h13title">13F 机构持有人</h3><table id="h13"><thead><tr><th>机构</th><th class="num">本期股数</th><th class="num">上期</th><th class="num">变动</th></tr></thead><tbody></tbody></table></div>
+    <div class="card"><h3>Nasdaq 机构持股快照</h3><div id="nqsum" class="sub"></div><table id="nqh"><thead><tr><th>机构</th><th>日期</th><th class="num">股数</th><th class="num">变动</th></tr></thead><tbody></tbody></table></div>
+  </div>
+  <div class="two">
+    <div class="card"><h3>内部人 Form 4（SEC）</h3><table id="f4"><thead><tr><th>申报日</th><th>人</th><th>职务</th><th>交易日</th><th>代码</th><th class="num">股数</th><th class="num">价格</th><th>方向</th><th class="num">持有后</th></tr></thead><tbody></tbody></table></div>
+    <div class="card"><h3>内部人（Nasdaq 汇总）</h3><table id="ins"><thead><tr><th>人</th><th>关系</th><th>日期</th><th>类型</th><th class="num">股数</th><th class="num">价格</th></tr></thead><tbody></tbody></table></div>
+  </div>
+
+  <h2>公司申报（EDGAR）与新闻</h2>
+  <div class="two">
+    <div class="card"><table id="filings"><thead><tr><th>日期</th><th>表单</th><th>说明 / 标签</th></tr></thead><tbody></tbody></table></div>
+    <div class="card"><table id="news"><thead><tr><th>日期</th><th>标题</th><th>来源</th></tr></thead><tbody></tbody></table></div>
+  </div>
+
+  <h2>卖方 / 分析师</h2>
+  <div class="card"><div id="pt" class="sub"></div><table id="aa"><thead><tr><th>日期</th><th>机构</th><th>动作</th><th>评级</th></tr></thead><tbody></tbody></table></div>
+
+  <h2>数据源状态（本次运行）</h2>
+  <div class="card"><table id="src"><thead><tr><th>数据源</th><th>状态</th><th>说明</th></tr></thead><tbody></tbody></table>
+  <details style="margin-top:8px"><summary>方法说明与 CSV 下载</summary>
+  <div class="sub" style="margin-top:6px">
+  <p>日度：Yahoo/Stooq/Nasdaq 日线；Yahoo 1 分钟线 → VWAP、收盘/VWAP、尾盘 30 分钟占比；FINRA Reg SHO 逐日卖空与场外（TRF）成交 → 卖空占场外、场外占比；Nasdaq Trader 卖空熔断与 Reg SHO 门槛名单；Stocktwits/Reddit；Yahoo 期权链与分析师；Google News。周度：FINRA OTC Transparency（每个暗池、每家做市商的成交，Tier 2 每周一发布 5 周前那一周）。双周：FINRA 空头持仓。半月：SEC 失败交收。事件：EDGAR 全部申报（Form 4 逐笔解析、6-K 关键词标签、13D/G 持股比例）。季度：13F（EDGAR 全文检索 + 信息表解析）。</p>
+  <p>标签：放量 ≥1.5 倍 20 日均量；场外占比 &gt;55% 疑似大宗；卖空占比 &lt;35% 且跌 &gt;3% = 多头卖出；&gt;60% = 做市商供货；弱收盘 = 收盘低于 VWAP 2% 以上；尾盘集中 = 最后 30 分钟 &gt;30%；⭐见底候选 = 放量且收在区间上半。</p>
+  <p id="csvlinks"></p>
+  </div></details></div>
+  <div class="foot">所有“谁在买/谁在卖”的读法均为基于公开间接数据的推断〔待确认〕。美股没有逐笔买卖方身份数据；本页穷尽的是免费公开源。</div>
+</div>
+<script>
+const $=s=>document.querySelector(s);const fmt=(x,d=2)=>x==null||isNaN(x)?'—':Number(x).toLocaleString('en-US',{maximumFractionDigits:d,minimumFractionDigits:d});const fi=x=>x==null||isNaN(x)?'—':Number(x).toLocaleString('en-US');
+const sgn=x=>x==null?'':(x>0?'pos':x<0?'neg':'');const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const dark=matchMedia('(prefers-color-scheme: dark)').matches;Chart.defaults.color=dark?'#9aa4af':'#5d6670';Chart.defaults.borderColor=dark?'#2a313a':'#e3e6ea';Chart.defaults.font.size=11;
+const C={red:'#c0392b',green:'#1e8e5a',blue:'#2e86c1',gold:'#b7950b',grey:'#95a5a6',purple:'#8e44ad'};
+function chipFlags(f){if(!f)return '';return f.split('|').filter(Boolean).map(x=>`<span class="chip ${/多头卖出|弱收盘|大宗|熔断/.test(x)?'red':/见底/.test(x)?'green':/尾盘|放量/.test(x)?'warn':''}">${esc(x)}</span>`).join(' ')}
+fetch('data/dashboard.json?v='+Date.now()).then(r=>r.json()).then(D=>{
+  const m=D.meta,k=D.kpis,L=D.latest;
+  $('#meta').textContent=`最近交易日 ${m.last_trade_date} · 数据生成 ${m.built_at} · A 类流通股 ${fi(m.shares_a)} · 暗池占比基线 ${m.baseline_ats_pct??'—'}%`;
+  const tiles=[['收盘',`$${fmt(k.close)}`,`<span class="${sgn(k.ret_pct)}">${k.ret_pct>0?'+':''}${fmt(k.ret_pct)}%</span>`],['成交',fi(k.volume),`${fmt(k.vol_x_adv20)}× 均量 · 换手 ${fmt(k.turnover_pct)}%`],['收盘 / VWAP',`${k.close_vs_vwap_pct==null?'—':(k.close_vs_vwap_pct>0?'+':'')+fmt(k.close_vs_vwap_pct)}%`,`尾盘30分 ${fmt(k.last30_pct,1)}% · 收盘位置 ${fmt(L.close_pos)}`],['场外 / 卖空占场外',`${fmt(k.offexch_pct,1)}% / ${fmt(k.short_pct,1)}%`,'FINRA Reg SHO'],['空头持仓',fi(k.si),`${k.si_date??''} · DTC ${fmt(k.dtc,1)}`],['13F 机构持股',`${k.inst_pct??'—'}%`,`Nasdaq 口径 ${k.nq_inst_pct??'—'}`],['RSI / 距50日线',`${fmt(k.rsi,1)} / ${fmt(k.dist_ma50,1)}%`,`MA50 ${fmt(k.ma50)} · MA200 ${fmt(k.ma200)}`],['阶段 · 见底打分',`${k.stage}`,`${k.score} 项满足`]];
+  $('#kpis').innerHTML=tiles.map(t=>`<div class="kpi"><div class="l">${t[0]}</div><div class="v">${t[1]}</div><div class="s">${t[2]}</div></div>`).join('')+`<div class="kpi" style="grid-column:1/-1"><div class="l">最近交易日标签</div><div class="v" style="font-size:13px">${chipFlags(L.flags)||'无异常'}</div></div>`;
+  // scorecard
+  const sc=D.scorecard;$('#stage').innerHTML=`阶段：<b>${esc(sc.stage)}</b> · 满足 <b>${sc.passed}</b>/${sc.total}（接近 ${sc.near}）。价值锚：`+Object.entries(sc.anchors).map(([a,v])=>`<span class="chip">${esc(a)} $${fmt(v)}</span>`).join(' ');
+  $('#score tbody').innerHTML=sc.items.map(i=>`<tr><td>${i.id}</td><td>${esc(i.name)}</td><td>${esc(i.value)}</td><td class="sub">${esc(i.target)}</td><td class="${i.pass===true?'pass':i.pass===false?(i.note==='接近'?'near':'fail'):'na'}">${i.pass===true?'✔':i.pass===false?(i.note==='接近'?'△':'✘'):'？'}</td><td class="sub">${esc(i.note)}</td></tr>`).join('');
+  $('#parts tbody').innerHTML=D.participants.map(p=>`<tr><td><b>${esc(p.group)}</b></td><td>${esc(p.signal)}</td><td>${esc(p.value)}</td><td class="sub">${esc(p.reading)}</td><td class="sub">${esc(p.source)}</td><td class="sub">${esc(p.asof)}</td></tr>`).join('');
+  // price chart
+  const dd=D.daily.slice(-130);
+  new Chart($('#cPrice'),{data:{labels:dd.map(x=>x.date.slice(5)),datasets:[
+    {type:'line',label:'收盘',data:dd.map(x=>x.close),borderColor:dark?'#e6e9ed':'#1b1f24',borderWidth:1.6,pointRadius:0,yAxisID:'y'},
+    {type:'line',label:'50日线',data:dd.map(x=>x.ma50),borderColor:C.blue,borderDash:[4,3],borderWidth:1,pointRadius:0,yAxisID:'y'},
+    {type:'line',label:'200日线',data:dd.map(x=>x.ma200),borderColor:C.green,borderDash:[4,3],borderWidth:1,pointRadius:0,yAxisID:'y'},
+    {type:'bar',label:'成交（万股）',data:dd.map(x=>x.volume/1e4),backgroundColor:dd.map(x=>x.short_pct==null?C.grey:x.short_pct<35?C.red:x.short_pct>55?C.blue:C.grey),yAxisID:'y1'}]},
+    options:{responsive:true,interaction:{mode:'index',intersect:false},plugins:{legend:{display:true},tooltip:{callbacks:{afterBody:(it)=>{const x=dd[it[0].dataIndex];return `涨跌 ${x.ret_pct}% · ×均量 ${x.vol_x_adv20} · 收/VWAP ${x.close_vs_vwap_pct??'—'}% · 尾盘30分 ${x.last30_pct??'—'}%\n场外 ${x.offexch_pct??'—'}% · 卖空占场外 ${x.short_pct??'—'}%\n${(x.flags||'').replace(/\|/g,' · ')}`}}}},scales:{y:{position:'left'},y1:{position:'right',grid:{display:false},max:Math.max(...dd.map(x=>x.volume/1e4))*3}}}});
+  $('#daily tbody').innerHTML=dd.slice(-30).reverse().map(x=>`<tr><td>${x.date}</td><td class="num">${fmt(x.close)}</td><td class="num ${sgn(x.ret_pct)}">${x.ret_pct>0?'+':''}${fmt(x.ret_pct,1)}%</td><td class="num">${fi(x.volume)}</td><td class="num">${fmt(x.vol_x_adv20)}</td><td class="num">${fmt(x.close_pos)}</td><td class="num ${x.close_vs_vwap_pct<-2?'neg':''}">${x.close_vs_vwap_pct==null?'—':fmt(x.close_vs_vwap_pct)+'%'}</td><td class="num">${x.last30_pct==null?'—':fmt(x.last30_pct,0)+'%'}</td><td class="num">${x.offexch_pct==null?'—':fmt(x.offexch_pct,0)+'%'}</td><td class="num">${x.short_pct==null?'—':fmt(x.short_pct,0)+'%'}</td><td>${chipFlags(x.flags)}</td></tr>`).join('');
+  // weekly
+  const W=D.weekly;
+  new Chart($('#cWeekly'),{data:{labels:W.map(x=>x.week.slice(5)),datasets:[{type:'bar',label:'暗池占全部成交 %',data:W.map(x=>x.ats_pct_of_consol),backgroundColor:C.blue+'99',yAxisID:'y'},{type:'bar',label:'场外合计占全部成交 %',data:W.map(x=>x.offexch_pct_of_consol),backgroundColor:C.gold+'66',yAxisID:'y'},{type:'line',label:'周收盘',data:W.map(x=>x.week_close),borderColor:dark?'#e6e9ed':'#1b1f24',borderWidth:1.4,pointRadius:2,yAxisID:'y1'},{type:'line',label:'Citadel（万股）',data:W.map(x=>x.citadel_shares/1e4),borderColor:C.red,borderWidth:1,pointRadius:2,yAxisID:'y2',hidden:true}]},
+    options:{responsive:true,interaction:{mode:'index',intersect:false},plugins:{tooltip:{callbacks:{afterBody:(it)=>{const x=W[it[0].dataIndex];return `合并成交 ${fi(x.consol_vol)} · 暗池 ${fi(x.ats_shares)}（${fi(x.ats_trades)} 笔，笔均 ${x.ats_avg_size}）· 非ATS ${fi(x.nonats_shares)}\n批发商 ${fi(x.wholesaler_shares)} · 小额合并 ${fi(x.deminimis_shares)}\n最活跃：${x.top_ats}`}}}},scales:{y:{position:'left',title:{display:true,text:'%'}},y1:{position:'right',grid:{display:false}},y2:{display:false}}}});
+  const vw=D.venue_weeks;$('#venues thead').innerHTML=`<tr><th>暗池</th><th class="num">笔均股</th>${vw.map(w=>`<th class="num">${w.slice(5)}</th>`).join('')}</tr>`;
+  $('#venues tbody').innerHTML=D.venue_pivot.map(v=>`<tr><td>${esc(v.venue)}</td><td class="num">${v.avg_size}</td>${vw.map(w=>`<td class="num">${fi(v.weeks[w])}</td>`).join('')}</tr>`).join('')||'<tr><td colspan="9" class="sub">暂无</td></tr>';
+  // SI
+  const S=D.short_interest;new Chart($('#cSI'),{data:{labels:S.map(x=>x.settlementDate.slice(2)),datasets:[{type:'bar',label:'空头持仓（股）',data:S.map(x=>x.currentShortPositionQuantity),backgroundColor:C.purple+'99',yAxisID:'y'},{type:'line',label:'DTC（天）',data:S.map(x=>x.daysToCoverQuantity),borderColor:C.gold,borderWidth:1.2,pointRadius:2,yAxisID:'y1'}]},options:{responsive:true,scales:{y:{position:'left'},y1:{position:'right',grid:{display:false}}}}});
+  const F=D.ftd,B=D.borrow;new Chart($('#cFTD'),{data:{labels:F.map(x=>x.date.slice(5)),datasets:[{type:'bar',label:'FTD（股）',data:F.map(x=>x.qty),backgroundColor:C.red+'99'}]},options:{responsive:true}});
+  $('#borrowNote').textContent=B.length?`借券（IBKR 口径）最新 ${B[B.length-1].date}：费率 ${B[B.length-1].fee}% · 可借 ${B[B.length-1].available}`:'借券数据：iBorrowDesk 不可达或无数据';
+  const O=D.options;new Chart($('#cOpt'),{data:{labels:O.map(x=>x.date.slice(5)),datasets:[{type:'line',label:'看涨 OI',data:O.map(x=>x.calls_oi),borderColor:C.green,borderWidth:1.4,pointRadius:2},{type:'line',label:'看跌 OI',data:O.map(x=>x.puts_oi),borderColor:C.red,borderWidth:1.4,pointRadius:2}]},options:{responsive:true}});
+  const ot=(D.options_top&&D.options_top.top)||[];$('#optTop').innerHTML=ot.length?'OI≥20 的合约：'+ot.map(t=>`<span class="chip">${t.expiry.slice(2)} ${t.type}${t.strike} · OI ${t.oi}</span>`).join(' '):'';
+  const A=D.attention.slice(-90);new Chart($('#cAtt'),{data:{labels:A.map(x=>x.date.slice(5)),datasets:[{type:'bar',label:'Stocktwits 消息/日',data:A.map(x=>x.st_msgs),backgroundColor:C.blue+'99'},{type:'bar',label:'Reddit 帖子/日',data:A.map(x=>x.reddit_posts),backgroundColor:C.gold+'99'}]},options:{responsive:true,scales:{x:{stacked:true},y:{stacked:true}}}});
+  // holders
+  const H=D.holders_13f;$('#h13title').textContent=`13F 机构持有人（${H.latest_period||'无数据'}${H.prev_period?' vs '+H.prev_period:''}）`+(H.totals&&H.totals.shares?` · 合计 ${fi(H.totals.shares)} 股 = A 类 ${H.totals.pct_of_A}%`:'')+((H.partial||[]).length?` · 进行中：${H.partial.map(p=>`${p.period} 已报 ${p.filers_so_far} 家/${fi(p.shares_so_far)} 股（截止 ${p.deadline}）`).join('；')}`:'');
+  $('#h13 tbody').innerHTML=(H.rows||[]).slice(0,40).map(r=>`<tr><td>${esc(r.filer)}</td><td class="num">${fi(r.shares)}</td><td class="num">${fi(r.prev_shares)}</td><td class="num ${sgn(r.change)}">${r.change==null?'—':(r.change>0?'+':'')+fi(r.change)}</td></tr>`).join('')||'<tr><td colspan="4" class="sub">暂无（首次运行后约 1 小时内填充；Q3 名单 11/16 后出）</td></tr>';
+  const N=D.nasdaq_inst||{};$('#nqsum').textContent=N.summary?`${N.date}：机构持股 ${N.summary.SharesOutstandingPCT} · 持仓市值 ${N.summary.TotalHoldingsValue}M · `+(N.active_positions||[]).map(a=>`${a.position} ${a.holders} 家/${a.shares}`).join(' · '):'api.nasdaq.com 不可达';
+  $('#nqh tbody').innerHTML=(N.holders||[]).slice(0,15).map(h=>`<tr><td>${esc(h.ownerName)}</td><td>${esc(h.date)}</td><td class="num">${esc(h.sharesHeld)}</td><td class="num">${esc(h.sharesChange)} (${esc(h.sharesChangePCT)})</td></tr>`).join('');
+  $('#f4 tbody').innerHTML=D.form4.slice().reverse().slice(0,25).map(r=>`<tr><td>${r.filing_date}</td><td>${esc(r.owner)}</td><td class="sub">${esc(r.title)}</td><td>${esc(r.tx_date)}</td><td>${esc(r.code)}</td><td class="num">${esc(r.shares)}</td><td class="num">${esc(r.price)}</td><td class="${r.acq_disp==='A'?'pos':r.acq_disp==='D'?'neg':''}">${r.acq_disp==='A'?'买入/获得':r.acq_disp==='D'?'卖出/处置':esc(r.note)}</td><td class="num">${esc(r.post_shares)}</td></tr>`).join('')||'<tr><td colspan="9" class="sub">暂无</td></tr>';
+  $('#ins tbody').innerHTML=D.insiders_nasdaq.slice().reverse().slice(0,15).map(r=>`<tr><td>${esc(r.insider)}</td><td class="sub">${esc(r.relation)}</td><td>${esc(r.lastDate)}</td><td>${esc(r.transactionType)}</td><td class="num">${esc(r.sharesTraded)}</td><td class="num">${esc(r.lastPrice)}</td></tr>`).join('')||'<tr><td colspan="6" class="sub">api.nasdaq.com 不可达或无数据</td></tr>';
+  $('#filings tbody').innerHTML=D.filings.slice().reverse().slice(0,40).map(r=>`<tr><td>${r.filing_date}</td><td><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.form)}</a></td><td class="sub">${esc(r.description||'')} ${(r.tags||'').split('|').filter(Boolean).map(t=>`<span class="chip ${/回购/.test(t)?'green':/增发|权证/.test(t)?'red':''}">${esc(t)}</span>`).join('')}${r.pct_of_class?` <span class="chip">持股 ${esc(r.pct_of_class)}%</span>`:''}</td></tr>`).join('');
+  $('#news tbody').innerHTML=D.news.slice().reverse().slice(0,30).map(r=>`<tr><td>${esc(r.date)}</td><td><a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.title)}</a></td><td class="sub">${esc(r.source)}</td></tr>`).join('');
+  const T=(D.analysts.targets||[])[0];$('#pt').textContent=T?`${T.date}：目标价 当前 ${fmt(T.pt_current)} · 均值 ${fmt(T.pt_mean)} · 中位 ${fmt(T.pt_median)} · 区间 ${fmt(T.pt_low,0)}–${fmt(T.pt_high,0)} · 评级 强买 ${T.strong_buy??'—'} / 买 ${T.buy??'—'} / 持有 ${T.hold??'—'} / 卖 ${T.sell??'—'}`:'无';
+  $('#aa tbody').innerHTML=(D.analysts.actions||[]).slice().reverse().slice(0,20).map(r=>`<tr><td>${esc(r.gradedate)}</td><td>${esc(r.firm)}</td><td>${esc(r.action)}</td><td>${esc(r.fromgrade||'')} → ${esc(r.tograde)}</td></tr>`).join('');
+  $('#src tbody').innerHTML=(m.sources||[]).map(s=>`<tr><td>${esc(s.source)}</td><td class="${s.status==='ok'?'pass':s.status==='fail'?'fail':'na'}">${esc(s.status)}</td><td class="sub">${esc(s.note)}</td></tr>`).join('');
+  const csvs=['prices_daily','intraday_stats','finra_regsho_daily','finra_otc_weekly','finra_short_interest','sec_ftd','edgar_filings','edgar_form4','edgar_events','sec_13f_holders','nasdaq_circuit_breaker','nasdaq_threshold','nasdaq_insiders','options_daily','stocktwits_messages','reddit_posts','borrow_daily','analyst_actions','analyst_targets_daily','news','run_status'];
+  $('#csvlinks').innerHTML='CSV：'+csvs.map(c=>`<a href="data/csv/${c}.csv">${c}</a>`).join(' · ');
+}).catch(e=>{$('#meta').textContent='加载失败：'+e});
+</script>
+</body>
+</html>

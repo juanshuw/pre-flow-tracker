@@ -1,0 +1,364 @@
+{
+ "date": "2026-10-26",
+ "summary": {
+  "SharesOutstandingPCT": "8.04%",
+  "ShareoutstandingTotal": "16",
+  "TotalHoldingsValue": "$22"
+ },
+ "active_positions": [
+  {
+   "position": "Increased Positions",
+   "holders": "17",
+   "shares": "518,023"
+  },
+  {
+   "position": "Decreased Positions",
+   "holders": "19",
+   "shares": "1,256,811"
+  },
+  {
+   "position": "Held Positions",
+   "holders": "4",
+   "shares": "523,844"
+  },
+  {
+   "position": "Total Institutional Shares",
+   "holders": "40",
+   "shares": "1,250,990"
+  }
+ ],
+ "new_sold_out": [
+  {
+   "position": "New Positions",
+   "holders": "7",
+   "shares": "305,300"
+  },
+  {
+   "position": "Sold Out Positions",
+   "holders": "12",
+   "shares": "953,186"
+  }
+ ],
+ "holders": [
+  {
+   "ownerName": "Prospect Capital Advisors, Llc",
+   "date": "6/30/2026",
+   "sharesHeld": "235,800",
+   "sharesChange": "235,800",
+   "sharesChangePCT": "New",
+   "marketValue": "$4,091"
+  },
+  {
+   "ownerName": "Jane Street Group, Llc",
+   "date": "6/30/2026",
+   "sharesHeld": "225,093",
+   "sharesChange": "182,907",
+   "sharesChangePCT": "433.573%",
+   "marketValue": "$3,905"
+  },
+  {
+   "ownerName": "Goldman Sachs Group Inc",
+   "date": "6/30/2026",
+   "sharesHeld": "168,733",
+   "sharesChange": "-24,850",
+   "sharesChangePCT": "-12.837%",
+   "marketValue": "$2,928"
+  },
+  {
+   "ownerName": "Millennium Management Llc",
+   "date": "6/30/2026",
+   "sharesHeld": "126,086",
+   "sharesChange": "-66,514",
+   "sharesChangePCT": "-34.535%",
+   "marketValue": "$2,188"
+  },
+  {
+   "ownerName": "Tenzing Global Management, Llc",
+   "date": "6/30/2026",
+   "sharesHeld": "125,000",
+   "sharesChange": "-75,000",
+   "sharesChangePCT": "-37.5%",
+   "marketValue": "$2,169"
+  },
+  {
+   "ownerName": "Marshall Wace, Llp",
+   "date": "6/30/2026",
+   "sharesHeld": "47,327",
+   "sharesChange": "-26,005",
+   "sharesChangePCT": "-35.462%",
+   "marketValue": "$821"
+  },
+  {
+   "ownerName": "Nomura Holdings Inc",
+   "date": "6/30/2026",
+   "sharesHeld": "42,101",
+   "sharesChange": "-33,518",
+   "sharesChangePCT": "-44.325%",
+   "marketValue": "$730"
+  },
+  {
+   "ownerName": "Susquehanna International Group, Llp",
+   "date": "6/30/2026",
+   "sharesHeld": "38,126",
+   "sharesChange": "5,002",
+   "sharesChangePCT": "15.101%",
+   "marketValue": "$661"
+  },
+  {
+   "ownerName": "Ubs Group Ag",
+   "date": "6/30/2026",
+   "sharesHeld": "37,040",
+   "sharesChange": "10,267",
+   "sharesChangePCT": "38.348%",
+   "marketValue": "$643"
+  },
+  {
+   "ownerName": "Oasis Management Co Ltd.",
+   "date": "6/30/2026",
+   "sharesHeld": "33,333",
+   "sharesChange": "33,333",
+   "sharesChangePCT": "New",
+   "marketValue": "$578"
+  },
+  {
+   "ownerName": "Xtx Topco Ltd",
+   "date": "6/30/2026",
+   "sharesHeld": "30,485",
+   "sharesChange": "-2,932",
+   "sharesChangePCT": "-8.774%",
+   "marketValue": "$529"
+  },
+  {
+   "ownerName": "Stevens Capital Partners",
+   "date": "6/30/2026",
+   "sharesHeld": "28,147",
+   "sharesChange": "0",
+   "sharesChangePCT": "0%",
+   "marketValue": "$488"
+  },
+  {
+   "ownerName": "Qube Research & Technologies Ltd",
+   "date": "6/30/2026",
+   "sharesHeld": "23,810",
+   "sharesChange": "4,680",
+   "sharesChangePCT": "24.464%",
+   "marketValue": "$413"
+  },
+  {
+   "ownerName": "Morgan Stanley",
+   "date": "6/30/2026",
+   "sharesHeld": "23,443",
+   "sharesChange": "6,350",
+   "sharesChangePCT": "37.15%",
+   "marketValue": "$407"
+  },
+  {
+   "ownerName": "Citadel Advisors Llc",
+   "date": "6/30/2026",
+   "sharesHeld": "16,187",
+   "sharesChange": "16,187",
+   "sharesChangePCT": "New",
+   "marketValue": "$281"
+  },
+  {
+   "ownerName": "Integrated Quantitative Investments Llc",
+   "date": "6/30/2026",
+   "sharesHeld": "13,602",
+   "sharesChange": "0",
+   "sharesChangePCT": "0%",
+   "marketValue": "$236"
+  },
+  {
+   "ownerName": "Entrypoint Capital, Llc",
+   "date": "6/30/2026",
+   "sharesHeld": "12,058",
+   "sharesChange": "12,058",
+   "sharesChangePCT": "New",
+   "marketValue": "$209"
+  },
+  {
+   "ownerName": "Wells Fargo & Company/Mn",
+   "date": "6/30/2026",
+   "sharesHeld": "10,000",
+   "sharesChange": "-74,806",
+   "sharesChangePCT": "-88.208%",
+   "marketValue": "$174"
+  },
+  {
+   "ownerName": "Operose Advisors Llc",
+   "date": "6/30/2026",
+   "sharesHeld": "6,750",
+   "sharesChange": "6,750",
+   "sharesChangePCT": "New",
+   "marketValue": "$117"
+  },
+  {
+   "ownerName": "State Of Wyoming",
+   "date": "6/30/2026",
+   "sharesHeld": "5,566",
+   "sharesChange": "3,067",
+   "sharesChangePCT": "122.729%",
+   "marketValue": "$97"
+  },
+  {
+   "ownerName": "Simplex Trading, Llc",
+   "date": "6/30/2026",
+   "sharesHeld": "773",
+   "sharesChange": "417",
+   "sharesChangePCT": "117.135%",
+   "marketValue": "$13"
+  },
+  {
+   "ownerName": "Farther Finance Advisors, Llc",
+   "date": "9/30/2026",
+   "sharesHeld": "772",
+   "sharesChange": "772",
+   "sharesChangePCT": "New",
+   "marketValue": "$13"
+  },
+  {
+   "ownerName": "Gk Wealth Management Llc",
+   "date": "9/30/2026",
+   "sharesHeld": "400",
+   "sharesChange": "400",
+   "sharesChangePCT": "New",
+   "marketValue": "$7"
+  },
+  {
+   "ownerName": "Royal Bank Of Canada",
+   "date": "6/30/2026",
+   "sharesHeld": "321",
+   "sharesChange": "24",
+   "sharesChangePCT": "8.081%",
+   "marketValue": "$6"
+  },
+  {
+   "ownerName": "Corecap Advisors, Llc",
+   "date": "9/30/2026",
+   "sharesHeld": "25",
+   "sharesChange": "0",
+   "sharesChangePCT": "0%",
+   "marketValue": "$0"
+  },
+  {
+   "ownerName": "Caitong International Asset Management Co., Ltd",
+   "date": "6/30/2026",
+   "sharesHeld": "9",
+   "sharesChange": "8",
+   "sharesChangePCT": "800%",
+   "marketValue": "$0"
+  },
+  {
+   "ownerName": "Sbi Securities Co., Ltd.",
+   "date": "9/30/2026",
+   "sharesHeld": "2",
+   "sharesChange": "1",
+   "sharesChangePCT": "New",
+   "marketValue": "$0"
+  },
+  {
+   "ownerName": "Wolverine Asset Management Llc",
+   "date": "6/30/2026",
+   "sharesHeld": "1",
+   "sharesChange": "0",
+   "sharesChangePCT": "0%",
+   "marketValue": "$0"
+  },
+  {
+   "ownerName": "683 Capital Management, Llc",
+   "date": "6/30/2026",
+   "sharesHeld": "0",
+   "sharesChange": "-40,000",
+   "sharesChangePCT": "Sold Out",
+   "marketValue": ""
+  },
+  {
+   "ownerName": "Aspex Management (Hk) Ltd",
+   "date": "6/30/2026",
+   "sharesHeld": "0",
+   "sharesChange": "-346,150",
+   "sharesChangePCT": "Sold Out",
+   "marketValue": ""
+  },
+  {
+   "ownerName": "Barclays Plc",
+   "date": "6/30/2026",
+   "sharesHeld": "0",
+   "sharesChange": "-521",
+   "sharesChangePCT": "Sold Out",
+   "marketValue": ""
+  },
+  {
+   "ownerName": "Blackrock, Inc.",
+   "date": "6/30/2026",
+   "sharesHeld": "0",
+   "sharesChange": "-33,246",
+   "sharesChangePCT": "Sold Out",
+   "marketValue": ""
+  },
+  {
+   "ownerName": "Brevan Howard Capital Management Lp",
+   "date": "6/30/2026",
+   "sharesHeld": "0",
+   "sharesChange": "-10,233",
+   "sharesChangePCT": "Sold Out",
+   "marketValue": ""
+  },
+  {
+   "ownerName": "Citigroup Inc",
+   "date": "6/30/2026",
+   "sharesHeld": "0",
+   "sharesChange": "-328",
+   "sharesChangePCT": "Sold Out",
+   "marketValue": ""
+  },
+  {
+   "ownerName": "Hrt Financial Lp",
+   "date": "6/30/2026",
+   "sharesHeld": "0",
+   "sharesChange": "-28,943",
+   "sharesChangePCT": "Sold Out",
+   "marketValue": ""
+  },
+  {
+   "ownerName": "Hudson Bay Capital Management Lp",
+   "date": "6/30/2026",
+   "sharesHeld": "0",
+   "sharesChange": "-22,253",
+   "sharesChangePCT": "Sold Out",
+   "marketValue": ""
+  },
+  {
+   "ownerName": "Omers Administration Corp",
+   "date": "6/30/2026",
+   "sharesHeld": "0",
+   "sharesChange": "-11,900",
+   "sharesChangePCT": "Sold Out",
+   "marketValue": ""
+  },
+  {
+   "ownerName": "Osaic Holdings, Inc.",
+   "date": "6/30/2026",
+   "sharesHeld": "0",
+   "sharesChange": "-327",
+   "sharesChangePCT": "Sold Out",
+   "marketValue": ""
+  },
+  {
+   "ownerName": "Prudential Plc",
+   "date": "6/30/2026",
+   "sharesHeld": "0",
+   "sharesChange": "-427,963",
+   "sharesChangePCT": "Sold Out",
+   "marketValue": ""
+  },
+  {
+   "ownerName": "Renaissance Technologies Llc",
+   "date": "6/30/2026",
+   "sharesHeld": "0",
+   "sharesChange": "-31,322",
+   "sharesChangePCT": "Sold Out",
+   "marketValue": ""
+  }
+ ]
+}

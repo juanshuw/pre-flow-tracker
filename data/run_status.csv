@@ -1,0 +1,149 @@
+source,status,note,ts,run_ts
+prices.yahoo,ok,454 rows,2026-10-26T02:21:58,2026-10-26 02:28
+prices.stooq,fail,'DataFrame' object has no attribute 'date',2026-10-26T02:22:00,2026-10-26 02:28
+prices.nasdaq,ok,454 rows,2026-10-26T02:22:04,2026-10-26 02:28
+prices.peers,ok,454 rows,2026-10-26T02:22:05,2026-10-26 02:28
+prices.intraday_1m,ok,7 days,2026-10-26T02:22:06,2026-10-26 02:28
+finra.regsho_daily,ok,"+252 days, total 252",2026-10-26T02:22:19,2026-10-26 02:28
+finra.otc_weekly,ok,1899 rows since 2025-01-01; latest week 2026-09-14,2026-10-26T02:22:21,2026-10-26 02:28
+finra.otc_monthly,ok,40 rows,2026-10-26T02:22:22,2026-10-26 02:28
+finra.short_interest,ok,latest 2026-09-30,2026-10-26T02:22:24,2026-10-26 02:28
+sec.edgar_filings,fail,'NoneType' object has no attribute 'json',2026-10-26T02:22:25,2026-10-26 02:28
+sec.form4,ok,no new Form 4,2026-10-26T02:22:25,2026-10-26 02:28
+sec.edgar_events,ok,no new docs,2026-10-26T02:22:25,2026-10-26 02:28
+sec.13f,ok,0 hits; nothing new,2026-10-26T02:22:26,2026-10-26 02:28
+sec.ftd,ok,no new period files,2026-10-26T02:22:45,2026-10-26 02:28
+sec.shares,fail,'NoneType' object has no attribute 'json',2026-10-26T02:22:45,2026-10-26 02:28
+nasdaq.circuit_breaker,ok,+19 days; triggered [],2026-10-26T02:25:16,2026-10-26 02:28
+nasdaq.threshold,ok,up to date,2026-10-26T02:27:55,2026-10-26 02:28
+nasdaq.institutional,ok,inst own 8.04%; holders 40,2026-10-26T02:27:58,2026-10-26 02:28
+nasdaq.insiders,ok,14 rows,2026-10-26T02:28:02,2026-10-26 02:28
+nasdaq.short_interest,ok,24 rows,2026-10-26T02:28:05,2026-10-26 02:28
+options.yahoo,ok,OI C1139/P107,2026-10-26T02:28:08,2026-10-26 02:28
+social.stocktwits,ok,watch 2897; +119 msgs,2026-10-26T02:28:13,2026-10-26 02:28
+social.reddit,skip,blocked,2026-10-26T02:28:15,2026-10-26 02:28
+borrow.iborrowdesk,skip,unreachable,2026-10-26T02:28:21,2026-10-26 02:28
+analysts.yahoo,ok,PT mean 38.125,2026-10-26T02:28:22,2026-10-26 02:28
+news.google_rss,ok,130 items,2026-10-26T02:28:24,2026-10-26 02:28
+prices.yahoo,ok,454 rows,2026-10-26T02:30:51,2026-10-26 02:31
+prices.stooq,skip,empty/blocked,2026-10-26T02:30:52,2026-10-26 02:31
+prices.nasdaq,ok,454 rows,2026-10-26T02:30:56,2026-10-26 02:31
+prices.peers,skip,skipped by flag,2026-10-26T02:30:56,2026-10-26 02:31
+prices.intraday,skip,skipped by flag,2026-10-26T02:30:56,2026-10-26 02:31
+finra.regsho,skip,skipped by flag,2026-10-26T02:30:56,2026-10-26 02:31
+finra.weekly,skip,skipped by flag,2026-10-26T02:30:56,2026-10-26 02:31
+finra.monthly,skip,skipped by flag,2026-10-26T02:30:56,2026-10-26 02:31
+finra.si,skip,skipped by flag,2026-10-26T02:30:56,2026-10-26 02:31
+sec.edgar_filings,fail,'NoneType' object has no attribute 'json',2026-10-26T02:30:57,2026-10-26 02:31
+sec.form4,ok,no new Form 4,2026-10-26T02:30:57,2026-10-26 02:31
+sec.edgar_events,ok,no new docs,2026-10-26T02:30:57,2026-10-26 02:31
+sec.13f,ok,0 hits; nothing new,2026-10-26T02:30:58,2026-10-26 02:31
+sec.ftd,ok,no new period files,2026-10-26T02:31:15,2026-10-26 02:31
+sec.shares,fail,'NoneType' object has no attribute 'json',2026-10-26T02:31:16,2026-10-26 02:31
+nasdaq.cb,skip,skipped by flag,2026-10-26T02:31:16,2026-10-26 02:31
+nasdaq.threshold,skip,skipped by flag,2026-10-26T02:31:16,2026-10-26 02:31
+nasdaq.institutional,skip,skipped by flag,2026-10-26T02:31:16,2026-10-26 02:31
+nasdaq.insiders,skip,skipped by flag,2026-10-26T02:31:16,2026-10-26 02:31
+nasdaq.si,skip,skipped by flag,2026-10-26T02:31:16,2026-10-26 02:31
+options,skip,skipped by flag,2026-10-26T02:31:16,2026-10-26 02:31
+social.stocktwits,skip,skipped by flag,2026-10-26T02:31:16,2026-10-26 02:31
+social.reddit,skip,skipped by flag,2026-10-26T02:31:16,2026-10-26 02:31
+borrow,skip,skipped by flag,2026-10-26T02:31:16,2026-10-26 02:31
+analysts,skip,skipped by flag,2026-10-26T02:31:16,2026-10-26 02:31
+news,skip,skipped by flag,2026-10-26T02:31:16,2026-10-26 02:31
+prices.daily,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+prices.peers,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+prices.intraday,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+finra.regsho,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+finra.weekly,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+finra.monthly,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+finra.si,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+sec.filings,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+sec.form4,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+sec.events,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+sec.13f,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+sec.ftd,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+sec.shares,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+nasdaq.cb,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+nasdaq.threshold,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+nasdaq.institutional,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+nasdaq.insiders,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+nasdaq.si,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+options,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+social.stocktwits,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+social.reddit,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+borrow,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+analysts,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+news,skip,skipped by flag,2026-10-26T02:31:39,2026-10-26 02:31
+prices.daily,skip,skipped by flag,2026-10-26T02:32:04,2026-10-26 02:38
+prices.peers,skip,skipped by flag,2026-10-26T02:32:04,2026-10-26 02:38
+prices.intraday,skip,skipped by flag,2026-10-26T02:32:04,2026-10-26 02:38
+finra.regsho,skip,skipped by flag,2026-10-26T02:32:04,2026-10-26 02:38
+finra.weekly,skip,skipped by flag,2026-10-26T02:32:04,2026-10-26 02:38
+finra.monthly,skip,skipped by flag,2026-10-26T02:32:04,2026-10-26 02:38
+finra.si,skip,skipped by flag,2026-10-26T02:32:04,2026-10-26 02:38
+sec.edgar_filings,ok,97 filings; latest 2026-10-13,2026-10-26T02:32:05,2026-10-26 02:38
+sec.form4,ok,+23 filings parsed,2026-10-26T02:32:14,2026-10-26 02:38
+sec.edgar_events,ok,+40 docs tagged,2026-10-26T02:32:37,2026-10-26 02:38
+sec.13f,ok,19 hits; parsed 19 new filings,2026-10-26T02:33:04,2026-10-26 02:38
+sec.ftd,ok,"fetched ['202501a', '202501b', '202502a', '202502b', '202503a', '202503b', '202504a', '202504b', '202505a', '202505b', '202506a', '202506b', '202507a', '202507b', '202508a', '202508b', '202509a', '202509b', '202510a', '202510b', '202511a', '202511b', '202512a', '202512b', '202601a', '202601b', '202602a', '202602b', '202603a', '202603b', '202604a', '202604b', '202606a', '202606b', '202607a', '202607b', '202608a', '202608b', '202609a', '202609b']; +136 rows",2026-10-26T02:34:49,2026-10-26 02:38
+sec.shares,ok,"latest 16,874,089 as of 2025-12-31",2026-10-26T02:34:50,2026-10-26 02:38
+nasdaq.circuit_breaker,ok,+16 days; in effect [],2026-10-26T02:35:21,2026-10-26 02:38
+nasdaq.threshold,ok,+201 days; on list [],2026-10-26T02:38:35,2026-10-26 02:38
+nasdaq.institutional,skip,skipped by flag,2026-10-26T02:38:35,2026-10-26 02:38
+nasdaq.insiders,skip,skipped by flag,2026-10-26T02:38:35,2026-10-26 02:38
+nasdaq.si,skip,skipped by flag,2026-10-26T02:38:35,2026-10-26 02:38
+options,skip,skipped by flag,2026-10-26T02:38:35,2026-10-26 02:38
+social.stocktwits,skip,skipped by flag,2026-10-26T02:38:35,2026-10-26 02:38
+social.reddit,skip,skipped by flag,2026-10-26T02:38:35,2026-10-26 02:38
+borrow,skip,skipped by flag,2026-10-26T02:38:35,2026-10-26 02:38
+analysts,skip,skipped by flag,2026-10-26T02:38:35,2026-10-26 02:38
+news,skip,skipped by flag,2026-10-26T02:38:35,2026-10-26 02:38
+prices.daily,skip,skipped by flag,2026-10-26T02:40:43,2026-10-26 02:45
+prices.peers,skip,skipped by flag,2026-10-26T02:40:43,2026-10-26 02:45
+prices.intraday,skip,skipped by flag,2026-10-26T02:40:43,2026-10-26 02:45
+finra.regsho,skip,skipped by flag,2026-10-26T02:40:43,2026-10-26 02:45
+finra.weekly,skip,skipped by flag,2026-10-26T02:40:43,2026-10-26 02:45
+finra.monthly,skip,skipped by flag,2026-10-26T02:40:43,2026-10-26 02:45
+finra.si,skip,skipped by flag,2026-10-26T02:40:43,2026-10-26 02:45
+sec.edgar_filings,ok,97 filings; latest 2026-10-13,2026-10-26T02:40:44,2026-10-26 02:45
+sec.form4,skip,skipped by flag,2026-10-26T02:40:44,2026-10-26 02:45
+sec.edgar_events,ok,+40 docs tagged,2026-10-26T02:41:05,2026-10-26 02:45
+sec.13f,ok,298 hits; parsed 279 new filings,2026-10-26T02:44:48,2026-10-26 02:45
+sec.ftd,skip,skipped by flag,2026-10-26T02:44:48,2026-10-26 02:45
+sec.shares,skip,skipped by flag,2026-10-26T02:44:48,2026-10-26 02:45
+nasdaq.circuit_breaker,ok,+16 days; in effect [],2026-10-26T02:45:20,2026-10-26 02:45
+nasdaq.threshold,skip,skipped by flag,2026-10-26T02:45:20,2026-10-26 02:45
+nasdaq.institutional,skip,skipped by flag,2026-10-26T02:45:20,2026-10-26 02:45
+nasdaq.insiders,skip,skipped by flag,2026-10-26T02:45:20,2026-10-26 02:45
+nasdaq.si,skip,skipped by flag,2026-10-26T02:45:20,2026-10-26 02:45
+options,skip,skipped by flag,2026-10-26T02:45:20,2026-10-26 02:45
+social.stocktwits,skip,skipped by flag,2026-10-26T02:45:20,2026-10-26 02:45
+social.reddit,skip,skipped by flag,2026-10-26T02:45:20,2026-10-26 02:45
+borrow,skip,skipped by flag,2026-10-26T02:45:20,2026-10-26 02:45
+analysts,skip,skipped by flag,2026-10-26T02:45:20,2026-10-26 02:45
+news,skip,skipped by flag,2026-10-26T02:45:20,2026-10-26 02:45
+prices.daily,skip,skipped by flag,2026-10-26T02:46:42,2026-10-26 02:52
+prices.peers,skip,skipped by flag,2026-10-26T02:46:42,2026-10-26 02:52
+prices.intraday,skip,skipped by flag,2026-10-26T02:46:42,2026-10-26 02:52
+finra.regsho,skip,skipped by flag,2026-10-26T02:46:42,2026-10-26 02:52
+finra.weekly,skip,skipped by flag,2026-10-26T02:46:42,2026-10-26 02:52
+finra.monthly,skip,skipped by flag,2026-10-26T02:46:42,2026-10-26 02:52
+finra.si,skip,skipped by flag,2026-10-26T02:46:42,2026-10-26 02:52
+sec.filings,skip,skipped by flag,2026-10-26T02:46:42,2026-10-26 02:52
+sec.form4,skip,skipped by flag,2026-10-26T02:46:42,2026-10-26 02:52
+sec.events,skip,skipped by flag,2026-10-26T02:46:42,2026-10-26 02:52
+sec.13f,skip,skipped by flag,2026-10-26T02:46:42,2026-10-26 02:52
+sec.ftd,skip,skipped by flag,2026-10-26T02:46:42,2026-10-26 02:52
+sec.shares,skip,skipped by flag,2026-10-26T02:46:42,2026-10-26 02:52
+nasdaq.circuit_breaker,ok,"+204 days; in effect ['2026-10-22', '2026-10-21', '2026-10-19', '2026-10-16', '2026-07-24', '2026-07-23', '2026-07-17', '2026-07-16', '2026-07-15', '2026-06-29', '2026-06-26', '2026-06-11', '2026-06-10', '2026-05-18', '2026-05-15', '2026-04-10', '2026-04-09', '2026-02-24', '2026-02-23', '2026-02-20', '2026-02-19', '2026-02-18', '2026-01-16', '2026-01-15']",2026-10-26T02:49:50,2026-10-26 02:52
+nasdaq.threshold,ok,+204 days; on list [],2026-10-26T02:52:58,2026-10-26 02:52
+nasdaq.institutional,skip,skipped by flag,2026-10-26T02:52:58,2026-10-26 02:52
+nasdaq.insiders,skip,skipped by flag,2026-10-26T02:52:58,2026-10-26 02:52
+nasdaq.si,skip,skipped by flag,2026-10-26T02:52:58,2026-10-26 02:52
+options,skip,skipped by flag,2026-10-26T02:52:58,2026-10-26 02:52
+social.stocktwits,skip,skipped by flag,2026-10-26T02:52:58,2026-10-26 02:52
+social.reddit,skip,skipped by flag,2026-10-26T02:52:58,2026-10-26 02:52
+borrow,skip,skipped by flag,2026-10-26T02:52:58,2026-10-26 02:52
+analysts,skip,skipped by flag,2026-10-26T02:52:58,2026-10-26 02:52
+news,skip,skipped by flag,2026-10-26T02:52:58,2026-10-26 02:52

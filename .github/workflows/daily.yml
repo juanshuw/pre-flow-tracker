@@ -1,0 +1,51 @@
+name: PRE flow tracker (daily)
+
+on:
+  schedule:
+    # UTC。02:00 UTC = 北京 10:00（美股收盘后 6 小时，FINRA 日度文件/Yahoo 日线已齐）
+    - cron: "0 2 * * *"
+    # 11:00 UTC = 美东 07:00：补抓晚发布的 FINRA 日文件、FTD、周一下午发布的周度暗池数据
+    - cron: "0 11 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      skip:
+        description: "跳过的数据源（逗号分隔，如 sec.13f,social.reddit）"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pre-flow-tracker
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch all sources and build dashboard
+        env:
+          SEC_UA: ${{ secrets.SEC_UA }}
+          FINRA_CLIENT_ID: ${{ secrets.FINRA_CLIENT_ID }}
+          FINRA_CLIENT_SECRET: ${{ secrets.FINRA_CLIENT_SECRET }}
+        run: python run_daily.py --skip "${{ github.event.inputs.skip }}"
+
+      - name: Commit data
+        run: |
+          git config user.name "pre-flow-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data docs/data
+          git commit -m "data: $(date -u +%FT%TZ)" || echo "no change"
+          git pull --rebase || true
+          git push || echo "nothing to push"
