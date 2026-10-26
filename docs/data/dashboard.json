@@ -1,7 +1,7 @@
 {
  "meta": {
   "symbol": "PRE",
-  "built_at": "2026-10-26 09:20 UTC",
+  "built_at": "2026-10-26 09:21 UTC",
   "last_trade_date": "2026-10-23",
   "shares_a": 15356748,
   "sources": [
@@ -9,145 +9,145 @@
     "source": "prices.daily",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "prices.peers",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "prices.intraday",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "finra.regsho",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "finra.weekly",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "finra.monthly",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "finra.si",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "sec.filings",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "sec.form4",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "sec.events",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "sec.13f",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "sec.ftd",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "sec.shares",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "nasdaq.cb",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "nasdaq.threshold",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "nasdaq.institutional",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "nasdaq.insiders",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "nasdaq.si",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "options",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:37"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "social.stocktwits",
-    "status": "ok",
-    "note": "watch 2896; +0 msgs",
-    "ts": "2026-10-26T09:20:38"
+    "status": "skip",
+    "note": "skipped by flag",
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "social.reddit",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:38"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "borrow",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:38"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "analysts",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:38"
+    "ts": "2026-10-26T09:21:34"
    },
    {
     "source": "news",
     "status": "skip",
     "note": "skipped by flag",
-    "ts": "2026-10-26T09:20:38"
+    "ts": "2026-10-26T09:21:34"
    }
   ],
   "baseline_ats_pct": 24.7
@@ -12430,7 +12430,7 @@
    "user": "StocktwitsEarnings",
    "followers": 132287,
    "sentiment": null,
-   "body": "$PRE Q1 &#39;26 Earnings Results &amp; Recap Prenetics raised its full-year 2026 IM8 revenue guidance to $190 million to $210 million, up from the prior range of $180 million to $200 million. Prenetic"
+   "body": "$PRE Q1 '26 Earnings Results & Recap Prenetics raised its full-year 2026 IM8 revenue guidance to $190 million to $210 million, up from the prior range of $180 million to $200 million. Prenetic"
   },
   {
    "id": 653394952,
@@ -12470,7 +12470,7 @@
    "user": "ZacksSCR",
    "followers": 236,
    "sentiment": null,
-   "body": "$PRE CEO Danny Yeung discusses Prenetics&#39; transition from a COVID-era diagnostics business to a wellness brand, and management&#39;s view of the category&#39;s market opportunity in our latest CEO"
+   "body": "$PRE CEO Danny Yeung discusses Prenetics' transition from a COVID-era diagnostics business to a wellness brand, and management's view of the category's market opportunity in our latest CEO"
   },
   {
    "id": 659027629,
@@ -12486,7 +12486,7 @@
    "user": "TheBullishTrade",
    "followers": 5882,
    "sentiment": null,
-   "body": "$PRE Prenetics&#39; IM8 Secures $1 Billion Growth Financing from General Catalyst&#39;s Customer Value Fund (CVF) Tuesday, 14th July at 1:35 pm IM8 is the fastest-growing premium supplement brand ever"
+   "body": "$PRE Prenetics' IM8 Secures $1 Billion Growth Financing from General Catalyst's Customer Value Fund (CVF) Tuesday, 14th July at 1:35 pm IM8 is the fastest-growing premium supplement brand ever"
   },
   {
    "id": 659033647,
@@ -12566,7 +12566,7 @@
    "user": "StocktwitsEarnings",
    "followers": 132287,
    "sentiment": null,
-   "body": "$PRE Q2 &#39;26 Earnings Results &amp; Recap • Reported GAAP EPS of -$0.52 up 44.68% YoY • Reported revenue of $46.49M up 288.57% YoY • Prenetics raised its full-year 2026 total revenue guidance to $2"
+   "body": "$PRE Q2 '26 Earnings Results & Recap • Reported GAAP EPS of -$0.52 up 44.68% YoY • Reported revenue of $46.49M up 288.57% YoY • Prenetics raised its full-year 2026 total revenue guidance to $2"
   },
   {
    "id": 662150709,
@@ -12582,7 +12582,7 @@
    "user": "IPO_Candy",
    "followers": 2885,
    "sentiment": null,
-   "body": "$PRE It&#39;s not a typical IPO but we are treating this like one. The company has had some incarnations and now is in the health and wellness space. More to come."
+   "body": "$PRE It's not a typical IPO but we are treating this like one. The company has had some incarnations and now is in the health and wellness space. More to come."
   },
   {
    "id": 662164568,
@@ -12598,7 +12598,7 @@
    "user": "IPO_Candy",
    "followers": 2885,
    "sentiment": "Bullish",
-   "body": "$PRE Well I don&#39;t know. Why use this platform and then only take questions from Wall Street analysts? People here with good questions should be part of the dialog. Good call though, nothing wrong "
+   "body": "$PRE Well I don't know. Why use this platform and then only take questions from Wall Street analysts? People here with good questions should be part of the dialog. Good call though, nothing wrong "
   },
   {
    "id": 662166314,
@@ -12678,7 +12678,7 @@
    "user": "BettyFurches617",
    "followers": 0,
    "sentiment": null,
-   "body": "$PRE $VOYG $IBIT $TEM PRE remains execution-dependent, VOYG remains speculative, IBIT provides direct Bitcoin exposure, and Tempus benefits from AI-powered precision medicine. I&#39;m watching company"
+   "body": "$PRE $VOYG $IBIT $TEM PRE remains execution-dependent, VOYG remains speculative, IBIT provides direct Bitcoin exposure, and Tempus benefits from AI-powered precision medicine. I'm watching company"
   },
   {
    "id": 662871960,
@@ -12718,7 +12718,7 @@
    "user": "OptionRunners",
    "followers": 35942,
    "sentiment": null,
-   "body": "$PRE don&#39;t you just love how when you buy some calls and the stock rips 5% immediately on it and you&#39;re just magically up 50% on them. Happens to everyone all the time right 🙄"
+   "body": "$PRE don't you just love how when you buy some calls and the stock rips 5% immediately on it and you're just magically up 50% on them. Happens to everyone all the time right 🙄"
   },
   {
    "id": 662942708,
@@ -12790,7 +12790,7 @@
    "user": "Rayvio_News_Filter",
    "followers": 24,
    "sentiment": null,
-   "body": "$PRE 🤝 Prenetics Global Limited&#39;s IM8 (US) LLC announced a multiyear collaboration with the National Basketball Association making IM8 the Official Nutrition Partner of the NBA in Australia and ei"
+   "body": "$PRE 🤝 Prenetics Global Limited's IM8 (US) LLC announced a multiyear collaboration with the National Basketball Association making IM8 the Official Nutrition Partner of the NBA in Australia and ei"
   },
   {
    "id": 666665378,

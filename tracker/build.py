@@ -1,5 +1,5 @@
 """把所有数据汇总成 docs/data/dashboard.json：逐日表+标签、周度暗池、空头/FTD/借券、期权、关注度、持有人、申报、见底打分、参与方矩阵。"""
-import datetime as dt, json, math, shutil
+import datetime as dt, html as _html, json, math, shutil
 import numpy as np, pandas as pd
 from .common import DATA, DOCS_DATA, SYMBOL, SHARES_A, read_csv, load_json, save_json
 from .prices import enrich
@@ -87,6 +87,7 @@ def build(status_rows):
     si = read_csv(DATA / "finra_short_interest.csv"); ftd = read_csv(DATA / "sec_ftd.csv"); borrow = read_csv(DATA / "borrow_daily.csv")
     opt = read_csv(DATA / "options_daily.csv"); opt_tot = opt[opt.expiry == "TOTAL"] if len(opt) else pd.DataFrame()
     stm = read_csv(DATA / "stocktwits_messages.csv"); att = read_csv(DATA / "attention_daily.csv"); rd = read_csv(DATA / "reddit_posts.csv")
+    if len(stm): stm["body"] = stm.body.fillna("").map(_html.unescape)   # Stocktwits 正文是 HTML 转义过的
     st_daily = stm.assign(day=pd.to_datetime(stm.created_at).dt.strftime("%Y-%m-%d")).groupby("day").size() if len(stm) else pd.Series(dtype=int)
     rd_daily = rd.assign(day=rd.created.str[:10]).groupby("day").size() if len(rd) else pd.Series(dtype=int)
     att_rows = []
