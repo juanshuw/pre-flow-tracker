@@ -1,156 +1,168 @@
 {
  "meta": {
   "symbol": "PRE",
-  "built_at": "2026-10-26 02:52 UTC",
+  "built_at": "2026-10-26 02:54 UTC",
   "last_trade_date": "2026-10-23",
   "shares_a": 15356748,
   "sources": [
    {
-    "source": "prices.daily",
+    "source": "prices.yahoo",
+    "status": "ok",
+    "note": "454 rows",
+    "ts": "2026-10-26T02:54:03"
+   },
+   {
+    "source": "prices.stooq",
     "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:46:42"
+    "note": "empty/blocked",
+    "ts": "2026-10-26T02:54:03"
+   },
+   {
+    "source": "prices.nasdaq",
+    "status": "ok",
+    "note": "454 rows",
+    "ts": "2026-10-26T02:54:05"
    },
    {
     "source": "prices.peers",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:46:42"
+    "status": "ok",
+    "note": "454 rows",
+    "ts": "2026-10-26T02:54:06"
    },
    {
-    "source": "prices.intraday",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:46:42"
+    "source": "prices.intraday_1m",
+    "status": "ok",
+    "note": "7 days",
+    "ts": "2026-10-26T02:54:06"
    },
    {
-    "source": "finra.regsho",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:46:42"
+    "source": "finra.regsho_daily",
+    "status": "ok",
+    "note": "+16 days, total 252",
+    "ts": "2026-10-26T02:54:07"
    },
    {
-    "source": "finra.weekly",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:46:42"
+    "source": "finra.otc_weekly",
+    "status": "ok",
+    "note": "244 rows since 2026-07-16; latest week 2026-09-14",
+    "ts": "2026-10-26T02:54:07"
    },
    {
-    "source": "finra.monthly",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:46:42"
+    "source": "finra.otc_monthly",
+    "status": "ok",
+    "note": "8 rows",
+    "ts": "2026-10-26T02:54:08"
    },
    {
-    "source": "finra.si",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:46:42"
+    "source": "finra.short_interest",
+    "status": "ok",
+    "note": "latest 2026-09-30",
+    "ts": "2026-10-26T02:54:08"
    },
    {
-    "source": "sec.filings",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:46:42"
+    "source": "sec.edgar_filings",
+    "status": "ok",
+    "note": "97 filings; latest 2026-10-13",
+    "ts": "2026-10-26T02:54:08"
    },
    {
     "source": "sec.form4",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:46:42"
+    "status": "ok",
+    "note": "+4 filings parsed",
+    "ts": "2026-10-26T02:54:10"
    },
    {
-    "source": "sec.events",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:46:42"
+    "source": "sec.edgar_events",
+    "status": "ok",
+    "note": "+24 docs tagged",
+    "ts": "2026-10-26T02:54:17"
    },
    {
     "source": "sec.13f",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:46:42"
+    "status": "ok",
+    "note": "298 hits; nothing new",
+    "ts": "2026-10-26T02:54:20"
    },
    {
     "source": "sec.ftd",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:46:42"
+    "status": "ok",
+    "note": "fetched ['202609b']; +1 rows",
+    "ts": "2026-10-26T02:54:21"
    },
    {
     "source": "sec.shares",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:46:42"
+    "status": "ok",
+    "note": "latest 16,874,089 as of 2025-12-31",
+    "ts": "2026-10-26T02:54:22"
    },
    {
     "source": "nasdaq.circuit_breaker",
     "status": "ok",
-    "note": "+204 days; in effect ['2026-10-22', '2026-10-21', '2026-10-19', '2026-10-16', '2026-07-24', '2026-07-23', '2026-07-17', '2026-07-16', '2026-07-15', '2026-06-29', '2026-06-26', '2026-06-11', '2026-06-10', '2026-05-18', '2026-05-15', '2026-04-10', '2026-04-09', '2026-02-24', '2026-02-23', '2026-02-20', '2026-02-19', '2026-02-18', '2026-01-16', '2026-01-15']",
-    "ts": "2026-10-26T02:49:50"
+    "note": "up to date",
+    "ts": "2026-10-26T02:54:22"
    },
    {
     "source": "nasdaq.threshold",
     "status": "ok",
-    "note": "+204 days; on list []",
-    "ts": "2026-10-26T02:52:58"
+    "note": "up to date",
+    "ts": "2026-10-26T02:54:22"
    },
    {
     "source": "nasdaq.institutional",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:52:58"
+    "status": "ok",
+    "note": "inst own 8.04%; holders 40",
+    "ts": "2026-10-26T02:54:25"
    },
    {
     "source": "nasdaq.insiders",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:52:58"
+    "status": "ok",
+    "note": "14 rows",
+    "ts": "2026-10-26T02:54:28"
    },
    {
-    "source": "nasdaq.si",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:52:58"
+    "source": "nasdaq.short_interest",
+    "status": "ok",
+    "note": "24 rows",
+    "ts": "2026-10-26T02:54:30"
    },
    {
-    "source": "options",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:52:58"
+    "source": "options.yahoo",
+    "status": "ok",
+    "note": "OI C1059/P107",
+    "ts": "2026-10-26T02:54:31"
    },
    {
     "source": "social.stocktwits",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:52:58"
+    "status": "ok",
+    "note": "watch 2897; +0 msgs",
+    "ts": "2026-10-26T02:54:32"
    },
    {
     "source": "social.reddit",
     "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:52:58"
+    "note": "blocked",
+    "ts": "2026-10-26T02:54:32"
    },
    {
-    "source": "borrow",
+    "source": "borrow.iborrowdesk",
     "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:52:58"
+    "note": "unreachable",
+    "ts": "2026-10-26T02:54:37"
    },
    {
-    "source": "analysts",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:52:58"
+    "source": "analysts.yahoo",
+    "status": "ok",
+    "note": "PT mean 38.125",
+    "ts": "2026-10-26T02:54:37"
    },
    {
-    "source": "news",
-    "status": "skip",
-    "note": "skipped by flag",
-    "ts": "2026-10-26T02:52:58"
+    "source": "news.google_rss",
+    "status": "ok",
+    "note": "200 items",
+    "ts": "2026-10-26T02:54:38"
    }
   ],
-  "baseline_ats_pct": 21.4
+  "baseline_ats_pct": 24.7
  },
  "kpis": {
   "close": 17.35,
@@ -158,8 +170,8 @@
   "volume": 160600,
   "vol_x_adv20": 0.84,
   "turnover_pct": 1.05,
-  "close_vs_vwap_pct": -0.34,
-  "last30_pct": 21.0,
+  "close_vs_vwap_pct": -0.44,
+  "last30_pct": 21.8,
   "offexch_pct": 25.7,
   "short_pct": 50.8,
   "si": 442015,
@@ -197,15 +209,15 @@
   "dist_ma50_pct": -21.6,
   "dist_day": 0,
   "acc_day": 0,
-  "vwap": 17.41,
-  "close_vs_vwap_pct": -0.34,
-  "first30_pct": 10.8,
-  "last30_pct": 21.0,
-  "last60_pct": 30.5,
+  "vwap": 17.43,
+  "close_vs_vwap_pct": -0.44,
+  "first30_pct": 7.6,
+  "last30_pct": 21.8,
+  "last60_pct": 31.6,
   "max_1m_vol": 18593.0,
   "max_1m_time": "15:59",
-  "minutes_traded": 80.0,
-  "vol_1m_sum": 154001.0,
+  "minutes_traded": 79.0,
+  "vol_1m_sum": 148857.0,
   "short": 20959.4,
   "short_exempt": 0.0,
   "offexch_total": 41239.54,
@@ -258,7 +270,7 @@
    {
     "id": 5,
     "name": "下跌日收盘 vs VWAP（近 5 个下跌日）",
-    "value": "均值 -2.2%",
+    "value": "均值 -2.19%",
     "target": "≥ 0%（卖方收盘前卖完）",
     "pass": false,
     "note": ""
@@ -290,7 +302,7 @@
    {
     "id": 9,
     "name": "暗池占全部成交（最新周）",
-    "value": "31.2%（2026-09-14 当周；基线中位 21.4%）",
+    "value": "62.3%（2026-09-14 当周；基线中位 24.7%）",
     "target": "回到基线（派发结束）",
     "pass": false,
     "note": "滞后约 5 周"
@@ -345,7 +357,7 @@
   {
    "group": "散户 / 活跃交易者",
    "signal": "零售批发商周成交（Citadel/批发商/小额合并）",
-   "value": "0 / 0 / 133,281 股",
+   "value": "0 / 0 / 266,563 股",
    "reading": "Citadel 被单独列出=日均 >200 笔=零售流激增",
    "source": "FINRA OTC 周度",
    "asof": "2026-09-14"
@@ -369,8 +381,8 @@
   {
    "group": "机构（暗池 / 大宗）",
    "signal": "暗池占全部成交 / 大宗平台成交",
-   "value": "31.2% / 14,462 股",
-   "reading": "基线 21.4%；>28% 机构换手（方向看价格+卖空占比）",
+   "value": "62.3% / 14,462 股",
+   "reading": "基线 24.7%；>28% 机构换手（方向看价格+卖空占比）",
    "source": "FINRA OTC 周度",
    "asof": "2026-09-14"
   },
@@ -449,7 +461,7 @@
   {
    "group": "公司",
    "signal": "最近 6-K 与标签",
-   "value": "2026-10-13 nan",
+   "value": "2026-10-13 合作/代言",
    "reading": "回购授权/增发/权证生效=供需变化",
    "source": "SEC EDGAR",
    "asof": "2026-10-13"
@@ -481,7 +493,7 @@
   {
    "group": "期权",
    "signal": "未平仓 看涨/看跌",
-   "value": "1139 / 107 张",
+   "value": "1059 / 107 张",
    "reading": "对冲股数上限 =(C+P)×100；小=无衍生品驱动",
    "source": "Yahoo 期权链",
    "asof": "2026-10-26"
@@ -677,7 +689,7 @@
    "date": "2025-10-20",
    "open": 15.640000343322754,
    "high": 16.639999389648438,
-   "low": 15.100000381469728,
+   "low": 15.100000381469727,
    "close": 16.239999771118164,
    "volume": 145400,
    "ret_pct": 8.27,
@@ -861,9 +873,9 @@
   {
    "date": "2025-10-27",
    "open": 13.970000267028809,
-   "high": 14.420000076293944,
-   "low": 12.420000076293944,
-   "close": 13.079999923706056,
+   "high": 14.420000076293945,
+   "low": 12.420000076293945,
+   "close": 13.079999923706055,
    "volume": 819500,
    "ret_pct": -21.96,
    "turnover_pct": 5.34,
@@ -899,7 +911,7 @@
    "date": "2025-10-28",
    "open": 13.880000114440918,
    "high": 13.880000114440918,
-   "low": 12.100000381469728,
+   "low": 12.100000381469727,
    "close": 12.229999542236328,
    "volume": 277000,
    "ret_pct": -6.5,
@@ -935,9 +947,9 @@
   {
    "date": "2025-10-29",
    "open": 12.239999771118164,
-   "high": 14.18000030517578,
+   "high": 14.180000305175781,
    "low": 12.039999961853027,
-   "close": 13.81999969482422,
+   "close": 13.819999694824219,
    "volume": 195200,
    "ret_pct": 13.0,
    "turnover_pct": 1.27,
@@ -974,7 +986,7 @@
    "open": 14.0,
    "high": 14.989999771118164,
    "low": 13.510000228881836,
-   "close": 14.149999618530272,
+   "close": 14.149999618530273,
    "volume": 213600,
    "ret_pct": 2.39,
    "turnover_pct": 1.39,
@@ -1010,8 +1022,8 @@
    "date": "2025-10-31",
    "open": 14.869999885559082,
    "high": 15.260000228881836,
-   "low": 14.399999618530272,
-   "close": 14.81999969482422,
+   "low": 14.399999618530273,
+   "close": 14.819999694824219,
    "volume": 242100,
    "ret_pct": 4.73,
    "turnover_pct": 1.58,
@@ -1045,10 +1057,10 @@
   },
   {
    "date": "2025-11-03",
-   "open": 14.795000076293944,
+   "open": 14.795000076293945,
    "high": 14.800000190734863,
    "low": 13.510000228881836,
-   "close": 13.56999969482422,
+   "close": 13.569999694824219,
    "volume": 181100,
    "ret_pct": -8.43,
    "turnover_pct": 1.18,
@@ -1082,10 +1094,10 @@
   },
   {
    "date": "2025-11-04",
-   "open": 13.579999923706056,
+   "open": 13.579999923706055,
    "high": 13.699999809265137,
    "low": 12.760000228881836,
-   "close": 12.80500030517578,
+   "close": 12.805000305175781,
    "volume": 142700,
    "ret_pct": -5.64,
    "turnover_pct": 0.93,
@@ -1121,7 +1133,7 @@
    "date": "2025-11-05",
    "open": 13.229999542236328,
    "high": 13.890000343322754,
-   "low": 12.670000076293944,
+   "low": 12.670000076293945,
    "close": 12.720000267028809,
    "volume": 132400,
    "ret_pct": -0.66,
@@ -1157,7 +1169,7 @@
   {
    "date": "2025-11-06",
    "open": 12.65999984741211,
-   "high": 13.170000076293944,
+   "high": 13.170000076293945,
    "low": 12.050000190734863,
    "close": 12.345000267028809,
    "volume": 171500,
@@ -1230,7 +1242,7 @@
   },
   {
    "date": "2025-11-10",
-   "open": 13.079999923706056,
+   "open": 13.079999923706055,
    "high": 13.25,
    "low": 11.640000343322754,
    "close": 11.890000343322754,
@@ -1270,7 +1282,7 @@
    "open": 12.5,
    "high": 13.0,
    "low": 12.234999656677246,
-   "close": 12.93000030517578,
+   "close": 12.930000305175781,
    "volume": 154700,
    "ret_pct": 8.75,
    "turnover_pct": 1.01,
@@ -1304,9 +1316,9 @@
   },
   {
    "date": "2025-11-12",
-   "open": 13.18000030517578,
-   "high": 13.975000381469728,
-   "low": 12.814000129699709,
+   "open": 13.180000305175781,
+   "high": 13.975000381469727,
+   "low": 12.814000129699707,
    "close": 13.869999885559082,
    "volume": 172100,
    "ret_pct": 7.27,
@@ -1343,7 +1355,7 @@
    "date": "2025-11-13",
    "open": 13.380000114440918,
    "high": 13.979999542236328,
-   "low": 13.19499969482422,
+   "low": 13.194999694824219,
    "close": 13.470000267028809,
    "volume": 119600,
    "ret_pct": -2.88,
@@ -1491,7 +1503,7 @@
    "date": "2025-11-19",
    "open": 12.40999984741211,
    "high": 13.0600004196167,
-   "low": 11.975000381469728,
+   "low": 11.975000381469727,
    "close": 12.710000038146973,
    "volume": 140700,
    "ret_pct": 3.21,
@@ -1566,7 +1578,7 @@
    "open": 12.970000267028809,
    "high": 12.970000267028809,
    "low": 12.324999809265137,
-   "close": 12.68000030517578,
+   "close": 12.680000305175781,
    "volume": 68800,
    "ret_pct": -1.55,
    "turnover_pct": 0.45,
@@ -1601,9 +1613,9 @@
   {
    "date": "2025-11-24",
    "open": 13.1899995803833,
-   "high": 14.600000381469728,
+   "high": 14.600000381469727,
    "low": 12.699999809265137,
-   "close": 14.100000381469728,
+   "close": 14.100000381469727,
    "volume": 185800,
    "ret_pct": 11.2,
    "turnover_pct": 1.21,
@@ -1638,7 +1650,7 @@
   {
    "date": "2025-11-25",
    "open": 14.239999771118164,
-   "high": 15.31999969482422,
+   "high": 15.319999694824219,
    "low": 13.960000038146973,
    "close": 15.3100004196167,
    "volume": 136700,
@@ -1711,8 +1723,8 @@
   },
   {
    "date": "2025-11-28",
-   "open": 14.43000030517578,
-   "high": 14.928999900817873,
+   "open": 14.430000305175781,
+   "high": 14.928999900817871,
    "low": 14.3100004196167,
    "close": 14.550000190734863,
    "volume": 60500,
@@ -1822,7 +1834,7 @@
   },
   {
    "date": "2025-12-03",
-   "open": 14.170000076293944,
+   "open": 14.170000076293945,
    "high": 14.720000267028809,
    "low": 13.699999809265137,
    "close": 14.390000343322754,
@@ -1861,8 +1873,8 @@
    "date": "2025-12-04",
    "open": 14.3100004196167,
    "high": 14.3100004196167,
-   "low": 12.93000030517578,
-   "close": 13.93000030517578,
+   "low": 12.930000305175781,
+   "close": 13.930000305175781,
    "volume": 138100,
    "ret_pct": -3.2,
    "turnover_pct": 0.9,
@@ -1934,9 +1946,9 @@
   {
    "date": "2025-12-08",
    "open": 14.270000457763672,
-   "high": 14.428999900817873,
+   "high": 14.428999900817871,
    "low": 13.760000228881836,
-   "close": 14.31999969482422,
+   "close": 14.319999694824219,
    "volume": 119600,
    "ret_pct": 2.36,
    "turnover_pct": 0.78,
@@ -1970,9 +1982,9 @@
   },
   {
    "date": "2025-12-09",
-   "open": 13.899999618530272,
-   "high": 14.43000030517578,
-   "low": 13.899999618530272,
+   "open": 13.899999618530273,
+   "high": 14.430000305175781,
+   "low": 13.899999618530273,
    "close": 14.03499984741211,
    "volume": 137000,
    "ret_pct": -1.99,
@@ -2007,8 +2019,8 @@
   },
   {
    "date": "2025-12-10",
-   "open": 14.06999969482422,
-   "high": 14.899999618530272,
+   "open": 14.069999694824219,
+   "high": 14.899999618530273,
    "low": 14.010000228881836,
    "close": 14.300000190734863,
    "volume": 132800,
@@ -2044,7 +2056,7 @@
   },
   {
    "date": "2025-12-11",
-   "open": 14.350000381469728,
+   "open": 14.350000381469727,
    "high": 15.699999809265137,
    "low": 14.140000343322754,
    "close": 15.470000267028809,
@@ -2081,8 +2093,8 @@
   },
   {
    "date": "2025-12-12",
-   "open": 15.649999618530272,
-   "high": 15.649999618530272,
+   "open": 15.649999618530273,
+   "high": 15.649999618530273,
    "low": 14.609999656677246,
    "close": 14.854999542236328,
    "volume": 124000,
@@ -2119,7 +2131,7 @@
   {
    "date": "2025-12-15",
    "open": 14.9399995803833,
-   "high": 15.559000015258787,
+   "high": 15.559000015258789,
    "low": 14.020000457763672,
    "close": 14.630000114440918,
    "volume": 104900,
@@ -2155,9 +2167,9 @@
   },
   {
    "date": "2025-12-16",
-   "open": 14.68000030517578,
+   "open": 14.680000305175781,
    "high": 17.0,
-   "low": 14.545000076293944,
+   "low": 14.545000076293945,
    "close": 16.579999923706055,
    "volume": 215200,
    "ret_pct": 13.33,
@@ -2490,7 +2502,7 @@
    "date": "2025-12-30",
    "open": 16.299999237060547,
    "high": 16.5,
-   "low": 15.399999618530272,
+   "low": 15.399999618530273,
    "close": 15.739999771118164,
    "volume": 100600,
    "ret_pct": -3.32,
@@ -2599,10 +2611,10 @@
   },
   {
    "date": "2026-01-05",
-   "open": 15.899999618530272,
+   "open": 15.899999618530273,
    "high": 16.030000686645508,
    "low": 15.0,
-   "close": 15.850000381469728,
+   "close": 15.850000381469727,
    "volume": 111000,
    "ret_pct": 0.44,
    "turnover_pct": 0.72,
@@ -2638,7 +2650,7 @@
    "date": "2026-01-06",
    "open": 16.229999542236328,
    "high": 16.405000686645508,
-   "low": 15.69499969482422,
+   "low": 15.694999694824219,
    "close": 16.299999237060547,
    "volume": 323600,
    "ret_pct": 2.84,
@@ -2787,7 +2799,7 @@
    "open": 15.760000228881836,
    "high": 16.0,
    "low": 14.65999984741211,
-   "close": 15.829999923706056,
+   "close": 15.829999923706055,
    "volume": 200600,
    "ret_pct": 1.93,
    "turnover_pct": 1.31,
@@ -2824,7 +2836,7 @@
    "open": 16.0,
    "high": 16.200000762939453,
    "low": 15.645000457763672,
-   "close": 15.829999923706056,
+   "close": 15.829999923706055,
    "volume": 187300,
    "ret_pct": 0.0,
    "turnover_pct": 1.22,
@@ -3080,8 +3092,8 @@
   },
   {
    "date": "2026-01-23",
-   "open": 18.86000061035156,
-   "high": 18.86000061035156,
+   "open": 18.860000610351562,
+   "high": 18.860000610351562,
    "low": 17.540000915527344,
    "close": 18.420000076293945,
    "volume": 238400,
@@ -3229,7 +3241,7 @@
   {
    "date": "2026-01-29",
    "open": 19.299999237060547,
-   "high": 20.88999938964844,
+   "high": 20.889999389648438,
    "low": 19.299999237060547,
    "close": 20.479999542236328,
    "volume": 323100,
@@ -3376,7 +3388,7 @@
   },
   {
    "date": "2026-02-04",
-   "open": 19.38999938964844,
+   "open": 19.389999389648438,
    "high": 19.489999771118164,
    "low": 17.915000915527344,
    "close": 18.93000030517578,
@@ -3489,7 +3501,7 @@
    "date": "2026-02-09",
    "open": 19.040000915527344,
    "high": 21.68000030517578,
-   "low": 18.98500061035156,
+   "low": 18.985000610351562,
    "close": 21.1200008392334,
    "volume": 631600,
    "ret_pct": 9.77,
@@ -3561,8 +3573,8 @@
   },
   {
    "date": "2026-02-11",
-   "open": 22.86000061035156,
-   "high": 22.86000061035156,
+   "open": 22.860000610351562,
+   "high": 22.860000610351562,
    "low": 20.5,
    "close": 21.399999618530273,
    "volume": 344000,
@@ -3822,7 +3834,7 @@
    "date": "2026-02-23",
    "open": 16.229999542236328,
    "high": 16.690000534057617,
-   "low": 14.829999923706056,
+   "low": 14.829999923706055,
    "close": 15.609999656677246,
    "volume": 734700,
    "ret_pct": -8.45,
@@ -3859,8 +3871,8 @@
    "date": "2026-02-24",
    "open": 15.5,
    "high": 16.389999389648438,
-   "low": 14.899999618530272,
-   "close": 15.899999618530272,
+   "low": 14.899999618530273,
+   "close": 15.899999618530273,
    "volume": 473500,
    "ret_pct": 1.86,
    "turnover_pct": 3.08,
@@ -3896,7 +3908,7 @@
    "date": "2026-02-25",
    "open": 16.010000228881836,
    "high": 17.09000015258789,
-   "low": 15.850000381469728,
+   "low": 15.850000381469727,
    "close": 16.940000534057617,
    "volume": 170800,
    "ret_pct": 6.54,
@@ -4007,7 +4019,7 @@
    "date": "2026-03-02",
    "open": 16.5,
    "high": 17.139999389648438,
-   "low": 15.81999969482422,
+   "low": 15.819999694824219,
    "close": 15.84000015258789,
    "volume": 187800,
    "ret_pct": -6.33,
@@ -4119,7 +4131,7 @@
    "open": 15.25,
    "high": 15.270000457763672,
    "low": 14.550000190734863,
-   "close": 15.06999969482422,
+   "close": 15.069999694824219,
    "volume": 208700,
    "ret_pct": -2.02,
    "turnover_pct": 1.36,
@@ -4177,7 +4189,7 @@
    "max_1m_time": null,
    "short": 57787.594785,
    "short_exempt": 0.0,
-   "offexch_total": 151509.367629,
+   "offexch_total": 151509.36762900001,
    "short_pct": 38.1,
    "offexch_pct": 36.8,
    "in_effect": 0.0,
@@ -4525,7 +4537,7 @@
    "date": "2026-03-20",
    "open": 21.079999923706055,
    "high": 21.790000915527344,
-   "low": 19.61000061035156,
+   "low": 19.610000610351562,
    "close": 19.6200008392334,
    "volume": 119900,
    "ret_pct": -7.23,
@@ -4671,7 +4683,7 @@
   },
   {
    "date": "2026-03-26",
-   "open": 21.13999938964844,
+   "open": 21.139999389648438,
    "high": 22.040000915527344,
    "low": 20.969999313354492,
    "close": 21.31999969482422,
@@ -4745,7 +4757,7 @@
   },
   {
    "date": "2026-03-30",
-   "open": 20.63999938964844,
+   "open": 20.639999389648438,
    "high": 20.670000076293945,
    "low": 19.450000762939453,
    "close": 19.950000762939453,
@@ -4782,9 +4794,9 @@
   },
   {
    "date": "2026-03-31",
-   "open": 19.88999938964844,
+   "open": 19.889999389648438,
    "high": 20.850000381469727,
-   "low": 19.13999938964844,
+   "low": 19.139999389648438,
    "close": 19.31999969482422,
    "volume": 122600,
    "ret_pct": -3.16,
@@ -4969,7 +4981,7 @@
    "date": "2026-04-08",
    "open": 20.020000457763672,
    "high": 20.040000915527344,
-   "low": 19.36000061035156,
+   "low": 19.360000610351562,
    "close": 19.75,
    "volume": 82600,
    "ret_pct": 3.4,
@@ -5005,7 +5017,7 @@
   {
    "date": "2026-04-09",
    "open": 19.209999084472656,
-   "high": 20.121999740600582,
+   "high": 20.121999740600586,
    "low": 17.204999923706055,
    "close": 17.469999313354492,
    "volume": 217600,
@@ -5338,7 +5350,7 @@
   {
    "date": "2026-04-22",
    "open": 18.0,
-   "high": 18.63999938964844,
+   "high": 18.639999389648438,
    "low": 17.809999465942383,
    "close": 17.959999084472656,
    "volume": 92600,
@@ -5710,7 +5722,7 @@
    "open": 17.420000076293945,
    "high": 17.420000076293945,
    "low": 15.75,
-   "close": 15.899999618530272,
+   "close": 15.899999618530273,
    "volume": 261500,
    "ret_pct": -4.96,
    "turnover_pct": 1.7,
@@ -5990,7 +6002,7 @@
    "max_1m_time": null,
    "short": 54435.101456,
    "short_exempt": 10.0,
-   "offexch_total": 116727.332491,
+   "offexch_total": 116727.33249100001,
    "short_pct": 46.6,
    "offexch_pct": 30.4,
    "in_effect": 1.0,
@@ -6003,7 +6015,7 @@
   },
   {
    "date": "2026-05-18",
-   "open": 15.850000381469728,
+   "open": 15.850000381469727,
    "high": 16.6200008392334,
    "low": 14.390000343322754,
    "close": 14.539999961853027,
@@ -6116,8 +6128,8 @@
    "date": "2026-05-21",
    "open": 15.770000457763672,
    "high": 16.559999465942383,
-   "low": 15.475000381469728,
-   "close": 15.920000076293944,
+   "low": 15.475000381469727,
+   "close": 15.920000076293945,
    "volume": 163300,
    "ret_pct": 2.91,
    "turnover_pct": 1.06,
@@ -6300,7 +6312,7 @@
   {
    "date": "2026-05-29",
    "open": 20.0,
-   "high": 21.99099922180176,
+   "high": 21.990999221801758,
    "low": 19.406999588012695,
    "close": 21.100000381469727,
    "volume": 378600,
@@ -6339,7 +6351,7 @@
    "open": 21.100000381469727,
    "high": 21.799999237060547,
    "low": 20.25,
-   "close": 20.38999938964844,
+   "close": 20.389999389648438,
    "volume": 300800,
    "ret_pct": -3.36,
    "turnover_pct": 1.96,
@@ -6487,7 +6499,7 @@
    "open": 20.579999923706055,
    "high": 21.03499984741211,
    "low": 19.219999313354492,
-   "close": 19.86000061035156,
+   "close": 19.860000610351562,
    "volume": 197600,
    "ret_pct": -4.47,
    "turnover_pct": 1.29,
@@ -6780,8 +6792,8 @@
   },
   {
    "date": "2026-06-17",
-   "open": 20.63999938964844,
-   "high": 20.753000259399418,
+   "open": 20.639999389648438,
+   "high": 20.753000259399414,
    "low": 19.299999237060547,
    "close": 19.854999542236328,
    "volume": 148700,
@@ -6819,7 +6831,7 @@
    "date": "2026-06-18",
    "open": 19.940000534057617,
    "high": 20.815000534057617,
-   "low": 19.86000061035156,
+   "low": 19.860000610351562,
    "close": 20.5,
    "volume": 140300,
    "ret_pct": 3.25,
@@ -6878,7 +6890,7 @@
    "max_1m_time": null,
    "short": 20953.03447,
    "short_exempt": 0.0,
-   "offexch_total": 62850.481505,
+   "offexch_total": 62850.481504999996,
    "short_pct": 33.3,
    "offexch_pct": 35.7,
    "in_effect": 0.0,
@@ -7285,7 +7297,7 @@
    "max_1m_time": null,
    "short": 37552.937112,
    "short_exempt": 0.0,
-   "offexch_total": 53650.530529,
+   "offexch_total": 53650.530528999996,
    "short_pct": 70.0,
    "offexch_pct": 31.4,
    "in_effect": 0.0,
@@ -7581,7 +7593,7 @@
    "max_1m_time": null,
    "short": 46388.125927,
    "short_exempt": 0.0,
-   "offexch_total": 115844.382385,
+   "offexch_total": 115844.38238499999,
    "short_pct": 40.0,
    "offexch_pct": 39.7,
    "in_effect": 0.0,
@@ -7634,7 +7646,7 @@
    "open": 21.040000915527344,
    "high": 22.75,
    "low": 20.6299991607666,
-   "close": 21.86000061035156,
+   "close": 21.860000610351562,
    "volume": 310600,
    "ret_pct": -0.88,
    "turnover_pct": 2.02,
@@ -7655,7 +7667,7 @@
    "max_1m_time": null,
    "short": 44454.349224,
    "short_exempt": 0.0,
-   "offexch_total": 126335.535941,
+   "offexch_total": 126335.53594100001,
    "short_pct": 35.2,
    "offexch_pct": 40.7,
    "in_effect": 0.0,
@@ -7892,8 +7904,8 @@
    "date": "2026-07-31",
    "open": 19.059999465942383,
    "high": 19.56999969482422,
-   "low": 18.40800094604492,
-   "close": 18.63999938964844,
+   "low": 18.408000946044922,
+   "close": 18.639999389648438,
    "volume": 42500,
    "ret_pct": -3.12,
    "turnover_pct": 0.28,
@@ -8001,7 +8013,7 @@
   },
   {
    "date": "2026-08-05",
-   "open": 18.63999938964844,
+   "open": 18.639999389648438,
    "high": 20.0,
    "low": 18.0,
    "close": 18.459999084472656,
@@ -8076,7 +8088,7 @@
   {
    "date": "2026-08-07",
    "open": 17.860000610351562,
-   "high": 18.61000061035156,
+   "high": 18.610000610351562,
    "low": 17.860000610351562,
    "close": 18.260000228881836,
    "volume": 69600,
@@ -8780,7 +8792,7 @@
    "date": "2026-09-03",
    "open": 26.260000228881836,
    "high": 26.579999923706055,
-   "low": 25.11000061035156,
+   "low": 25.110000610351562,
    "close": 25.6299991607666,
    "volume": 203500,
    "ret_pct": -1.61,
@@ -9483,7 +9495,7 @@
    "date": "2026-10-01",
    "open": 23.280000686645508,
    "high": 23.604000091552734,
-   "low": 21.88999938964844,
+   "low": 21.889999389648438,
    "close": 21.950000762939453,
    "volume": 89400,
    "ret_pct": -5.1,
@@ -9555,8 +9567,8 @@
   },
   {
    "date": "2026-10-05",
-   "open": 20.63999938964844,
-   "high": 21.36000061035156,
+   "open": 20.639999389648438,
+   "high": 21.360000610351562,
    "low": 20.100000381469727,
    "close": 20.959999084472656,
    "volume": 156400,
@@ -9815,7 +9827,7 @@
   {
    "date": "2026-10-14",
    "open": 21.299999237060547,
-   "high": 21.63999938964844,
+   "high": 21.639999389648438,
    "low": 20.399999618530273,
    "close": 20.600000381469727,
    "volume": 154500,
@@ -9871,7 +9883,7 @@
    "close_vs_vwap_pct": -0.64,
    "first30_pct": 8.5,
    "last30_pct": 24.4,
-   "max_1m_vol": 5309.0,
+   "max_1m_vol": 5489.0,
    "max_1m_time": "13:25",
    "short": 17612.943579,
    "short_exempt": 0.0,
@@ -9888,7 +9900,7 @@
   },
   {
    "date": "2026-10-16",
-   "open": 20.11000061035156,
+   "open": 20.110000610351562,
    "high": 20.3799991607666,
    "low": 18.049999237060547,
    "close": 18.520000457763672,
@@ -9912,7 +9924,7 @@
    "max_1m_time": "11:05",
    "short": 56621.224074,
    "short_exempt": 1.0,
-   "offexch_total": 111645.617106,
+   "offexch_total": 111645.61710599999,
    "short_pct": 50.7,
    "offexch_pct": 33.4,
    "in_effect": 1.0,
@@ -9941,11 +9953,11 @@
    "ma200": 19.51,
    "rsi14": 36.3,
    "pct_b": 0.04,
-   "vwap": 18.863,
-   "close_vs_vwap_pct": 0.83,
-   "first30_pct": 15.6,
+   "vwap": 18.862,
+   "close_vs_vwap_pct": 0.84,
+   "first30_pct": 15.7,
    "last30_pct": 16.0,
-   "max_1m_vol": 9562.0,
+   "max_1m_vol": 9549.0,
    "max_1m_time": "10:13",
    "short": 40966.828851,
    "short_exempt": 2279.0,
@@ -9978,8 +9990,8 @@
    "ma200": 19.52,
    "rsi14": 34.9,
    "pct_b": 0.04,
-   "vwap": 19.144,
-   "close_vs_vwap_pct": -2.69,
+   "vwap": 19.143,
+   "close_vs_vwap_pct": -2.68,
    "first30_pct": 5.0,
    "last30_pct": 6.6,
    "max_1m_vol": 8674.0,
@@ -10015,15 +10027,15 @@
    "ma200": 19.52,
    "rsi14": 28.8,
    "pct_b": -0.11,
-   "vwap": 17.523,
-   "close_vs_vwap_pct": -4.53,
+   "vwap": 17.518,
+   "close_vs_vwap_pct": -4.5,
    "first30_pct": 1.2,
    "last30_pct": 23.8,
    "max_1m_vol": 19155.0,
    "max_1m_time": "11:31",
    "short": 42799.361793,
    "short_exempt": 560.0,
-   "offexch_total": 124511.942648,
+   "offexch_total": 124511.94264800001,
    "short_pct": 34.4,
    "offexch_pct": 42.6,
    "in_effect": 1.0,
@@ -10089,10 +10101,10 @@
    "ma200": 19.53,
    "rsi14": 33.7,
    "pct_b": 0.12,
-   "vwap": 17.41,
-   "close_vs_vwap_pct": -0.34,
-   "first30_pct": 10.8,
-   "last30_pct": 21.0,
+   "vwap": 17.427,
+   "close_vs_vwap_pct": -0.44,
+   "first30_pct": 7.6,
+   "last30_pct": 21.8,
    "max_1m_vol": 18593.0,
    "max_1m_time": "15:59",
    "short": 20959.403433,
@@ -10521,7 +10533,7 @@
   {
    "week": "2026-06-01",
    "consol_vol": 1395500.0,
-   "week_close": 19.86000061035156,
+   "week_close": 19.860000610351562,
    "ats_shares": 367250.0,
    "ats_trades": 5718.0,
    "ats_avg_size": 64,
@@ -10641,33 +10653,33 @@
    "week": "2026-07-20",
    "consol_vol": 1447900.0,
    "week_close": 18.739999771118164,
-   "ats_shares": 337121.0,
-   "ats_trades": 5089.0,
+   "ats_shares": 674242.0,
+   "ats_trades": 10178.0,
    "ats_avg_size": 66,
-   "nonats_shares": 307072.896736,
+   "nonats_shares": 614145.793472,
    "wholesaler_shares": 0.0,
    "citadel_shares": 0.0,
-   "deminimis_shares": 307072.896736,
-   "offexch_shares": 644193.896736,
-   "ats_pct_of_consol": 23.3,
-   "offexch_pct_of_consol": 44.5,
+   "deminimis_shares": 614145.793472,
+   "offexch_shares": 1288387.793472,
+   "ats_pct_of_consol": 46.6,
+   "offexch_pct_of_consol": 89.0,
    "top_ats": "UBS ATS 59k / 大摩 MS Pool 43k / Intelligent Cross 36k",
    "published": "2026-08-24"
   },
   {
    "week": "2026-07-27",
    "consol_vol": 437400.0,
-   "week_close": 18.63999938964844,
-   "ats_shares": 76735.0,
-   "ats_trades": 2429.0,
+   "week_close": 18.639999389648438,
+   "ats_shares": 153470.0,
+   "ats_trades": 4858.0,
    "ats_avg_size": 32,
-   "nonats_shares": 72266.516362,
+   "nonats_shares": 144533.032724,
    "wholesaler_shares": 0.0,
    "citadel_shares": 0.0,
-   "deminimis_shares": 72266.516362,
-   "offexch_shares": 149001.516362,
-   "ats_pct_of_consol": 17.5,
-   "offexch_pct_of_consol": 34.1,
+   "deminimis_shares": 144533.032724,
+   "offexch_shares": 298003.032724,
+   "ats_pct_of_consol": 35.1,
+   "offexch_pct_of_consol": 68.1,
    "top_ats": "UBS ATS 11k / 大摩 MS Pool 11k / Intelligent Cross 10k",
    "published": "2026-08-31"
   },
@@ -10675,16 +10687,16 @@
    "week": "2026-08-03",
    "consol_vol": 512300.0,
    "week_close": 18.260000228881836,
-   "ats_shares": 103216.0,
-   "ats_trades": 4922.0,
+   "ats_shares": 206432.0,
+   "ats_trades": 9844.0,
    "ats_avg_size": 21,
-   "nonats_shares": 69626.958608,
+   "nonats_shares": 139253.917216,
    "wholesaler_shares": 0.0,
    "citadel_shares": 0.0,
-   "deminimis_shares": 69626.958608,
-   "offexch_shares": 172842.95860800002,
-   "ats_pct_of_consol": 20.1,
-   "offexch_pct_of_consol": 33.7,
+   "deminimis_shares": 139253.917216,
+   "offexch_shares": 345685.91721600003,
+   "ats_pct_of_consol": 40.3,
+   "offexch_pct_of_consol": 67.5,
    "top_ats": "Intelligent Cross 14k / 美银 Instinct X 12k / UBS ATS 11k",
    "published": "2026-09-08"
   },
@@ -10692,16 +10704,16 @@
    "week": "2026-08-10",
    "consol_vol": 674300.0,
    "week_close": 19.75,
-   "ats_shares": 161689.0,
-   "ats_trades": 5190.0,
+   "ats_shares": 323378.0,
+   "ats_trades": 10380.0,
    "ats_avg_size": 31,
-   "nonats_shares": 121754.767775,
+   "nonats_shares": 243509.53555,
    "wholesaler_shares": 0.0,
    "citadel_shares": 0.0,
-   "deminimis_shares": 121754.767775,
-   "offexch_shares": 283443.767775,
-   "ats_pct_of_consol": 24.0,
-   "offexch_pct_of_consol": 42.0,
+   "deminimis_shares": 243509.53555,
+   "offexch_shares": 566887.53555,
+   "ats_pct_of_consol": 48.0,
+   "offexch_pct_of_consol": 84.1,
    "top_ats": "高盛 Sigma X2 23k / UBS ATS 18k / Intelligent Cross 17k",
    "published": "2026-09-14"
   },
@@ -10709,16 +10721,16 @@
    "week": "2026-08-17",
    "consol_vol": 1085300.0,
    "week_close": 20.200000762939453,
-   "ats_shares": 191173.0,
-   "ats_trades": 6380.0,
+   "ats_shares": 382346.0,
+   "ats_trades": 12760.0,
    "ats_avg_size": 30,
-   "nonats_shares": 219690.014498,
+   "nonats_shares": 439380.028996,
    "wholesaler_shares": 0.0,
    "citadel_shares": 0.0,
-   "deminimis_shares": 219690.014498,
-   "offexch_shares": 410863.01449800003,
-   "ats_pct_of_consol": 17.6,
-   "offexch_pct_of_consol": 37.9,
+   "deminimis_shares": 439380.028996,
+   "offexch_shares": 821726.0289960001,
+   "ats_pct_of_consol": 35.2,
+   "offexch_pct_of_consol": 75.7,
    "top_ats": "美银 Instinct X 32k / 高盛 Sigma X2 24k / UBS ATS 21k",
    "published": "2026-09-21"
   },
@@ -10726,16 +10738,16 @@
    "week": "2026-08-24",
    "consol_vol": 2991900.0,
    "week_close": 25.760000228881836,
-   "ats_shares": 710286.0,
-   "ats_trades": 12231.0,
+   "ats_shares": 1420572.0,
+   "ats_trades": 24462.0,
    "ats_avg_size": 58,
-   "nonats_shares": 508932.098394,
-   "wholesaler_shares": 159888.0,
-   "citadel_shares": 159888.0,
-   "deminimis_shares": 349044.098394,
-   "offexch_shares": 1219218.098394,
-   "ats_pct_of_consol": 23.7,
-   "offexch_pct_of_consol": 40.8,
+   "nonats_shares": 1017864.196788,
+   "wholesaler_shares": 319776.0,
+   "citadel_shares": 319776.0,
+   "deminimis_shares": 698088.196788,
+   "offexch_shares": 2438436.196788,
+   "ats_pct_of_consol": 47.5,
+   "offexch_pct_of_consol": 81.5,
    "top_ats": "高盛 Sigma X2 142k / UBS ATS 100k / 大摩 MS Pool 78k",
    "published": "2026-09-28"
   },
@@ -10743,16 +10755,16 @@
    "week": "2026-08-31",
    "consol_vol": 1024100.0,
    "week_close": 25.440000534057617,
-   "ats_shares": 300725.0,
-   "ats_trades": 6862.0,
+   "ats_shares": 601450.0,
+   "ats_trades": 13724.0,
    "ats_avg_size": 44,
-   "nonats_shares": 138847.21706,
+   "nonats_shares": 277694.43412,
    "wholesaler_shares": 0.0,
    "citadel_shares": 0.0,
-   "deminimis_shares": 138847.21706,
-   "offexch_shares": 439572.21706,
-   "ats_pct_of_consol": 29.4,
-   "offexch_pct_of_consol": 42.9,
+   "deminimis_shares": 277694.43412,
+   "offexch_shares": 879144.43412,
+   "ats_pct_of_consol": 58.7,
+   "offexch_pct_of_consol": 85.8,
    "top_ats": "高盛 Sigma X2 45k / 大摩 MS Pool 37k / UBS ATS 35k",
    "published": "2026-10-05"
   },
@@ -10760,16 +10772,16 @@
    "week": "2026-09-07",
    "consol_vol": 741700.0,
    "week_close": 23.469999313354492,
-   "ats_shares": 233677.0,
-   "ats_trades": 6524.0,
+   "ats_shares": 467354.0,
+   "ats_trades": 13048.0,
    "ats_avg_size": 36,
-   "nonats_shares": 104324.953428,
+   "nonats_shares": 208649.906856,
    "wholesaler_shares": 0.0,
    "citadel_shares": 0.0,
-   "deminimis_shares": 104324.953428,
-   "offexch_shares": 338001.953428,
-   "ats_pct_of_consol": 31.5,
-   "offexch_pct_of_consol": 45.6,
+   "deminimis_shares": 208649.906856,
+   "offexch_shares": 676003.906856,
+   "ats_pct_of_consol": 63.0,
+   "offexch_pct_of_consol": 91.1,
    "top_ats": "高盛 Sigma X2 47k / UBS ATS 37k / Intelligent Cross 21k",
    "published": "2026-10-12"
   },
@@ -10777,16 +10789,16 @@
    "week": "2026-09-14",
    "consol_vol": 991900.0,
    "week_close": 24.190000534057617,
-   "ats_shares": 309103.0,
-   "ats_trades": 10462.0,
+   "ats_shares": 618206.0,
+   "ats_trades": 20924.0,
    "ats_avg_size": 30,
-   "nonats_shares": 133281.704829,
+   "nonats_shares": 266563.409658,
    "wholesaler_shares": 0.0,
    "citadel_shares": 0.0,
-   "deminimis_shares": 133281.704829,
-   "offexch_shares": 442384.704829,
-   "ats_pct_of_consol": 31.2,
-   "offexch_pct_of_consol": 44.6,
+   "deminimis_shares": 266563.409658,
+   "offexch_shares": 884769.409658,
+   "ats_pct_of_consol": 62.3,
+   "offexch_pct_of_consol": 89.2,
    "top_ats": "高盛 Sigma X2 50k / 美银 Instinct X 49k / UBS ATS 33k",
    "published": "2026-10-19"
   }
@@ -11822,7 +11834,7 @@
   {
    "date": "2026-10-26",
    "expiry": "TOTAL",
-   "calls_oi": 1139,
+   "calls_oi": 1059,
    "puts_oi": 107,
    "calls_vol": 148,
    "puts_vol": 78
@@ -11862,14 +11874,6 @@
     "oi": 138,
     "vol": 6,
     "last": 2.02
-   },
-   {
-    "expiry": "2026-11-20",
-    "type": "C",
-    "strike": 10.0,
-    "oi": 80,
-    "vol": 1,
-    "last": 9.11
    },
    {
     "expiry": "2026-11-20",
@@ -12998,7 +13002,7 @@
    "shares": null,
    "price": null,
    "acq_disp": null,
-   "post_shares": 38305,
+   "post_shares": 38305.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": "holding only"
   },
@@ -13013,7 +13017,7 @@
    "shares": null,
    "price": null,
    "acq_disp": null,
-   "post_shares": 487462,
+   "post_shares": 487462.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": "holding only"
   },
@@ -13028,7 +13032,7 @@
    "shares": null,
    "price": null,
    "acq_disp": null,
-   "post_shares": 75021,
+   "post_shares": 75021.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": "holding only"
   },
@@ -13043,7 +13047,7 @@
    "shares": null,
    "price": null,
    "acq_disp": null,
-   "post_shares": 138694,
+   "post_shares": 138694.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": "holding only"
   },
@@ -13058,7 +13062,7 @@
    "shares": null,
    "price": null,
    "acq_disp": null,
-   "post_shares": 647592,
+   "post_shares": 647592.0,
    "security": "Class B Ordinary Share, par value $0.0015 per share",
    "note": "holding only"
   },
@@ -13073,7 +13077,7 @@
    "shares": null,
    "price": null,
    "acq_disp": null,
-   "post_shares": 4506,
+   "post_shares": 4506.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": "holding only"
   },
@@ -13088,7 +13092,7 @@
    "shares": 91629.0,
    "price": 0.0,
    "acq_disp": "A",
-   "post_shares": 597930,
+   "post_shares": 597930.0,
    "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
@@ -13103,7 +13107,7 @@
    "shares": null,
    "price": null,
    "acq_disp": null,
-   "post_shares": 43178,
+   "post_shares": 43178.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": "holding only"
   },
@@ -13118,9 +13122,24 @@
    "shares": 6406.0,
    "price": 0.0,
    "acq_disp": "A",
-   "post_shares": 22279,
+   "post_shares": 22279.0,
    "security": "[衍生] Restricted Stock Unit",
    "note": null
+  },
+  {
+   "accession": "0001628280-26-043073",
+   "filing_date": "2026-06-15",
+   "form": "3",
+   "owner": "Leogrande Hudson Blake",
+   "title": "Director",
+   "tx_date": null,
+   "code": null,
+   "shares": null,
+   "price": null,
+   "acq_disp": null,
+   "post_shares": null,
+   "security": null,
+   "note": "no transactions"
   },
   {
    "accession": "0001628280-26-043436",
@@ -13133,7 +13152,7 @@
    "shares": 15873.0,
    "price": 0.0,
    "acq_disp": "D",
-   "post_shares": 6406,
+   "post_shares": 6406.0,
    "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
@@ -13148,7 +13167,7 @@
    "shares": 15873.0,
    "price": 0.0,
    "acq_disp": "A",
-   "post_shares": 59051,
+   "post_shares": 59051.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13163,7 +13182,7 @@
    "shares": 8681.0,
    "price": 0.0,
    "acq_disp": "D",
-   "post_shares": 0,
+   "post_shares": 0.0,
    "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
@@ -13178,7 +13197,7 @@
    "shares": 6944.0,
    "price": 0.0,
    "acq_disp": "A",
-   "post_shares": 45249,
+   "post_shares": 45249.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13193,7 +13212,7 @@
    "shares": 2000.0,
    "price": 0.0,
    "acq_disp": "A",
-   "post_shares": 2000,
+   "post_shares": 2000.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13208,7 +13227,7 @@
    "shares": 2000.0,
    "price": 0.0,
    "acq_disp": "D",
-   "post_shares": 22004,
+   "post_shares": 22004.0,
    "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
@@ -13223,7 +13242,7 @@
    "shares": 2001.0,
    "price": 0.0,
    "acq_disp": "A",
-   "post_shares": 4001,
+   "post_shares": 4001.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13238,7 +13257,7 @@
    "shares": 2001.0,
    "price": 0.0,
    "acq_disp": "D",
-   "post_shares": 20003,
+   "post_shares": 20003.0,
    "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
@@ -13253,7 +13272,7 @@
    "shares": 491029.0,
    "price": 0.0001,
    "acq_disp": "D",
-   "post_shares": 61086,
+   "post_shares": 61086.0,
    "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
@@ -13268,7 +13287,7 @@
    "shares": 45815.0,
    "price": 0.0,
    "acq_disp": "D",
-   "post_shares": 61086,
+   "post_shares": 61086.0,
    "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
@@ -13283,7 +13302,7 @@
    "shares": 45815.0,
    "price": 0.0,
    "acq_disp": "A",
-   "post_shares": 566013,
+   "post_shares": 566013.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13298,7 +13317,7 @@
    "shares": 32736.0,
    "price": 0.0001,
    "acq_disp": "A",
-   "post_shares": 566013,
+   "post_shares": 566013.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13313,7 +13332,7 @@
    "shares": 809295.0,
    "price": 0.0001,
    "acq_disp": "D",
-   "post_shares": 0,
+   "post_shares": 0.0,
    "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
@@ -13328,7 +13347,7 @@
    "shares": 53953.0,
    "price": 0.0001,
    "acq_disp": "A",
-   "post_shares": 137647,
+   "post_shares": 137647.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13343,7 +13362,7 @@
    "shares": 6000.0,
    "price": 20.9,
    "acq_disp": "A",
-   "post_shares": 101235,
+   "post_shares": 101235.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13358,7 +13377,7 @@
    "shares": 7500.0,
    "price": 18.31,
    "acq_disp": "A",
-   "post_shares": 95235,
+   "post_shares": 95235.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13373,7 +13392,7 @@
    "shares": 49912.0,
    "price": 0.0,
    "acq_disp": "D",
-   "post_shares": 87735,
+   "post_shares": 87735.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13388,7 +13407,7 @@
    "shares": 11181.0,
    "price": 21.4,
    "acq_disp": "A",
-   "post_shares": 112416,
+   "post_shares": 112416.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13403,7 +13422,7 @@
    "shares": 18000.0,
    "price": 21.19,
    "acq_disp": "A",
-   "post_shares": 18000,
+   "post_shares": 18000.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13418,7 +13437,7 @@
    "shares": 5100.0,
    "price": 22.8,
    "acq_disp": "A",
-   "post_shares": 23100,
+   "post_shares": 23100.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13433,7 +13452,7 @@
    "shares": 10730.0,
    "price": 0.0,
    "acq_disp": "A",
-   "post_shares": 10730,
+   "post_shares": 10730.0,
    "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
@@ -13448,7 +13467,7 @@
    "shares": 2000.0,
    "price": 0.0,
    "acq_disp": "A",
-   "post_shares": 6001,
+   "post_shares": 6001.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13463,7 +13482,7 @@
    "shares": 2000.0,
    "price": 0.0,
    "acq_disp": "D",
-   "post_shares": 18003,
+   "post_shares": 18003.0,
    "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
@@ -13478,7 +13497,7 @@
    "shares": 7635.0,
    "price": 0.0,
    "acq_disp": "A",
-   "post_shares": 573648,
+   "post_shares": 573648.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13493,7 +13512,7 @@
    "shares": 7635.0,
    "price": 0.0,
    "acq_disp": "D",
-   "post_shares": 53451,
+   "post_shares": 53451.0,
    "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
@@ -13508,7 +13527,7 @@
    "shares": 2000.0,
    "price": 0.0,
    "acq_disp": "A",
-   "post_shares": 8001,
+   "post_shares": 8001.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13523,7 +13542,7 @@
    "shares": 2000.0,
    "price": 0.0,
    "acq_disp": "D",
-   "post_shares": 16003,
+   "post_shares": 16003.0,
    "security": "[衍生] Restricted Stock Unit",
    "note": null
   }
@@ -14022,18 +14041,18 @@
    "filing_date": "2026-03-31",
    "form": "F-3",
    "description": "F-3",
-   "tags": null,
+   "tags": "回购|增发/注册|权证|业绩|合作/代言|人事|比特币|内部人买入",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On March 30, 2026, the closing sale price as reported on Nasdaq of our Class A Ordinary Shares was $19.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026022241/preneticsglobalf-3resalewa.htm"
   },
   {
    "filing_date": "2026-04-02",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "合作/代言",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On April 2, 2026, Prenetics Global Limited (the “Company”) issued a press release announcing a multi-year global partnership with Giannis Antetokounmpo. A copy of the press release is furnished as Exhibit 99.1 to this report on Form 6-K.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026022955/a6-k020426giannisannouncem.htm"
   },
   {
@@ -14049,43 +14068,43 @@
    "filing_date": "2026-04-30",
    "form": "20-F",
    "description": "20-F",
-   "tags": null,
+   "tags": "回购|增发/注册|权证|业绩|合作/代言|人事|比特币|指引|内部人买入",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On December 4, 2025, we ceased all further digital asset acquisitions, and on December 30, 2025, the board of directors determined that the Company would not allocate any existing or new capital for the purpose of acquiring additional digital assets.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026028623/pre-20251231.htm"
   },
   {
    "filing_date": "2026-05-04",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "回购|业绩|比特币",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On May 1, 2026, the Board of Directors (the “Board”) of Prenetics Global Limited (NASDAQ: PRE) (the “Company”) authorized the complete divestment of the Company’s entire Bitcoin treasury holdings of approximately 510 Bitcoin (“BTC”).",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026029528/a6-k040526btcsaleannouncem.htm"
   },
   {
    "filing_date": "2026-05-07",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "合作/代言",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On May 7, 2026, Prenetics Global Limited (the “Company”) issued a press release announcing a multi-year partnership with Inter Miami CF. A copy of the press release is furnished as Exhibit 99.1 to this report on Form 6-K.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026031732/a6-k070526imcfannouncement.htm"
   },
   {
    "filing_date": "2026-05-14",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "人事",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On May 14, 2026, Prenetics Global Limited (the “Company”) issued a press release announcing the appointment of Brian J. Rosin as Chief Financial Officer of IM8. A copy of the press release is furnished as Exhibit 99.1 to this report on Form 6-K.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026034812/a6-k140526im8cfoannounceme.htm"
   },
   {
    "filing_date": "2026-05-14",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "业绩",
    "pct_of_class": null,
    "snippet": null,
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026034810/a6-kx2026q1prelim.htm"
@@ -14094,9 +14113,9 @@
    "filing_date": "2026-05-20",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "合作/代言",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On May 20, 2026, Prenetics Global Limited (the “Company”) issued a press release announcing a multi-year global partnership with Jay Shetty. A copy of the press release is furnished as Exhibit 99.1 to this report on Form 6-K.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026036726/a6-k200526jayshettyannounc.htm"
   },
   {
@@ -14130,16 +14149,16 @@
    "filing_date": "2026-06-04",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "人事",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On June 4, 2026, the Company issued a press release announcing the appointment of Mr.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026040632/a2026-06x046xkdirectorchan.htm"
   },
   {
    "filing_date": "2026-06-10",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "业绩",
    "pct_of_class": null,
    "snippet": null,
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026042070/a6-kx2026q1.htm"
@@ -14175,7 +14194,7 @@
    "filing_date": "2026-07-02",
    "form": "20-F/A",
    "description": "20-F/A",
-   "tags": null,
+   "tags": "权证|业绩",
    "pct_of_class": null,
    "snippet": null,
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026046702/pre-20251231.htm"
@@ -14202,7 +14221,7 @@
    "filing_date": "2026-07-14",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "GC融资",
    "pct_of_class": null,
    "snippet": null,
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026048109/a6-kx2026x07x14xgeneralcat.htm"
@@ -14211,9 +14230,9 @@
    "filing_date": "2026-07-30",
    "form": "20-F/A",
    "description": "20-F/A",
-   "tags": null,
+   "tags": "回购|增发/注册|权证|业绩|合作/代言|比特币|指引|内部人买入",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On December 4, 2025, we ceased all further digital asset acquisitions, and on December 30, 2025, the board of directors determined that the Company would not allocate any existing or new capital for the purpose of acquiring additional digital assets.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026050791/pre-20251231.htm"
   },
   {
@@ -14229,18 +14248,18 @@
    "filing_date": "2026-08-07",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "权证|GC融资",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On July 14, 2026, Prenetics Global Limited (the \"Company\") announced the closing of a $1 billion growth financing arrangement with General Catalyst's Customer Value Fund for the Company's IM8 business.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026054607/a6-kx2026x08x07xgeneralcat.htm"
   },
   {
    "filing_date": "2026-08-07",
    "form": "F-1/A",
    "description": "F-1/A",
-   "tags": null,
+   "tags": "回购|增发/注册|权证|业绩|合作/代言|人事|GC融资|内部人买入",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On August 6, 2026, the closing sale price as reported on Nasdaq of our Class A Ordinary Shares was $17.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026054612/preneticsglobalf-1aresalew.htm"
   },
   {
@@ -14256,7 +14275,7 @@
    "filing_date": "2026-08-17",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "人事",
    "pct_of_class": null,
    "snippet": null,
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026057245/a6-kx2026x08x17xcarolinele.htm"
@@ -14265,25 +14284,25 @@
    "filing_date": "2026-08-18",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "业绩",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On August 18, 2026, the Company issued a shareholder letter (the “Letter”) and investor presentation (the \"Presentation\") regarding its unaudited financial results for the second quarter ended June 30, 2026.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026057534/a6-kx2026q2.htm"
   },
   {
    "filing_date": "2026-08-20",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "合作/代言",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On August 20, 2026, Prenetics Global Limited (the “Company”) issued a press release announcing a multi-year global partnership with Lily Collins.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026058154/a6-kxlilycollinsannounceme.htm"
   },
   {
    "filing_date": "2026-08-21",
    "form": "S-8",
    "description": "S-8",
-   "tags": null,
+   "tags": "人事",
    "pct_of_class": null,
    "snippet": null,
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026058342/fy26forms-8.htm"
@@ -14328,9 +14347,9 @@
    "filing_date": "2026-08-26",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "内部人买入",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On August 26, 2026, Prenetics Global Limited (the “Company”) issued a press release announcing the open market purchases of its shares by members of its leadership team.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026058996/a6-kxopenmarketsharepurcha.htm"
   },
   {
@@ -14355,25 +14374,25 @@
    "filing_date": "2026-09-04",
    "form": "20-F/A",
    "description": "20-F/A",
-   "tags": null,
+   "tags": "回购|增发/注册|权证|合作/代言|比特币|指引|内部人买入",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On October 1, 2025, we disposed of our Diagnostics business, which is presented as discontinued operations in accordance with IFRS 5 in our consolidated financial statements for the year ended December 31, 2025.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026060650/pre-20251231.htm"
   },
   {
    "filing_date": "2026-09-08",
    "form": "F-1/A",
    "description": "F-1/A",
-   "tags": null,
+   "tags": "回购|增发/注册|权证|业绩|合作/代言|人事|GC融资|内部人买入",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On August 7, 2026, Prenetics Global Limited filed the Pre-Effective Amendment No.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026060821/preneticsglobalf-1a2resale.htm"
   },
   {
    "filing_date": "2026-09-22",
    "form": "F-1/A",
    "description": "F-1/A",
-   "tags": null,
+   "tags": "权证",
    "pct_of_class": null,
    "snippet": null,
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026062972/preneticsglobalf-1a3resale.htm"
@@ -14400,9 +14419,9 @@
    "filing_date": "2026-10-13",
    "form": "6-K",
    "description": "6-K",
-   "tags": null,
+   "tags": "合作/代言",
    "pct_of_class": null,
-   "snippet": null,
+   "snippet": "On October 12, 2026, Prenetics Global Limited (the “Company”) issued a press release announcing a multi-year collaboration with the National Basketball Association (NBA) that makes IM8 the Official Nutrition Partner of the NBA in Australia and Southeast Asia.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026065584/a6-kxnbapartnership.htm"
   }
  ],
@@ -14497,179 +14516,46 @@
  },
  "news": [
   {
-   "date": "2026-07-14",
-   "title": "Prenetics Raises $1 Billion Growth Financing from General Catalyst for IM8 and Lifts 2026 Revenue Guidance to $210 Million-$220 Million | PRE Stock News - Quiver Quantitative",
+   "date": "2026-08-26",
+   "title": "Prenetics Global Limited Leadership Buys $1.0 Million in Shares, Bringing Total Insider Investment Since November 2025 to $3.75 Million | PRE Stock News - Quiver Quantitative",
    "source": "Quiver Quantitative",
-   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPblA2cUJtamp1R2hBeTZRaml2eHNienpSZXJLWTlSMlluN2pJQkRLanBiYXRTMVp2Y1lwaEkyZzIzVHVJdWNwTmY0WHpfZjZPdmM0RC1PeTVYdVdka0ZTRDRzVzJnUjU1SWdtMF95YzF1ZXVIZzRXRm05WndxRG5DWGMtV1ZtTEo0cE9iTnNxbmtnRXlWalFsS1F1cDhSbGpyVWM2MF9DQzlMSUE3LTFXT0ZNVGFEc0RoTThGYWxPejFReWVPTENiNmwxNllJS05tc3RtakkwVkl1MDM0S2xxQV9IVnJzQUhZWVhKZnlPNW1Ua1hmdzJJeEdaSE9lT0hRVkg4Mg?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-07-14",
-   "title": "David Beckham's health drink startup IM8 takes $1B from General Catalyst's unusual CVF fund - TechCrunch",
-   "source": "TechCrunch",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNR0JySnZFSVRub214cFpWZHdQNndkZHBJa1V4X0JYWkxZOTA0MTUyd0JkbmNhcXJqbVo1M1J0WkRyMEVqY0ozTEFFMlZOalRabzVrLXpvLWFQaS1CUUR3ZVVVZ2VXbVduRU9CSHlicy1FV1B1TWlHLUR5eW1qWHB3ZzNWQzBLTUNQcEE5RXFyXzhhT1cyQzFuMlppOEZTNndWWGxPRXNFTFZueDZRY2JqaWdGdFhRU3JBaGVVZTBVcFQ?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-07-15",
-   "title": "David Beckham’s Prenetics Secures $1B From General Catalyst to Scale IM8 Wellness Brand - citybiz",
-   "source": "citybiz",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY3Z5T1NObWNQTFJXSEdGa2Y0ZjlLRnBsaWRWOHhUMGxVY1hYSmNDdDZ1d21KYTV6MlpwZFo1cnh2MmhsbXdmVXlpSndEN0ttYWczcXdaUGUzcVotd0JURmlmQTVjYUVaRXpRVVIxbjBNNFE5LXR4dzFWV0w1cEpLRUdhRHg1UlVXTHRqcG5RN0NBMDAwVHpKRWl5Wmd1Rk10am1uellSdnJneGdXODU2ZDg2WG5STTdWS0NzMGstN0FUUQ?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-07-15",
-   "title": "Prenetics CEO on securing $1 billion funding to fuel subsidiary IM8's growth - CNBC",
-   "source": "CNBC",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxOFRjNm14bEEtLVljQ09yb0NNR05hQ2hWLXFVSkdMZjdmWFpNempiX0JHTHQyWWFoVUtBMlRsNlpYeEtfdmVkLVhXd01HanJjVEVJZENNVmVjTFYycHFsX0RJZHY?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTGVsN0JCSDl5ME1CQ1FpeTM3QkY0ZXBNZ2hjM3A2akJGOUp2MG5POEtURUJKZy1kOXc2R1hRemNIWXpMVGwwZWlkY00tUmFweGFral9YSWtqakpXb0MwSWxFYUllV0xobG8yRU1OZzIxc2FwNUJlZWlpVkE3WVpuZkFXZW5ZVElvMjlmbzF5cE9hRDdqTkhVWFpWQ2lFNG1EaVU4bEszdzR1M3NmeDFjWHNpd19Wdzh3QlVrMWwydDZYb3VhWDRaZ1NKN3VxVzY4TXQ5eDg5eXZMQnBFZ2pQczZXdVZvckF1NUpZanlWZlY4RGVJRktVdXFkd2RNaVJSWnVqYQ?oc=5",
    "query": "Prenetics"
   },
   {
-   "date": "2026-07-16",
-   "title": "Beckham’s IM8 gets US$1b from General Catalyst for growth - The Malaysian Reserve",
-   "source": "The Malaysian Reserve",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQR1VjQVgtNkoyYldiRmUwQ2NvbUJKVlM4YWlZUGI1b0N1aE9rbzhqQWZ4X1N1MTd3em5NbjVENmpqVmktTFNYOXZwUjBxamR3TW5rMTFZZlVmNkhqLWExVU9zWXUxcjRGblQ4RUl4dk9iWUR0el80aDBVOXc3Tllkd1V3WkNJV3hCOWNYcFBHSjFObmZyNk1PS3h3Zy1NdXM2?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-07-16",
-   "title": "IM8 Secures US$1 Billion Growth Financing From General Catalyst - Global Cosmetics News",
-   "source": "Global Cosmetics News",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOGlaeDk2RTZ5aklPcVFERUdXZlprU3ZOLVg3cVUwTnB0TUthNDV1U0Q4SmFHMFBVRDRnTFkwODdmekFuY0VIOU1fVlF2S1V5RFpnOVdSUERGRmM2eXpfVk83TGluVTRZcVhHUDlEcDdwYk41RGJQdTRsS2JKbDhxUjRHaU9PdEZUY1pQRFhtcW5TS2VEem55b0pPV3VQY3ox?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-07-16",
-   "title": "Beauty Updates: David Beckham's IM8 Lands $1B & More - BeautyNewsDaily",
-   "source": "BeautyNewsDaily",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQUQtT1pZc3N3TzkwUnBnLTI3eGtGdXJqZ2hpM0d4RWxUNHdtekJBTHJZT2RwWTlxd19rN21BYUx2enRwUXhELUV3WWNjaTNqQ0tlNnlnLUtaVllCdTBGd0hmNUZ4VnJ2YWJ0OHVOLXpqZkVjUlAzZnJWMGxhWGM1OGdvVFJ0aG9OWTRpZldzbzhlYUFr?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-07-16",
-   "title": "David Beckham’s IM8 longevity supplement brand secures US$1B in funding - Nutrition Insight",
-   "source": "Nutrition Insight",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVFZtR0NXT0h6bU1vSkhSRmtIYUY2dzlvN1NmajJNVS1JMk16Qnd0RDE1c2hVYldqUFlBcmhuODg3U0dJRVdrVzBTZ2xaY1dINzJsOENNTUpVOHpaREdpbDVwUjUxaF9jcnRQclFwWVlMbnVEWWd2S3pmMGZybEVtRVRPblplZnp2TE5zU3NxeG1XM0FubE5Z?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-07-16",
-   "title": "David Beckham’s wellness brand IM8 scores $1 billion growth financing - Cosmetics Business",
-   "source": "Cosmetics Business",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUVA1dHk1VTYtcGlZUGhNMml2Y2R1TVdmTTQ3dXpiRlRPeWhyOFZxSDFyM1p6NzJSOFlpZHZmTlF4N1I0T2VfYk9RU2ZFaklJdDJCNzZYNkhyc1duMzJfM2lFdU1jYV85ZU5YRW9sTGNtYW03SE4weDVZX0ExTmNoclZIT1N2bVpVTlRHVjByMzZDRTVVNWtYTkdmam1FZ1h1WkRjNjdR?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-07-16",
-   "title": "David Beckham’s wellness brand IM8 secures $1bn funding - TheIndustry.beauty",
-   "source": "TheIndustry.beauty",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRWhoT05LYUMxY0E1VXdBWmFMR0pGMEMzbEZLUDlwQVRISjB1bmhIRmdTeXFSZjZwNTBHejZ6aWxibHRLcEpxeE5hMks4SktKMnpqeDAxd3A1UDk1YzVjdk92VmhmTGZmTDctc3F6RzlFNldKR0tIMmx4c2xlODNMNDg0N3JGdEM5?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-07-17",
-   "title": "David Beckham’s IM8 Secures $1 Billion Growth Financing - BeautyMatter",
-   "source": "BeautyMatter",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORERPVTVkSl9BRlFQeVZpMDNtT1Y1azdFN2lFaHIwc0JhU1VvSHMyUjlsYTBvSEROcTNZeTBmRmg1enVfVThseXRYUFVfT1NpWXVIUE4yMWEySU1saUVzY1JqZVN2Xzg1YWFuYWZsSFBmNnV6WDF6UkVNU3dNdUk0UnBlRGd0X1haLXVlbTZlN1RTdw?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-07-25",
-   "title": "Document - SEC.gov",
-   "source": "SEC.gov",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV3F4V3BrSHctTVVPTlhlWDVkcVJNR3lOSDI3N0FVOHJKcnlQdFRON0FtTjBUVFo2NmpQNHJUTHlIQ2FNaWJxdFBOdXhINEdaVXFCcThtSEpCVUFxLWVZQ3RxUVFGOTd3Ym1vRzR2X0p5LVVKLTlpdkl3YUoxYUFZaDRtblp6N1oxekM5cHZCZTh5aEFHVExDRVVUMDk5dw?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-07-27",
-   "title": "Beckham-backed supplement brand IM8 lands unconventional $1 billion deal to fuel expansion - NutraIngredients.com",
-   "source": "NutraIngredients.com",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQUFwYzY3bFRoRW5MRVFDeUFaRjFlTkNjdFp5TklldUZ3c1RQZXk3S2xLdkNNZnh0LXh0eGdjVGxGb2I2cjRvRVk4VmlqT3BvR2Y2cEV0Uk1nQUpTTHBrcE5HcXhVNVRzSG5ibEVEQ2phbTVucC1RS2dmOENXdDBDb3dvUXZDNnhLaEhUa0phaXJtU2FuSm0wakFJZnFuQ0pBQWR3eTZUVEZhSDVjYWlQQU45Q3kyWW9iaFkybTVhUlEwc3F4bmRUdzRLV0VUVXc?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-08-11",
-   "title": "IM8 vs. traditional greens powders: What’s actually different? - AZ Big Media",
-   "source": "AZ Big Media",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTzYxNVNMVUNVanBVVHhrcm14a3VCTV9XbzRjRGdCc3MwZ05Kbm5LWUE0Vm5FTVVoMXNFRG1OTS1wb3Vya1Y5Q2k3V2JiX1BoM3FqUHV0UkdNdk5JT29saVNHMGJQeEdkUjBsaVd1cDdnZU1aMWR4UUk5Z2xWenMtb3hONmtubVZZNm5lTi04SEFYenpmdDI0?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-08-17",
-   "title": "Earnings To Watch: Prenetics Global Ltd (PRE) Q2 2026 -- GF Value Sees 256% Upside - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaGpUZ0dHU1BpNm9tYjVaTzhhOFRVV1dvMF9vYW9ib1A2SEJzZ2R0dXJTTXFnQ3AzeFVlSmNHVU41bUlONFNDNC1SV1o2VEhfVWNaZ2Izc1haLXdSZlU1U0k2MTQ0RTY2VUpmYmtTd19sNjg0YWlCQVFJZFE1TW53RlVxY29XR1FMVy1JYVoyck0zdTZWUGxXWUl3YzNkWkxUZHc?oc=5",
+   "date": "2026-08-26",
+   "title": "Prenetics Global (PRE) insider buys 23,100 shares over 2 days - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZjNaMDNsM0FnNElyWGVwUzdFZ1JSTFBXZWdOTFZMcWxvWUJCVkpHa0oxZF8xOWZhVDZjbEVPWm56enA3bEEtemJYLUdrNWNqZmZoQ2o1RnNZR0dQanlPU0gxaEU1QXphYTBob211R2Q1d0pCYzVfR0lhZXI5a0hfRVowWFpiU3lLRlJFY1FtZFFoamZBWm95eHhMckRCSmRRUE1lU1VwcmEwSHU4dExhRjBhOA?oc=5",
    "query": "Prenetics"
   },
   {
-   "date": "2026-08-17",
-   "title": "Prenetics, Parent of IM8, Appoints II Ranked, Caroline Levy, Veteran Wall Street Consumer Analyst as Independent Director - The Manila Times",
-   "source": "The Manila Times",
-   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNWnNxUUd5cTltMmN4ZEJNdUZxZHpJZnQtZHduV05NaEEtQ1MwNlhYQ0Z5WTBXU2hXN2l1NEd0ZmFvSGVBbDMtYTR6UnMwWnVyeHJNVDlJNFhOcjVwTXBwOVdETWtVeTAyQjVneG1SV3RtWlpUSkdtREtFQ2UyazVKTnAtRjQwUUtyUmJpcUZKeWkzY0J5VHFBREY3Um1KdFdEQW5IX2I5R0VUTkFYRHpoNnk0TkZ4UkZtOUF1eHpCa0x5U01BbXJHU0pYWmtJTWY3YnBIQWl2NEhFNWlIdXNEei1OQ1FQVVpZamVGc2F1V0YyOTFaR1N6ZmFZcDNDTFRzZVVVNXZxU3JNbnNWZUtQTldsTzVoUVFqUDhv0gGgAkFVX3lxTE5wY3VGXzBtcHhwVHJJNGZzVElRWml2UmpTZzA1QmhpLUh6VGNWRzJ2cjlBV3RjcXE3eTlhYkFnVUZBcEw1dFJLNU81WVQxeU1UUlpVdW0zenFUXzRzTTk3cHY2LTNQUnd1cEZkZm1FdU1PT2NIWjdlM1VranpVTS1FdXZkSzVLM3JxY1NDMnJwS1hZX25WTEV4VlE5YW5IRWduTmRFb2w0a1gzNk02RVJHa0gxbUhyMU1RX2g4dnRZT191d3U1c3dqVzMzVE5aTnBIa1MxeVB1eDFXT2wyV3ZSZE1ibU83Nm9lUk93VUJEczVOTlljRXBwdnZBVW8wSkpidDRMc0ZrYnltUVhtTUZKNHcwZVk1ajZ2UHE0YVRQRw?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-08-18",
-   "title": "Prenetics Global Q2 Earnings Call Highlights - TradingView",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTmpFUzhNS2NuZ0NIYVNTZExpeEFkY1hsd1dhSlNsd2tqSTQzaG5BNlU2S2xtb19tdl9oYlRsSDVfMDFEWkllUklhRTczcmxqYkw1SFJ6dXllcWhPOXhQeWZzZldsbzRjVFhEN2FFeVFJSktnV0l0U1lxYk9wNFoyYWdwa2dtSWIxeDZja0lyZ05aZHpvcVBIdFpfZWFfclZjc1d6TnBHU0Q?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-08-18",
-   "title": "Prenetics’ IM8 Reports Q2 2026 Revenue Growth of 288% YoY; Raises FY 2026 IM8 Revenue Guidance to $220–230 Million; July Was the First Month of Positive Consolidated Adjusted Free Cash Flow and Expect",
-   "source": "Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdWRFOU12SnpZYmtGckJlS3VDMmZVV21uVjhCOGMxT1ktaVJMZkZ6VmpDT2h3ZWJlVWFQRlp6VDVTMVZtbmdEWTZrNHZTcnNLTUpScGJYSWdRWTg0Y3RJZVNnMTZxYnBtNGpfR2hOaTV3VUtfcFNaZnJHcXE1RUlNSlFXbmdybTRaVWZwcExkQ05tRC1XQWRnNXZR?oc=5",
+   "date": "2026-08-27",
+   "title": "B.Riley initiates Prenetics stock coverage with buy rating on IM8 growth - Investing.com UK",
+   "source": "Investing.com UK",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS0RzXzJCRUE0YWRvNl9hTUxEZm9YTGl4a2hKeFpDcUdEWkg0YmhpVGdLZV9jbDV3NkdTZVFLdk5IUl9xSHhuYzA1ZmFMVWlIUW9LU1VmMUF6Mlo4b3dfNE1SYUpfQlpvcURDY1pUTEp6UWlTTTFiZ0N2YVEwT1p2N0lmQUwtcXRUWFlndHd6XzRyaElKVk94VHRIR1o3bU0zZk53LUVfbVdIZTk2LXM5bEZpbFRmODFwVkphV0dWdDF6U3Z0MV8yNHF3NTM?oc=5",
    "query": "Prenetics"
   },
   {
-   "date": "2026-08-19",
-   "title": "Prenetics Global Limited Q2 2026 Earnings Call Summary - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUEJRaFpGajZqVGlIRGZYZGY4QzZTOUl6Y19sVm9ULURYNU1OaHFyQWs5WmtnS05kQkxsQW15U1h4QURvem1KcC1fUm1vbkVsX2tiTnFfZl9tcDg3U2lqd2wwc0hTaXlVSW1TeEdzSk9RZW9TLTBDbjhuU3hkNXBBMnZhR3AzZUtfZmhvQy00SWsxXzAxZTgtRlhValM0QQ?oc=5",
+   "date": "2026-08-27",
+   "title": "B.Riley initiates Prenetics stock coverage with buy rating on IM8 growth - Investing.com",
+   "source": "Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYzlGdURhcm1uYU9pdEtjN2JsWUV2SHkyVThod3BqbjNhZjJGYmozQV9ZOENtMlNaMmJJdGI2VmE5RzZVbzhHMktEQjY0LWIyOXFvQXVQdWlYdkswVFlnRmZqLVRLMVQ4bkpKNGxzby1yTG5tWW1raFZickliaExFa1J5NXlnQ3NIQ1ZhNW1oS0JJUFZmbF9lTjJYT2pFRXlRNUVscTJmcTlQaEptUnplMGdRV3ZjdXBQYmthSW9pMFNLak9FNUw2MmlpMA?oc=5",
    "query": "Prenetics"
   },
   {
-   "date": "2026-08-20",
-   "title": "Prenetics Global (PRE) Stock Price Cools As Losses Cloud Revenue Surge - Simply Wall Street",
-   "source": "Simply Wall Street",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOelh6RkRoUnItZHE4QUJHT1lFZEs2Qm1OMzhHT2dKQnhOOUNQTl90M3ZjWVFhTFZDWE4yblZTVGpNczlMUVA0UC1zVVZDWDY2a0RoNVdGSmxtQmJjR1llRHI5N243Y3IxaGp6R1JNeDdQZTctN1RxWlpGVU5SMUxFYmNQbHZBdkIzVW9ERl9DN05kcENhemU2X1ZqNWNWbVNDUmk1RXFLcnBNZEVKb29RTjhsMGR1N0RJVlNlaUw0dnV5SkswZUdzd0J4bDltZFF3RnfSAdcBQVVfeXFMT3JLUVMtc2lBNUMxU0FWRjV5VnhoZlRMamxGT2d3YnhaX1N6TlJLcHg4elBlWEhBX3IycmRyTmx4dDYyc2FMSDlOMnR2clZ3Z2Vvamp5WXhEQ3VzdHlfRGozajU3Y1Z1cEQxY0UtZWswdVNIUnBjMlJ4eGtVVVpnNzZyYi1Va0xyaUpiZUliaF8yMXp3ODhyTXBMVldnYUhlRlhFTFNGb3VCRndfUWJWd05PMjlHdlVBaEQyQ0RaRW9yTHdDLWR4bl9PSFBFZmpCSGJuUnNHbXc?oc=5",
+   "date": "2026-09-07",
+   "title": "A high school dropout reveals how he built a $200M brand｜My First Million - finance.biggo.com",
+   "source": "finance.biggo.com",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WZ3BNZTRMbGxNYTZBYTAtM1I1REpFeDRmMjN3Ylp0MUxtTjF6MXdDbzlXQkR3T2Z3OFlTRk1GU2h3SGUyOVZvWEhkd1k3YkRGUU50V1JtTkFuMW9CdW00?oc=5",
    "query": "Prenetics"
   },
   {
-   "date": "2026-08-20",
-   "title": "Prenetics’ IM8 Announces Two-Time Golden Globe-Nominated Actress and Producer Lily Collins as IM8 Global Ambassador and Shareholder in Multi-Year Partnership - The Manila Times",
-   "source": "The Manila Times",
-   "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNMHlqQVhjc1kxcjNGbWdzRUdLRWhHenk3bnkxTVFfZDRVd2J5NlJ6eTR2MkxBZDdMYU4xNGJpYjdYaFpGdEdYbGlFa3lfNE5mMFVZQ2d0bHlQUExnWnRWQU1yRzR3THkzWE9FdnFwdmtTb2VhVTVPd2wzUEdFUWhOamJZVEpkZTdoOVE2LXRMdjlkdGgyZnFHU3dlMy1lVDZ6WnpPVlluV2VGa1pXel9sYzc2NzMzSGVvOVhmX1lvaHFQb25NaVFRQ3phVElTR3NpNGtzd0NGaDktX2hWaEJUeFBJbzFEYkZPQ1QwOGtZY2ZEQk5RUllMeXBkMk9xZnNxNElEQ2FtR2lWZWJVaC1DYUVCLVRCT0NEQzZ4Sk5meFIwRzZsNUgwN0p3WUFKb0pyd1JLTE55dHB6NVBPcDdsTUxCU3d3Y2pHU0dIUFp2a9IB1AJBVV95cUxPemJwWHNncmVXLVBQVzctRTh5aTBIQk9faFgtNk92QjBlUUZrUjFERlRRZV83c3ZGNW5EZ1pOLUNmTGdzZ3NvcENVeEktcjhHSEVhamJSRTE5bTlwZnlhNmZBWkxUSVVtRUw1bm03a01hckk4MHFrSzhEc0U2eGo3aFBUOWRkN1pvaU1QWmZEUzhrQVlwWl9hcHFoZXR3NUw1dXpYSldGM2ZDcmpaamVqR2w3TWZMNGJNMDFmMGVHbEtDbk84ODYzVXJTdUFCN0tNdzJORWFFeWhTUlhDTmpaZi1RbEFGU182cENRSExUOHgyMzd4Y3dWeHRMQWxRRzNhYjFaMGNKTWVOUlZ0M2ZVeG5nYmppYjNQaXVaeDZra3VqRXNVd3J0X2ZJbFJLMFRzVEN3TW9UZXF4VGhPTzUxelN0SUIxSVlRWkVBZ3JISDVvOGpR?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-08-20",
-   "title": "Prenetics Global Ltd (PRE) (Q2 2026) Earnings Call Highlights: Record Revenue and Raised ... - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU2xPelBINGJnQTBrR1JQM2VzQjRnMnBNVGxLZmI5NnY3VmFrMEhIcFI5OE9KSDhna28xZmZFTnhabm5ub01GRUxrY2F0UnRtM2ZQVkJsTFp4ZGpnQXVBblMxcUhpYzBDQy00SjFBRW1FeS1aYVBNNE5FMlpac0N0X2d5cV8xY0NoUUhoU25MZVZhMlpOY2pn?oc=5",
+   "date": "2026-09-08",
+   "title": "StoneX reiterates Buy on Prenetics stock, keeps $40 target - Investing.com",
+   "source": "Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbGlIajI0Zmxab0VQTDdXMndsRWx3d1VKNmViZmNkeWhtREhYbElfSmJ2NFZtd2VVWW02dEpEb01iQnZ1OFZYNmNyWGxGaXpERVNCclJCX1BJdEdIZzE5cl84X3NTWXZ4Y0t6SWZwMDNyVkJyQlBvSzNhSDNUV1d3TGdHc1VfZ29xN0NlME0zSkJZcnlza05mU3JvXzJOYXB2bTdfZlhhZmZmZDJ6c2JzRE1xU1BnUGc?oc=5",
    "query": "Prenetics"
-  },
-  {
-   "date": "2026-08-20",
-   "title": "Lily Collins Signs on as Face and Shareholder of IM8, Rethinking the Celebrity Deal - ADWEEK",
-   "source": "ADWEEK",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWi1wa3cySVhpU3RHYm9SQ0xWZzJxXzZPcDZFMGZZUEpUM3F3UjZEMFJCRlFabzlQR0FELWtQR0FVNDdPLWZ6WU5INWNZOG4tV3FvX21PQnAyTVlmRTZGRkZhSG1SLXdvamh4dC1mbnMzMURJMVJtMktHOWpjdUFNZEQ1NVpwcFZBajdQNGs3Z3pOcTlJV3ZxSlNyQnlOc0ZCZVphcVFIY1F2TjJQM25oNnF3TGlDcmJ0R2FhM3pLOA?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-08-24",
-   "title": "Prenetics Global: Marketing Mastery The Key To Robust Revenue Growth (NASDAQ:PRE) - Seeking Alpha",
-   "source": "Seeking Alpha",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPR0tyNmdrM1ZwM3JWSGNtNXdkak9qZEM0V2VVclV0aFVWLXV6UzRIaTFiYTg1bjE3V0J3Y0FkWXRjeWFHMHQ5SnV0b2FpVDN3ZWdmR1dQR1FLTjZyTC1aTG1UMlBoTGZoU0kyWDhST0pJU3ByREVta0RVc1pIWDVzWjZ3SHRDbXQzUWlpZGowV21uQ3FBemJ4dHF5VWg4eC1kTWw1U093?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-08-25",
-   "title": "Lily Collins Joins David Beckham’s IM8 as Ambassador - NewBeauty",
-   "source": "NewBeauty",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yZEFtY0x0UTRtc3NqVks3RmpOMEhXZGFWWmtsWURPY3NJbDYxZlJ5ZWpnUmtWU1UtakZzOEtsdnNjajJ6azJWU1ZtdmdUY280TkFzbE0zbVN4QjdfMlJfWEdESjhQX25lMUdDcFlESVVYVW8?oc=5",
-   "query": "IM8"
   },
   {
    "date": "2026-09-10",
@@ -14686,17 +14572,73 @@
    "query": "IM8"
   },
   {
+   "date": "2026-09-21",
+   "title": "Prenetics Global Q2FY26 Results: Revenue up 3.9x, guidance raised - scanx.trade",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNHlIaEVYNWtQSEROdE9vRUZEcmJDY2F6MHJtS2lhLVFYM242ZDk2VnpCbEFiYVdkSDZ2MVVEU1JqYVg4ZC1MUFlEX3J6QlRMeGNUa2MxbzBXTXNLS2ZaLWktNjlNdFlIMm9sU1FuZWpLVVAtdzZFRERvWVRYZk84UlVuU0wzaHBldml2NTZyV05rUnczWlVmcDQ3TmEyVEo4WldncTgxYVA4V0Vwc0hYUXMzQVM5dFZkQXVlTw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-06",
+   "title": "Form 4 Prenetics Global Ltd For: 6 October By Investing.com - Investing.com UK",
+   "source": "Investing.com UK",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeWwtNUttc0UyMmJxNjQ0QVVzdHlLWDJGNHB6aFd1WVFSYVJHYWl0b1NxRjZJVTRubUF3a2VScnEzMVNyeFkwVGFERHJBdDc4TndtbDc3Z3dkRE13QThva1hLTXJnMEcwWk5Uak43MS1KNzNWQVRmcmRTZ0JzbG9LS1luTjdvUXRoVGNWak1rVG5ObnFIeklqWVBQQ2pNUmxPQ1hybQ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-06",
+   "title": "Form 4 Prenetics Global Ltd For: 6 October By Investing.com - Investing.com India",
+   "source": "Investing.com India",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ182MDd4T0lEd3c3alktMXFVcVlqQnRJcjFGdjBlUXB2ZFhkWUl5QzJLZ0ZnVy1LZXFJMFY2UzgxN1FZaUc3YXkxMEEzMGdESDNTRlBOQ24xa2lMYlBWZ1VkT1hpb3pabmthSjZFWkVxaW5BQXo5aGFoS2dDdHlRVFB0em5LWWtadXJZNFNnZFVWNWJhcTZna0FXVEtUN3MtMl9USQ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-06",
+   "title": "A 2,000-share grant settlement leaves Prenetics Global (PRE) director holding 8,001 shares. - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbXpzQ1VyQmQ0TlotYXZMMUZwNUk2SkJUczBUUlgtZXJnbHdvTmQ1ZXVuenEwN2hYeVNwMjA4cUt3RUpEaGtyZmxvZW5UOVBkNHlNSHNLUDJNZXpOdWQxTE1qUlIyMC12RUV2VWkyamRCdmZqaG9oUV84X2tuYWFpZXNHaV9zakJLeEJCaXF1SExON19rWFotWEdZLW1PNUNWc3FqN0gwT3NRWWx2WEJYcGVISQ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-06",
+   "title": "Form 4 Prenetics Global Ltd For: 6 October By Investing.com - Investing.com Nigeria",
+   "source": "Investing.com Nigeria",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbzhVWlliU1JGaXpORlZjc0Jlblh1eU5KUGxGWnVaREd1YTRvSVJFZVJyWG5oZ1lKTUw0NVp4dGtjTnM1Y1E5dzU2eDVYLURUVU5FRUVZT2pjMmJkTnVCX1pxdzFfSjkwb0kzTlg0TEtNYjlvQ19ab2cwbjFmekhHLUh1U3BiYUlabnFtUVA4X3BsS1FZVHFwZ0hCdDRKZUV0YlN5VQ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-07",
+   "title": "(PRE) Movement Within Algorithmic Entry Frameworks - Stock Traders Daily",
+   "source": "Stock Traders Daily",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNN0FMbVlCdXlhSjFPUFpvWVVJaElhUGE0eXZkd3NoYVFxcEl5aXI1TkhVMGRZYVd1U1o4c2Q2WVhBN0dnbUQtbURhSFpGbHVmZk5kNUR0WnhlRTRwQlJQeWRpZWl4TmgtT0JsTWdnT1FpYXM2YkJmcDA3cXVjby1LbGxpLV9WbEd4S3F0amIwU0w2QkEzYXZPZzc3RHdYaTJHVmJqS21CTFl3RUp2b0hFb1E4X2lMTmd6dXdhSVNWNlAzNzNYOG5R?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "Lucid Capital Markets initiates Prenetics stock with buy rating By Investing.com - Investing.com UK",
+   "source": "Investing.com UK",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY3V6MW5UU0ppMHdaOTNMRFZZOEtra2hrWDRhY2lIWFZMR2xQTHZoejdpY0FqT2xQUjk3MHpTZjI0dVNSUkc5M2E0ZmdFSEVSS0Fkb0tMcnFValJENjRWLWxmMkdxc1pnM3JScDRvaWhuc3liMTk5SlNSVUFOOHc2Y1hFZnV6enl2TV93Mk9HbGh3NFRlTUpBNkRWUVVaQ0RyUmkyMk5GNEJLN1NJS0RhdUdhcFFXSHVGZVJLTFJjSV80Zw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "David Beckham co-founded IM8, now the NBA's nutrition partner. An NBA House fan event is planned for 2027. - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeTh3bVFybGFNaXozVWQ3OHJHZ1RBTXhHZ0YtNDJpZlZzc3J3UnZYT2xMTnR4NURoNHNlRG14ZktvVGJCSW9xSUYta1QxZmlpVFVNZHc1WC1hY0oxRWh4TDNhWndIT21IV1JId1ZERkhQdnRKN3UwQlcxc19jeHdsWVhSd1pnczFZNkFncHhpNkZaa2NCRVg4cUtYc0hJbXR0a29OZzhzZWdnU1Ytb1l3dHVvVzNwTzJBS1E?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "Lucid Capital Markets initiates Prenetics stock with buy rating By Investing.com - Investing.com Nigeria",
+   "source": "Investing.com Nigeria",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSTVZa1g0RWlwZ2FsS2QxX0hTMXloNnFfcXNuMFBBa0s2eDAtSkpFWk9CTXZJNnF6ZmRRVV9YMHBYTDNsbFExaGxPQ0o1UmNJbWFyZkJhalVKTDJ0Y1RsRGc4OWxGZ0czeHBRaGkzQjJodGdEVmxZeWJ5TktnY3FzT1A3bGVSZmNLSDZvQVdZTDJ3a1pYeFQyMl9Gb0RvdE90NUVaQ29KYTlVdlNUbGVKekUtVEJfYWZIZi1IRE51NnROdw?oc=5",
+   "query": "Prenetics"
+  },
+  {
    "date": "2026-10-12",
    "title": "IM8 Named Official Nutrition Partner of the NBA in Australia and Southeast Asia - True North Radio Network",
    "source": "True North Radio Network",
    "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQODAzQmhSVF82dl84SjZib1MyZWtRN2VnamhWc281cWRaTFpiWGFIaF82YzNjSEN5R2RCTGllbnpiR05tU0Z1aDY0YXFWR2Z3bmdlWFNPbUlqSFZaNzJjaGpZUWZQTWJscjR6ZkdObWNwRUFFX1QtM1ZpUXFIM21ObUswVktSUl8wWUJqaHc5ZjZVcWtITjZFZ0x1ZXN6dlYwOFNUVmZnNExhbGxBaDFQUFU1dHJ2WmRNMTE3dVE5WHN6TDFtbnRKSkkxekhtaUJ6RVc1YzdNSjN1ckNfWHZkb1VhTHloa1pxT2Y4dmRWN2hoZG0tN1UtR3NYa3NTYUJMV29kSkVDZ3h0WE1tTmg5czAxa2xZRXY0MnVDNzJETzRYWHo2?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-10-12",
-   "title": "IM8, co-founded by David Beckham, lands NBA partnership as health brand continues fast growth - Fox Business",
-   "source": "Fox Business",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNlhQQzFMSkUzcE93d0pFczJaaC1FU2dTTmN1R1V2QXA2c3A4UEY0OWxIYWJycnFRekNQbkxCcFV6aVdkSWl1NTNqaThfSURUcEdkdVZiUjdPblVlM0E2TG8xa1hWRE41REVnRUpaczgyN1lSaGo3d2puRlJCOUdHM3o0RUNmT25oTmxCbHZ4b05LNExiaWVtT05rdlJoYmxHcEtONHRuVHVMVi1jdGh6aVgxcGs1TmZhZ2tQMNIBwgFBVV95cUxOS2NxY0tiZEFRWmIwQlhOa3VRZVo5NXdiTklmbFE2dU9rNGxHM1RhdXJIUlpjNUdkUlVJUG1RN1puWXVsUkN0VDBCQlE2aVB5MEpVZmkxcjBoWFBBb3RRWFFiUlJMMFM2UUJDM0NzeVZHNzRQbko3QnZlX2JYMTBkM21zMWZoejdxeG5XaWd3Q0lqNmRxY09xaWswVmVNVFJKZ2Jvb0xSRFlQWDBPdXpUbkZNZlYxT09jY29sQndEV0hrZw?oc=5",
    "query": "IM8"
   },
   {
@@ -14714,17 +14656,10 @@
    "query": "IM8"
   },
   {
-   "date": "2026-10-13",
-   "title": "NBA names IM8 its official nutrition partner in Australia and Southeast Asia - Pluang",
-   "source": "Pluang",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQU9fU3BGUl8xYzlYN0daaTFkNlpKbDVpYkRpei1SZXF6UWhEX1pIU2Y0NzhBWExrRUd2TEktTERBTzhwaFZXS2I4N3hHUl81S01oTU1Zd1ZTRWh4NlUxZ2E1Q3VpRHA4aHFST3F3NEsxQ0ZfU3hOZ2xZUW5SVjFwQW9oSGRmYXl2VXMtaHRucDEtZ2tFekwzRUh3?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "NBA Names David Beckham Co-Founded IM8 as Official Nutrition Partner in Australia and Southeast Asia - Ministry of Sport",
-   "source": "Ministry of Sport",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN29GR1Faczk3UWNyaktFZ3dhSG5Ic0thRERhUEkyU2tQeUdxN09lRkVETU1pVzgtWDZRZndzV1ZYT21HRGZURjUtQXg5T1ZXSnpBUXJzbHFtOHJIRGJmUlotalE5MW92VlNhVFJ2R1RLcjBDMlBUdldDdGI5MDM0YURWN3BPeHJNcDRSOC1pS1hjejhuRDYyWHd2SEpfaUFtZXVUZVlIVGJjNm1ia1BkTXA3NjlWQWV5bG5GOTNPa2dGYjFYNDMwNA?oc=5",
+   "date": "2026-10-12",
+   "title": "IM8, co-founded by David Beckham, lands NBA partnership as health brand continues fast growth - Fox Business",
+   "source": "Fox Business",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNlhQQzFMSkUzcE93d0pFczJaaC1FU2dTTmN1R1V2QXA2c3A4UEY0OWxIYWJycnFRekNQbkxCcFV6aVdkSWl1NTNqaThfSURUcEdkdVZiUjdPblVlM0E2TG8xa1hWRE41REVnRUpaczgyN1lSaGo3d2puRlJCOUdHM3o0RUNmT25oTmxCbHZ4b05LNExiaWVtT05rdlJoYmxHcEtONHRuVHVMVi1jdGh6aVgxcGs1TmZhZ2tQMNIBwgFBVV95cUxOS2NxY0tiZEFRWmIwQlhOa3VRZVo5NXdiTklmbFE2dU9rNGxHM1RhdXJIUlpjNUdkUlVJUG1RN1puWXVsUkN0VDBCQlE2aVB5MEpVZmkxcjBoWFBBb3RRWFFiUlJMMFM2UUJDM0NzeVZHNzRQbko3QnZlX2JYMTBkM21zMWZoejdxeG5XaWd3Q0lqNmRxY09xaWswVmVNVFJKZ2Jvb0xSRFlQWDBPdXpUbkZNZlYxT09jY29sQndEV0hrZw?oc=5",
    "query": "IM8"
   },
   {
@@ -14736,9 +14671,37 @@
   },
   {
    "date": "2026-10-13",
+   "title": "NBA Names David Beckham Co-Founded IM8 as Official Nutrition Partner in Australia and Southeast Asia - Ministry of Sport",
+   "source": "Ministry of Sport",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN29GR1Faczk3UWNyaktFZ3dhSG5Ic0thRERhUEkyU2tQeUdxN09lRkVETU1pVzgtWDZRZndzV1ZYT21HRGZURjUtQXg5T1ZXSnpBUXJzbHFtOHJIRGJmUlotalE5MW92VlNhVFJ2R1RLcjBDMlBUdldDdGI5MDM0YURWN3BPeHJNcDRSOC1pS1hjejhuRDYyWHd2SEpfaUFtZXVUZVlIVGJjNm1ia1BkTXA3NjlWQWV5bG5GOTNPa2dGYjFYNDMwNA?oc=5",
+   "query": "IM8"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Lucid Capital Initiates Prenetics Global(PRE.US) With Buy Rating, Announces Target Price $54 - Moomoo",
+   "source": "Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSklfWUNocGVvQ2NtQzMwWXRrX1VndTlNVmllTTJkMl8zcS1QRVdWNDhwQ3RTVWdDUnMyU3M2Z19vLWV3a0t5X2w3MjZMbzVwVXlUcUNPNHNFRU1YXzBjM3NTbWp3Ulp2alR6bnE4S3FXOWlGbGhoZHBjNzZJeUdQLUZFaE9IbGIxQUozZzVMaUxBMU1LVjhqRi0teGM5LWdEV2FDZ3NCS3lYTk83T0lSazl3TjhSZE0?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-13",
    "title": "David Beckham’s IM8 Signs NBA Nutrition Partnerships - Athletech News",
    "source": "Athletech News",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONmRLTVkzWk9zTTI0UmtDZTFPNUY2VWx5WDg2MHRZeUkwZW0xamdoV3ZKWmU0RUtaLUlWOXVxaVNGeTZJRjRsbWYzNDQ4QU9vdnc1aS14ZE9kVGNhQzAwVkxmOVUzM043YTkwVkxpWXI3X3BhZ1cyeVhUN0ZlODBoaWZRZE13blZKNUZHOVVzUGRNc1BUbE5yUk9aQXA?oc=5",
+   "query": "IM8"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "NBA names Prenetics (PRE) brand IM8 a regional nutrition partner in a multiyear deal - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSFRicGFZenZ3eFpjMU91S3h6M1RMMUZLSWFscXBtS3hneV9JekhtU2xsOGRxcHFfc1lGdnRBRGFLbmtMNEZDZFpPRWQ3UUhSdzVQNkJOVjRiV2tOVl9vNlBNYzEtNi1DLWFVbEZpcm9BWDlVQnlVdVhLRG5xVDJlMzJqdzZIMnN6R0Y1ejY1eWRXT1FnZUVYdzN2dHNQU0VoQnkyb2h3am5mSTJCRDdtbGVuWklSZw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "NBA names IM8 its official nutrition partner in Australia and Southeast Asia - Pluang",
+   "source": "Pluang",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQU9fU3BGUl8xYzlYN0daaTFkNlpKbDVpYkRpei1SZXF6UWhEX1pIU2Y0NzhBWExrRUd2TEktTERBTzhwaFZXS2I4N3hHUl81S01oTU1Zd1ZTRWh4NlUxZ2E1Q3VpRHA4aHFST3F3NEsxQ0ZfU3hOZ2xZUW5SVjFwQW9oSGRmYXl2VXMtaHRucDEtZ2tFekwzRUh3?oc=5",
    "query": "IM8"
   },
   {
@@ -14747,6 +14710,27 @@
    "source": "Mi-3.com.au.",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQlVhWll1Uklxc1hHVkFnQnF5YU1LMjQzbHJLMllWZjhpelM4Tm4xVlhROV9QR0tFeE1ra0VuSFR4YmZJeGJENDdzRkVqNTVTdWhLRG1KV09SallYVzVRYko2ZExrUUczUEFvTVhJYW8xMEFpelM2NVl1LTZyeC1wOTVPWG13ZUZuQ3NxX1J2bDgweWk5?oc=5",
    "query": "IM8"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Enterprise value to EBIT forward of Prenetics Global Limited – NASDAQ:PRENW - TradingView",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONHh6dzk0NTd4VE0tanZjTE5WNXROcVVZb0ZnbW04RlFweVMwWU5iNm9fS0EzdmR2eVNDWEZPak5rV0xMM1V6Q1pVUm9NQzlXbGhSc2FNdDFRMTdrRVVheVFVVjFvcDg2S2V0YzFYVkxLZVo4WURCd1haRmtabXo3bDUxOTh5bTBYNmZCWFFlUW91bHhtTmRsT1RVZUVGQW5JQXFYM1YwOVBMWlpm?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Prenetics Closes $48M Round for Bitcoin Strategy - CoinMarketCap",
+   "source": "CoinMarketCap",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdkg5Y2xLYjA4ekhMY1dFY0NtUG1OdUlOT05JOE9ELXFtUmR1dXhNSi1uaTZvZjJCN3RvSkVJRHpmd1VCWUI1Und6MEUxZ2RFUmxXY2lXcFlKeS1sNjFrbVN0WmhaWTVFM0N0QzBWak1VMGtIUTRwQjVLVzdhNmQyd1BBWTRnSlhxU01pNDYzanItMkpIczVYSmhFUQ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Prenetics Global Warrant (PRENW) Rises 16.49% to $0.01 in Penny-Level Trading - Chandelier Stop - https://www.siam.in/",
+   "source": "https://www.siam.in/",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMjlWYjdhTXNKMXM2X2NQbUxvcDA3dEo5SXptc0c1Z3liTlZxN01zeENaVTY3aWhTbGRnNEVveWZOYUl4MktiNUFKd0RNdkFZZHZUNnVLbklhdGxLVkIzOTRHeHhVMkdQbzdmYV9fMVQtNTd4X3htME5UMXhrYTlEUXROSUIyVVprMnZ4b2FiZ0t0ZGVqRnpZSkt6bEVXMENnRFNVSTZ1MlZtQm1qR0FfN250MA?oc=5",
+   "query": "Prenetics"
   },
   {
    "date": "2026-10-16",
@@ -14763,6 +14747,27 @@
    "query": "IM8"
   },
   {
+   "date": "2026-10-17",
+   "title": "Responsive Playbooks and the PRE Inflection - Stock Traders Daily",
+   "source": "Stock Traders Daily",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUld4VWpOdUQteDJPQ0pkdmtUZUpwYVM0bXJwQmRQREFvYVlTYTJtZXVLVVJHZS1sa3ozV28zRW5UVUFDMmRvOFB2VUN0YXFZbkZhSk9kVFhaQkRUZWZVS1NVczl1Y1hDNmVCSXdvbVhGWlZDZjlpUHh6VVN0WURHRDY1T0o3bGJmSVdHckRDRTVENnZ4NU1jUFcyOEs0Ty1TZlEwaDhvYjhjV1UxVHV5bERwQ052aWk2eVZvRkxR?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-18",
+   "title": "Form 4 Prenetics Global Ltd: Hoi Chun Lo (CFO) For: 30 September - Investing.com Nigeria",
+   "source": "Investing.com Nigeria",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeDhKY0JSRko0MDcxLUJwdnpxRG9uSGdjM0hpdEtkS0J5YWc0cVJxTnM3OEE4dnlhSTRIMGptcU5UV1FTM3VHQktNU1dOTVpWWDBocnBfMU5YcGoyUEdrbDNuZ083RUc1dENqdXR3QjQwX3RqMjFuX1AxaUxrQ01MNWEzS2YyMUlqYlpEXzJMT0tQaU4yamhPSmFGempsaEs2UzloZlRaMFRwMTZDVkpld3JkSFJfY1YwUXY5VjRR?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-18",
+   "title": "Form 4 Prenetics Global Ltd: Hoi Chun Lo (CFO) For: 30 September - Investing.com India",
+   "source": "Investing.com India",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQanJIVzQ3U3FDVlFWNk56OWFNZmxxNk1JNVRKS1paSGxBVzgzaDVFTzJnTDJtRmV3eE5UaDNwT0xlcTFTdFhjSElvb2l4bE1NcE1VRWNVWjBXWkNWZTc3QTlBeWNUQjhVNkR2VU1KWUNwQk5NejRqNEhUeGdJOEJ6bVliLTJVRF9rVENmMXNESm5Vb0s0ZGVJNjA4akdUOUFTc2Qyc1U3b2dVQk5FZkk2eGxhNlBwOFpESFdlZUln?oc=5",
+   "query": "Prenetics"
+  },
+  {
    "date": "2026-10-18",
    "title": "David Beckham, Chris Bosh and Dawn Mussallem open the next chapter of IM8 in Hong Kong - Tatler Asia",
    "source": "Tatler Asia",
@@ -14770,11 +14775,25 @@
    "query": "IM8"
   },
   {
+   "date": "2026-10-19",
+   "title": "Danny Yeung - Tatler Asia",
+   "source": "Tatler Asia",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iYUdad1ozZzA4bndXNkU5UDktSGJ4djNENXdIdUdhaUN4OUt3MXpaaFRXdjNTYzZXR3R5ZU1sUFhJdklRVnMwdnhpWVBHWmFKcndUREppY3g?oc=5",
+   "query": "Prenetics"
+  },
+  {
    "date": "2026-10-21",
    "title": "The 9 Best NAD Supplements of 2026: Approved by Experts - Fortune",
    "source": "Fortune",
    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XUllhSG1VcEFyZThnRHRGSVJjcHNMQXNBVEtUdGMzY1NibFM1aDVYYXRlekctNm4tWU52b25fR21MZTduMGFGNF9XeFlTWGhac011YldCbGJkQWVNU2c?oc=5",
    "query": "IM8"
+  },
+  {
+   "date": "2026-10-24",
+   "title": "Prenetics Global Limited Estimates – NASDAQ:PRE - TradingView",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOakRzdmhNQjg1NHl6Q3J4UjJ1SFlRckVMZFFqQlI3NDliVVdpLWVUSFZaR3RlU1NpYXZBVFNTcTFFempFZldoNW1sTVZBNjlua2pMU0lXWkdwMVFmc1ZvTHByWXVTaWVJTkFpZFdDX281Tk8wLUFIamRYS2p5YzJSMGFZcXA3MGNzV0FfRThPRDM?oc=5",
+   "query": "Prenetics"
   }
  ]
 }
