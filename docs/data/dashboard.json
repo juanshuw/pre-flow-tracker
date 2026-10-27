@@ -1,7 +1,7 @@
 {
  "meta": {
   "symbol": "PRE",
-  "built_at": "2026-10-26 17:03 UTC",
+  "built_at": "2026-10-27 07:20 UTC",
   "last_trade_date": "2026-10-26",
   "shares_a": 15356748,
   "sources": [
@@ -9,179 +9,179 @@
     "source": "prices.yahoo",
     "status": "ok",
     "note": "455 rows",
-    "ts": "2026-10-26T17:03:11"
+    "ts": "2026-10-27T07:19:42"
    },
    {
     "source": "prices.stooq",
     "status": "skip",
     "note": "empty/blocked",
-    "ts": "2026-10-26T17:03:12"
+    "ts": "2026-10-27T07:19:42"
    },
    {
     "source": "prices.nasdaq",
     "status": "ok",
-    "note": "454 rows",
-    "ts": "2026-10-26T17:03:14"
+    "note": "455 rows",
+    "ts": "2026-10-27T07:19:46"
    },
    {
     "source": "prices.peers",
     "status": "ok",
     "note": "455 rows",
-    "ts": "2026-10-26T17:03:15"
+    "ts": "2026-10-27T07:19:46"
    },
    {
     "source": "prices.intraday_1m",
     "status": "ok",
     "note": "7 days",
-    "ts": "2026-10-26T17:03:15"
+    "ts": "2026-10-27T07:19:47"
    },
    {
     "source": "finra.regsho_daily",
     "status": "ok",
-    "note": "+16 days, total 252",
-    "ts": "2026-10-26T17:03:17"
+    "note": "+17 days, total 253",
+    "ts": "2026-10-27T07:19:48"
    },
    {
     "source": "finra.otc_weekly",
     "status": "ok",
-    "note": "268 rows since 2026-07-16; latest week 2026-09-21",
-    "ts": "2026-10-26T17:03:17"
+    "note": "241 rows since 2026-07-23; latest week 2026-09-21",
+    "ts": "2026-10-27T07:19:49"
    },
    {
     "source": "finra.otc_monthly",
     "status": "ok",
     "note": "8 rows",
-    "ts": "2026-10-26T17:03:18"
+    "ts": "2026-10-27T07:19:49"
    },
    {
     "source": "finra.short_interest",
     "status": "ok",
-    "note": "latest 2026-09-30",
-    "ts": "2026-10-26T17:03:18"
+    "note": "latest 2026-10-15",
+    "ts": "2026-10-27T07:19:50"
    },
    {
     "source": "sec.edgar_filings",
     "status": "ok",
     "note": "97 filings; latest 2026-10-13",
-    "ts": "2026-10-26T17:03:18"
+    "ts": "2026-10-27T07:19:50"
    },
    {
     "source": "sec.form4",
     "status": "ok",
-    "note": "+3 filings parsed",
-    "ts": "2026-10-26T17:03:19"
+    "note": "+2 filings parsed",
+    "ts": "2026-10-27T07:19:50"
    },
    {
     "source": "sec.edgar_events",
     "status": "ok",
     "note": "no new docs",
-    "ts": "2026-10-26T17:03:19"
+    "ts": "2026-10-27T07:19:50"
    },
    {
     "source": "sec.13f",
     "status": "ok",
     "note": "298 hits; nothing new",
-    "ts": "2026-10-26T17:03:21"
+    "ts": "2026-10-27T07:19:52"
    },
    {
     "source": "sec.ftd",
     "status": "ok",
     "note": "fetched ['202609b']; +1 rows",
-    "ts": "2026-10-26T17:03:24"
+    "ts": "2026-10-27T07:19:54"
    },
    {
     "source": "sec.shares",
     "status": "ok",
     "note": "latest 16,874,089 as of 2025-12-31",
-    "ts": "2026-10-26T17:03:24"
+    "ts": "2026-10-27T07:19:54"
    },
    {
     "source": "nasdaq.circuit_breaker",
     "status": "ok",
-    "note": "+1 days; in effect []",
-    "ts": "2026-10-26T17:03:25"
+    "note": "up to date",
+    "ts": "2026-10-27T07:19:55"
    },
    {
     "source": "nasdaq.threshold",
     "status": "ok",
-    "note": "up to date",
-    "ts": "2026-10-26T17:03:26"
+    "note": "+1 days; on list []",
+    "ts": "2026-10-27T07:19:57"
    },
    {
     "source": "nasdaq.institutional",
     "status": "ok",
     "note": "inst own 8.04%; holders 40",
-    "ts": "2026-10-26T17:03:28"
+    "ts": "2026-10-27T07:19:59"
    },
    {
     "source": "nasdaq.insiders",
     "status": "ok",
     "note": "14 rows",
-    "ts": "2026-10-26T17:03:31"
+    "ts": "2026-10-27T07:20:02"
    },
    {
     "source": "nasdaq.short_interest",
     "status": "ok",
-    "note": "24 rows",
-    "ts": "2026-10-26T17:03:33"
+    "note": "25 rows",
+    "ts": "2026-10-27T07:20:05"
    },
    {
     "source": "options.yahoo",
     "status": "ok",
-    "note": "OI C1140/P120",
-    "ts": "2026-10-26T17:03:34"
+    "note": "OI C120/P8",
+    "ts": "2026-10-27T07:20:06"
    },
    {
     "source": "social.stocktwits",
     "status": "ok",
     "note": "watch 2894; +0 msgs",
-    "ts": "2026-10-26T17:03:34"
+    "ts": "2026-10-27T07:20:06"
    },
    {
     "source": "social.reddit",
     "status": "skip",
     "note": "blocked",
-    "ts": "2026-10-26T17:03:34"
+    "ts": "2026-10-27T07:20:06"
    },
    {
     "source": "borrow.iborrowdesk",
     "status": "skip",
     "note": "unreachable",
-    "ts": "2026-10-26T17:03:39"
+    "ts": "2026-10-27T07:20:11"
    },
    {
     "source": "analysts.yahoo",
     "status": "ok",
-    "note": "PT mean 38.125",
-    "ts": "2026-10-26T17:03:40"
+    "note": "PT mean 38.44444",
+    "ts": "2026-10-27T07:20:12"
    },
    {
     "source": "news.google_rss",
     "status": "ok",
-    "note": "153 items",
-    "ts": "2026-10-26T17:03:41"
+    "note": "85 items",
+    "ts": "2026-10-27T07:20:13"
    }
   ],
-  "baseline_ats_pct": 25.3
+  "baseline_ats_pct": 24.7
  },
  "kpis": {
-  "close": 18.55,
-  "ret_pct": 6.89,
-  "volume": 35531,
-  "vol_x_adv20": 0.19,
-  "turnover_pct": 0.23,
-  "close_vs_vwap_pct": 1.91,
-  "last30_pct": 0.0,
-  "offexch_pct": null,
-  "short_pct": null,
-  "si": 442015,
-  "si_date": "2026-09-30",
-  "dtc": 2.7,
+  "close": 18.37,
+  "ret_pct": 5.88,
+  "volume": 115800,
+  "vol_x_adv20": 0.6,
+  "turnover_pct": 0.75,
+  "close_vs_vwap_pct": 0.18,
+  "last30_pct": 21.8,
+  "offexch_pct": 28.7,
+  "short_pct": 46.9,
+  "si": 514989,
+  "si_date": "2026-10-15",
+  "dtc": 2.5,
   "inst_pct": 5.7,
   "nq_inst_pct": "8.04%",
-  "rsi": 41.1,
-  "dist_ma50": -16.1,
-  "ma50": 22.11,
+  "rsi": 40.1,
+  "dist_ma50": -16.9,
+  "ma50": 22.1,
   "ma200": 19.54,
   "stage": "B 主跌",
   "score": "2/12"
@@ -189,44 +189,44 @@
  "latest": {
   "date": "2026-10-26",
   "open": 17.84,
-  "high": 18.55,
+  "high": 18.72,
   "low": 17.84,
-  "close": 18.55,
-  "volume": 35531,
+  "close": 18.37,
+  "volume": 115800,
   "source": "yahoo",
-  "ret_pct": 6.89,
-  "turnover_pct": 0.23,
+  "ret_pct": 5.88,
+  "turnover_pct": 0.75,
   "adv20": 192015.0,
-  "vol_x_adv20": 0.19,
-  "close_pos": 1.0,
+  "vol_x_adv20": 0.6,
+  "close_pos": 0.6,
   "gap_pct": 2.82,
-  "intraday_pct": 3.95,
-  "ma20": 20.22,
-  "ma50": 22.11,
+  "intraday_pct": 2.97,
+  "ma20": 20.21,
+  "ma50": 22.1,
   "ma200": 19.54,
-  "rsi14": 41.1,
-  "pct_b": 0.29,
-  "dist_ma50_pct": -16.1,
+  "rsi14": 40.1,
+  "pct_b": 0.27,
+  "dist_ma50_pct": -16.9,
   "dist_day": 0,
   "acc_day": 0,
-  "vwap": 18.2,
-  "close_vs_vwap_pct": 1.91,
-  "first30_pct": 43.3,
-  "last30_pct": 0.0,
-  "last60_pct": 0.0,
-  "max_1m_vol": 7257.0,
-  "max_1m_time": "09:30",
-  "minutes_traded": 23.0,
-  "vol_1m_sum": 31579.0,
-  "short": null,
-  "short_exempt": null,
-  "offexch_total": null,
-  "short_pct": null,
-  "offexch_pct": null,
+  "vwap": 18.34,
+  "close_vs_vwap_pct": 0.18,
+  "first30_pct": 12.7,
+  "last30_pct": 21.8,
+  "last60_pct": 26.2,
+  "max_1m_vol": 21557.0,
+  "max_1m_time": "14:54",
+  "minutes_traded": 59.0,
+  "vol_1m_sum": 107589.0,
+  "short": 15573.83,
+  "short_exempt": 0.0,
+  "offexch_total": 33218.49,
+  "short_pct": 46.9,
+  "offexch_pct": 28.7,
   "in_effect": 0.0,
   "triggered_today": 0.0,
   "trigger_time": null,
-  "on_threshold_list": null,
+  "on_threshold_list": 0.0,
   "flags": ""
  },
  "scorecard": {
@@ -238,15 +238,15 @@
    {
     "id": 1,
     "name": "价格 vs 价值锚",
-    "value": "$18.55",
+    "value": "$18.37",
     "target": "≤ $17.20（管理层/增发价带 +5%）",
     "pass": false,
-    "note": "EV/收入 ≈ 0.80x FY26E（净现金按 6/30 $109M，FY26E 收入 $220M）"
+    "note": "EV/收入 ≈ 0.79x FY26E（净现金按 6/30 $109M，FY26E 收入 $220M）"
    },
    {
     "id": 2,
     "name": "超卖程度",
-    "value": "RSI 41.1 / %B 0.29 / 距50日线 -16.1%",
+    "value": "RSI 40.1 / %B 0.27 / 距50日线 -16.9%",
     "target": "RSI<25 或 %B<−0.2",
     "pass": false,
     "note": ""
@@ -262,7 +262,7 @@
    {
     "id": 4,
     "name": "缩量枯竭（近 3 日）",
-    "value": "倍数 1.54, 0.84, 0.19",
+    "value": "倍数 1.54, 0.84, 0.6",
     "target": "连续 3 日 <0.6 倍均量且不创新低",
     "pass": false,
     "note": ""
@@ -294,17 +294,17 @@
    {
     "id": 8,
     "name": "空头持仓",
-    "value": "442,015（2026-09-30，-14.6%，DTC 2.7）",
+    "value": "514,989（2026-10-15，16.5%，DTC 2.5）",
     "target": "回升（为后续回补提供燃料）",
-    "pass": false,
+    "pass": true,
     "note": ""
    },
    {
     "id": 9,
     "name": "暗池占全部成交（最新周）",
-    "value": "25.5%（2026-09-21 当周；基线中位 25.3%）",
+    "value": "51.1%（2026-09-21 当周；基线中位 24.7%）",
     "target": "回到基线（派发结束）",
-    "pass": true,
+    "pass": false,
     "note": "滞后约 5 周"
    },
    {
@@ -318,7 +318,7 @@
    {
     "id": 11,
     "name": "板块（近 10 日）",
-    "value": "HIMS -10.4% / IWM -0.1% / XBI -0.6%",
+    "value": "HIMS -10.0% / IWM -0.3% / XBI -0.6%",
     "target": "同行未显著下跌",
     "pass": false,
     "note": ""
@@ -342,7 +342,7 @@
    "权证强制行权线": 21.6,
    "公司 2026 回购均价": 20.5,
    "卢煜明换股成本": 13.5,
-   "8/18 以来成交 VWAP": 22.63
+   "8/18 以来成交 VWAP": 22.59
   }
  },
  "participants": [
@@ -357,7 +357,7 @@
   {
    "group": "散户 / 活跃交易者",
    "signal": "零售批发商周成交（Citadel/批发商/小额合并）",
-   "value": "0 / 0 / 71,351 股",
+   "value": "0 / 0 / 142,703 股",
    "reading": "Citadel 被单独列出=日均 >200 笔=零售流激增",
    "source": "FINRA OTC 周度",
    "asof": "2026-09-21"
@@ -365,7 +365,7 @@
   {
    "group": "做市商 / 高频",
    "signal": "最新日卖空占场外成交",
-   "value": "None%",
+   "value": "46.9%",
    "reading": ">55% 做市商在给买单供货；<35% 多头主动卖",
    "source": "FINRA Reg SHO 日度",
    "asof": "2026-10-26"
@@ -381,8 +381,8 @@
   {
    "group": "机构（暗池 / 大宗）",
    "signal": "暗池占全部成交 / 大宗平台成交",
-   "value": "25.5% / 1,300 股",
-   "reading": "基线 25.3%；>28% 机构换手（方向看价格+卖空占比）",
+   "value": "51.1% / 1,300 股",
+   "reading": "基线 24.7%；>28% 机构换手（方向看价格+卖空占比）",
    "source": "FINRA OTC 周度",
    "asof": "2026-09-21"
   },
@@ -397,7 +397,7 @@
   {
    "group": "机构（暗池 / 大宗）",
    "signal": "最新日场外占比",
-   "value": "None%",
+   "value": "28.7%",
    "reading": ">55% 疑似协议大宗",
    "source": "FINRA Reg SHO 日度",
    "asof": "2026-10-26"
@@ -416,15 +416,15 @@
    "value": "8.04%",
    "reading": "低=卖方在不申报层",
    "source": "api.nasdaq.com",
-   "asof": "2026-10-26"
+   "asof": "2026-10-27"
   },
   {
    "group": "空头",
    "signal": "空头持仓 / 变动 / DTC",
-   "value": "442,015 / -14.6% / 2.7",
+   "value": "514,989 / 16.5% / 2.5",
    "reading": "在降=空头不是砸盘主力；回升=回补燃料",
    "source": "FINRA 双周",
-   "asof": "2026-09-30"
+   "asof": "2026-10-15"
   },
   {
    "group": "空头",
@@ -477,10 +477,10 @@
   {
    "group": "卖方 / 分析师",
    "signal": "目标价 均值/区间 · 评级分布",
-   "value": "$38.1（30.0–54.0）· 强买0.0/买6.0/持0.0/卖0.0",
+   "value": "$38.4（30.0–54.0）· 强买1.0/买6.0/持0.0/卖0.0",
    "reading": "初评日往往放量一日即耗尽",
    "source": "Yahoo",
-   "asof": "2026-10-26"
+   "asof": "2026-10-27"
   },
   {
    "group": "卖方 / 分析师",
@@ -493,10 +493,10 @@
   {
    "group": "期权",
    "signal": "未平仓 看涨/看跌",
-   "value": "1140 / 120 张",
+   "value": "120 / 8 张",
    "reading": "对冲股数上限 =(C+P)×100；小=无衍生品驱动",
    "source": "Yahoo 期权链",
-   "asof": "2026-10-26"
+   "asof": "2026-10-27"
   }
  ],
  "daily": [
@@ -10086,36 +10086,36 @@
   {
    "date": "2026-10-26",
    "open": 17.84000015258789,
-   "high": 18.545000076293945,
+   "high": 18.719999313354492,
    "low": 17.84000015258789,
-   "close": 18.545000076293945,
-   "volume": 35531,
-   "ret_pct": 6.89,
-   "turnover_pct": 0.23,
-   "vol_x_adv20": 0.19,
-   "close_pos": 1.0,
+   "close": 18.3700008392334,
+   "volume": 115800,
+   "ret_pct": 5.88,
+   "turnover_pct": 0.75,
+   "vol_x_adv20": 0.6,
+   "close_pos": 0.6,
    "gap_pct": 2.82,
-   "intraday_pct": 3.95,
-   "ma20": 20.22,
-   "ma50": 22.11,
+   "intraday_pct": 2.97,
+   "ma20": 20.21,
+   "ma50": 22.1,
    "ma200": 19.54,
-   "rsi14": 41.1,
-   "pct_b": 0.29,
-   "vwap": 18.197,
-   "close_vs_vwap_pct": 1.91,
-   "first30_pct": 43.3,
-   "last30_pct": 0.0,
-   "max_1m_vol": 7257.0,
-   "max_1m_time": "09:30",
-   "short": null,
-   "short_exempt": null,
-   "offexch_total": null,
-   "short_pct": null,
-   "offexch_pct": null,
+   "rsi14": 40.1,
+   "pct_b": 0.27,
+   "vwap": 18.337,
+   "close_vs_vwap_pct": 0.18,
+   "first30_pct": 12.7,
+   "last30_pct": 21.8,
+   "max_1m_vol": 21557.0,
+   "max_1m_time": "14:54",
+   "short": 15573.833787,
+   "short_exempt": 0.0,
+   "offexch_total": 33218.493354,
+   "short_pct": 46.9,
+   "offexch_pct": 28.7,
    "in_effect": 0.0,
    "triggered_today": 0.0,
    "trigger_time": null,
-   "on_threshold_list": null,
+   "on_threshold_list": 0.0,
    "acc_day": 0,
    "dist_day": 0,
    "flags": ""
@@ -10636,16 +10636,16 @@
    "week": "2026-07-20",
    "consol_vol": 1447900.0,
    "week_close": 18.739999771118164,
-   "ats_shares": 674242.0,
-   "ats_trades": 10178.0,
+   "ats_shares": 337121.0,
+   "ats_trades": 5089.0,
    "ats_avg_size": 66,
-   "nonats_shares": 614145.793472,
+   "nonats_shares": 307072.896736,
    "wholesaler_shares": 0.0,
    "citadel_shares": 0.0,
-   "deminimis_shares": 614145.793472,
-   "offexch_shares": 1288387.793472,
-   "ats_pct_of_consol": 46.6,
-   "offexch_pct_of_consol": 89.0,
+   "deminimis_shares": 307072.896736,
+   "offexch_shares": 644193.896736,
+   "ats_pct_of_consol": 23.3,
+   "offexch_pct_of_consol": 44.5,
    "top_ats": "UBS ATS 59k / 大摩 MS Pool 43k / Intelligent Cross 36k",
    "published": "2026-08-24"
   },
@@ -10789,16 +10789,16 @@
    "week": "2026-09-21",
    "consol_vol": 990400.0,
    "week_close": 22.969999313354492,
-   "ats_shares": 252916.0,
-   "ats_trades": 4996.0,
+   "ats_shares": 505832.0,
+   "ats_trades": 9992.0,
    "ats_avg_size": 51,
-   "nonats_shares": 71351.827291,
+   "nonats_shares": 142703.654582,
    "wholesaler_shares": 0.0,
    "citadel_shares": 0.0,
-   "deminimis_shares": 71351.827291,
-   "offexch_shares": 324267.827291,
-   "ats_pct_of_consol": 25.5,
-   "offexch_pct_of_consol": 32.7,
+   "deminimis_shares": 142703.654582,
+   "offexch_shares": 648535.654582,
+   "ats_pct_of_consol": 51.1,
+   "offexch_pct_of_consol": 65.5,
    "top_ats": "美银 Instinct X 77k / UBS ATS 47k / 大摩 MS Pool 25k",
    "published": "2026-10-26"
   }
@@ -11026,14 +11026,6 @@
   }
  ],
  "short_interest": [
-  {
-   "settlementDate": "2025-02-14",
-   "currentShortPositionQuantity": 39790,
-   "previousShortPositionQuantity": 32583,
-   "changePercent": 22.12,
-   "averageDailyVolumeQuantity": 12708,
-   "daysToCoverQuantity": 3.13
-  },
   {
    "settlementDate": "2025-02-28",
    "currentShortPositionQuantity": 32775,
@@ -11345,6 +11337,14 @@
    "changePercent": -14.6,
    "averageDailyVolumeQuantity": 165604,
    "daysToCoverQuantity": 2.67
+  },
+  {
+   "settlementDate": "2026-10-15",
+   "currentShortPositionQuantity": 514989,
+   "previousShortPositionQuantity": 442015,
+   "changePercent": 16.51,
+   "averageDailyVolumeQuantity": 204153,
+   "daysToCoverQuantity": 2.52
   }
  ],
  "ftd": [
@@ -11838,43 +11838,19 @@
    "puts_oi": 120,
    "calls_vol": 152,
    "puts_vol": 34
+  },
+  {
+   "date": "2026-10-27",
+   "expiry": "TOTAL",
+   "calls_oi": 120,
+   "puts_oi": 8,
+   "calls_vol": 152,
+   "puts_vol": 34
   }
  ],
  "options_top": {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "top": [
-   {
-    "expiry": "2026-11-20",
-    "type": "C",
-    "strike": 20.0,
-    "oi": 437,
-    "vol": 17,
-    "last": 1.3
-   },
-   {
-    "expiry": "2027-02-19",
-    "type": "C",
-    "strike": 20.0,
-    "oi": 181,
-    "vol": 1,
-    "last": 6.5
-   },
-   {
-    "expiry": "2026-11-20",
-    "type": "C",
-    "strike": 30.0,
-    "oi": 153,
-    "vol": 25,
-    "last": 1.05
-   },
-   {
-    "expiry": "2026-11-20",
-    "type": "C",
-    "strike": 25.0,
-    "oi": 138,
-    "vol": 6,
-    "last": 2.02
-   },
    {
     "expiry": "2026-11-20",
     "type": "C",
@@ -11884,36 +11860,12 @@
     "last": 9.11
    },
    {
-    "expiry": "2026-11-20",
-    "type": "P",
-    "strike": 17.5,
-    "oi": 67,
-    "vol": 5,
-    "last": 2.0
-   },
-   {
     "expiry": "2027-02-19",
     "type": "C",
     "strike": 30.0,
     "oi": 31,
     "vol": 10,
     "last": 4.14
-   },
-   {
-    "expiry": "2026-11-20",
-    "type": "C",
-    "strike": 22.5,
-    "oi": 30,
-    "vol": 1,
-    "last": 0.3
-   },
-   {
-    "expiry": "2027-08-20",
-    "type": "C",
-    "strike": 30.0,
-    "oi": 30,
-    "vol": 1,
-    "last": 5.2
    }
   ]
  },
@@ -12334,6 +12286,12 @@
   },
   {
    "date": "2026-10-26",
+   "st_msgs": 0,
+   "reddit_posts": 0,
+   "st_watchlist": 2894.0
+  },
+  {
+   "date": "2026-10-27",
    "st_msgs": 0,
    "reddit_posts": 0,
    "st_watchlist": 2894.0
@@ -13118,11 +13076,11 @@
   ]
  },
  "nasdaq_inst": {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "summary": {
    "SharesOutstandingPCT": "8.04%",
    "ShareoutstandingTotal": "16",
-   "TotalHoldingsValue": "$22"
+   "TotalHoldingsValue": "$23"
   },
   "active_positions": [
    {
@@ -13165,7 +13123,7 @@
     "sharesHeld": "235,800",
     "sharesChange": "235,800",
     "sharesChangePCT": "New",
-    "marketValue": "$4,091"
+    "marketValue": "$4,332"
    },
    {
     "ownerName": "Jane Street Group, Llc",
@@ -13173,7 +13131,7 @@
     "sharesHeld": "225,093",
     "sharesChange": "182,907",
     "sharesChangePCT": "433.573%",
-    "marketValue": "$3,905"
+    "marketValue": "$4,135"
    },
    {
     "ownerName": "Goldman Sachs Group Inc",
@@ -13181,7 +13139,7 @@
     "sharesHeld": "168,733",
     "sharesChange": "-24,850",
     "sharesChangePCT": "-12.837%",
-    "marketValue": "$2,928"
+    "marketValue": "$3,100"
    },
    {
     "ownerName": "Millennium Management Llc",
@@ -13189,7 +13147,7 @@
     "sharesHeld": "126,086",
     "sharesChange": "-66,514",
     "sharesChangePCT": "-34.535%",
-    "marketValue": "$2,188"
+    "marketValue": "$2,316"
    },
    {
     "ownerName": "Tenzing Global Management, Llc",
@@ -13197,7 +13155,7 @@
     "sharesHeld": "125,000",
     "sharesChange": "-75,000",
     "sharesChangePCT": "-37.5%",
-    "marketValue": "$2,169"
+    "marketValue": "$2,296"
    },
    {
     "ownerName": "Marshall Wace, Llp",
@@ -13205,7 +13163,7 @@
     "sharesHeld": "47,327",
     "sharesChange": "-26,005",
     "sharesChangePCT": "-35.462%",
-    "marketValue": "$821"
+    "marketValue": "$869"
    },
    {
     "ownerName": "Nomura Holdings Inc",
@@ -13213,7 +13171,7 @@
     "sharesHeld": "42,101",
     "sharesChange": "-33,518",
     "sharesChangePCT": "-44.325%",
-    "marketValue": "$730"
+    "marketValue": "$773"
    },
    {
     "ownerName": "Susquehanna International Group, Llp",
@@ -13221,7 +13179,7 @@
     "sharesHeld": "38,126",
     "sharesChange": "5,002",
     "sharesChangePCT": "15.101%",
-    "marketValue": "$661"
+    "marketValue": "$700"
    },
    {
     "ownerName": "Ubs Group Ag",
@@ -13229,7 +13187,7 @@
     "sharesHeld": "37,040",
     "sharesChange": "10,267",
     "sharesChangePCT": "38.348%",
-    "marketValue": "$643"
+    "marketValue": "$680"
    },
    {
     "ownerName": "Oasis Management Co Ltd.",
@@ -13237,7 +13195,7 @@
     "sharesHeld": "33,333",
     "sharesChange": "33,333",
     "sharesChangePCT": "New",
-    "marketValue": "$578"
+    "marketValue": "$612"
    },
    {
     "ownerName": "Xtx Topco Ltd",
@@ -13245,7 +13203,7 @@
     "sharesHeld": "30,485",
     "sharesChange": "-2,932",
     "sharesChangePCT": "-8.774%",
-    "marketValue": "$529"
+    "marketValue": "$560"
    },
    {
     "ownerName": "Stevens Capital Partners",
@@ -13253,7 +13211,7 @@
     "sharesHeld": "28,147",
     "sharesChange": "0",
     "sharesChangePCT": "0%",
-    "marketValue": "$488"
+    "marketValue": "$517"
    },
    {
     "ownerName": "Qube Research & Technologies Ltd",
@@ -13261,7 +13219,7 @@
     "sharesHeld": "23,810",
     "sharesChange": "4,680",
     "sharesChangePCT": "24.464%",
-    "marketValue": "$413"
+    "marketValue": "$437"
    },
    {
     "ownerName": "Morgan Stanley",
@@ -13269,7 +13227,7 @@
     "sharesHeld": "23,443",
     "sharesChange": "6,350",
     "sharesChangePCT": "37.15%",
-    "marketValue": "$407"
+    "marketValue": "$431"
    },
    {
     "ownerName": "Citadel Advisors Llc",
@@ -13277,7 +13235,7 @@
     "sharesHeld": "16,187",
     "sharesChange": "16,187",
     "sharesChangePCT": "New",
-    "marketValue": "$281"
+    "marketValue": "$297"
    },
    {
     "ownerName": "Integrated Quantitative Investments Llc",
@@ -13285,7 +13243,7 @@
     "sharesHeld": "13,602",
     "sharesChange": "0",
     "sharesChangePCT": "0%",
-    "marketValue": "$236"
+    "marketValue": "$250"
    },
    {
     "ownerName": "Entrypoint Capital, Llc",
@@ -13293,7 +13251,7 @@
     "sharesHeld": "12,058",
     "sharesChange": "12,058",
     "sharesChangePCT": "New",
-    "marketValue": "$209"
+    "marketValue": "$222"
    },
    {
     "ownerName": "Wells Fargo & Company/Mn",
@@ -13301,7 +13259,7 @@
     "sharesHeld": "10,000",
     "sharesChange": "-74,806",
     "sharesChangePCT": "-88.208%",
-    "marketValue": "$174"
+    "marketValue": "$184"
    },
    {
     "ownerName": "Operose Advisors Llc",
@@ -13309,7 +13267,7 @@
     "sharesHeld": "6,750",
     "sharesChange": "6,750",
     "sharesChangePCT": "New",
-    "marketValue": "$117"
+    "marketValue": "$124"
    },
    {
     "ownerName": "State Of Wyoming",
@@ -13317,7 +13275,7 @@
     "sharesHeld": "5,566",
     "sharesChange": "3,067",
     "sharesChangePCT": "122.729%",
-    "marketValue": "$97"
+    "marketValue": "$102"
    },
    {
     "ownerName": "Simplex Trading, Llc",
@@ -13325,7 +13283,7 @@
     "sharesHeld": "773",
     "sharesChange": "417",
     "sharesChangePCT": "117.135%",
-    "marketValue": "$13"
+    "marketValue": "$14"
    },
    {
     "ownerName": "Farther Finance Advisors, Llc",
@@ -13333,7 +13291,7 @@
     "sharesHeld": "772",
     "sharesChange": "772",
     "sharesChangePCT": "New",
-    "marketValue": "$13"
+    "marketValue": "$14"
    },
    {
     "ownerName": "Gk Wealth Management Llc",
@@ -13588,21 +13546,6 @@
    "note": null
   },
   {
-   "accession": "0001628280-26-038653",
-   "filing_date": "2026-05-28",
-   "form": "4",
-   "owner": "Cheng Yin Pan",
-   "title": "Director",
-   "tx_date": "2026-05-26",
-   "code": "A",
-   "shares": 6406.0,
-   "price": 0.0,
-   "acq_disp": "A",
-   "post_shares": 22279.0,
-   "security": "[衍生] Restricted Stock Unit",
-   "note": null
-  },
-  {
    "accession": "0001628280-26-038651",
    "filing_date": "2026-05-28",
    "form": "3/A",
@@ -13616,6 +13559,21 @@
    "post_shares": 43178.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": "holding only"
+  },
+  {
+   "accession": "0001628280-26-038653",
+   "filing_date": "2026-05-28",
+   "form": "4",
+   "owner": "Cheng Yin Pan",
+   "title": "Director",
+   "tx_date": "2026-05-26",
+   "code": "A",
+   "shares": 6406.0,
+   "price": 0.0,
+   "acq_disp": "A",
+   "post_shares": 22279.0,
+   "security": "[衍生] Restricted Stock Unit",
+   "note": null
   },
   {
    "accession": "0001628280-26-043073",
@@ -13702,9 +13660,9 @@
    "code": "M",
    "shares": 2000.0,
    "price": 0.0,
-   "acq_disp": "D",
-   "post_shares": 22004.0,
-   "security": "[衍生] Restricted Stock Unit",
+   "acq_disp": "A",
+   "post_shares": 2000.0,
+   "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
   {
@@ -13717,9 +13675,9 @@
    "code": "M",
    "shares": 2000.0,
    "price": 0.0,
-   "acq_disp": "A",
-   "post_shares": 2000.0,
-   "security": "Class A Ordinary Share, par value $0.0015 per share",
+   "acq_disp": "D",
+   "post_shares": 22004.0,
+   "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
   {
@@ -13747,9 +13705,9 @@
    "code": "M",
    "shares": 2001.0,
    "price": 0.0,
-   "acq_disp": "D",
-   "post_shares": 20003.0,
-   "security": "[衍生] Restricted Stock Unit",
+   "acq_disp": "A",
+   "post_shares": 4001.0,
+   "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
   {
@@ -13762,8 +13720,38 @@
    "code": "M",
    "shares": 2001.0,
    "price": 0.0,
+   "acq_disp": "D",
+   "post_shares": 20003.0,
+   "security": "[衍生] Restricted Stock Unit",
+   "note": null
+  },
+  {
+   "accession": "0001628280-26-056003",
+   "filing_date": "2026-08-12",
+   "form": "3",
+   "owner": "Tat Thuan Yen",
+   "title": "VP, Finance of IM8 (US) LLC",
+   "tx_date": null,
+   "code": null,
+   "shares": null,
+   "price": null,
+   "acq_disp": null,
+   "post_shares": null,
+   "security": null,
+   "note": "no transactions"
+  },
+  {
+   "accession": "0001628280-26-058760",
+   "filing_date": "2026-08-24",
+   "form": "4",
+   "owner": "Yeung Danny Sheng Wu",
+   "title": "Chief Executive Officer",
+   "tx_date": "2026-08-20",
+   "code": "M",
+   "shares": 53953.0,
+   "price": 0.0001,
    "acq_disp": "A",
-   "post_shares": 4001.0,
+   "post_shares": 137647.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -13790,11 +13778,11 @@
    "title": "Chief Financial Officer",
    "tx_date": "2026-08-21",
    "code": "M",
-   "shares": 491029.0,
-   "price": 0.0001,
-   "acq_disp": "D",
-   "post_shares": 61086.0,
-   "security": "[衍生] Restricted Stock Unit",
+   "shares": 45815.0,
+   "price": 0.0,
+   "acq_disp": "A",
+   "post_shares": 566013.0,
+   "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
   {
@@ -13835,11 +13823,11 @@
    "title": "Chief Financial Officer",
    "tx_date": "2026-08-21",
    "code": "M",
-   "shares": 45815.0,
-   "price": 0.0,
-   "acq_disp": "A",
-   "post_shares": 566013.0,
-   "security": "Class A Ordinary Share, par value $0.0015 per share",
+   "shares": 491029.0,
+   "price": 0.0001,
+   "acq_disp": "D",
+   "post_shares": 61086.0,
+   "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
   {
@@ -13884,21 +13872,6 @@
    "price": 0.0,
    "acq_disp": "D",
    "post_shares": 87735.0,
-   "security": "Class A Ordinary Share, par value $0.0015 per share",
-   "note": null
-  },
-  {
-   "accession": "0001628280-26-058760",
-   "filing_date": "2026-08-24",
-   "form": "4",
-   "owner": "Yeung Danny Sheng Wu",
-   "title": "Chief Executive Officer",
-   "tx_date": "2026-08-20",
-   "code": "M",
-   "shares": 53953.0,
-   "price": 0.0001,
-   "acq_disp": "A",
-   "post_shares": 137647.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -15013,13 +14986,13 @@
   ],
   "targets": [
    {
-    "date": "2026-10-26",
-    "pt_current": 18.545,
+    "date": "2026-10-27",
+    "pt_current": 18.37,
     "pt_low": 30.0,
     "pt_high": 54.0,
-    "pt_mean": 38.125,
-    "pt_median": 36.5,
-    "strong_buy": 0,
+    "pt_mean": 38.44444,
+    "pt_median": 37.0,
+    "strong_buy": 1,
     "buy": 6,
     "hold": 0,
     "sell": 0,
@@ -15029,24 +15002,10 @@
  },
  "news": [
   {
-   "date": "2026-08-26",
-   "title": "Prenetics Global (PRE) insider buys 23,100 shares over 2 days - Stock Titan",
-   "source": "Stock Titan",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZjNaMDNsM0FnNElyWGVwUzdFZ1JSTFBXZWdOTFZMcWxvWUJCVkpHa0oxZF8xOWZhVDZjbEVPWm56enA3bEEtemJYLUdrNWNqZmZoQ2o1RnNZR0dQanlPU0gxaEU1QXphYTBob211R2Q1d0pCYzVfR0lhZXI5a0hfRVowWFpiU3lLRlJFY1FtZFFoamZBWm95eHhMckRCSmRRUE1lU1VwcmEwSHU4dExhRjBhOA?oc=5",
-   "query": "Prenetics"
-  },
-  {
    "date": "2026-08-27",
    "title": "B.Riley initiates Prenetics stock coverage with buy rating on IM8 growth - Investing.com",
    "source": "Investing.com",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYzlGdURhcm1uYU9pdEtjN2JsWUV2SHkyVThod3BqbjNhZjJGYmozQV9ZOENtMlNaMmJJdGI2VmE5RzZVbzhHMktEQjY0LWIyOXFvQXVQdWlYdkswVFlnRmZqLVRLMVQ4bkpKNGxzby1yTG5tWW1raFZickliaExFa1J5NXlnQ3NIQ1ZhNW1oS0JJUFZmbF9lTjJYT2pFRXlRNUVscTJmcTlQaEptUnplMGdRV3ZjdXBQYmthSW9pMFNLak9FNUw2MmlpMA?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-08-27",
-   "title": "B.Riley initiates Prenetics stock coverage with buy rating on IM8 growth - Investing.com UK",
-   "source": "Investing.com UK",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS0RzXzJCRUE0YWRvNl9hTUxEZm9YTGl4a2hKeFpDcUdEWkg0YmhpVGdLZV9jbDV3NkdTZVFLdk5IUl9xSHhuYzA1ZmFMVWlIUW9LU1VmMUF6Mlo4b3dfNE1SYUpfQlpvcURDY1pUTEp6UWlTTTFiZ0N2YVEwT1p2N0lmQUwtcXRUWFlndHd6XzRyaElKVk94VHRIR1o3bU0zZk53LUVfbVdIZTk2LXM5bEZpbFRmODFwVkphV0dWdDF6U3Z0MV8yNHF3NTM?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15086,20 +15045,6 @@
   },
   {
    "date": "2026-10-06",
-   "title": "Form 4 Prenetics Global Ltd For: 6 October By Investing.com - Investing.com India",
-   "source": "Investing.com India",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ182MDd4T0lEd3c3alktMXFVcVlqQnRJcjFGdjBlUXB2ZFhkWUl5QzJLZ0ZnVy1LZXFJMFY2UzgxN1FZaUc3YXkxMEEzMGdESDNTRlBOQ24xa2lMYlBWZ1VkT1hpb3pabmthSjZFWkVxaW5BQXo5aGFoS2dDdHlRVFB0em5LWWtadXJZNFNnZFVWNWJhcTZna0FXVEtUN3MtMl9USQ?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-10-06",
-   "title": "Form 4 Prenetics Global Ltd For: 6 October By Investing.com - Investing.com Nigeria",
-   "source": "Investing.com Nigeria",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbzhVWlliU1JGaXpORlZjc0Jlblh1eU5KUGxGWnVaREd1YTRvSVJFZVJyWG5oZ1lKTUw0NVp4dGtjTnM1Y1E5dzU2eDVYLURUVU5FRUVZT2pjMmJkTnVCX1pxdzFfSjkwb0kzTlg0TEtNYjlvQ19ab2cwbjFmekhHLUh1U3BiYUlabnFtUVA4X3BsS1FZVHFwZ0hCdDRKZUV0YlN5VQ?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-10-06",
    "title": "A 2,000-share grant settlement leaves Prenetics Global (PRE) director holding 8,001 shares. - Stock Titan",
    "source": "Stock Titan",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbXpzQ1VyQmQ0TlotYXZMMUZwNUk2SkJUczBUUlgtZXJnbHdvTmQ1ZXVuenEwN2hYeVNwMjA4cUt3RUpEaGtyZmxvZW5UOVBkNHlNSHNLUDJNZXpOdWQxTE1qUlIyMC12RUV2VWkyamRCdmZqaG9oUV84X2tuYWFpZXNHaV9zakJLeEJCaXF1SExON19rWFotWEdZLW1PNUNWc3FqN0gwT3NRWWx2WEJYcGVISQ?oc=5",
@@ -15113,6 +15058,20 @@
    "query": "Prenetics"
   },
   {
+   "date": "2026-10-06",
+   "title": "Form 4 Prenetics Global Ltd For: 6 October By Investing.com - Investing.com Nigeria",
+   "source": "Investing.com Nigeria",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbzhVWlliU1JGaXpORlZjc0Jlblh1eU5KUGxGWnVaREd1YTRvSVJFZVJyWG5oZ1lKTUw0NVp4dGtjTnM1Y1E5dzU2eDVYLURUVU5FRUVZT2pjMmJkTnVCX1pxdzFfSjkwb0kzTlg0TEtNYjlvQ19ab2cwbjFmekhHLUh1U3BiYUlabnFtUVA4X3BsS1FZVHFwZ0hCdDRKZUV0YlN5VQ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-06",
+   "title": "Form 4 Prenetics Global Ltd For: 6 October By Investing.com - Investing.com India",
+   "source": "Investing.com India",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ182MDd4T0lEd3c3alktMXFVcVlqQnRJcjFGdjBlUXB2ZFhkWUl5QzJLZ0ZnVy1LZXFJMFY2UzgxN1FZaUc3YXkxMEEzMGdESDNTRlBOQ24xa2lMYlBWZ1VkT1hpb3pabmthSjZFWkVxaW5BQXo5aGFoS2dDdHlRVFB0em5LWWtadXJZNFNnZFVWNWJhcTZna0FXVEtUN3MtMl9USQ?oc=5",
+   "query": "Prenetics"
+  },
+  {
    "date": "2026-10-07",
    "title": "(PRE) Movement Within Algorithmic Entry Frameworks - Stock Traders Daily",
    "source": "Stock Traders Daily",
@@ -15121,9 +15080,9 @@
   },
   {
    "date": "2026-10-12",
-   "title": "IM8, co-founded by David Beckham, lands NBA partnership as health brand continues fast growth - Fox Business",
-   "source": "Fox Business",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNlhQQzFMSkUzcE93d0pFczJaaC1FU2dTTmN1R1V2QXA2c3A4UEY0OWxIYWJycnFRekNQbkxCcFV6aVdkSWl1NTNqaThfSURUcEdkdVZiUjdPblVlM0E2TG8xa1hWRE41REVnRUpaczgyN1lSaGo3d2puRlJCOUdHM3o0RUNmT25oTmxCbHZ4b05LNExiaWVtT05rdlJoYmxHcEtONHRuVHVMVi1jdGh6aVgxcGs1TmZhZ2tQMNIBwgFBVV95cUxOS2NxY0tiZEFRWmIwQlhOa3VRZVo5NXdiTklmbFE2dU9rNGxHM1RhdXJIUlpjNUdkUlVJUG1RN1puWXVsUkN0VDBCQlE2aVB5MEpVZmkxcjBoWFBBb3RRWFFiUlJMMFM2UUJDM0NzeVZHNzRQbko3QnZlX2JYMTBkM21zMWZoejdxeG5XaWd3Q0lqNmRxY09xaWswVmVNVFJKZ2Jvb0xSRFlQWDBPdXpUbkZNZlYxT09jY29sQndEV0hrZw?oc=5",
+   "title": "IM8 Named Official Nutrition Partner of the NBA in Australia and Southeast Asia - The Manila Times",
+   "source": "The Manila Times",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWlRoLWhabXY1cy1DVzJkOVlzeXo4NmstY1J2NHJzTEV6RklqVEMzVUJMa09hYWNkYnlMWXV3Z2NiMi1fZmZoVE1ySWNCa2ZKTk9DT2JCMEpxTkZubi1ReGx4SGxyMzNqX096Zkt0RmsyWWdDNmZMTV9TcmdMY2hNQ21MRlFFdVA3eUhBMS1na25RLXZIWTE2VVVDUG91RjlsY2Q5a3dkc2o3YTFGb0FNMElPR3JBZnZqMjBzY0V2RVZWTWVOdFBIODQ5blBuYkRiRDdFR3ZTMXVXVlhFcHY4UVcwSGpnejRx0gHuAUFVX3lxTE12MzNmTTZrQm5YbDljSWJ6dWRHenNjNkNNTXJuWnZiSGdVek9GaHVrcFJ1MTFuTkRpQ01uejN4M3JiYWpFUjBvcjY3ekctVkNGZER5Z0FPdmVjV1hQVkxXWHpKRlZMa0E3dll1Y3piOXo1eGVoWnlzcUhycGpZSjdWVWwxTlJJRkpiTE02ZUZ1SnRadGFGUjliT0pXVm9oN05JX0dnSzFpbUxfNldFNWdYUGlPWmg1WllOYWVDWGdmeGhpNjBOTG0xcWNwUkZHX3hUeDJrTnpyT2N5ZDdqRGRkbUFuZkZuYzl4cUc3c2c?oc=5",
    "query": "IM8"
   },
   {
@@ -15135,10 +15094,10 @@
   },
   {
    "date": "2026-10-12",
-   "title": "David Beckham co-founded IM8, now the NBA's nutrition partner. An NBA House fan event is planned for 2027. - Stock Titan",
-   "source": "Stock Titan",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeTh3bVFybGFNaXozVWQ3OHJHZ1RBTXhHZ0YtNDJpZlZzc3J3UnZYT2xMTnR4NURoNHNlRG14ZktvVGJCSW9xSUYta1QxZmlpVFVNZHc1WC1hY0oxRWh4TDNhWndIT21IV1JId1ZERkhQdnRKN3UwQlcxc19jeHdsWVhSd1pnczFZNkFncHhpNkZaa2NCRVg4cUtYc0hJbXR0a29OZzhzZWdnU1Ytb1l3dHVvVzNwTzJBS1E?oc=5",
-   "query": "Prenetics"
+   "title": "IM8, co-founded by David Beckham, lands NBA partnership as health brand continues fast growth - Fox Business",
+   "source": "Fox Business",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNlhQQzFMSkUzcE93d0pFczJaaC1FU2dTTmN1R1V2QXA2c3A4UEY0OWxIYWJycnFRekNQbkxCcFV6aVdkSWl1NTNqaThfSURUcEdkdVZiUjdPblVlM0E2TG8xa1hWRE41REVnRUpaczgyN1lSaGo3d2puRlJCOUdHM3o0RUNmT25oTmxCbHZ4b05LNExiaWVtT05rdlJoYmxHcEtONHRuVHVMVi1jdGh6aVgxcGs1TmZhZ2tQMNIBwgFBVV95cUxOS2NxY0tiZEFRWmIwQlhOa3VRZVo5NXdiTklmbFE2dU9rNGxHM1RhdXJIUlpjNUdkUlVJUG1RN1puWXVsUkN0VDBCQlE2aVB5MEpVZmkxcjBoWFBBb3RRWFFiUlJMMFM2UUJDM0NzeVZHNzRQbko3QnZlX2JYMTBkM21zMWZoejdxeG5XaWd3Q0lqNmRxY09xaWswVmVNVFJKZ2Jvb0xSRFlQWDBPdXpUbkZNZlYxT09jY29sQndEV0hrZw?oc=5",
+   "query": "IM8"
   },
   {
    "date": "2026-10-12",
@@ -15149,23 +15108,30 @@
   },
   {
    "date": "2026-10-12",
-   "title": "IM8 Named Official Nutrition Partner of the NBA in Australia and Southeast Asia - True North Radio Network",
-   "source": "True North Radio Network",
-   "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQODAzQmhSVF82dl84SjZib1MyZWtRN2VnamhWc281cWRaTFpiWGFIaF82YzNjSEN5R2RCTGllbnpiR05tU0Z1aDY0YXFWR2Z3bmdlWFNPbUlqSFZaNzJjaGpZUWZQTWJscjR6ZkdObWNwRUFFX1QtM1ZpUXFIM21ObUswVktSUl8wWUJqaHc5ZjZVcWtITjZFZ0x1ZXN6dlYwOFNUVmZnNExhbGxBaDFQUFU1dHJ2WmRNMTE3dVE5WHN6TDFtbnRKSkkxekhtaUJ6RVc1YzdNSjN1ckNfWHZkb1VhTHloa1pxT2Y4dmRWN2hoZG0tN1UtR3NYa3NTYUJMV29kSkVDZ3h0WE1tTmg5czAxa2xZRXY0MnVDNzJETzRYWHo2?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-10-12",
-   "title": "IM8 Named Official Nutrition Partner of the NBA in Australia and Southeast Asia - The Manila Times",
-   "source": "The Manila Times",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWlRoLWhabXY1cy1DVzJkOVlzeXo4NmstY1J2NHJzTEV6RklqVEMzVUJMa09hYWNkYnlMWXV3Z2NiMi1fZmZoVE1ySWNCa2ZKTk9DT2JCMEpxTkZubi1ReGx4SGxyMzNqX096Zkt0RmsyWWdDNmZMTV9TcmdMY2hNQ21MRlFFdVA3eUhBMS1na25RLXZIWTE2VVVDUG91RjlsY2Q5a3dkc2o3YTFGb0FNMElPR3JBZnZqMjBzY0V2RVZWTWVOdFBIODQ5blBuYkRiRDdFR3ZTMXVXVlhFcHY4UVcwSGpnejRx0gHuAUFVX3lxTE12MzNmTTZrQm5YbDljSWJ6dWRHenNjNkNNTXJuWnZiSGdVek9GaHVrcFJ1MTFuTkRpQ01uejN4M3JiYWpFUjBvcjY3ekctVkNGZER5Z0FPdmVjV1hQVkxXWHpKRlZMa0E3dll1Y3piOXo1eGVoWnlzcUhycGpZSjdWVWwxTlJJRkpiTE02ZUZ1SnRadGFGUjliT0pXVm9oN05JX0dnSzFpbUxfNldFNWdYUGlPWmg1WllOYWVDWGdmeGhpNjBOTG0xcWNwUkZHX3hUeDJrTnpyT2N5ZDdqRGRkbUFuZkZuYzl4cUc3c2c?oc=5",
-   "query": "IM8"
+   "title": "David Beckham co-founded IM8, now the NBA's nutrition partner. An NBA House fan event is planned for 2027. - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeTh3bVFybGFNaXozVWQ3OHJHZ1RBTXhHZ0YtNDJpZlZzc3J3UnZYT2xMTnR4NURoNHNlRG14ZktvVGJCSW9xSUYta1QxZmlpVFVNZHc1WC1hY0oxRWh4TDNhWndIT21IV1JId1ZERkhQdnRKN3UwQlcxc19jeHdsWVhSd1pnczFZNkFncHhpNkZaa2NCRVg4cUtYc0hJbXR0a29OZzhzZWdnU1Ytb1l3dHVvVzNwTzJBS1E?oc=5",
+   "query": "Prenetics"
   },
   {
    "date": "2026-10-12",
    "title": "NBA Names IM8 Official Nutrition Partner in Australia and Southeast Asia - Quiver Quantitative",
    "source": "Quiver Quantitative",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWl84Mkh1bjVnaURXOERhalRCNUR3ZHZFVVZ2ekVlYXQyLVFHUlBfZXJFckhnZzNkR1g3VU41SklLMlRyX0p0NTl5VnhXbVh4R3RTSU1DUTNXb0hyb0ZucG1KU01ZMnZOdXZKWHNtNGtmYl91YklWN0ozRUdSWWY1d0cyQ0xxQ3JVekphYU5oOXRpUE9kVHNDVXF0WGw4ZFRBUmdQem9iTUY?oc=5",
+   "query": "IM8"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "IM8 Named Official Nutrition Partner of the NBA in Australia and Southeast Asia - True North Radio Network",
+   "source": "True North Radio Network",
+   "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQODAzQmhSVF82dl84SjZib1MyZWtRN2VnamhWc281cWRaTFpiWGFIaF82YzNjSEN5R2RCTGllbnpiR05tU0Z1aDY0YXFWR2Z3bmdlWFNPbUlqSFZaNzJjaGpZUWZQTWJscjR6ZkdObWNwRUFFX1QtM1ZpUXFIM21ObUswVktSUl8wWUJqaHc5ZjZVcWtITjZFZ0x1ZXN6dlYwOFNUVmZnNExhbGxBaDFQUFU1dHJ2WmRNMTE3dVE5WHN6TDFtbnRKSkkxekhtaUJ6RVc1YzdNSjN1ckNfWHZkb1VhTHloa1pxT2Y4dmRWN2hoZG0tN1UtR3NYa3NTYUJMV29kSkVDZ3h0WE1tTmg5czAxa2xZRXY0MnVDNzJETzRYWHo2?oc=5",
+   "query": "IM8"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "David Beckham’s IM8 Signs NBA Nutrition Partnerships - Athletech News",
+   "source": "Athletech News",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONmRLTVkzWk9zTTI0UmtDZTFPNUY2VWx5WDg2MHRZeUkwZW0xamdoV3ZKWmU0RUtaLUlWOXVxaVNGeTZJRjRsbWYzNDQ4QU9vdnc1aS14ZE9kVGNhQzAwVkxmOVUzM043YTkwVkxpWXI3X3BhZ1cyeVhUN0ZlODBoaWZRZE13blZKNUZHOVVzUGRNc1BUbE5yUk9aQXA?oc=5",
    "query": "IM8"
   },
   {
@@ -15181,13 +15147,6 @@
    "source": "Stock Titan",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSFRicGFZenZ3eFpjMU91S3h6M1RMMUZLSWFscXBtS3hneV9JekhtU2xsOGRxcHFfc1lGdnRBRGFLbmtMNEZDZFpPRWQ3UUhSdzVQNkJOVjRiV2tOVl9vNlBNYzEtNi1DLWFVbEZpcm9BWDlVQnlVdVhLRG5xVDJlMzJqdzZIMnN6R0Y1ejY1eWRXT1FnZUVYdzN2dHNQU0VoQnkyb2h3am5mSTJCRDdtbGVuWklSZw?oc=5",
    "query": "Prenetics"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "David Beckham’s IM8 Signs NBA Nutrition Partnerships - Athletech News",
-   "source": "Athletech News",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONmRLTVkzWk9zTTI0UmtDZTFPNUY2VWx5WDg2MHRZeUkwZW0xamdoV3ZKWmU0RUtaLUlWOXVxaVNGeTZJRjRsbWYzNDQ4QU9vdnc1aS14ZE9kVGNhQzAwVkxmOVUzM043YTkwVkxpWXI3X3BhZ1cyeVhUN0ZlODBoaWZRZE13blZKNUZHOVVzUGRNc1BUbE5yUk9aQXA?oc=5",
-   "query": "IM8"
   },
   {
    "date": "2026-10-13",
@@ -15233,16 +15192,16 @@
   },
   {
    "date": "2026-10-16",
-   "title": "Prenetics Closes $48M Round for Bitcoin Strategy - CoinMarketCap",
-   "source": "CoinMarketCap",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdkg5Y2xLYjA4ekhMY1dFY0NtUG1OdUlOT05JOE9ELXFtUmR1dXhNSi1uaTZvZjJCN3RvSkVJRHpmd1VCWUI1Und6MEUxZ2RFUmxXY2lXcFlKeS1sNjFrbVN0WmhaWTVFM0N0QzBWak1VMGtIUTRwQjVLVzdhNmQyd1BBWTRnSlhxU01pNDYzanItMkpIczVYSmhFUQ?oc=5",
+   "title": "Prenetics Global Warrant (PRENW) Climbs 16.49% as Sub-Penny Trading Draws Attention - Call Dominated - https://www.dars.gov.et/",
+   "source": "https://www.dars.gov.et/",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMThlaWNTVlVjOFczZnBGQ0YxcW1sQkpleXUwQ1p6emVXbV9meDE3UjdBeWFZb1p6dzhJMFZhV1VNa3NIeTl1ZUVXUGUxbERuZjZFaUM5eUd3anRkUGt5OHR4VFNSSExkNzUzWE1wbU43TkZ2aDVLRW5aZXZqYVhSR1Q1SE1HazcxVVRjWVgwel9OX2FWMTQxRzdaQkpKUnFXWGZIdjlrbWZXa1pHangwWDlNMnBFMHB2YVFCRg?oc=5",
    "query": "Prenetics"
   },
   {
    "date": "2026-10-16",
-   "title": "Prenetics Global Warrant (PRENW) Climbs 16.49% as Sub-Penny Trading Draws Attention - Call Dominated - https://www.dars.gov.et/",
-   "source": "https://www.dars.gov.et/",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMThlaWNTVlVjOFczZnBGQ0YxcW1sQkpleXUwQ1p6emVXbV9meDE3UjdBeWFZb1p6dzhJMFZhV1VNa3NIeTl1ZUVXUGUxbERuZjZFaUM5eUd3anRkUGt5OHR4VFNSSExkNzUzWE1wbU43TkZ2aDVLRW5aZXZqYVhSR1Q1SE1HazcxVVRjWVgwel9OX2FWMTQxRzdaQkpKUnFXWGZIdjlrbWZXa1pHangwWDlNMnBFMHB2YVFCRg?oc=5",
+   "title": "Prenetics Closes $48M Round for Bitcoin Strategy - CoinMarketCap",
+   "source": "CoinMarketCap",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdkg5Y2xLYjA4ekhMY1dFY0NtUG1OdUlOT05JOE9ELXFtUmR1dXhNSi1uaTZvZjJCN3RvSkVJRHpmd1VCWUI1Und6MEUxZ2RFUmxXY2lXcFlKeS1sNjFrbVN0WmhaWTVFM0N0QzBWak1VMGtIUTRwQjVLVzdhNmQyd1BBWTRnSlhxU01pNDYzanItMkpIczVYSmhFUQ?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15261,6 +15220,13 @@
   },
   {
    "date": "2026-10-18",
+   "title": "David Beckham, Chris Bosh and Dawn Mussallem open the next chapter of IM8 in Hong Kong - Tatler Asia",
+   "source": "Tatler Asia",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16NVBBcTlNUUQxSlcxMUJsWjJmSS1TYm42Z2NfenV0VW1VcUd5eGk5c1lheWVfTndmS0ZIZmsxVWRuczVQMXd2VTNXX2pLOFhJRmRTdzU4ZHY5RFVmZjVxNjBjSl9sSmVicFMyNXY3MVlPcEt0WEFwdmc4UGo?oc=5",
+   "query": "IM8"
+  },
+  {
+   "date": "2026-10-18",
    "title": "Form 4 Prenetics Global Ltd: Hoi Chun Lo (CFO) For: 30 September - Investing.com Nigeria",
    "source": "Investing.com Nigeria",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeDhKY0JSRko0MDcxLUJwdnpxRG9uSGdjM0hpdEtkS0J5YWc0cVJxTnM3OEE4dnlhSTRIMGptcU5UV1FTM3VHQktNU1dOTVpWWDBocnBfMU5YcGoyUEdrbDNuZ083RUc1dENqdXR3QjQwX3RqMjFuX1AxaUxrQ01MNWEzS2YyMUlqYlpEXzJMT0tQaU4yamhPSmFGempsaEs2UzloZlRaMFRwMTZDVkpld3JkSFJfY1YwUXY5VjRR?oc=5",
@@ -15272,13 +15238,6 @@
    "source": "Investing.com India",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQanJIVzQ3U3FDVlFWNk56OWFNZmxxNk1JNVRKS1paSGxBVzgzaDVFTzJnTDJtRmV3eE5UaDNwT0xlcTFTdFhjSElvb2l4bE1NcE1VRWNVWjBXWkNWZTc3QTlBeWNUQjhVNkR2VU1KWUNwQk5NejRqNEhUeGdJOEJ6bVliLTJVRF9rVENmMXNESm5Vb0s0ZGVJNjA4akdUOUFTc2Qyc1U3b2dVQk5FZkk2eGxhNlBwOFpESFdlZUln?oc=5",
    "query": "Prenetics"
-  },
-  {
-   "date": "2026-10-18",
-   "title": "David Beckham, Chris Bosh and Dawn Mussallem open the next chapter of IM8 in Hong Kong - Tatler Asia",
-   "source": "Tatler Asia",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16NVBBcTlNUUQxSlcxMUJsWjJmSS1TYm42Z2NfenV0VW1VcUd5eGk5c1lheWVfTndmS0ZIZmsxVWRuczVQMXd2VTNXX2pLOFhJRmRTdzU4ZHY5RFVmZjVxNjBjSl9sSmVicFMyNXY3MVlPcEt0WEFwdmc4UGo?oc=5",
-   "query": "IM8"
   },
   {
    "date": "2026-10-19",
@@ -15305,7 +15264,21 @@
    "date": "2026-10-26",
    "title": "Maxim Group initiated coverage on Prenetics Group Ltd. with a new price target - Quantisnow",
    "source": "Quantisnow",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSEloZHR5SVpaRzR3X29xV0gzRUViN3F1YS1wRzhkaWc1TnNQYTlHXzhxbDBrUFdMRFpmMUtMbnpSb2tPNWZwNmx3X1VPQU15UlhOaERoVFBkd1psdTR3UFlDNi1scU8xZjhGenJKeE9IeGpUT3VHTHdSZVEzYXMtN0lfcURhZmY4dEtndjlJQnZhNzZ2eG9mQzhMVW1aM1Nmc3l1RWlB?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "Maxim Group initiated coverage on Prenetics Group Ltd. with a new price target - Quantisnow",
+   "source": "Quantisnow",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMG9pLVRCVDJIc3J5UjFudnVTall5djhSbXpqQUl1VEVOZ2oydnFrNlFPTUpHUG9xelhUSkdSU2J2T2NqREo3UlZaTm9Jeld1VEpPQUFFVUl6TlhWTTk1VVZrYllkYnM5UXM2VWhPaEVGcWc3VUp4QmxlSWdBRjQ2RkhnMzN1emFrS25CM3M2S0dEa1VlZElHNEFEZmNiOE56?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "A Look at Prenetics Global Ltd (PRE) After 5.9% Gain -- GF Value $34.97 vs Price $18.37 - GuruFocus",
+   "source": "GuruFocus",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT0VGd21mOWZZSHBkZWhJNi1QU2pJWExhc0pmOFFzWmkyMnVCeEpISGtSX0FJMmpwZ3NJdEpPM2o0MWEwWTRpMks2d1E0NWdwZUtKeDJYQThfeksweWZTODRqUmJLWENRR3hOcmc1MERmWlNBeEdTVi1abFVoRzBDTEhjQmM0MVNkSS1EWnZCN0FwbFVTaUlEYldGWGs4ZHl6LW9TUjRva1oySXJZVnVZLW9RajBRdw?oc=5",
    "query": "Prenetics"
   }
  ]
