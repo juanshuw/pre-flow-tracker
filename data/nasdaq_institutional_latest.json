@@ -1,15 +1,15 @@
 {
  "date": "2026-10-29",
  "summary": {
-  "SharesOutstandingPCT": "8.00%",
+  "SharesOutstandingPCT": "8.02%",
   "ShareoutstandingTotal": "16",
   "TotalHoldingsValue": "$23"
  },
  "active_positions": [
   {
    "position": "Increased Positions",
-   "holders": "16",
-   "shares": "514,956"
+   "holders": "17",
+   "shares": "517,483"
   },
   {
    "position": "Decreased Positions",
@@ -18,13 +18,13 @@
   },
   {
    "position": "Held Positions",
-   "holders": "4",
+   "holders": "3",
    "shares": "531,909"
   },
   {
    "position": "Total Institutional Shares",
    "holders": "40",
-   "shares": "1,245,424"
+   "shares": "1,247,951"
   }
  ],
  "new_sold_out": [
@@ -121,20 +121,20 @@
    "marketValue": "$617"
   },
   {
+   "ownerName": "Stevens Capital Partners",
+   "date": "9/30/2026",
+   "sharesHeld": "30,674",
+   "sharesChange": "2,527",
+   "sharesChangePCT": "8.978%",
+   "marketValue": "$568"
+  },
+  {
    "ownerName": "Xtx Topco Ltd",
    "date": "6/30/2026",
    "sharesHeld": "30,485",
    "sharesChange": "-2,932",
    "sharesChangePCT": "-8.774%",
    "marketValue": "$565"
-  },
-  {
-   "ownerName": "Stevens Capital Partners",
-   "date": "6/30/2026",
-   "sharesHeld": "28,147",
-   "sharesChange": "0",
-   "sharesChangePCT": "0%",
-   "marketValue": "$521"
   },
   {
    "ownerName": "Qube Research & Technologies Ltd",
