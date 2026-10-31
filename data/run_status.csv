@@ -455,3 +455,29 @@ social.reddit,skip,blocked,2026-10-30T16:51:31,2026-10-30 16:51
 borrow.iborrowdesk,skip,unreachable,2026-10-30T16:51:36,2026-10-30 16:51
 analysts.yahoo,ok,PT mean 38.44444,2026-10-30T16:51:36,2026-10-30 16:51
 news.google_rss,ok,80 items,2026-10-30T16:51:37,2026-10-30 16:51
+prices.yahoo,ok,459 rows,2026-10-31T08:00:09,2026-10-31 08:00
+prices.stooq,skip,empty/blocked,2026-10-31T08:00:09,2026-10-31 08:00
+prices.nasdaq,ok,459 rows,2026-10-31T08:00:10,2026-10-31 08:00
+prices.peers,ok,459 rows,2026-10-31T08:00:11,2026-10-31 08:00
+prices.intraday_1m,ok,7 days,2026-10-31T08:00:11,2026-10-31 08:00
+finra.regsho_daily,ok,"+17 days, total 257",2026-10-31T08:00:12,2026-10-31 08:00
+finra.otc_weekly,ok,241 rows since 2026-07-23; latest week 2026-09-21,2026-10-31T08:00:13,2026-10-31 08:00
+finra.otc_monthly,ok,8 rows,2026-10-31T08:00:13,2026-10-31 08:00
+finra.short_interest,ok,latest 2026-10-15,2026-10-31T08:00:13,2026-10-31 08:00
+sec.edgar_filings,ok,97 filings; latest 2026-10-13,2026-10-31T08:00:14,2026-10-31 08:00
+sec.form4,ok,no new Form 4,2026-10-31T08:00:14,2026-10-31 08:00
+sec.edgar_events,ok,no new docs,2026-10-31T08:00:14,2026-10-31 08:00
+sec.13f,ok,300 hits; nothing new,2026-10-31T08:00:16,2026-10-31 08:00
+sec.ftd,ok,no new period files,2026-10-31T08:00:18,2026-10-31 08:00
+sec.shares,ok,"latest 16,874,089 as of 2025-12-31",2026-10-31T08:00:18,2026-10-31 08:00
+nasdaq.circuit_breaker,ok,up to date,2026-10-31T08:00:18,2026-10-31 08:00
+nasdaq.threshold,ok,+1 days; on list [],2026-10-31T08:00:19,2026-10-31 08:00
+nasdaq.institutional,ok,inst own 8.02%; holders 40,2026-10-31T08:00:23,2026-10-31 08:00
+nasdaq.insiders,ok,14 rows,2026-10-31T08:00:26,2026-10-31 08:00
+nasdaq.short_interest,ok,25 rows,2026-10-31T08:00:29,2026-10-31 08:00
+options.yahoo,ok,OI C1142/P121,2026-10-31T08:00:29,2026-10-31 08:00
+social.stocktwits,ok,watch 2890; +0 msgs,2026-10-31T08:00:29,2026-10-31 08:00
+social.reddit,skip,blocked,2026-10-31T08:00:29,2026-10-31 08:00
+borrow.iborrowdesk,skip,unreachable,2026-10-31T08:00:34,2026-10-31 08:00
+analysts.yahoo,ok,PT mean 38.44444,2026-10-31T08:00:35,2026-10-31 08:00
+news.google_rss,ok,200 items,2026-10-31T08:00:36,2026-10-31 08:00
