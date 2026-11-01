@@ -1,7 +1,7 @@
 {
  "meta": {
   "symbol": "PRE",
-  "built_at": "2026-10-31 08:00 UTC",
+  "built_at": "2026-11-01 08:43 UTC",
   "last_trade_date": "2026-10-30",
   "shares_a": 15356748,
   "sources": [
@@ -9,157 +9,157 @@
     "source": "prices.yahoo",
     "status": "ok",
     "note": "459 rows",
-    "ts": "2026-10-31T08:00:09"
+    "ts": "2026-11-01T08:43:15"
    },
    {
     "source": "prices.stooq",
     "status": "skip",
     "note": "empty/blocked",
-    "ts": "2026-10-31T08:00:09"
+    "ts": "2026-11-01T08:43:16"
    },
    {
     "source": "prices.nasdaq",
     "status": "ok",
     "note": "459 rows",
-    "ts": "2026-10-31T08:00:10"
+    "ts": "2026-11-01T08:43:18"
    },
    {
     "source": "prices.peers",
     "status": "ok",
     "note": "459 rows",
-    "ts": "2026-10-31T08:00:11"
+    "ts": "2026-11-01T08:43:18"
    },
    {
     "source": "prices.intraday_1m",
     "status": "ok",
     "note": "7 days",
-    "ts": "2026-10-31T08:00:11"
+    "ts": "2026-11-01T08:43:19"
    },
    {
     "source": "finra.regsho_daily",
     "status": "ok",
-    "note": "+17 days, total 257",
-    "ts": "2026-10-31T08:00:12"
+    "note": "+16 days, total 257",
+    "ts": "2026-11-01T08:43:20"
    },
    {
     "source": "finra.otc_weekly",
     "status": "ok",
     "note": "241 rows since 2026-07-23; latest week 2026-09-21",
-    "ts": "2026-10-31T08:00:13"
+    "ts": "2026-11-01T08:43:20"
    },
    {
     "source": "finra.otc_monthly",
     "status": "ok",
     "note": "8 rows",
-    "ts": "2026-10-31T08:00:13"
+    "ts": "2026-11-01T08:43:21"
    },
    {
     "source": "finra.short_interest",
     "status": "ok",
     "note": "latest 2026-10-15",
-    "ts": "2026-10-31T08:00:13"
+    "ts": "2026-11-01T08:43:21"
    },
    {
     "source": "sec.edgar_filings",
     "status": "ok",
     "note": "97 filings; latest 2026-10-13",
-    "ts": "2026-10-31T08:00:14"
+    "ts": "2026-11-01T08:43:21"
    },
    {
     "source": "sec.form4",
     "status": "ok",
     "note": "no new Form 4",
-    "ts": "2026-10-31T08:00:14"
+    "ts": "2026-11-01T08:43:21"
    },
    {
     "source": "sec.edgar_events",
     "status": "ok",
     "note": "no new docs",
-    "ts": "2026-10-31T08:00:14"
+    "ts": "2026-11-01T08:43:21"
    },
    {
     "source": "sec.13f",
     "status": "ok",
     "note": "300 hits; nothing new",
-    "ts": "2026-10-31T08:00:16"
+    "ts": "2026-11-01T08:43:23"
    },
    {
     "source": "sec.ftd",
     "status": "ok",
     "note": "no new period files",
-    "ts": "2026-10-31T08:00:18"
+    "ts": "2026-11-01T08:43:25"
    },
    {
     "source": "sec.shares",
     "status": "ok",
     "note": "latest 16,874,089 as of 2025-12-31",
-    "ts": "2026-10-31T08:00:18"
+    "ts": "2026-11-01T08:43:25"
    },
    {
     "source": "nasdaq.circuit_breaker",
     "status": "ok",
     "note": "up to date",
-    "ts": "2026-10-31T08:00:18"
+    "ts": "2026-11-01T08:43:25"
    },
    {
     "source": "nasdaq.threshold",
     "status": "ok",
-    "note": "+1 days; on list []",
-    "ts": "2026-10-31T08:00:19"
+    "note": "up to date",
+    "ts": "2026-11-01T08:43:25"
    },
    {
     "source": "nasdaq.institutional",
     "status": "ok",
     "note": "inst own 8.02%; holders 40",
-    "ts": "2026-10-31T08:00:23"
+    "ts": "2026-11-01T08:43:29"
    },
    {
     "source": "nasdaq.insiders",
     "status": "ok",
     "note": "14 rows",
-    "ts": "2026-10-31T08:00:26"
+    "ts": "2026-11-01T08:43:30"
    },
    {
     "source": "nasdaq.short_interest",
     "status": "ok",
     "note": "25 rows",
-    "ts": "2026-10-31T08:00:29"
+    "ts": "2026-11-01T08:43:34"
    },
    {
     "source": "options.yahoo",
     "status": "ok",
     "note": "OI C1142/P121",
-    "ts": "2026-10-31T08:00:29"
+    "ts": "2026-11-01T08:43:34"
    },
    {
     "source": "social.stocktwits",
     "status": "ok",
-    "note": "watch 2890; +0 msgs",
-    "ts": "2026-10-31T08:00:29"
+    "note": "watch 2889; +0 msgs",
+    "ts": "2026-11-01T08:43:34"
    },
    {
     "source": "social.reddit",
     "status": "skip",
     "note": "blocked",
-    "ts": "2026-10-31T08:00:29"
+    "ts": "2026-11-01T08:43:34"
    },
    {
     "source": "borrow.iborrowdesk",
     "status": "skip",
     "note": "unreachable",
-    "ts": "2026-10-31T08:00:34"
+    "ts": "2026-11-01T08:43:39"
    },
    {
     "source": "analysts.yahoo",
     "status": "ok",
     "note": "PT mean 38.44444",
-    "ts": "2026-10-31T08:00:35"
+    "ts": "2026-11-01T08:43:39"
    },
    {
     "source": "news.google_rss",
     "status": "ok",
-    "note": "200 items",
-    "ts": "2026-10-31T08:00:36"
+    "note": "152 items",
+    "ts": "2026-11-01T08:43:40"
    }
   ],
   "baseline_ats_pct": 24.7
@@ -349,7 +349,7 @@
   {
    "group": "散户 / 活跃交易者",
    "signal": "Stocktwits 近 7 日消息 / 关注数",
-   "value": "0 条 / 2890",
+   "value": "0 条 / 2889",
    "reading": "沉默=无追涨盘也无接盘；放量讨论+下跌=投降",
    "source": "Stocktwits API",
    "asof": "2026-10-30"
@@ -416,7 +416,7 @@
    "value": "8.02%",
    "reading": "低=卖方在不申报层",
    "source": "api.nasdaq.com",
-   "asof": "2026-10-31"
+   "asof": "2026-11-01"
   },
   {
    "group": "空头",
@@ -480,7 +480,7 @@
    "value": "$38.4（30.0–54.0）· 强买1.0/买6.0/持0.0/卖0.0",
    "reading": "初评日往往放量一日即耗尽",
    "source": "Yahoo",
-   "asof": "2026-10-31"
+   "asof": "2026-11-01"
   },
   {
    "group": "卖方 / 分析师",
@@ -496,7 +496,7 @@
    "value": "1142 / 121 张",
    "reading": "对冲股数上限 =(C+P)×100；小=无衍生品驱动",
    "source": "Yahoo 期权链",
-   "asof": "2026-10-31"
+   "asof": "2026-11-01"
   }
  ],
  "daily": [
@@ -11878,10 +11878,18 @@
    "puts_oi": 121,
    "calls_vol": 153,
    "puts_vol": 28
+  },
+  {
+   "date": "2026-11-01",
+   "expiry": "TOTAL",
+   "calls_oi": 1142,
+   "puts_oi": 121,
+   "calls_vol": 153,
+   "puts_vol": 28
   }
  ],
  "options_top": {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "top": [
    {
     "expiry": "2026-11-20",
@@ -12407,6 +12415,12 @@
    "st_msgs": 0,
    "reddit_posts": 0,
    "st_watchlist": 2890.0
+  },
+  {
+   "date": "2026-11-01",
+   "st_msgs": 0,
+   "reddit_posts": 0,
+   "st_watchlist": 2889.0
   }
  ],
  "stocktwits_recent": [
@@ -13188,7 +13202,7 @@
   ]
  },
  "nasdaq_inst": {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "summary": {
    "SharesOutstandingPCT": "8.02%",
    "ShareoutstandingTotal": "16",
@@ -15113,7 +15127,7 @@
   ],
   "targets": [
    {
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "pt_current": 17.76,
     "pt_low": 30.0,
     "pt_high": 54.0,
@@ -15129,10 +15143,10 @@
  },
  "news": [
   {
-   "date": "2026-10-06",
-   "title": "A 2,000-share grant settlement leaves Prenetics Global (PRE) director holding 8,001 shares. - Stock Titan",
-   "source": "Stock Titan",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbXpzQ1VyQmQ0TlotYXZMMUZwNUk2SkJUczBUUlgtZXJnbHdvTmQ1ZXVuenEwN2hYeVNwMjA4cUt3RUpEaGtyZmxvZW5UOVBkNHlNSHNLUDJNZXpOdWQxTE1qUlIyMC12RUV2VWkyamRCdmZqaG9oUV84X2tuYWFpZXNHaV9zakJLeEJCaXF1SExON19rWFotWEdZLW1PNUNWc3FqN0gwT3NRWWx2WEJYcGVISQ?oc=5",
+   "date": "2026-09-21",
+   "title": "Prenetics Global Q2FY26 Results: Revenue up 3.9x, guidance raised - scanx.trade",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNHlIaEVYNWtQSEROdE9vRUZEcmJDY2F6MHJtS2lhLVFYM242ZDk2VnpCbEFiYVdkSDZ2MVVEU1JqYVg4ZC1MUFlEX3J6QlRMeGNUa2MxbzBXTXNLS2ZaLWktNjlNdFlIMm9sU1FuZWpLVVAtdzZFRERvWVRYZk84UlVuU0wzaHBldml2NTZyV05rUnczWlVmcDQ3TmEyVEo4WldncTgxYVA4V0Vwc0hYUXMzQVM5dFZkQXVlTw?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15157,6 +15171,13 @@
    "query": "Prenetics"
   },
   {
+   "date": "2026-10-06",
+   "title": "A 2,000-share grant settlement leaves Prenetics Global (PRE) director holding 8,001 shares. - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbXpzQ1VyQmQ0TlotYXZMMUZwNUk2SkJUczBUUlgtZXJnbHdvTmQ1ZXVuenEwN2hYeVNwMjA4cUt3RUpEaGtyZmxvZW5UOVBkNHlNSHNLUDJNZXpOdWQxTE1qUlIyMC12RUV2VWkyamRCdmZqaG9oUV84X2tuYWFpZXNHaV9zakJLeEJCaXF1SExON19rWFotWEdZLW1PNUNWc3FqN0gwT3NRWWx2WEJYcGVISQ?oc=5",
+   "query": "Prenetics"
+  },
+  {
    "date": "2026-10-07",
    "title": "(PRE) Movement Within Algorithmic Entry Frameworks - Stock Traders Daily",
    "source": "Stock Traders Daily",
@@ -15165,9 +15186,9 @@
   },
   {
    "date": "2026-10-12",
-   "title": "IM8 Named Official Nutrition Partner of the NBA in Australia and Southeast Asia - True North Radio Network",
-   "source": "True North Radio Network",
-   "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQODAzQmhSVF82dl84SjZib1MyZWtRN2VnamhWc281cWRaTFpiWGFIaF82YzNjSEN5R2RCTGllbnpiR05tU0Z1aDY0YXFWR2Z3bmdlWFNPbUlqSFZaNzJjaGpZUWZQTWJscjR6ZkdObWNwRUFFX1QtM1ZpUXFIM21ObUswVktSUl8wWUJqaHc5ZjZVcWtITjZFZ0x1ZXN6dlYwOFNUVmZnNExhbGxBaDFQUFU1dHJ2WmRNMTE3dVE5WHN6TDFtbnRKSkkxekhtaUJ6RVc1YzdNSjN1ckNfWHZkb1VhTHloa1pxT2Y4dmRWN2hoZG0tN1UtR3NYa3NTYUJMV29kSkVDZ3h0WE1tTmg5czAxa2xZRXY0MnVDNzJETzRYWHo2?oc=5",
+   "title": "IM8, co-founded by David Beckham, lands NBA partnership as health brand continues fast growth - Fox Business",
+   "source": "Fox Business",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNlhQQzFMSkUzcE93d0pFczJaaC1FU2dTTmN1R1V2QXA2c3A4UEY0OWxIYWJycnFRekNQbkxCcFV6aVdkSWl1NTNqaThfSURUcEdkdVZiUjdPblVlM0E2TG8xa1hWRE41REVnRUpaczgyN1lSaGo3d2puRlJCOUdHM3o0RUNmT25oTmxCbHZ4b05LNExiaWVtT05rdlJoYmxHcEtONHRuVHVMVi1jdGh6aVgxcGs1TmZhZ2tQMNIBwgFBVV95cUxOS2NxY0tiZEFRWmIwQlhOa3VRZVo5NXdiTklmbFE2dU9rNGxHM1RhdXJIUlpjNUdkUlVJUG1RN1puWXVsUkN0VDBCQlE2aVB5MEpVZmkxcjBoWFBBb3RRWFFiUlJMMFM2UUJDM0NzeVZHNzRQbko3QnZlX2JYMTBkM21zMWZoejdxeG5XaWd3Q0lqNmRxY09xaWswVmVNVFJKZ2Jvb0xSRFlQWDBPdXpUbkZNZlYxT09jY29sQndEV0hrZw?oc=5",
    "query": "IM8"
   },
   {
@@ -15176,6 +15197,13 @@
    "source": "Investing.com",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdmxKeUhGU3hGUm1EOFRjYzRNU2R4WmFwOHhCUnowc2w2czNUN2VjaHlRcDZ3NGdxenptZlhIcXJHLVpyZ3NGMlVSclhNVmRRdGk0aFhXMWV0UFJMTkQxZmhUbTZVLXRLNU9zYm1jMHJyUXUtb3dtVU9jbW1HUHAtUXlZSkMxU2ROWk9rNExmZzBWd2RIOXlqdG1DZ2sxclBYVzBUY1FaOWhMUU14MWR6TnY5ZXl3LUdYcXV2Ni1zTXY?oc=5",
    "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "IM8 Named Official Nutrition Partner of the NBA in Australia and Southeast Asia - The Manila Times",
+   "source": "The Manila Times",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWlRoLWhabXY1cy1DVzJkOVlzeXo4NmstY1J2NHJzTEV6RklqVEMzVUJMa09hYWNkYnlMWXV3Z2NiMi1fZmZoVE1ySWNCa2ZKTk9DT2JCMEpxTkZubi1ReGx4SGxyMzNqX096Zkt0RmsyWWdDNmZMTV9TcmdMY2hNQ21MRlFFdVA3eUhBMS1na25RLXZIWTE2VVVDUG91RjlsY2Q5a3dkc2o3YTFGb0FNMElPR3JBZnZqMjBzY0V2RVZWTWVOdFBIODQ5blBuYkRiRDdFR3ZTMXVXVlhFcHY4UVcwSGpnejRx0gHuAUFVX3lxTE12MzNmTTZrQm5YbDljSWJ6dWRHenNjNkNNTXJuWnZiSGdVek9GaHVrcFJ1MTFuTkRpQ01uejN4M3JiYWpFUjBvcjY3ekctVkNGZER5Z0FPdmVjV1hQVkxXWHpKRlZMa0E3dll1Y3piOXo1eGVoWnlzcUhycGpZSjdWVWwxTlJJRkpiTE02ZUZ1SnRadGFGUjliT0pXVm9oN05JX0dnSzFpbUxfNldFNWdYUGlPWmg1WllOYWVDWGdmeGhpNjBOTG0xcWNwUkZHX3hUeDJrTnpyT2N5ZDdqRGRkbUFuZkZuYzl4cUc3c2c?oc=5",
+   "query": "IM8"
   },
   {
    "date": "2026-10-12",
@@ -15193,20 +15221,6 @@
   },
   {
    "date": "2026-10-12",
-   "title": "IM8 Named Official Nutrition Partner of the NBA in Australia and Southeast Asia - The Manila Times",
-   "source": "The Manila Times",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWlRoLWhabXY1cy1DVzJkOVlzeXo4NmstY1J2NHJzTEV6RklqVEMzVUJMa09hYWNkYnlMWXV3Z2NiMi1fZmZoVE1ySWNCa2ZKTk9DT2JCMEpxTkZubi1ReGx4SGxyMzNqX096Zkt0RmsyWWdDNmZMTV9TcmdMY2hNQ21MRlFFdVA3eUhBMS1na25RLXZIWTE2VVVDUG91RjlsY2Q5a3dkc2o3YTFGb0FNMElPR3JBZnZqMjBzY0V2RVZWTWVOdFBIODQ5blBuYkRiRDdFR3ZTMXVXVlhFcHY4UVcwSGpnejRx0gHuAUFVX3lxTE12MzNmTTZrQm5YbDljSWJ6dWRHenNjNkNNTXJuWnZiSGdVek9GaHVrcFJ1MTFuTkRpQ01uejN4M3JiYWpFUjBvcjY3ekctVkNGZER5Z0FPdmVjV1hQVkxXWHpKRlZMa0E3dll1Y3piOXo1eGVoWnlzcUhycGpZSjdWVWwxTlJJRkpiTE02ZUZ1SnRadGFGUjliT0pXVm9oN05JX0dnSzFpbUxfNldFNWdYUGlPWmg1WllOYWVDWGdmeGhpNjBOTG0xcWNwUkZHX3hUeDJrTnpyT2N5ZDdqRGRkbUFuZkZuYzl4cUc3c2c?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-10-12",
-   "title": "IM8, co-founded by David Beckham, lands NBA partnership as health brand continues fast growth - Fox Business",
-   "source": "Fox Business",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNlhQQzFMSkUzcE93d0pFczJaaC1FU2dTTmN1R1V2QXA2c3A4UEY0OWxIYWJycnFRekNQbkxCcFV6aVdkSWl1NTNqaThfSURUcEdkdVZiUjdPblVlM0E2TG8xa1hWRE41REVnRUpaczgyN1lSaGo3d2puRlJCOUdHM3o0RUNmT25oTmxCbHZ4b05LNExiaWVtT05rdlJoYmxHcEtONHRuVHVMVi1jdGh6aVgxcGs1TmZhZ2tQMNIBwgFBVV95cUxOS2NxY0tiZEFRWmIwQlhOa3VRZVo5NXdiTklmbFE2dU9rNGxHM1RhdXJIUlpjNUdkUlVJUG1RN1puWXVsUkN0VDBCQlE2aVB5MEpVZmkxcjBoWFBBb3RRWFFiUlJMMFM2UUJDM0NzeVZHNzRQbko3QnZlX2JYMTBkM21zMWZoejdxeG5XaWd3Q0lqNmRxY09xaWswVmVNVFJKZ2Jvb0xSRFlQWDBPdXpUbkZNZlYxT09jY29sQndEV0hrZw?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-10-12",
    "title": "Lucid Capital Markets initiates Prenetics stock with buy rating By Investing.com - Investing.com UK",
    "source": "Investing.com UK",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY3V6MW5UU0ppMHdaOTNMRFZZOEtra2hrWDRhY2lIWFZMR2xQTHZoejdpY0FqT2xQUjk3MHpTZjI0dVNSUkc5M2E0ZmdFSEVSS0Fkb0tMcnFValJENjRWLWxmMkdxc1pnM3JScDRvaWhuc3liMTk5SlNSVUFOOHc2Y1hFZnV6enl2TV93Mk9HbGh3NFRlTUpBNkRWUVVaQ0RyUmkyMk5GNEJLN1NJS0RhdUdhcFFXSHVGZVJLTFJjSV80Zw?oc=5",
@@ -15221,6 +15235,13 @@
   },
   {
    "date": "2026-10-12",
+   "title": "IM8 Named Official Nutrition Partner of the NBA in Australia and Southeast Asia - True North Radio Network",
+   "source": "True North Radio Network",
+   "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQODAzQmhSVF82dl84SjZib1MyZWtRN2VnamhWc281cWRaTFpiWGFIaF82YzNjSEN5R2RCTGllbnpiR05tU0Z1aDY0YXFWR2Z3bmdlWFNPbUlqSFZaNzJjaGpZUWZQTWJscjR6ZkdObWNwRUFFX1QtM1ZpUXFIM21ObUswVktSUl8wWUJqaHc5ZjZVcWtITjZFZ0x1ZXN6dlYwOFNUVmZnNExhbGxBaDFQUFU1dHJ2WmRNMTE3dVE5WHN6TDFtbnRKSkkxekhtaUJ6RVc1YzdNSjN1ckNfWHZkb1VhTHloa1pxT2Y4dmRWN2hoZG0tN1UtR3NYa3NTYUJMV29kSkVDZ3h0WE1tTmg5czAxa2xZRXY0MnVDNzJETzRYWHo2?oc=5",
+   "query": "IM8"
+  },
+  {
+   "date": "2026-10-12",
    "title": "Lucid Capital Initiates Prenetics Global(PRE.US) With Buy Rating, Announces Target Price $54 - Moomoo",
    "source": "Moomoo",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSklfWUNocGVvQ2NtQzMwWXRrX1VndTlNVmllTTJkMl8zcS1QRVdWNDhwQ3RTVWdDUnMyU3M2Z19vLWV3a0t5X2w3MjZMbzVwVXlUcUNPNHNFRU1YXzBjM3NTbWp3Ulp2alR6bnE4S3FXOWlGbGhoZHBjNzZJeUdQLUZFaE9IbGIxQUozZzVMaUxBMU1LVjhqRi0teGM5LWdEV2FDZ3NCS3lYTk83T0lSazl3TjhSZE0?oc=5",
@@ -15228,23 +15249,9 @@
   },
   {
    "date": "2026-10-13",
-   "title": "NBA names Prenetics (PRE) brand IM8 a regional nutrition partner in a multiyear deal - Stock Titan",
-   "source": "Stock Titan",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSFRicGFZenZ3eFpjMU91S3h6M1RMMUZLSWFscXBtS3hneV9JekhtU2xsOGRxcHFfc1lGdnRBRGFLbmtMNEZDZFpPRWQ3UUhSdzVQNkJOVjRiV2tOVl9vNlBNYzEtNi1DLWFVbEZpcm9BWDlVQnlVdVhLRG5xVDJlMzJqdzZIMnN6R0Y1ejY1eWRXT1FnZUVYdzN2dHNQU0VoQnkyb2h3am5mSTJCRDdtbGVuWklSZw?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-10-13",
    "title": "NBA brings in IM8 as regional partner; Magic and Disney renew - Sportcal",
    "source": "Sportcal",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdnRLNk1fZ2VfamdzM05pRHc4NWFrd0ZyT21UeHlub3UxVXdmbWpDS015SVdqU1hBbVZjLXh4LWJleDI3dEl5U2llb3FYa1RNZnNWTl9EQW9rRHh1SjlNenRBaV9fZUxmNkpndG9ZQnNwOWJNaEV6Tjd2NE1MSGV6UGJ5Nk5zVmRrLWJUN2RWU3kxNFYybzh2SVlmSlhWU3c?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "NBA Names David Beckham Co-Founded IM8 as Official Nutrition Partner in Australia and Southeast Asia - Ministry of Sport",
-   "source": "Ministry of Sport",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN29GR1Faczk3UWNyaktFZ3dhSG5Ic0thRERhUEkyU2tQeUdxN09lRkVETU1pVzgtWDZRZndzV1ZYT21HRGZURjUtQXg5T1ZXSnpBUXJzbHFtOHJIRGJmUlotalE5MW92VlNhVFJ2R1RLcjBDMlBUdldDdGI5MDM0YURWN3BPeHJNcDRSOC1pS1hjejhuRDYyWHd2SEpfaUFtZXVUZVlIVGJjNm1ia1BkTXA3NjlWQWV5bG5GOTNPa2dGYjFYNDMwNA?oc=5",
    "query": "IM8"
   },
   {
@@ -15260,6 +15267,20 @@
    "source": "Athletech News",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONmRLTVkzWk9zTTI0UmtDZTFPNUY2VWx5WDg2MHRZeUkwZW0xamdoV3ZKWmU0RUtaLUlWOXVxaVNGeTZJRjRsbWYzNDQ4QU9vdnc1aS14ZE9kVGNhQzAwVkxmOVUzM043YTkwVkxpWXI3X3BhZ1cyeVhUN0ZlODBoaWZRZE13blZKNUZHOVVzUGRNc1BUbE5yUk9aQXA?oc=5",
    "query": "IM8"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "NBA Names David Beckham Co-Founded IM8 as Official Nutrition Partner in Australia and Southeast Asia - Ministry of Sport",
+   "source": "Ministry of Sport",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN29GR1Faczk3UWNyaktFZ3dhSG5Ic0thRERhUEkyU2tQeUdxN09lRkVETU1pVzgtWDZRZndzV1ZYT21HRGZURjUtQXg5T1ZXSnpBUXJzbHFtOHJIRGJmUlotalE5MW92VlNhVFJ2R1RLcjBDMlBUdldDdGI5MDM0YURWN3BPeHJNcDRSOC1pS1hjejhuRDYyWHd2SEpfaUFtZXVUZVlIVGJjNm1ia1BkTXA3NjlWQWV5bG5GOTNPa2dGYjFYNDMwNA?oc=5",
+   "query": "IM8"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "NBA names Prenetics (PRE) brand IM8 a regional nutrition partner in a multiyear deal - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSFRicGFZenZ3eFpjMU91S3h6M1RMMUZLSWFscXBtS3hneV9JekhtU2xsOGRxcHFfc1lGdnRBRGFLbmtMNEZDZFpPRWQ3UUhSdzVQNkJOVjRiV2tOVl9vNlBNYzEtNi1DLWFVbEZpcm9BWDlVQnlVdVhLRG5xVDJlMzJqdzZIMnN6R0Y1ejY1eWRXT1FnZUVYdzN2dHNQU0VoQnkyb2h3am5mSTJCRDdtbGVuWklSZw?oc=5",
+   "query": "Prenetics"
   },
   {
    "date": "2026-10-14",
@@ -15284,9 +15305,16 @@
   },
   {
    "date": "2026-10-16",
-   "title": "Prenetics Closes $48M Round for Bitcoin Strategy - CoinMarketCap",
-   "source": "CoinMarketCap",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdkg5Y2xLYjA4ekhMY1dFY0NtUG1OdUlOT05JOE9ELXFtUmR1dXhNSi1uaTZvZjJCN3RvSkVJRHpmd1VCWUI1Und6MEUxZ2RFUmxXY2lXcFlKeS1sNjFrbVN0WmhaWTVFM0N0QzBWak1VMGtIUTRwQjVLVzdhNmQyd1BBWTRnSlhxU01pNDYzanItMkpIczVYSmhFUQ?oc=5",
+   "title": "NBA partners with IM8 to reach 660 million people across Australia and Southeast Asia - SportsMint Media",
+   "source": "SportsMint Media",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRXo4R2JrUUNCYV82c0NDd0UxU2tKT0g0ZURuc3JtY0JrM2tRalJXSUZkRnZSNGRfeHZZa2x3dkR3MXZUQksxZEt3N1hfYzAzMUNvQ1lfeHZvdmVUZ1c2LTJBbGJwSzAxNm9HV3U4QVZod1psWGZCczJqNWpEcm5welJ1WGl6OUxYS1RLN3JNRUpfNzVHd0FwYThMMURNUFZ1SDRwVWFsNWpoNnU1cUVSOFNaTmE?oc=5",
+   "query": "IM8"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Prenetics Global Warrant (PRENW) Climbs 16.49% as Sub-Penny Trading Draws Attention - Call Dominated - https://www.dars.gov.et/",
+   "source": "https://www.dars.gov.et/",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMThlaWNTVlVjOFczZnBGQ0YxcW1sQkpleXUwQ1p6emVXbV9meDE3UjdBeWFZb1p6dzhJMFZhV1VNa3NIeTl1ZUVXUGUxbERuZjZFaUM5eUd3anRkUGt5OHR4VFNSSExkNzUzWE1wbU43TkZ2aDVLRW5aZXZqYVhSR1Q1SE1HazcxVVRjWVgwel9OX2FWMTQxRzdaQkpKUnFXWGZIdjlrbWZXa1pHangwWDlNMnBFMHB2YVFCRg?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15298,17 +15326,10 @@
   },
   {
    "date": "2026-10-16",
-   "title": "Prenetics Global Warrant (PRENW) Climbs 16.49% as Sub-Penny Trading Draws Attention - Call Dominated - https://www.dars.gov.et/",
-   "source": "https://www.dars.gov.et/",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMThlaWNTVlVjOFczZnBGQ0YxcW1sQkpleXUwQ1p6emVXbV9meDE3UjdBeWFZb1p6dzhJMFZhV1VNa3NIeTl1ZUVXUGUxbERuZjZFaUM5eUd3anRkUGt5OHR4VFNSSExkNzUzWE1wbU43TkZ2aDVLRW5aZXZqYVhSR1Q1SE1HazcxVVRjWVgwel9OX2FWMTQxRzdaQkpKUnFXWGZIdjlrbWZXa1pHangwWDlNMnBFMHB2YVFCRg?oc=5",
+   "title": "Prenetics Closes $48M Round for Bitcoin Strategy - CoinMarketCap",
+   "source": "CoinMarketCap",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdkg5Y2xLYjA4ekhMY1dFY0NtUG1OdUlOT05JOE9ELXFtUmR1dXhNSi1uaTZvZjJCN3RvSkVJRHpmd1VCWUI1Und6MEUxZ2RFUmxXY2lXcFlKeS1sNjFrbVN0WmhaWTVFM0N0QzBWak1VMGtIUTRwQjVLVzdhNmQyd1BBWTRnSlhxU01pNDYzanItMkpIczVYSmhFUQ?oc=5",
    "query": "Prenetics"
-  },
-  {
-   "date": "2026-10-16",
-   "title": "NBA partners with IM8 to reach 660 million people across Australia and Southeast Asia - SportsMint Media",
-   "source": "SportsMint Media",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRXo4R2JrUUNCYV82c0NDd0UxU2tKT0g0ZURuc3JtY0JrM2tRalJXSUZkRnZSNGRfeHZZa2x3dkR3MXZUQksxZEt3N1hfYzAzMUNvQ1lfeHZvdmVUZ1c2LTJBbGJwSzAxNm9HV3U4QVZod1psWGZCczJqNWpEcm5welJ1WGl6OUxYS1RLN3JNRUpfNzVHd0FwYThMMURNUFZ1SDRwVWFsNWpoNnU1cUVSOFNaTmE?oc=5",
-   "query": "IM8"
   },
   {
    "date": "2026-10-17",
@@ -15326,16 +15347,16 @@
   },
   {
    "date": "2026-10-18",
-   "title": "Form 4 Prenetics Global Ltd: Hoi Chun Lo (CFO) For: 30 September By Investing.com - Investing.com India",
-   "source": "Investing.com India",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQanJIVzQ3U3FDVlFWNk56OWFNZmxxNk1JNVRKS1paSGxBVzgzaDVFTzJnTDJtRmV3eE5UaDNwT0xlcTFTdFhjSElvb2l4bE1NcE1VRWNVWjBXWkNWZTc3QTlBeWNUQjhVNkR2VU1KWUNwQk5NejRqNEhUeGdJOEJ6bVliLTJVRF9rVENmMXNESm5Vb0s0ZGVJNjA4akdUOUFTc2Qyc1U3b2dVQk5FZkk2eGxhNlBwOFpESFdlZUln?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-10-18",
    "title": "Form 4 Prenetics Global Ltd: Hoi Chun Lo (CFO) For: 30 September - Investing.com Nigeria",
    "source": "Investing.com Nigeria",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeDhKY0JSRko0MDcxLUJwdnpxRG9uSGdjM0hpdEtkS0J5YWc0cVJxTnM3OEE4dnlhSTRIMGptcU5UV1FTM3VHQktNU1dOTVpWWDBocnBfMU5YcGoyUEdrbDNuZ083RUc1dENqdXR3QjQwX3RqMjFuX1AxaUxrQ01MNWEzS2YyMUlqYlpEXzJMT0tQaU4yamhPSmFGempsaEs2UzloZlRaMFRwMTZDVkpld3JkSFJfY1YwUXY5VjRR?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "Form 4 Prenetics Global Ltd: Hoi Chun Lo (CFO) For: 30 September By Investing.com - Investing.com India",
+   "source": "Investing.com India",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQanJIVzQ3U3FDVlFWNk56OWFNZmxxNk1JNVRKS1paSGxBVzgzaDVFTzJnTDJtRmV3eE5UaDNwT0xlcTFTdFhjSElvb2l4bE1NcE1VRWNVWjBXWkNWZTc3QTlBeWNUQjhVNkR2VU1KWUNwQk5NejRqNEhUeGdJOEJ6bVliLTJVRF9rVENmMXNESm5Vb0s0ZGVJNjA4akdUOUFTc2Qyc1U3b2dVQk5FZkk2eGxhNlBwOFpESFdlZUln?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15385,13 +15406,6 @@
    "title": "A Look at Prenetics Global Ltd (PRE) After 5.9% Gain -- GF Value $34.97 vs Price $18.37 - GuruFocus",
    "source": "GuruFocus",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT0VGd21mOWZZSHBkZWhJNi1QU2pJWExhc0pmOFFzWmkyMnVCeEpISGtSX0FJMmpwZ3NJdEpPM2o0MWEwWTRpMks2d1E0NWdwZUtKeDJYQThfeksweWZTODRqUmJLWENRR3hOcmc1MERmWlNBeEdTVi1abFVoRzBDTEhjQmM0MVNkSS1EWnZCN0FwbFVTaUlEYldGWGs4ZHl6LW9TUjRva1oySXJZVnVZLW9RajBRdw?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-10-28",
-   "title": "Prenetics’ IM8 Reports Q2 2026 Revenue Growth of 288% YoY; Raises FY 2026 IM8 Revenue Guidance to $220–230 Million; July Was the First Month of Positive Consolidated Adjusted Free Cash Flow and Expect",
-   "source": "Stocktwits",
-   "link": "https://news.google.com/rss/articles/CBMirwNBVV95cUxQRHBiOXlKRzRSVTdLcWx6Vk9VRUU3cWVNS3NNbGtKU2hOWWRWUUxQVU1idzJ2MVl2dWhnQXlJVFZwZHVsRndHZHhkLXBDSWFfU0dQdEsyU3N1eVNlUUVIS0VlLVY2aGxwRk0tT2N0SG5Wb1RKVGxsTzFUYXQtYW5jSVRhbUpzRmZUeHA5TTdqRWF5Vkc4blBjUzRKNElKdkU5NXNwdmhuY1hmZ0VlLWlrU3BIem1kbE0wbF9jZGNjXzY5b3hHLWZLMWY4dmU4ZUF2dTJkVk5nMnlpNWl2MjV4OGxPX3k1LXFXd1pLRGw3Y1ZvY1cxT1FQVlhmMktmOEpjYThwcExOSkhxMERTb211UjZoVE93SnNWaXMxTkYtZFRpaFUxMHlCUjEzdFFEelZpUS1FaXFtb3ZReWxzNUdOU3huWFljMlZ1VFREaGZqb1dLdXB4NXItWC1vbDNXeEtrMklGRXJlamNYTkhmWXVhRHZ1Y2VYTUlqTmZvSDhNb2hueGVuY0U3QURUZF9oQUk2NVpCdmxSUjBkVUV2cVNBWjBMM3ZaQmMxQVM2NnFXVQ?oc=5",
    "query": "Prenetics"
   },
   {
