@@ -12,9 +12,10 @@ def update_circuit_breaker(status):
         st = load_json(DATA / "nasdaq_cb_checked.json", {"checked": []}); checked = set(st["checked"])
         start = dt.date(2026, 1, 2)
         rows = []; newly = []; misses = 0
-        for d in reversed(trading_days(start, last_trading_day())):     # 从最新往回：历史文件可能已被 Nasdaq 清理，连续缺 8 天即停
+        tds = trading_days(start, last_trading_day()); recent = {d.strftime("%Y-%m-%d") for d in tds[-2:]}   # 最近 2 个交易日每次重抓：Nasdaq 当日文件盘中会增量更新，盘中抓过一次不能算"已查"（2026-11-02 曾因此漏记 13:31 触发）
+        for d in reversed(tds):     # 从最新往回：历史文件可能已被 Nasdaq 清理，连续缺 8 天即停
             ds = d.strftime("%Y-%m-%d")
-            if ds in checked: continue
+            if ds in checked and ds not in recent: continue
             r = get(f"https://www.nasdaqtrader.com/dynamic/symdir/shorthalts/shorthalts{d.strftime('%Y%m%d')}.txt", ua="Mozilla/5.0", headers={"Accept": "text/plain"}, retries=1); time.sleep(0.6)   # nasdaqtrader 会限速；浏览器 UA 会拿到 HTML 跳转页
             if not r or not r.text.lstrip().startswith("Symbol"):
                 misses += 1
@@ -42,9 +43,10 @@ def update_threshold(status):
     try:
         st = load_json(DATA / "nasdaq_th_checked.json", {"checked": []}); checked = set(st["checked"])
         rows = []; newly = []; misses = 0
-        for d in reversed(trading_days(dt.date(2026, 1, 2), last_trading_day())):
+        tds = trading_days(dt.date(2026, 1, 2), last_trading_day()); recent = {d.strftime("%Y-%m-%d") for d in tds[-2:]}
+        for d in reversed(tds):
             ds = d.strftime("%Y-%m-%d")
-            if ds in checked: continue
+            if ds in checked and ds not in recent: continue
             r = get(f"https://www.nasdaqtrader.com/dynamic/symdir/regsho/nasdaqth{d.strftime('%Y%m%d')}.txt", ua="Mozilla/5.0", headers={"Accept": "text/plain"}, retries=1); time.sleep(0.6)
             if not r or not r.text.lstrip().startswith("Symbol"):
                 misses += 1
