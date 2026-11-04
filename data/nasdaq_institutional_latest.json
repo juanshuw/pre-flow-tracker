@@ -8,35 +8,35 @@
  "active_positions": [
   {
    "position": "Increased Positions",
-   "holders": "16",
-   "shares": "517,475"
+   "holders": "17",
+   "shares": "517,476"
   },
   {
    "position": "Decreased Positions",
-   "holders": "22",
-   "shares": "1,262,431"
+   "holders": "21",
+   "shares": "1,262,103"
   },
   {
    "position": "Held Positions",
    "holders": "3",
-   "shares": "531,683"
+   "shares": "531,355"
   },
   {
    "position": "Total Institutional Shares",
    "holders": "41",
-   "shares": "1,248,223"
+   "shares": "1,248,224"
   }
  ],
  "new_sold_out": [
   {
    "position": "New Positions",
-   "holders": "7",
-   "shares": "305,300"
+   "holders": "8",
+   "shares": "305,301"
   },
   {
    "position": "Sold Out Positions",
-   "holders": "13",
-   "shares": "958,752"
+   "holders": "12",
+   "shares": "958,424"
   }
  ],
  "holders": [
@@ -257,6 +257,14 @@
    "marketValue": "$0"
   },
   {
+   "ownerName": "Citigroup Inc",
+   "date": "9/30/2026",
+   "sharesHeld": "1",
+   "sharesChange": "1",
+   "sharesChangePCT": "New",
+   "marketValue": "$0"
+  },
+  {
    "ownerName": "Wolverine Asset Management Llc",
    "date": "9/30/2026",
    "sharesHeld": "1",
@@ -301,14 +309,6 @@
    "date": "6/30/2026",
    "sharesHeld": "0",
    "sharesChange": "-10,233",
-   "sharesChangePCT": "Sold Out",
-   "marketValue": ""
-  },
-  {
-   "ownerName": "Citigroup Inc",
-   "date": "6/30/2026",
-   "sharesHeld": "0",
-   "sharesChange": "-328",
    "sharesChangePCT": "Sold Out",
    "marketValue": ""
   },

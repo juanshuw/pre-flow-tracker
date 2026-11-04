@@ -279,23 +279,23 @@
   "active_positions": [
    {
     "position": "Increased Positions",
-    "holders": "16",
-    "shares": "517,475"
+    "holders": "17",
+    "shares": "517,476"
    },
    {
     "position": "Decreased Positions",
-    "holders": "22",
-    "shares": "1,262,431"
+    "holders": "21",
+    "shares": "1,262,103"
    },
    {
     "position": "Held Positions",
     "holders": "3",
-    "shares": "531,683"
+    "shares": "531,355"
    },
    {
     "position": "Total Institutional Shares",
     "holders": "41",
-    "shares": "1,248,223"
+    "shares": "1,248,224"
    }
   ]
  }
