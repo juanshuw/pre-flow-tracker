@@ -13,17 +13,17 @@
   },
   {
    "position": "Decreased Positions",
-   "holders": "21",
-   "shares": "1,262,103"
+   "holders": "20",
+   "shares": "1,261,582"
   },
   {
    "position": "Held Positions",
    "holders": "3",
-   "shares": "530,938"
+   "shares": "530,417"
   },
   {
    "position": "Total Institutional Shares",
-   "holders": "41",
+   "holders": "40",
    "shares": "1,248,328"
   }
  ],
@@ -35,8 +35,8 @@
   },
   {
    "position": "Sold Out Positions",
-   "holders": "12",
-   "shares": "958,424"
+   "holders": "11",
+   "shares": "957,903"
   }
  ],
  "holders": [
@@ -285,14 +285,6 @@
    "date": "6/30/2026",
    "sharesHeld": "0",
    "sharesChange": "-346,150",
-   "sharesChangePCT": "Sold Out",
-   "marketValue": ""
-  },
-  {
-   "ownerName": "Barclays Plc",
-   "date": "6/30/2026",
-   "sharesHeld": "0",
-   "sharesChange": "-521",
    "sharesChangePCT": "Sold Out",
    "marketValue": ""
   },
