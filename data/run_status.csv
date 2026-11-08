@@ -793,3 +793,29 @@ social.reddit,skip,blocked,2026-11-07T08:21:10,2026-11-07 08:21
 borrow.iborrowdesk,skip,unreachable,2026-11-07T08:21:15,2026-11-07 08:21
 analysts.yahoo,ok,PT mean 38.44444,2026-11-07T08:21:15,2026-11-07 08:21
 news.google_rss,ok,92 items,2026-11-07T08:21:16,2026-11-07 08:21
+prices.yahoo,ok,464 rows,2026-11-08T08:37:20,2026-11-08 08:37
+prices.stooq,skip,empty/blocked,2026-11-08T08:37:20,2026-11-08 08:37
+prices.nasdaq,ok,464 rows,2026-11-08T08:37:23,2026-11-08 08:37
+prices.peers,ok,464 rows,2026-11-08T08:37:23,2026-11-08 08:37
+prices.intraday_1m,ok,7 days,2026-11-08T08:37:23,2026-11-08 08:37
+finra.regsho_daily,ok,"+16 days, total 262",2026-11-08T08:37:24,2026-11-08 08:37
+finra.otc_weekly,ok,242 rows since 2026-07-30; latest week 2026-09-28,2026-11-08T08:37:24,2026-11-08 08:37
+finra.otc_monthly,ok,8 rows,2026-11-08T08:37:25,2026-11-08 08:37
+finra.short_interest,ok,latest 2026-10-15,2026-11-08T08:37:25,2026-11-08 08:37
+sec.edgar_filings,ok,101 filings; latest 2026-11-05,2026-11-08T08:37:25,2026-11-08 08:37
+sec.form4,ok,no new Form 4,2026-11-08T08:37:25,2026-11-08 08:37
+sec.edgar_events,ok,no new docs,2026-11-08T08:37:25,2026-11-08 08:37
+sec.13f,ok,307 hits; nothing new,2026-11-08T08:37:27,2026-11-08 08:37
+sec.ftd,ok,no new period files,2026-11-08T08:37:29,2026-11-08 08:37
+sec.shares,ok,"latest 16,874,089 as of 2025-12-31",2026-11-08T08:37:30,2026-11-08 08:37
+nasdaq.circuit_breaker,ok,+2 days; in effect [],2026-11-08T08:37:31,2026-11-08 08:37
+nasdaq.threshold,ok,+2 days; on list [],2026-11-08T08:37:32,2026-11-08 08:37
+nasdaq.institutional,ok,inst own 8.02%; holders 40,2026-11-08T08:37:34,2026-11-08 08:37
+nasdaq.insiders,ok,15 rows,2026-11-08T08:37:36,2026-11-08 08:37
+nasdaq.short_interest,ok,23 rows,2026-11-08T08:37:39,2026-11-08 08:37
+options.yahoo,ok,OI C1238/P139,2026-11-08T08:37:39,2026-11-08 08:37
+social.stocktwits,ok,watch 2881; +0 msgs,2026-11-08T08:37:39,2026-11-08 08:37
+social.reddit,skip,blocked,2026-11-08T08:37:39,2026-11-08 08:37
+borrow.iborrowdesk,skip,unreachable,2026-11-08T08:37:44,2026-11-08 08:37
+analysts.yahoo,ok,PT mean 38.44444,2026-11-08T08:37:45,2026-11-08 08:37
+news.google_rss,ok,85 items,2026-11-08T08:37:45,2026-11-08 08:37
