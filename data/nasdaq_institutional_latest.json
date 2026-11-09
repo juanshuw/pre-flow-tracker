@@ -1,15 +1,15 @@
 {
  "date": "2026-11-09",
  "summary": {
-  "SharesOutstandingPCT": "8.02%",
+  "SharesOutstandingPCT": "8.12%",
   "ShareoutstandingTotal": "16",
   "TotalHoldingsValue": "$20"
  },
  "active_positions": [
   {
    "position": "Increased Positions",
-   "holders": "17",
-   "shares": "517,163"
+   "holders": "18",
+   "shares": "532,281"
   },
   {
    "position": "Decreased Positions",
@@ -23,15 +23,15 @@
   },
   {
    "position": "Total Institutional Shares",
-   "holders": "40",
-   "shares": "1,248,328"
+   "holders": "41",
+   "shares": "1,263,446"
   }
  ],
  "new_sold_out": [
   {
    "position": "New Positions",
-   "holders": "8",
-   "shares": "305,301"
+   "holders": "9",
+   "shares": "320,419"
   },
   {
    "position": "Sold Out Positions",
@@ -159,6 +159,14 @@
    "sharesChange": "16,187",
    "sharesChangePCT": "New",
    "marketValue": "$258"
+  },
+  {
+   "ownerName": "Squarepoint Ops Llc",
+   "date": "9/30/2026",
+   "sharesHeld": "15,118",
+   "sharesChange": "15,118",
+   "sharesChangePCT": "New",
+   "marketValue": "$241"
   },
   {
    "ownerName": "Integrated Quantitative Investments Llc",
