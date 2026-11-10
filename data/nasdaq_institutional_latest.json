@@ -1,15 +1,15 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "summary": {
-  "SharesOutstandingPCT": "8.12%",
+  "SharesOutstandingPCT": "8.20%",
   "ShareoutstandingTotal": "16",
-  "TotalHoldingsValue": "$20"
+  "TotalHoldingsValue": "$22"
  },
  "active_positions": [
   {
    "position": "Increased Positions",
-   "holders": "18",
-   "shares": "532,281"
+   "holders": "19",
+   "shares": "544,854"
   },
   {
    "position": "Decreased Positions",
@@ -23,15 +23,15 @@
   },
   {
    "position": "Total Institutional Shares",
-   "holders": "41",
-   "shares": "1,263,446"
+   "holders": "42",
+   "shares": "1,276,019"
   }
  ],
  "new_sold_out": [
   {
    "position": "New Positions",
-   "holders": "9",
-   "shares": "320,419"
+   "holders": "10",
+   "shares": "332,992"
   },
   {
    "position": "Sold Out Positions",
@@ -46,7 +46,7 @@
    "sharesHeld": "235,800",
    "sharesChange": "235,800",
    "sharesChangePCT": "New",
-   "marketValue": "$3,759"
+   "marketValue": "$4,138"
   },
   {
    "ownerName": "Jane Street Group, Llc",
@@ -54,7 +54,7 @@
    "sharesHeld": "225,093",
    "sharesChange": "182,907",
    "sharesChangePCT": "433.573%",
-   "marketValue": "$3,588"
+   "marketValue": "$3,950"
   },
   {
    "ownerName": "Goldman Sachs Group Inc",
@@ -62,7 +62,7 @@
    "sharesHeld": "168,733",
    "sharesChange": "-24,850",
    "sharesChangePCT": "-12.837%",
-   "marketValue": "$2,690"
+   "marketValue": "$2,961"
   },
   {
    "ownerName": "Millennium Management Llc",
@@ -70,7 +70,7 @@
    "sharesHeld": "126,086",
    "sharesChange": "-66,514",
    "sharesChangePCT": "-34.535%",
-   "marketValue": "$2,010"
+   "marketValue": "$2,213"
   },
   {
    "ownerName": "Tenzing Global Management, Llc",
@@ -78,7 +78,7 @@
    "sharesHeld": "125,000",
    "sharesChange": "-75,000",
    "sharesChangePCT": "-37.5%",
-   "marketValue": "$1,993"
+   "marketValue": "$2,194"
   },
   {
    "ownerName": "Marshall Wace, Llp",
@@ -86,7 +86,7 @@
    "sharesHeld": "47,327",
    "sharesChange": "-26,005",
    "sharesChangePCT": "-35.462%",
-   "marketValue": "$754"
+   "marketValue": "$831"
   },
   {
    "ownerName": "Nomura Holdings Inc",
@@ -94,7 +94,7 @@
    "sharesHeld": "42,101",
    "sharesChange": "-33,518",
    "sharesChangePCT": "-44.325%",
-   "marketValue": "$671"
+   "marketValue": "$739"
   },
   {
    "ownerName": "Susquehanna International Group, Llp",
@@ -102,7 +102,7 @@
    "sharesHeld": "38,126",
    "sharesChange": "5,002",
    "sharesChangePCT": "15.101%",
-   "marketValue": "$608"
+   "marketValue": "$669"
   },
   {
    "ownerName": "Ubs Group Ag",
@@ -110,7 +110,7 @@
    "sharesHeld": "37,040",
    "sharesChange": "10,267",
    "sharesChangePCT": "38.348%",
-   "marketValue": "$590"
+   "marketValue": "$650"
   },
   {
    "ownerName": "Oasis Management Co Ltd.",
@@ -118,7 +118,7 @@
    "sharesHeld": "33,333",
    "sharesChange": "33,333",
    "sharesChangePCT": "New",
-   "marketValue": "$531"
+   "marketValue": "$585"
   },
   {
    "ownerName": "Stevens Capital Partners",
@@ -126,7 +126,7 @@
    "sharesHeld": "30,674",
    "sharesChange": "2,527",
    "sharesChangePCT": "8.978%",
-   "marketValue": "$489"
+   "marketValue": "$538"
   },
   {
    "ownerName": "Xtx Topco Ltd",
@@ -134,7 +134,7 @@
    "sharesHeld": "30,485",
    "sharesChange": "-2,932",
    "sharesChangePCT": "-8.774%",
-   "marketValue": "$486"
+   "marketValue": "$535"
   },
   {
    "ownerName": "Qube Research & Technologies Ltd",
@@ -142,7 +142,7 @@
    "sharesHeld": "23,810",
    "sharesChange": "4,680",
    "sharesChangePCT": "24.464%",
-   "marketValue": "$380"
+   "marketValue": "$418"
   },
   {
    "ownerName": "Morgan Stanley",
@@ -150,7 +150,7 @@
    "sharesHeld": "23,443",
    "sharesChange": "6,350",
    "sharesChangePCT": "37.15%",
-   "marketValue": "$374"
+   "marketValue": "$411"
   },
   {
    "ownerName": "Citadel Advisors Llc",
@@ -158,7 +158,7 @@
    "sharesHeld": "16,187",
    "sharesChange": "16,187",
    "sharesChangePCT": "New",
-   "marketValue": "$258"
+   "marketValue": "$284"
   },
   {
    "ownerName": "Squarepoint Ops Llc",
@@ -166,7 +166,7 @@
    "sharesHeld": "15,118",
    "sharesChange": "15,118",
    "sharesChangePCT": "New",
-   "marketValue": "$241"
+   "marketValue": "$265"
   },
   {
    "ownerName": "Integrated Quantitative Investments Llc",
@@ -174,7 +174,15 @@
    "sharesHeld": "13,602",
    "sharesChange": "0",
    "sharesChangePCT": "0%",
-   "marketValue": "$217"
+   "marketValue": "$239"
+  },
+  {
+   "ownerName": "Acadian Asset Management Llc",
+   "date": "9/30/2026",
+   "sharesHeld": "12,573",
+   "sharesChange": "12,573",
+   "sharesChangePCT": "New",
+   "marketValue": "$221"
   },
   {
    "ownerName": "Entrypoint Capital, Llc",
@@ -182,7 +190,7 @@
    "sharesHeld": "12,058",
    "sharesChange": "12,058",
    "sharesChangePCT": "New",
-   "marketValue": "$192"
+   "marketValue": "$212"
   },
   {
    "ownerName": "Wells Fargo & Company/Mn",
@@ -190,7 +198,7 @@
    "sharesHeld": "10,000",
    "sharesChange": "-74,806",
    "sharesChangePCT": "-88.208%",
-   "marketValue": "$159"
+   "marketValue": "$176"
   },
   {
    "ownerName": "Operose Advisors Llc",
@@ -198,7 +206,7 @@
    "sharesHeld": "6,750",
    "sharesChange": "6,750",
    "sharesChangePCT": "New",
-   "marketValue": "$108"
+   "marketValue": "$118"
   },
   {
    "ownerName": "Simplex Trading, Llc",
@@ -206,7 +214,7 @@
    "sharesHeld": "877",
    "sharesChange": "104",
    "sharesChangePCT": "13.454%",
-   "marketValue": "$14"
+   "marketValue": "$15"
   },
   {
    "ownerName": "Farther Finance Advisors, Llc",
@@ -214,7 +222,7 @@
    "sharesHeld": "772",
    "sharesChange": "772",
    "sharesChangePCT": "New",
-   "marketValue": "$12"
+   "marketValue": "$14"
   },
   {
    "ownerName": "Gk Wealth Management Llc",
@@ -222,7 +230,7 @@
    "sharesHeld": "400",
    "sharesChange": "400",
    "sharesChangePCT": "New",
-   "marketValue": "$6"
+   "marketValue": "$7"
   },
   {
    "ownerName": "Royal Bank Of Canada",
@@ -230,7 +238,7 @@
    "sharesHeld": "321",
    "sharesChange": "24",
    "sharesChangePCT": "8.081%",
-   "marketValue": "$5"
+   "marketValue": "$6"
   },
   {
    "ownerName": "Hurricane Capital Advisors Llc",
@@ -238,7 +246,7 @@
    "sharesHeld": "275",
    "sharesChange": "-51",
    "sharesChangePCT": "-15.644%",
-   "marketValue": "$4"
+   "marketValue": "$5"
   },
   {
    "ownerName": "Corecap Advisors, Llc",
