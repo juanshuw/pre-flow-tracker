@@ -1,233 +1,233 @@
 {
  "meta": {
   "symbol": "PRE",
-  "built_at": "2026-11-12 09:20 UTC",
-  "last_trade_date": "2026-11-11",
+  "built_at": "2026-11-12 18:39 UTC",
+  "last_trade_date": "2026-11-12",
   "shares_a": 15356748,
   "sources": [
    {
     "source": "prices.yahoo",
     "status": "ok",
-    "note": "467 rows",
-    "ts": "2026-11-12T09:19:39"
+    "note": "468 rows",
+    "ts": "2026-11-12T18:38:44"
    },
    {
     "source": "prices.stooq",
     "status": "skip",
     "note": "empty/blocked",
-    "ts": "2026-11-12T09:19:39"
+    "ts": "2026-11-12T18:38:44"
    },
    {
     "source": "prices.nasdaq",
     "status": "ok",
     "note": "467 rows",
-    "ts": "2026-11-12T09:19:43"
+    "ts": "2026-11-12T18:38:47"
    },
    {
     "source": "prices.peers",
     "status": "ok",
-    "note": "467 rows",
-    "ts": "2026-11-12T09:19:43"
+    "note": "468 rows",
+    "ts": "2026-11-12T18:38:47"
    },
    {
     "source": "prices.intraday_1m",
     "status": "ok",
     "note": "7 days",
-    "ts": "2026-11-12T09:19:43"
+    "ts": "2026-11-12T18:38:48"
    },
    {
     "source": "finra.regsho_daily",
     "status": "ok",
-    "note": "+17 days, total 265",
-    "ts": "2026-11-12T09:19:45"
+    "note": "+16 days, total 265",
+    "ts": "2026-11-12T18:38:49"
    },
    {
     "source": "finra.otc_weekly",
     "status": "ok",
     "note": "245 rows since 2026-08-06; latest week 2026-10-05",
-    "ts": "2026-11-12T09:19:46"
+    "ts": "2026-11-12T18:38:49"
    },
    {
     "source": "finra.otc_monthly",
     "status": "ok",
     "note": "8 rows",
-    "ts": "2026-11-12T09:19:47"
+    "ts": "2026-11-12T18:38:50"
    },
    {
     "source": "finra.short_interest",
     "status": "ok",
     "note": "latest 2026-10-30",
-    "ts": "2026-11-12T09:19:47"
+    "ts": "2026-11-12T18:38:50"
    },
    {
     "source": "sec.edgar_filings",
     "status": "ok",
     "note": "101 filings; latest 2026-11-05",
-    "ts": "2026-11-12T09:19:47"
+    "ts": "2026-11-12T18:38:50"
    },
    {
     "source": "sec.form4",
     "status": "ok",
     "note": "no new Form 4",
-    "ts": "2026-11-12T09:19:47"
+    "ts": "2026-11-12T18:38:50"
    },
    {
     "source": "sec.edgar_events",
     "status": "ok",
     "note": "no new docs",
-    "ts": "2026-11-12T09:19:47"
+    "ts": "2026-11-12T18:38:50"
    },
    {
     "source": "sec.13f",
     "status": "ok",
-    "note": "312 hits; nothing new",
-    "ts": "2026-11-12T09:19:49"
+    "note": "314 hits; parsed 2 new filings",
+    "ts": "2026-11-12T18:38:54"
    },
    {
     "source": "sec.ftd",
     "status": "ok",
     "note": "fetched ['202610a']; +2 rows",
-    "ts": "2026-11-12T09:19:51"
+    "ts": "2026-11-12T18:38:55"
    },
    {
     "source": "sec.shares",
     "status": "ok",
     "note": "latest 16,874,089 as of 2025-12-31",
-    "ts": "2026-11-12T09:19:51"
+    "ts": "2026-11-12T18:38:56"
    },
    {
     "source": "nasdaq.circuit_breaker",
     "status": "ok",
     "note": "+2 days; in effect []",
-    "ts": "2026-11-12T09:19:53"
+    "ts": "2026-11-12T18:38:57"
    },
    {
     "source": "nasdaq.threshold",
     "status": "ok",
     "note": "+1 days; on list []",
-    "ts": "2026-11-12T09:19:54"
+    "ts": "2026-11-12T18:38:59"
    },
    {
     "source": "nasdaq.institutional",
     "status": "ok",
-    "note": "inst own 8.02%; holders 42",
-    "ts": "2026-11-12T09:19:57"
+    "note": "inst own 8.10%; holders 44",
+    "ts": "2026-11-12T18:39:03"
    },
    {
     "source": "nasdaq.insiders",
     "status": "ok",
     "note": "15 rows",
-    "ts": "2026-11-12T09:19:59"
+    "ts": "2026-11-12T18:39:04"
    },
    {
     "source": "nasdaq.short_interest",
     "status": "ok",
     "note": "24 rows",
-    "ts": "2026-11-12T09:20:00"
+    "ts": "2026-11-12T18:39:07"
    },
    {
     "source": "options.yahoo",
     "status": "ok",
-    "note": "OI C642/P9",
-    "ts": "2026-11-12T09:20:00"
+    "note": "OI C1274/P148",
+    "ts": "2026-11-12T18:39:08"
    },
    {
     "source": "social.stocktwits",
     "status": "ok",
-    "note": "watch 3120; +1 msgs",
-    "ts": "2026-11-12T09:20:01"
+    "note": "watch 3191; +0 msgs",
+    "ts": "2026-11-12T18:39:08"
    },
    {
     "source": "social.reddit",
     "status": "skip",
     "note": "blocked",
-    "ts": "2026-11-12T09:20:01"
+    "ts": "2026-11-12T18:39:08"
    },
    {
     "source": "borrow.iborrowdesk",
     "status": "skip",
     "note": "unreachable",
-    "ts": "2026-11-12T09:20:06"
+    "ts": "2026-11-12T18:39:13"
    },
    {
     "source": "analysts.yahoo",
     "status": "ok",
     "note": "PT mean 38.44444",
-    "ts": "2026-11-12T09:20:06"
+    "ts": "2026-11-12T18:39:14"
    },
    {
     "source": "news.google_rss",
     "status": "ok",
-    "note": "83 items",
-    "ts": "2026-11-12T09:20:07"
+    "note": "85 items",
+    "ts": "2026-11-12T18:39:14"
    }
   ],
   "baseline_ats_pct": 24.7
  },
  "kpis": {
-  "close": 17.64,
-  "ret_pct": 2.38,
-  "volume": 148700,
-  "vol_x_adv20": 0.81,
-  "turnover_pct": 0.97,
-  "close_vs_vwap_pct": -1.82,
-  "last30_pct": 9.1,
-  "offexch_pct": 32.8,
-  "short_pct": 69.3,
+  "close": 17.33,
+  "ret_pct": -1.76,
+  "volume": 88641,
+  "vol_x_adv20": 0.48,
+  "turnover_pct": 0.58,
+  "close_vs_vwap_pct": 1.76,
+  "last30_pct": 0.0,
+  "offexch_pct": null,
+  "short_pct": null,
   "si": 507416,
   "si_date": "2026-10-30",
   "dtc": 2.8,
   "inst_pct": 5.7,
-  "nq_inst_pct": "8.02%",
-  "rsi": 45.0,
-  "dist_ma50": -15.3,
-  "ma50": 20.83,
-  "ma200": 19.57,
+  "nq_inst_pct": "8.10%",
+  "rsi": 43.4,
+  "dist_ma50": -16.1,
+  "ma50": 20.65,
+  "ma200": 19.56,
   "stage": "B 主跌",
   "score": "3/12"
  },
  "latest": {
-  "date": "2026-11-11",
-  "open": 17.84,
-  "high": 18.4,
-  "low": 17.58,
-  "close": 17.64,
-  "volume": 148700,
+  "date": "2026-11-12",
+  "open": 17.5,
+  "high": 17.83,
+  "low": 16.3,
+  "close": 17.33,
+  "volume": 88641,
   "source": "yahoo",
-  "ret_pct": 2.38,
-  "turnover_pct": 0.97,
-  "adv20": 184350.0,
-  "vol_x_adv20": 0.81,
-  "close_pos": 0.07,
-  "gap_pct": 3.54,
-  "intraday_pct": -1.12,
-  "ma20": 17.62,
-  "ma50": 20.83,
-  "ma200": 19.57,
-  "rsi14": 45.0,
-  "pct_b": 0.5,
-  "dist_ma50_pct": -15.3,
+  "ret_pct": -1.76,
+  "turnover_pct": 0.58,
+  "adv20": 184060.0,
+  "vol_x_adv20": 0.48,
+  "close_pos": 0.68,
+  "gap_pct": -0.79,
+  "intraday_pct": -0.97,
+  "ma20": 17.47,
+  "ma50": 20.65,
+  "ma200": 19.56,
+  "rsi14": 43.4,
+  "pct_b": 0.47,
+  "dist_ma50_pct": -16.1,
   "dist_day": 0,
   "acc_day": 0,
-  "vwap": 17.97,
-  "close_vs_vwap_pct": -1.82,
-  "first30_pct": 2.9,
-  "last30_pct": 9.1,
-  "last60_pct": 14.0,
-  "max_1m_vol": 33329.0,
-  "max_1m_time": "11:17",
-  "minutes_traded": 65.0,
-  "vol_1m_sum": 139482.0,
-  "short": 33743.11,
-  "short_exempt": 0.0,
-  "offexch_total": 48720.17,
-  "short_pct": 69.3,
-  "offexch_pct": 32.8,
+  "vwap": 17.03,
+  "close_vs_vwap_pct": 1.76,
+  "first30_pct": 13.6,
+  "last30_pct": 0.0,
+  "last60_pct": 0.0,
+  "max_1m_vol": 33302.0,
+  "max_1m_time": "10:05",
+  "minutes_traded": 47.0,
+  "vol_1m_sum": 88511.0,
+  "short": null,
+  "short_exempt": null,
+  "offexch_total": null,
+  "short_pct": null,
+  "offexch_pct": null,
   "in_effect": 0.0,
   "triggered_today": 0.0,
   "trigger_time": null,
-  "on_threshold_list": 0.0,
-  "flags": "卖空占比高→做市商供货"
+  "on_threshold_list": null,
+  "flags": ""
  },
  "scorecard": {
   "stage": "B 主跌",
@@ -238,15 +238,15 @@
    {
     "id": 1,
     "name": "价格 vs 价值锚",
-    "value": "$17.64",
+    "value": "$17.33",
     "target": "≤ $17.20（管理层/增发价带 +5%）",
     "pass": false,
-    "note": "EV/收入 ≈ 0.74x FY26E（净现金按 6/30 $109M，FY26E 收入 $220M）"
+    "note": "EV/收入 ≈ 0.71x FY26E（净现金按 6/30 $109M，FY26E 收入 $220M）"
    },
    {
     "id": 2,
     "name": "超卖程度",
-    "value": "RSI 45.0 / %B 0.5 / 距50日线 -15.3%",
+    "value": "RSI 43.4 / %B 0.47 / 距50日线 -16.1%",
     "target": "RSI<25 或 %B<−0.2",
     "pass": false,
     "note": ""
@@ -262,7 +262,7 @@
    {
     "id": 4,
     "name": "缩量枯竭（近 3 日）",
-    "value": "倍数 1.64, 0.83, 0.81",
+    "value": "倍数 0.83, 0.81, 0.48",
     "target": "连续 3 日 <0.6 倍均量且不创新低",
     "pass": false,
     "note": ""
@@ -270,7 +270,7 @@
    {
     "id": 5,
     "name": "下跌日收盘 vs VWAP（近 5 个下跌日）",
-    "value": "均值 -0.84%",
+    "value": "均值 -0.32%",
     "target": "≥ 0%（卖方收盘前卖完）",
     "pass": false,
     "note": ""
@@ -286,7 +286,7 @@
    {
     "id": 7,
     "name": "下跌日卖空占场外（近 5 个下跌日）",
-    "value": "均值 59.5%",
+    "value": "均值 60.3%",
     "target": "≥ 50%（空头/做市商主导，可回补）",
     "pass": true,
     "note": "低=多头在卖"
@@ -318,7 +318,7 @@
    {
     "id": 11,
     "name": "板块（近 10 日）",
-    "value": "HIMS -29.0% / IWM 0.6% / XBI -0.8%",
+    "value": "HIMS -31.7% / IWM -1.4% / XBI -3.2%",
     "target": "同行未显著下跌",
     "pass": false,
     "note": ""
@@ -326,7 +326,7 @@
    {
     "id": 12,
     "name": "散户关注（Stocktwits 近 7 日）",
-    "value": "5 条",
+    "value": "3 条",
     "target": "沉默（无追涨盘待清）或投降式放量讨论",
     "pass": true,
     "note": ""
@@ -342,17 +342,17 @@
    "权证强制行权线": 21.6,
    "公司 2026 回购均价": 20.5,
    "卢煜明换股成本": 13.5,
-   "8/18 以来成交 VWAP": 21.75
+   "8/18 以来成交 VWAP": 21.72
   }
  },
  "participants": [
   {
    "group": "散户 / 活跃交易者",
    "signal": "Stocktwits 近 7 日消息 / 关注数",
-   "value": "5 条 / 3120",
+   "value": "3 条 / 3191",
    "reading": "沉默=无追涨盘也无接盘；放量讨论+下跌=投降",
    "source": "Stocktwits API",
-   "asof": "2026-11-11"
+   "asof": "2026-11-12"
   },
   {
    "group": "散户 / 活跃交易者",
@@ -365,10 +365,10 @@
   {
    "group": "做市商 / 高频",
    "signal": "最新日卖空占场外成交",
-   "value": "69.3%",
+   "value": "None%",
    "reading": ">55% 做市商在给买单供货；<35% 多头主动卖",
    "source": "FINRA Reg SHO 日度",
-   "asof": "2026-11-11"
+   "asof": "2026-11-12"
   },
   {
    "group": "做市商 / 高频",
@@ -397,10 +397,10 @@
   {
    "group": "机构（暗池 / 大宗）",
    "signal": "最新日场外占比",
-   "value": "32.8%",
+   "value": "None%",
    "reading": ">55% 疑似协议大宗",
    "source": "FINRA Reg SHO 日度",
-   "asof": "2026-11-11"
+   "asof": "2026-11-12"
   },
   {
    "group": "13F 机构",
@@ -413,7 +413,7 @@
   {
    "group": "13F 机构",
    "signal": "Nasdaq 机构持股比例",
-   "value": "8.02%",
+   "value": "8.10%",
    "reading": "低=卖方在不申报层",
    "source": "api.nasdaq.com",
    "asof": "2026-11-12"
@@ -493,50 +493,13 @@
   {
    "group": "期权",
    "signal": "未平仓 看涨/看跌",
-   "value": "642 / 9 张",
+   "value": "1274 / 148 张",
    "reading": "对冲股数上限 =(C+P)×100；小=无衍生品驱动",
    "source": "Yahoo 期权链",
    "asof": "2026-11-12"
   }
  ],
  "daily": [
-  {
-   "date": "2025-10-30",
-   "open": 14.0,
-   "high": 14.989999771118164,
-   "low": 13.510000228881836,
-   "close": 14.149999618530273,
-   "volume": 213600,
-   "ret_pct": 2.39,
-   "turnover_pct": 1.39,
-   "vol_x_adv20": 1.22,
-   "close_pos": 0.43,
-   "gap_pct": 1.3,
-   "intraday_pct": 1.07,
-   "ma20": 14.83,
-   "ma50": 12.02,
-   "ma200": 7.74,
-   "rsi14": 50.7,
-   "pct_b": 0.37,
-   "vwap": null,
-   "close_vs_vwap_pct": null,
-   "first30_pct": null,
-   "last30_pct": null,
-   "max_1m_vol": null,
-   "max_1m_time": null,
-   "short": 35360.0,
-   "short_exempt": 465.0,
-   "offexch_total": 68787.0,
-   "short_pct": 51.4,
-   "offexch_pct": 32.2,
-   "in_effect": null,
-   "triggered_today": null,
-   "trigger_time": null,
-   "on_threshold_list": null,
-   "acc_day": 1,
-   "dist_day": 0,
-   "flags": ""
-  },
   {
    "date": "2025-10-31",
    "open": 14.869999885559082,
@@ -9916,12 +9879,12 @@
    "ma200": 19.6,
    "rsi14": 32.1,
    "pct_b": 0.15,
-   "vwap": 16.12,
-   "close_vs_vwap_pct": -0.5,
+   "vwap": 16.124,
+   "close_vs_vwap_pct": -0.52,
    "first30_pct": 13.0,
-   "last30_pct": 15.5,
-   "max_1m_vol": 30041.0,
-   "max_1m_time": "13:12",
+   "last30_pct": 15.4,
+   "max_1m_vol": 30244.0,
+   "max_1m_time": "12:27",
    "short": 31763.131764,
    "short_exempt": 0.0,
    "offexch_total": 57698.283644,
@@ -9992,7 +9955,7 @@
    "pct_b": 0.18,
    "vwap": 15.939,
    "close_vs_vwap_pct": 0.0,
-   "first30_pct": 25.6,
+   "first30_pct": 25.7,
    "last30_pct": 15.5,
    "max_1m_vol": 9113.0,
    "max_1m_time": "09:43",
@@ -10029,7 +9992,7 @@
    "pct_b": 0.43,
    "vwap": 17.103,
    "close_vs_vwap_pct": 2.61,
-   "first30_pct": 17.3,
+   "first30_pct": 17.2,
    "last30_pct": 20.7,
    "max_1m_vol": 38083.0,
    "max_1m_time": "10:16",
@@ -10119,6 +10082,43 @@
    "acc_day": 0,
    "dist_day": 0,
    "flags": "卖空占比高→做市商供货"
+  },
+  {
+   "date": "2026-11-12",
+   "open": 17.5,
+   "high": 17.825000762939453,
+   "low": 16.299999237060547,
+   "close": 17.329999923706055,
+   "volume": 88641,
+   "ret_pct": -1.76,
+   "turnover_pct": 0.58,
+   "vol_x_adv20": 0.48,
+   "close_pos": 0.68,
+   "gap_pct": -0.79,
+   "intraday_pct": -0.97,
+   "ma20": 17.47,
+   "ma50": 20.65,
+   "ma200": 19.56,
+   "rsi14": 43.4,
+   "pct_b": 0.47,
+   "vwap": 17.03,
+   "close_vs_vwap_pct": 1.76,
+   "first30_pct": 13.6,
+   "last30_pct": 0.0,
+   "max_1m_vol": 33302.0,
+   "max_1m_time": "10:05",
+   "short": null,
+   "short_exempt": null,
+   "offexch_total": null,
+   "short_pct": null,
+   "offexch_pct": null,
+   "in_effect": 0.0,
+   "triggered_today": 0.0,
+   "trigger_time": null,
+   "on_threshold_list": null,
+   "acc_day": 0,
+   "dist_day": 0,
+   "flags": ""
   }
  ],
  "weekly": [
@@ -11970,8 +11970,8 @@
   {
    "date": "2026-11-12",
    "expiry": "TOTAL",
-   "calls_oi": 642,
-   "puts_oi": 9,
+   "calls_oi": 1274,
+   "puts_oi": 148,
    "calls_vol": 251,
    "puts_vol": 28
   }
@@ -11979,6 +11979,14 @@
  "options_top": {
   "date": "2026-11-12",
   "top": [
+   {
+    "expiry": "2026-11-20",
+    "type": "C",
+    "strike": 20.0,
+    "oi": 437,
+    "vol": 17,
+    "last": 1.3
+   },
    {
     "expiry": "2027-02-19",
     "type": "C",
@@ -12006,10 +12014,34 @@
    {
     "expiry": "2026-11-20",
     "type": "C",
-    "strike": 10.0,
-    "oi": 80,
+    "strike": 17.5,
+    "oi": 78,
+    "vol": 7,
+    "last": 1.85
+   },
+   {
+    "expiry": "2026-11-20",
+    "type": "P",
+    "strike": 17.5,
+    "oi": 71,
     "vol": 1,
-    "last": 9.11
+    "last": 1.0
+   },
+   {
+    "expiry": "2026-11-20",
+    "type": "C",
+    "strike": 15.0,
+    "oi": 65,
+    "vol": 46,
+    "last": 2.9
+   },
+   {
+    "expiry": "2027-08-20",
+    "type": "C",
+    "strike": 22.5,
+    "oi": 32,
+    "vol": 25,
+    "last": 2.95
    },
    {
     "expiry": "2027-02-19",
@@ -12026,6 +12058,22 @@
     "oi": 30,
     "vol": 1,
     "last": 5.2
+   },
+   {
+    "expiry": "2027-08-20",
+    "type": "C",
+    "strike": 17.5,
+    "oi": 27,
+    "vol": 7,
+    "last": 6.25
+   },
+   {
+    "expiry": "2027-08-20",
+    "type": "C",
+    "strike": 25.0,
+    "oi": 26,
+    "vol": 25,
+    "last": 2.25
    }
   ]
  },
@@ -12550,7 +12598,7 @@
    "date": "2026-11-12",
    "st_msgs": 0,
    "reddit_posts": 0,
-   "st_watchlist": 3120.0
+   "st_watchlist": 3191.0
   }
  ],
  "stocktwits_recent": [
@@ -13288,8 +13336,8 @@
   "partial": [
    {
     "period": "2026-09-30",
-    "filers_so_far": 12,
-    "shares_so_far": 68204.0,
+    "filers_so_far": 14,
+    "shares_so_far": 80014.0,
     "deadline": "2026-11-14"
    }
   ],
@@ -13340,15 +13388,15 @@
  "nasdaq_inst": {
   "date": "2026-11-12",
   "summary": {
-   "SharesOutstandingPCT": "8.02%",
+   "SharesOutstandingPCT": "8.10%",
    "ShareoutstandingTotal": "16",
    "TotalHoldingsValue": "$22"
   },
   "active_positions": [
    {
     "position": "Increased Positions",
-    "holders": "18",
-    "shares": "534,587"
+    "holders": "20",
+    "shares": "546,397"
    },
    {
     "position": "Decreased Positions",
@@ -13362,15 +13410,15 @@
    },
    {
     "position": "Total Institutional Shares",
-    "holders": "42",
-    "shares": "1,248,198"
+    "holders": "44",
+    "shares": "1,260,008"
    }
   ],
   "new_sold_out": [
    {
     "position": "New Positions",
-    "holders": "10",
-    "shares": "332,992"
+    "holders": "12",
+    "shares": "344,802"
    },
    {
     "position": "Sold Out Positions",
@@ -13524,6 +13572,14 @@
     "marketValue": "$213"
    },
    {
+    "ownerName": "State Street Corp",
+    "date": "9/30/2026",
+    "sharesHeld": "11,400",
+    "sharesChange": "11,400",
+    "sharesChangePCT": "New",
+    "marketValue": "$201"
+   },
+   {
     "ownerName": "Wells Fargo & Company/Mn",
     "date": "6/30/2026",
     "sharesHeld": "10,000",
@@ -13562,6 +13618,14 @@
     "sharesChange": "772",
     "sharesChangePCT": "New",
     "marketValue": "$14"
+   },
+   {
+    "ownerName": "Jpmorgan Chase & Co",
+    "date": "9/30/2026",
+    "sharesHeld": "410",
+    "sharesChange": "410",
+    "sharesChangePCT": "New",
+    "marketValue": "$7"
    },
    {
     "ownerName": "Gk Wealth Management Llc",
@@ -15291,7 +15355,7 @@
   "targets": [
    {
     "date": "2026-11-12",
-    "pt_current": 17.64,
+    "pt_current": 17.33,
     "pt_low": 30.0,
     "pt_high": 54.0,
     "pt_mean": 38.44444,
@@ -15349,23 +15413,23 @@
   },
   {
    "date": "2026-10-30",
-   "title": "Prenetics Global Limited (PRE) Company Profile & Facts - Yahoo Finance - Yahoo! Finance Canada",
-   "source": "Yahoo! Finance Canada",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vcWlrOVpONFQycW1oRHRCU0Z4VTVkdlI3REN3V1hManlsOENCU2ZXX1JZbHh3SjBVX19neU45bG1SVTlRWGVTNi1Ud3lrOFhKY0VkVnV6MzR2NHM?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-10-30",
    "title": "Prenetics Global Limited (PRE) Seasonal returns chart - Yahoo Finance UK",
    "source": "Yahoo Finance UK",
    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByQjRaVjJHalE2YklzUENQZXN6NlRiandwYmllRkFOS1VaNjBCS1M4SUxQM0YyQm9xZTFjVUNvbXR0TDJ3VlpqQjBLcWktX2UzYlBRdVdFTF9qS0xVZ3hEYQ?oc=5",
    "query": "Prenetics"
   },
   {
+   "date": "2026-10-30",
+   "title": "Prenetics Global Limited (PRE) Company Profile & Facts - Yahoo Finance - Yahoo! Finance Canada",
+   "source": "Yahoo! Finance Canada",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vcWlrOVpONFQycW1oRHRCU0Z4VTVkdlI3REN3V1hManlsOENCU2ZXX1JZbHh3SjBVX19neU45bG1SVTlRWGVTNi1Ud3lrOFhKY0VkVnV6MzR2NHM?oc=5",
+   "query": "Prenetics"
+  },
+  {
    "date": "2026-11-02",
-   "title": "Prenetics Global Chief Financial Officer to Resign - marketscreener.com",
-   "source": "marketscreener.com",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQlZQZmZCV0M0WmxFT1lTcW01V1hlQ3g3V0tDc3ltSkY1QlgtbzdoSUt5bDc4aVhlSmFVdEh4aV9TazNHUGVIbXJPSldESVVjUFdicERyYWtRMjBuUmtWVnAzOTdoOWthamFBb1RIYkJPLXh0aVg2LWhqWW9vUFNnajBWSmluOGt4cnhSUEg5VU9ENDNCalE4T2E3Y1UwYWF4LV9hV3B3?oc=5",
+   "title": "Prenetics CFO Stephen Lo Resigns After Eight Years - TipRanks",
+   "source": "TipRanks",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMVRoOURreWFZemdWMHc4RDdlaHlMWF90dzNUV19MQU1yLVlPM3lqSjdaT051ZmFjVHZaSFo2bHNwYkZja0NFMmRZREtLYTFYTmNiTnd6VkNaTjZrOFJONE5lcGFXb0tZdXhtcXpLUnA1RjB0SnBmOGZyS3A4QXJRcWRtUXZpWUFIellXYWFQbG1XZTczVktkZUgySWtqSER1TGRmaA?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15377,9 +15441,9 @@
   },
   {
    "date": "2026-11-02",
-   "title": "Prenetics CFO Stephen Lo Resigns After Eight Years - TipRanks",
-   "source": "TipRanks",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMVRoOURreWFZemdWMHc4RDdlaHlMWF90dzNUV19MQU1yLVlPM3lqSjdaT051ZmFjVHZaSFo2bHNwYkZja0NFMmRZREtLYTFYTmNiTnd6VkNaTjZrOFJONE5lcGFXb0tZdXhtcXpLUnA1RjB0SnBmOGZyS3A4QXJRcWRtUXZpWUFIellXYWFQbG1XZTczVktkZUgySWtqSER1TGRmaA?oc=5",
+   "title": "Prenetics Global Chief Financial Officer to Resign - marketscreener.com",
+   "source": "marketscreener.com",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQlZQZmZCV0M0WmxFT1lTcW01V1hlQ3g3V0tDc3ltSkY1QlgtbzdoSUt5bDc4aVhlSmFVdEh4aV9TazNHUGVIbXJPSldESVVjUFdicERyYWtRMjBuUmtWVnAzOTdoOWthamFBb1RIYkJPLXh0aVg2LWhqWW9vUFNnajBWSmluOGt4cnhSUEg5VU9ENDNCalE4T2E3Y1UwYWF4LV9hV3B3?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15405,51 +15469,9 @@
   },
   {
    "date": "2026-11-03",
-   "title": "Prenetics names Brian Rosin as CFO effective December 31 By Investing.com - Investing.com Canada",
-   "source": "Investing.com Canada",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQlNRQ2NCZlZSMGRBZV9YdWFxY19vTnVOSlViVFRoM3ZKVHlVbWMzQ3VXS1pPSU0yMXhzWkQxaFF5dzZYd21OSmhRbFVnSUczejRYQVpON3ZNSmducVNudTlHb0V1RG55b2czZ0lSRFh0NzVxZEV4eThkSnRsMkJQUG9QdHJORTY3TGczaEVoM0dVYnhNYmFXQ0lMUWY1V1NQa240SkJFYlBvMUtwZENURXZEWTR2LTZO?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-03",
-   "title": "Prenetics names Brian Rosin as CFO effective December 31 By Investing.com - Investing.com UK",
-   "source": "Investing.com UK",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOclRWNzMxVll3U1MxZmVYLUdVSHROa041M09iUnlwcjBXTWE0R1prRVhSeVFkSHJUYzBBRVFxWE9IaF9CY3RKelFfX0RJdlgzcDNwQkF1d0J4eWxIdkFOZUdJaHVOeGNlM2ZFRmwxNTViaG94NW9XTmN0MzlVUzZBVW85OXlfSXc0TGI3UDRYaGxhWkZJdTdMUW1MNF8xYlUwVEN5cGVvRzVvWEpoSDNmMUVLVEljM0cx?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-03",
-   "title": "David Beckham co-founded health brand IM8, which accounts for nearly all Prenetics revenue. Rosin will lead finance. - Stock Titan",
-   "source": "Stock Titan",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaFlYVWhCS1VkUlV3elZJTVdIOVBMeHVxY094SzU5bW45NmhNUHRpZFFQR0EwTmQ5UGttckRGSFRPeFFmRUluaFZPVjZIZGxUUXZBa3dmbFBCc3Q5TlVITEhzNjNlRm9ZNUZ1ZG5uanM4WjM1eEsxWnkxV202OEoyUXpPeW5BMDQtaWIyYjhjbTlJU3d6R3dxNGZRY2k4cDVvNHN4Z3Q4cmd5OWxhWUlPaU1aT25IWDg?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-03",
    "title": "[HK Special Report] NASDAQ-listed Prenetics’ Danny Yeung on building a global health brand - TNGlobal",
    "source": "TNGlobal",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWV9pOV8xXzVFclViUFV4b3VmUGdjS0Nyc0I3dFFCMlo4eW9SN3F1S0c5ckJZUlVYMDZQMkVHVTJ5dWJmZGZzclNYNmhrSjBsZXkzSVY0bGVYWFJpQVFib3BHM3BxUFFYN0FXbGtSZDd4U0hVblpQZ1NSd2dNLXNwMkEwMGlfdFIyX21OdjhKNUNvdUFTMUZUU25xcV8tMjNiUk5CZmdQVC1lOXlOUHF2bDRRRDYxQjRlX3lzVnlPemU?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-03",
-   "title": "Prenetics names Brian J. Rosin as CFO, effective Dec. 31 - StreetInsider",
-   "source": "StreetInsider",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT2tNTkJhX01rSDVYOHZzZW9CLUxmRWhVSEZCWS1XQWY3TXB0aEgxd3lkN1NiYWE5eXltVnJUeTBwMjVYbEJ0T09BY2xOMm1wN2dibm5CX3FQdVBUeHNic01hWHRwZUZOTFpaX2V6dzRKQWVCd0w4a3BSOUtLM1NNRFlxNTZqaG4ySEVVemk0dGN5eXRYMmprbDNkODZuNU5ZZy15NmU5eHdaNDhZNDVaWnB0WVRTeXBPNHhVQjZR?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-03",
-   "title": "Prenetics Global Limited (PRE) Seasonal returns chart - Yahoo Finance - Yahoo Finance Singapore",
-   "source": "Yahoo Finance Singapore",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5WRk1MWDkwcU5JRjk1OVJycWViMDF5aV90UnNkVzBXV2htbktpZ19ERW9USmg0SmgyeVBITGJidjBIOU5JNkhLUE9sVHVHZDVEcDZfUkNyVm9zMG45Qzl5Mg?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-03",
-   "title": "Prenetics appoints Brian J. Rosin as new CFO, c... - Pluang",
-   "source": "Pluang",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORWJ0OVg3M2JUZ0QyNWpvWnBLN2RReFQxaHVUVHdoa1dXTTh2VFZqV3VYeWJIVnZHakpfczZBYzlMZW13MU5SamZMandDalVkYjNKWmZqS29zWDh0Q1dwdkY4c0JXZnEzNy1oR0M5bDctQWhwbEViUVVqWXRPcFZQV1Fkbw?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15461,10 +15483,52 @@
   },
   {
    "date": "2026-11-03",
+   "title": "Prenetics appoints Brian J. Rosin as new CFO, c... - Pluang",
+   "source": "Pluang",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORWJ0OVg3M2JUZ0QyNWpvWnBLN2RReFQxaHVUVHdoa1dXTTh2VFZqV3VYeWJIVnZHakpfczZBYzlMZW13MU5SamZMandDalVkYjNKWmZqS29zWDh0Q1dwdkY4c0JXZnEzNy1oR0M5bDctQWhwbEViUVVqWXRPcFZQV1Fkbw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "Prenetics Global Limited (PRE) Seasonal returns chart - Yahoo Finance - Yahoo Finance Singapore",
+   "source": "Yahoo Finance Singapore",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5WRk1MWDkwcU5JRjk1OVJycWViMDF5aV90UnNkVzBXV2htbktpZ19ERW9USmg0SmgyeVBITGJidjBIOU5JNkhLUE9sVHVHZDVEcDZfUkNyVm9zMG45Qzl5Mg?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-03",
    "title": "Prenetics’ IM8 Names Brian J. Rosin as Successor Chief Financial Officer - The Manila Times",
    "source": "The Manila Times",
    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTVQyeHVjRWIzcVdiOW1CQ2NvYXgwNHhVUUlXa21ORWszckl0RTFadnhiT3c0dy1zZm04QmFBLWw1Tk5jRVRPbHd3NFVvVjZTYkdXS3JUdUsxbXRUX3NsZFhaQTVtWEZ2NXRBaHIzZ1BuSXRQQkJVUmx2MHdGbXNRTDE2cVQxLW8tWjZ5cExhZHVsdS16Z2hOUzE0TXZuaE9xY3NJd2tnVFF5Wng3QlNqVnExWjUzNlpUZ3pUZEVWYkFWb3c1Z0tVb1ZkcmlCRXpBaFhBa2ZzU0pZOUdv0gHiAUFVX3lxTFBXaTBQZXpfTjF2MENwcUkzSERfRDdhbklTMWkzTXFfRE1idmxkVmdnenJ3QnBtU2tyNFBJdUg0Tm1Xd0RTeFJzN01pVVhURXh4OTdnd0x2a3RyWGZZSDZLeUtsN3RBSUM2RUctRzAwUkJtbnh4ZDZsMzgtQVFQUm1ENEFUUlBQeWlXS2JQRktSWEFSYml6Q1liNFd2WUpJbFUtSEdmakFXdjFxYmVFdlJSeUF5Tkx5dU90dTJPUzZWR3NhXzFram0zc2t6eWlhOURMUy13RW1HWUk2UnBJNmxxRHc?oc=5",
    "query": "IM8"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "David Beckham co-founded health brand IM8, which accounts for nearly all Prenetics revenue. Rosin will lead finance. - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaFlYVWhCS1VkUlV3elZJTVdIOVBMeHVxY094SzU5bW45NmhNUHRpZFFQR0EwTmQ5UGttckRGSFRPeFFmRUluaFZPVjZIZGxUUXZBa3dmbFBCc3Q5TlVITEhzNjNlRm9ZNUZ1ZG5uanM4WjM1eEsxWnkxV202OEoyUXpPeW5BMDQtaWIyYjhjbTlJU3d6R3dxNGZRY2k4cDVvNHN4Z3Q4cmd5OWxhWUlPaU1aT25IWDg?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "Prenetics names Brian J. Rosin as CFO, effective Dec. 31 - StreetInsider",
+   "source": "StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT2tNTkJhX01rSDVYOHZzZW9CLUxmRWhVSEZCWS1XQWY3TXB0aEgxd3lkN1NiYWE5eXltVnJUeTBwMjVYbEJ0T09BY2xOMm1wN2dibm5CX3FQdVBUeHNic01hWHRwZUZOTFpaX2V6dzRKQWVCd0w4a3BSOUtLM1NNRFlxNTZqaG4ySEVVemk0dGN5eXRYMmprbDNkODZuNU5ZZy15NmU5eHdaNDhZNDVaWnB0WVRTeXBPNHhVQjZR?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "Prenetics names Brian Rosin as CFO effective December 31 By Investing.com - Investing.com UK",
+   "source": "Investing.com UK",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOclRWNzMxVll3U1MxZmVYLUdVSHROa041M09iUnlwcjBXTWE0R1prRVhSeVFkSHJUYzBBRVFxWE9IaF9CY3RKelFfX0RJdlgzcDNwQkF1d0J4eWxIdkFOZUdJaHVOeGNlM2ZFRmwxNTViaG94NW9XTmN0MzlVUzZBVW85OXlfSXc0TGI3UDRYaGxhWkZJdTdMUW1MNF8xYlUwVEN5cGVvRzVvWEpoSDNmMUVLVEljM0cx?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "Prenetics names Brian Rosin as CFO effective December 31 By Investing.com - Investing.com Canada",
+   "source": "Investing.com Canada",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQlNRQ2NCZlZSMGRBZV9YdWFxY19vTnVOSlViVFRoM3ZKVHlVbWMzQ3VXS1pPSU0yMXhzWkQxaFF5dzZYd21OSmhRbFVnSUczejRYQVpON3ZNSmducVNudTlHb0V1RG55b2czZ0lSRFh0NzVxZEV4eThkSnRsMkJQUG9QdHJORTY3TGczaEVoM0dVYnhNYmFXQ0lMUWY1V1NQa240SkJFYlBvMUtwZENURXZEWTR2LTZO?oc=5",
+   "query": "Prenetics"
   },
   {
    "date": "2026-11-03",
@@ -15482,30 +15546,16 @@
   },
   {
    "date": "2026-11-05",
-   "title": "Care Bears by IM8 to launch gummy multivitamins in 2027 - Stack3d",
-   "source": "Stack3d",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRaGc3VmNsN250Sk1pd3hQeWV3eWNIRE5odWJXYzJnaUs0VS1LVmhjUE5peWFuMWdCV3JNUXVSUjBaVW5HZnVWaUwxLUxIUWw4T1BHdjNYTVp4RVEyQmc?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Care Bears And Prenetics' IM8 Announce Global Partnership - PR Newswire",
-   "source": "PR Newswire",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd0pkc3ozdG1na0NwOXVMdGUwM2UxcjRfZ0d4YkNObDJfeEJLMlFic1NXR3lKclZHOVZsNEIxQkNXRVFwTlJ3VC12RUxEMVR0OXhZeXFKQkdBb2liN19qRGZZaGxaeE82TmkzSVdnMW9FNFR2OXdjUHZQSWpvaVptYlN0d29wTlhLdHNaSTM3TXNRNXdSM1RFTGZDVW1NTDJKcm8tdDEyc2ZXMl9wTjlzMVdR?oc=5",
+   "title": "Director holds 10,001 shares after Prenetics (PRE) delivers 2,000 shares from a vested stock grant. - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd0ZKWWFONDBLZV85NDRLc1RuTTdpNHh0allUQUoyV0s3T2Z4VFFnUllTUVh6Q3ktZDlPUVc2eExiaVloWW9WMFJHN2E4cG9mdGJydTRNOUxMZm13aHNLbFphTDlBZFE3dVU5cE1Ua1hWQWtxVzBndlQ2UERoS0FhMnkxN3Q5bWFVbWZaM0Q0RVBzeW1FbGhIdlBOTlVuZG1JdmpBQV9XVE1NdVhlS1VoUnZMRQ?oc=5",
    "query": "Prenetics"
   },
   {
    "date": "2026-11-05",
-   "title": "Prenetics’ IM8 and Authentic Brands Group Announce 10-Year Exclusive Global Partnership to Create Care Bears by IM8; Authentic to Become Strategic Shareholder in Prenetics - The Manila Times",
-   "source": "The Manila Times",
-   "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxPQWkzMDE3ZkpsTHhJcmVvckhWMHBVQUNHZlJmMzJ3Uy1IVmRZYm9EejFiSl9IazFnWEJaSy1qM0RwUS03NDVsdmpIQUR5blpfOS1yQ2JJRjVubXZYMVhnMHF0Mkw3XzdLTEl2dUxKMXE2aERQaVNiWnJVOVR1cWY4blB6Nk5NYjF2SVBfZkR0a3V6cERRVk9SS016MVE4cURGcHltWm1uN21aQjNYLU5sVWxadExLdnB1b3cxcWFaZC11OE9nam9ldDdFSHZHZDBoTjNVcnVMTnpnekpWeUNWWVlKRnozb1JLYWNCOEVrV0dIUnRiLWN0alNWLWFuek1XV1VDd2N4T013QkRDZUhyU1BaV0o2UUFmVlJJelh0VzMwZndqUTJJYkw4clNYdmxGZ256S3UzRnhvRzB6aU9pWTEyMUctT1BDa0dzX3BQRFdyY3BwT28xM3JZNWlPdFdP0gHmAkFVX3lxTE5ubFVWUURKNXVXZUZYT3BNWUxrVllUcUZDa2R4RXFZQ0xSS3lrUzh0WmV2S3REMHdrb09GU0dKVjhFT3NNSThsbERJbEY2anpKclZySjF3b3pnX0NVSi1zc292RTlQSmV1VkQycmprMUdFeVlFWjU5VzhnSTJOdGV2R3c0RThtWEJSZzczM3Q1eFExQXJOQVFLSFkxTV93T2MwQnhLM01ycTVocUlBZDdURUF0NHlUS184YjNIbk1jRTZJT2ZLUlZqTEhmdmJLOU15ckExYVQyOFJyWVAzbEt5Q0tQNEt2OFdrSW1zem00N01QUjkzWkpqMHFEZVRaZjVndFlTSDVyVnBwMHdWd0wwVkRmbnYtN2Z4ci16Z01PS2pjRi02UVhGbW5VcnNJd2dCX2JUSzZWUVBKV3RySUtpcEQtQkJ1bDFfV2JtQnpPaXpWTkdMeVl1MDNFU19fc2VOSDl2SFE?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Form 4 Prenetics Global Ltd: Hudson Blake Leogrande (Director) For: 4 November - Investing.com UK",
-   "source": "Investing.com UK",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSE8tNDB4ZDZvR09CX3VKYnN4Z0ItZkpFZXB6REhxUE9lSFNHc2xDMlM1dlAyX1IzbGkxZHVCSWktTVBTb3pyeGxhR0xGSFRaR2xnMGNfMnpBZmRrenZSMWlXU1ktT2hvcXBoX1FGcUNmVTVHTGJqOW90SXRoczR5aFhWVi1aaVdVNmRSQ21DNllyWGsyWElSUE5aVUJhWmY5TzdrQlpiOVVkbmJDM0lJdm5XaXhabFpSM25uTURPemV0Y25ZckVqOVdJc3E3UzRr?oc=5",
+   "title": "Prenetics' IM8 signs 10-year Care Bears wellness deal with Authentic - StreetInsider",
+   "source": "StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU2MyX1h0bGRMd0FYX2lUTl9FOE5aV1RzSWlTWTllbDBTeXB1UHpNcVh4ZjNHTWt2dGVJOUpFeFhwb1A1LWZjbnFFWDZxdl9JOUk0Wm5mTW9JcU43UFZ5c3dwQ3lyMTNsSFpYT1liV2Z4QnlZRUhTc1dha0NDcldOcW5WZWstY0EycXRteklsd3p5TWI2VE1MM2JXRVppNVhKNFhjd1R2ZWZRY29qSkVqSkgxTWFtOTFITWJVS193RE91dmJ1?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15524,24 +15574,31 @@
   },
   {
    "date": "2026-11-05",
-   "title": "I Tried IM8's Daily Ultimate Longevity Supplements For One Month – Here's What Happened - CSP Times",
-   "source": "CSP Times",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYVktT2ZQUzMxZ1lkUXd6OGt0MFl3dnJ0bVhicFl0MEk3UGw0OWVHcFNWNGIyX3ZkWGozLTk4Mk0wem1tM0pST01oUC1PUVBGaUNxYkxNa2s0anI4b3JxYzJ5VTRwRGxqQmxCSndXX3BMaFdGWEczTnFYUzRTdTdYcUlZN2dNTGNhWjB0aGdraUcxdnZ1LXNzSU92cUlSc0d6Rkg2OHg2d3F0QS1wdVdnTTZpZXJtUQ?oc=5",
+   "title": "Prenetics’ IM8 and Authentic Brands Group Announce 10-Year Exclusive Global Partnership to Create Care Bears by IM8; Authentic to Become Strategic Shareholder in Prenetics - The Manila Times",
+   "source": "The Manila Times",
+   "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxPQWkzMDE3ZkpsTHhJcmVvckhWMHBVQUNHZlJmMzJ3Uy1IVmRZYm9EejFiSl9IazFnWEJaSy1qM0RwUS03NDVsdmpIQUR5blpfOS1yQ2JJRjVubXZYMVhnMHF0Mkw3XzdLTEl2dUxKMXE2aERQaVNiWnJVOVR1cWY4blB6Nk5NYjF2SVBfZkR0a3V6cERRVk9SS016MVE4cURGcHltWm1uN21aQjNYLU5sVWxadExLdnB1b3cxcWFaZC11OE9nam9ldDdFSHZHZDBoTjNVcnVMTnpnekpWeUNWWVlKRnozb1JLYWNCOEVrV0dIUnRiLWN0alNWLWFuek1XV1VDd2N4T013QkRDZUhyU1BaV0o2UUFmVlJJelh0VzMwZndqUTJJYkw4clNYdmxGZ256S3UzRnhvRzB6aU9pWTEyMUctT1BDa0dzX3BQRFdyY3BwT28xM3JZNWlPdFdP0gHmAkFVX3lxTE5ubFVWUURKNXVXZUZYT3BNWUxrVllUcUZDa2R4RXFZQ0xSS3lrUzh0WmV2S3REMHdrb09GU0dKVjhFT3NNSThsbERJbEY2anpKclZySjF3b3pnX0NVSi1zc292RTlQSmV1VkQycmprMUdFeVlFWjU5VzhnSTJOdGV2R3c0RThtWEJSZzczM3Q1eFExQXJOQVFLSFkxTV93T2MwQnhLM01ycTVocUlBZDdURUF0NHlUS184YjNIbk1jRTZJT2ZLUlZqTEhmdmJLOU15ckExYVQyOFJyWVAzbEt5Q0tQNEt2OFdrSW1zem00N01QUjkzWkpqMHFEZVRaZjVndFlTSDVyVnBwMHdWd0wwVkRmbnYtN2Z4ci16Z01PS2pjRi02UVhGbW5VcnNJd2dCX2JUSzZWUVBKV3RySUtpcEQtQkJ1bDFfV2JtQnpPaXpWTkdMeVl1MDNFU19fc2VOSDl2SFE?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "Form 4 Prenetics Global Ltd: Hudson Blake Leogrande (Director) For: 4 November - Investing.com UK",
+   "source": "Investing.com UK",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSE8tNDB4ZDZvR09CX3VKYnN4Z0ItZkpFZXB6REhxUE9lSFNHc2xDMlM1dlAyX1IzbGkxZHVCSWktTVBTb3pyeGxhR0xGSFRaR2xnMGNfMnpBZmRrenZSMWlXU1ktT2hvcXBoX1FGcUNmVTVHTGJqOW90SXRoczR5aFhWVi1aaVdVNmRSQ21DNllyWGsyWElSUE5aVUJhWmY5TzdrQlpiOVVkbmJDM0lJdm5XaXhabFpSM25uTURPemV0Y25ZckVqOVdJc3E3UzRr?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "Care Bears And Prenetics' IM8 Announce Global Partnership - PR Newswire",
+   "source": "PR Newswire",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd0pkc3ozdG1na0NwOXVMdGUwM2UxcjRfZ0d4YkNObDJfeEJLMlFic1NXR3lKclZHOVZsNEIxQkNXRVFwTlJ3VC12RUxEMVR0OXhZeXFKQkdBb2liN19qRGZZaGxaeE82TmkzSVdnMW9FNFR2OXdjUHZQSWpvaVptYlN0d29wTlhLdHNaSTM3TXNRNXdSM1RFTGZDVW1NTDJKcm8tdDEyc2ZXMl9wTjlzMVdR?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "Care Bears by IM8 to launch gummy multivitamins in 2027 - Stack3d",
+   "source": "Stack3d",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRaGc3VmNsN250Sk1pd3hQeWV3eWNIRE5odWJXYzJnaUs0VS1LVmhjUE5peWFuMWdCV3JNUXVSUjBaVW5HZnVWaUwxLUxIUWw4T1BHdjNYTVp4RVEyQmc?oc=5",
    "query": "IM8"
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Prenetics' IM8 signs 10-year Care Bears wellness deal with Authentic - StreetInsider",
-   "source": "StreetInsider",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU2MyX1h0bGRMd0FYX2lUTl9FOE5aV1RzSWlTWTllbDBTeXB1UHpNcVh4ZjNHTWt2dGVJOUpFeFhwb1A1LWZjbnFFWDZxdl9JOUk0Wm5mTW9JcU43UFZ5c3dwQ3lyMTNsSFpYT1liV2Z4QnlZRUhTc1dha0NDcldOcW5WZWstY0EycXRteklsd3p5TWI2VE1MM2JXRVppNVhKNFhjd1R2ZWZRY29qSkVqSkgxTWFtOTFITWJVS193RE91dmJ1?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-05",
-   "title": "Director holds 10,001 shares after Prenetics (PRE) delivers 2,000 shares from a vested stock grant. - Stock Titan",
-   "source": "Stock Titan",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd0ZKWWFONDBLZV85NDRLc1RuTTdpNHh0allUQUoyV0s3T2Z4VFFnUllTUVh6Q3ktZDlPUVc2eExiaVloWW9WMFJHN2E4cG9mdGJydTRNOUxMZm13aHNLbFphTDlBZFE3dVU5cE1Ua1hWQWtxVzBndlQ2UERoS0FhMnkxN3Q5bWFVbWZaM0Q0RVBzeW1FbGhIdlBOTlVuZG1JdmpBQV9XVE1NdVhlS1VoUnZMRQ?oc=5",
-   "query": "Prenetics"
   },
   {
    "date": "2026-11-05",
@@ -15552,23 +15609,16 @@
   },
   {
    "date": "2026-11-05",
+   "title": "I Tried IM8's Daily Ultimate Longevity Supplements For One Month – Here's What Happened - CSP Times",
+   "source": "CSP Times",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYVktT2ZQUzMxZ1lkUXd6OGt0MFl3dnJ0bVhicFl0MEk3UGw0OWVHcFNWNGIyX3ZkWGozLTk4Mk0wem1tM0pST01oUC1PUVBGaUNxYkxNa2s0anI4b3JxYzJ5VTRwRGxqQmxCSndXX3BMaFdGWEczTnFYUzRTdTdYcUlZN2dNTGNhWjB0aGdraUcxdnZ1LXNzSU92cUlSc0d6Rkg2OHg2d3F0QS1wdVdnTTZpZXJtUQ?oc=5",
+   "query": "IM8"
+  },
+  {
+   "date": "2026-11-05",
    "title": "Prenetics’ IM8 and Authentic Brands Group Announce 10-Year - GlobeNewswire",
    "source": "GlobeNewswire",
    "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPdlVEczFwZlBzVjF2a0ptdGtROE9pMDc2U3Q5NEdUNmdFdjZYNmhtSEJLRFZ2WW5nRERQcUJ5LWpyb2x1c1BsX0UwVXJxUGNmRGhwdFJjdEhQWjBBSEpmR1p3VEZWamdiOTN5dmRSQWhWN3dTSVh3RUtBdldrdFZRUF9DVVE5aHhlSVhkUXY3SHJlVmNXejVLZVl2R0NMUjdHWnZLd0g5ZWNqTEIyYldXRmQ0UXBGRlRaZW5xWUVoYkxISjViS2RTVHFacDIxRGF1V1RlUTRVNGZWT1AtWmFqY2N2WTNVVFBuS0pBSFRKSnNyMi03QW1Ba05wNUYyUUE4Q3ZNQjNoVWxqdFZzVFpDeTg3c1F0YVhGZ290T2l5c041RkllZXpyX0FUeU5aWVg2MzNtT3djZ1RKWmpyeG40RnYxQ3VmTHo5WmhTUnZucjloNm5tS3IxbGplMGVKUQ?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-11-06",
-   "title": "IM8 Health Promo Code LOUISA10: Save 10% Sitewide On Daily Ultimate Essentials - Muzique Magazine",
-   "source": "Muzique Magazine",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWTVlWEE4bXVTQzBzbUdBajlubzZkNG1Kdnlwa1h2WWYwUTNJMklYcU1CWF8zZGg4TDB5TTVkWFVkM1ljS1pYemh2OUpOcGJXTmJib0hraFE2UHNoU2lVZVZlVU1kRC12MnZyazdQTlhzM2lKV3FqZGRqbDVNaHZGXw?oc=5",
-   "query": "IM8"
-  },
-  {
-   "date": "2026-11-06",
-   "title": "IM8 Targets Gummies, Hydration, and Creatine - Fitt Insider",
-   "source": "Fitt Insider",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCTkI5aGFILTE3Q3F1Y0liSnZIU0V3bTNpVmdLcHVhRGJtTmI1eGJFRUV4SlpsZS10WHg2SmczZklSV2Vnb2JYYnhtMno3NnlvaUJTN2R5QkRGZG5RUGcyOS1ITTd5NGZaY3ZQQmpJYkhsR0VuZmc?oc=5",
    "query": "IM8"
   },
   {
@@ -15579,11 +15629,25 @@
    "query": "Prenetics"
   },
   {
-   "date": "2026-11-12",
+   "date": "2026-11-06",
+   "title": "IM8 Health Promo Code LOUISA10: Save 10% Sitewide On Daily Ultimate Essentials - Muzique Magazine",
+   "source": "Muzique Magazine",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWTVlWEE4bXVTQzBzbUdBajlubzZkNG1Kdnlwa1h2WWYwUTNJMklYcU1CWF8zZGg4TDB5TTVkWFVkM1ljS1pYemh2OUpOcGJXTmJib0hraFE2UHNoU2lVZVZlVU1kRC12MnZyazdQTlhzM2lKV3FqZGRqbDVNaHZGXw?oc=5",
+   "query": "IM8"
+  },
+  {
+   "date": "2026-11-06",
    "title": "Prenetics Global (PRE) Stock Price, Chart & Analysis - www.debelegger.nl",
    "source": "www.debelegger.nl",
    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8tQ2E4UUJZT0xpbFAzSnBkbmRfMVN2dDNRUHV1c1pzTExiNE12dENOSzQtdUx6RldnZ1NQT3ZFLWJKZzZaX21RSjBqWGpEVjFKczJv?oc=5",
    "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "IM8 Targets Gummies, Hydration, and Creatine - Fitt Insider",
+   "source": "Fitt Insider",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCTkI5aGFILTE3Q3F1Y0liSnZIU0V3bTNpVmdLcHVhRGJtTmI1eGJFRUV4SlpsZS10WHg2SmczZklSV2Vnb2JYYnhtMno3NnlvaUJTN2R5QkRGZG5RUGcyOS1ITTd5NGZaY3ZQQmpJYkhsR0VuZmc?oc=5",
+   "query": "IM8"
   }
  ]
 }

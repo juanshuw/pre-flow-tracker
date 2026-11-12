@@ -1,15 +1,15 @@
 {
  "date": "2026-11-12",
  "summary": {
-  "SharesOutstandingPCT": "8.02%",
+  "SharesOutstandingPCT": "8.10%",
   "ShareoutstandingTotal": "16",
   "TotalHoldingsValue": "$22"
  },
  "active_positions": [
   {
    "position": "Increased Positions",
-   "holders": "18",
-   "shares": "534,587"
+   "holders": "20",
+   "shares": "546,397"
   },
   {
    "position": "Decreased Positions",
@@ -23,15 +23,15 @@
   },
   {
    "position": "Total Institutional Shares",
-   "holders": "42",
-   "shares": "1,248,198"
+   "holders": "44",
+   "shares": "1,260,008"
   }
  ],
  "new_sold_out": [
   {
    "position": "New Positions",
-   "holders": "10",
-   "shares": "332,992"
+   "holders": "12",
+   "shares": "344,802"
   },
   {
    "position": "Sold Out Positions",
@@ -185,6 +185,14 @@
    "marketValue": "$213"
   },
   {
+   "ownerName": "State Street Corp",
+   "date": "9/30/2026",
+   "sharesHeld": "11,400",
+   "sharesChange": "11,400",
+   "sharesChangePCT": "New",
+   "marketValue": "$201"
+  },
+  {
    "ownerName": "Wells Fargo & Company/Mn",
    "date": "6/30/2026",
    "sharesHeld": "10,000",
@@ -223,6 +231,14 @@
    "sharesChange": "772",
    "sharesChangePCT": "New",
    "marketValue": "$14"
+  },
+  {
+   "ownerName": "Jpmorgan Chase & Co",
+   "date": "9/30/2026",
+   "sharesHeld": "410",
+   "sharesChange": "410",
+   "sharesChangePCT": "New",
+   "marketValue": "$7"
   },
   {
    "ownerName": "Gk Wealth Management Llc",
