@@ -508,5 +508,35 @@
     "shares": "1,248,198"
    }
   ]
+ },
+ {
+  "date": "2026-11-12",
+  "summary": {
+   "SharesOutstandingPCT": "8.02%",
+   "ShareoutstandingTotal": "16",
+   "TotalHoldingsValue": "$22"
+  },
+  "active_positions": [
+   {
+    "position": "Increased Positions",
+    "holders": "18",
+    "shares": "534,587"
+   },
+   {
+    "position": "Decreased Positions",
+    "holders": "21",
+    "shares": "1,289,403"
+   },
+   {
+    "position": "Held Positions",
+    "holders": "3",
+    "shares": "575,792"
+   },
+   {
+    "position": "Total Institutional Shares",
+    "holders": "42",
+    "shares": "1,248,198"
+   }
+  ]
  }
 ]
