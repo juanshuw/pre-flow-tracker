@@ -1027,3 +1027,29 @@ social.reddit,skip,blocked,2026-11-12T18:39:08,2026-11-12 18:39
 borrow.iborrowdesk,skip,unreachable,2026-11-12T18:39:13,2026-11-12 18:39
 analysts.yahoo,ok,PT mean 38.44444,2026-11-12T18:39:14,2026-11-12 18:39
 news.google_rss,ok,85 items,2026-11-12T18:39:14,2026-11-12 18:39
+prices.yahoo,ok,468 rows,2026-11-13T09:06:57,2026-11-13 09:07
+prices.stooq,skip,empty/blocked,2026-11-13T09:06:58,2026-11-13 09:07
+prices.nasdaq,ok,468 rows,2026-11-13T09:07:01,2026-11-13 09:07
+prices.peers,ok,468 rows,2026-11-13T09:07:02,2026-11-13 09:07
+prices.intraday_1m,ok,7 days,2026-11-13T09:07:02,2026-11-13 09:07
+finra.regsho_daily,ok,"+17 days, total 266",2026-11-13T09:07:03,2026-11-13 09:07
+finra.otc_weekly,ok,245 rows since 2026-08-06; latest week 2026-10-05,2026-11-13T09:07:03,2026-11-13 09:07
+finra.otc_monthly,ok,8 rows,2026-11-13T09:07:04,2026-11-13 09:07
+finra.short_interest,ok,latest 2026-10-30,2026-11-13T09:07:04,2026-11-13 09:07
+sec.edgar_filings,ok,101 filings; latest 2026-11-05,2026-11-13T09:07:05,2026-11-13 09:07
+sec.form4,ok,no new Form 4,2026-11-13T09:07:05,2026-11-13 09:07
+sec.edgar_events,ok,no new docs,2026-11-13T09:07:05,2026-11-13 09:07
+sec.13f,ok,318 hits; parsed 4 new filings,2026-11-13T09:07:08,2026-11-13 09:07
+sec.ftd,ok,fetched ['202610a']; +2 rows,2026-11-13T09:07:10,2026-11-13 09:07
+sec.shares,ok,"latest 16,874,089 as of 2025-12-31",2026-11-13T09:07:10,2026-11-13 09:07
+nasdaq.circuit_breaker,ok,+1 days; in effect [],2026-11-13T09:07:12,2026-11-13 09:07
+nasdaq.threshold,ok,+1 days; on list [],2026-11-13T09:07:13,2026-11-13 09:07
+nasdaq.institutional,ok,inst own 7.55%; holders 42,2026-11-13T09:07:20,2026-11-13 09:07
+nasdaq.insiders,ok,15 rows,2026-11-13T09:07:27,2026-11-13 09:07
+nasdaq.short_interest,ok,24 rows,2026-11-13T09:07:37,2026-11-13 09:07
+options.yahoo,ok,OI C642/P9,2026-11-13T09:07:37,2026-11-13 09:07
+social.stocktwits,ok,watch 3276; +0 msgs,2026-11-13T09:07:38,2026-11-13 09:07
+social.reddit,skip,blocked,2026-11-13T09:07:38,2026-11-13 09:07
+borrow.iborrowdesk,skip,unreachable,2026-11-13T09:07:43,2026-11-13 09:07
+analysts.yahoo,ok,PT mean 38.44444,2026-11-13T09:07:43,2026-11-13 09:07
+news.google_rss,ok,82 items,2026-11-13T09:07:44,2026-11-13 09:07
