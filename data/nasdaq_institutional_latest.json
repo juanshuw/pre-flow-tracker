@@ -1,42 +1,42 @@
 {
  "date": "2026-11-16",
  "summary": {
-  "SharesOutstandingPCT": "11.45%",
+  "SharesOutstandingPCT": "13.31%",
   "ShareoutstandingTotal": "16",
-  "TotalHoldingsValue": "$29"
+  "TotalHoldingsValue": "$34"
  },
  "active_positions": [
   {
    "position": "Increased Positions",
-   "holders": "25",
-   "shares": "977,561"
+   "holders": "32",
+   "shares": "1,266,847"
   },
   {
    "position": "Decreased Positions",
-   "holders": "17",
-   "shares": "829,612"
+   "holders": "14",
+   "shares": "473,812"
   },
   {
    "position": "Held Positions",
    "holders": "2",
-   "shares": "25,424"
+   "shares": "330,376"
   },
   {
    "position": "Total Institutional Shares",
-   "holders": "44",
-   "shares": "1,781,749"
+   "holders": "48",
+   "shares": "2,071,035"
   }
  ],
  "new_sold_out": [
   {
    "position": "New Positions",
-   "holders": "17",
-   "shares": "792,313"
+   "holders": "22",
+   "shares": "1,024,456"
   },
   {
    "position": "Sold Out Positions",
-   "holders": "7",
-   "shares": "434,359"
+   "holders": "6",
+   "shares": "81,542"
   }
  ],
  "holders": [
@@ -105,6 +105,30 @@
    "marketValue": "$2,064"
   },
   {
+   "ownerName": "Two Sigma Investments, Lp",
+   "date": "9/30/2026",
+   "sharesHeld": "87,286",
+   "sharesChange": "87,286",
+   "sharesChangePCT": "New",
+   "marketValue": "$1,441"
+  },
+  {
+   "ownerName": "Xtx Topco Ltd",
+   "date": "9/30/2026",
+   "sharesHeld": "81,903",
+   "sharesChange": "51,418",
+   "sharesChangePCT": "168.667%",
+   "marketValue": "$1,352"
+  },
+  {
+   "ownerName": "Prelude Capital Management, Llc",
+   "date": "9/30/2026",
+   "sharesHeld": "79,086",
+   "sharesChange": "79,086",
+   "sharesChangePCT": "New",
+   "marketValue": "$1,306"
+  },
+  {
    "ownerName": "Qube Research & Technologies Ltd",
    "date": "9/30/2026",
    "sharesHeld": "75,055",
@@ -119,6 +143,14 @@
    "sharesChange": "64,943",
    "sharesChangePCT": "New",
    "marketValue": "$1,072"
+  },
+  {
+   "ownerName": "Bank Of America Corp /De/",
+   "date": "9/30/2026",
+   "sharesHeld": "56,110",
+   "sharesChange": "56,110",
+   "sharesChangePCT": "New",
+   "marketValue": "$926"
   },
   {
    "ownerName": "Fortress Private Ledger, Llc",
@@ -153,12 +185,12 @@
    "marketValue": "$629"
   },
   {
-   "ownerName": "Oasis Management Co Ltd.",
-   "date": "6/30/2026",
-   "sharesHeld": "33,333",
-   "sharesChange": "33,333",
+   "ownerName": "Woodline Partners Lp",
+   "date": "9/30/2026",
+   "sharesHeld": "33,522",
+   "sharesChange": "33,522",
    "sharesChangePCT": "New",
-   "marketValue": "$550"
+   "marketValue": "$553"
   },
   {
    "ownerName": "Stevens Capital Partners",
@@ -167,14 +199,6 @@
    "sharesChange": "2,527",
    "sharesChangePCT": "8.978%",
    "marketValue": "$506"
-  },
-  {
-   "ownerName": "Xtx Topco Ltd",
-   "date": "6/30/2026",
-   "sharesHeld": "30,485",
-   "sharesChange": "-2,932",
-   "sharesChangePCT": "-8.774%",
-   "marketValue": "$503"
   },
   {
    "ownerName": "Hrt Financial Lp",
@@ -233,6 +257,22 @@
    "marketValue": "$152"
   },
   {
+   "ownerName": "Exoduspoint Capital Management, Lp",
+   "date": "9/30/2026",
+   "sharesHeld": "8,855",
+   "sharesChange": "8,855",
+   "sharesChangePCT": "New",
+   "marketValue": "$146"
+  },
+  {
+   "ownerName": "Hurricane Capital Advisors Llc",
+   "date": "9/30/2026",
+   "sharesHeld": "6,000",
+   "sharesChange": "5,725",
+   "sharesChangePCT": "2081.818%",
+   "marketValue": "$99"
+  },
+  {
    "ownerName": "Quantbot Technologies Lp",
    "date": "9/30/2026",
    "sharesHeld": "4,285",
@@ -265,6 +305,14 @@
    "marketValue": "$13"
   },
   {
+   "ownerName": "Quarry Lp",
+   "date": "9/30/2026",
+   "sharesHeld": "617",
+   "sharesChange": "617",
+   "sharesChangePCT": "New",
+   "marketValue": "$10"
+  },
+  {
    "ownerName": "Jpmorgan Chase & Co",
    "date": "9/30/2026",
    "sharesHeld": "410",
@@ -286,14 +334,6 @@
    "sharesHeld": "321",
    "sharesChange": "24",
    "sharesChangePCT": "8.081%",
-   "marketValue": "$5"
-  },
-  {
-   "ownerName": "Hurricane Capital Advisors Llc",
-   "date": "6/30/2026",
-   "sharesHeld": "275",
-   "sharesChange": "-51",
-   "sharesChangePCT": "-15.644%",
    "marketValue": "$5"
   },
   {
@@ -337,22 +377,6 @@
    "marketValue": "$0"
   },
   {
-   "ownerName": "683 Capital Management, Llc",
-   "date": "6/30/2026",
-   "sharesHeld": "0",
-   "sharesChange": "-40,000",
-   "sharesChangePCT": "Sold Out",
-   "marketValue": ""
-  },
-  {
-   "ownerName": "Aspex Management (Hk) Ltd",
-   "date": "6/30/2026",
-   "sharesHeld": "0",
-   "sharesChange": "-346,150",
-   "sharesChangePCT": "Sold Out",
-   "marketValue": ""
-  },
-  {
    "ownerName": "Brevan Howard Capital Management Lp",
    "date": "6/30/2026",
    "sharesHeld": "0",
@@ -373,6 +397,14 @@
    "date": "9/30/2026",
    "sharesHeld": "0",
    "sharesChange": "-13,602",
+   "sharesChangePCT": "Sold Out",
+   "marketValue": ""
+  },
+  {
+   "ownerName": "Oasis Management Co Ltd.",
+   "date": "9/30/2026",
+   "sharesHeld": "0",
+   "sharesChange": "-33,333",
    "sharesChangePCT": "Sold Out",
    "marketValue": ""
   },
