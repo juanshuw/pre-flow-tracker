@@ -1,15 +1,15 @@
 {
  "date": "2026-11-17",
  "summary": {
-  "SharesOutstandingPCT": "16.29%",
+  "SharesOutstandingPCT": "16.36%",
   "ShareoutstandingTotal": "16",
   "TotalHoldingsValue": "$39"
  },
  "active_positions": [
   {
    "position": "Increased Positions",
-   "holders": "36",
-   "shares": "1,796,719"
+   "holders": "37",
+   "shares": "1,807,617"
   },
   {
    "position": "Decreased Positions",
@@ -23,15 +23,15 @@
   },
   {
    "position": "Total Institutional Shares",
-   "holders": "52",
-   "shares": "2,534,384"
+   "holders": "53",
+   "shares": "2,545,282"
   }
  ],
  "new_sold_out": [
   {
    "position": "New Positions",
-   "holders": "25",
-   "shares": "1,270,363"
+   "holders": "26",
+   "shares": "1,281,261"
   },
   {
    "position": "Sold Out Positions",
@@ -262,6 +262,14 @@
    "sharesHeld": "10,946",
    "sharesChange": "-157,787",
    "sharesChangePCT": "-93.513%",
+   "marketValue": "$169"
+  },
+  {
+   "ownerName": "Virtu Financial Llc",
+   "date": "9/30/2026",
+   "sharesHeld": "10,898",
+   "sharesChange": "10,898",
+   "sharesChangePCT": "New",
    "marketValue": "$169"
   },
   {
