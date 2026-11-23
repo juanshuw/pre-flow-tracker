@@ -1443,3 +1443,29 @@ social.reddit,skip,blocked,2026-11-22T09:23:49,2026-11-22 09:23
 borrow.iborrowdesk,skip,unreachable,2026-11-22T09:23:54,2026-11-22 09:23
 analysts.yahoo,ok,PT mean 36.22222,2026-11-22T09:23:54,2026-11-22 09:23
 news.google_rss,ok,91 items,2026-11-22T09:23:55,2026-11-22 09:23
+prices.yahoo,ok,474 rows,2026-11-23T10:19:51,2026-11-23 10:20
+prices.stooq,skip,empty/blocked,2026-11-23T10:19:52,2026-11-23 10:20
+prices.nasdaq,ok,474 rows,2026-11-23T10:19:53,2026-11-23 10:20
+prices.peers,ok,474 rows,2026-11-23T10:19:54,2026-11-23 10:20
+prices.intraday_1m,ok,7 days,2026-11-23T10:19:54,2026-11-23 10:20
+finra.regsho_daily,ok,"+16 days, total 272",2026-11-23T10:19:55,2026-11-23 10:20
+finra.otc_weekly,ok,273 rows since 2026-08-13; latest week 2026-10-19,2026-11-23T10:19:55,2026-11-23 10:20
+finra.otc_monthly,ok,8 rows,2026-11-23T10:19:56,2026-11-23 10:20
+finra.short_interest,ok,latest 2026-10-30,2026-11-23T10:19:56,2026-11-23 10:20
+sec.edgar_filings,ok,104 filings; latest 2026-11-20,2026-11-23T10:19:57,2026-11-23 10:20
+sec.form4,ok,no new Form 4,2026-11-23T10:19:57,2026-11-23 10:20
+sec.edgar_events,ok,no new docs,2026-11-23T10:19:57,2026-11-23 10:20
+sec.13f,ok,360 hits; nothing new,2026-11-23T10:19:59,2026-11-23 10:20
+sec.ftd,ok,fetched ['202610b']; +2 rows,2026-11-23T10:20:00,2026-11-23 10:20
+sec.shares,ok,"latest 16,874,089 as of 2025-12-31",2026-11-23T10:20:01,2026-11-23 10:20
+nasdaq.circuit_breaker,ok,"+2 days; in effect ['2026-11-23', '2026-11-20']",2026-11-23T10:20:02,2026-11-23 10:20
+nasdaq.threshold,ok,+1 days; on list [],2026-11-23T10:20:04,2026-11-23 10:20
+nasdaq.institutional,ok,inst own 16.36%; holders 53,2026-11-23T10:20:05,2026-11-23 10:20
+nasdaq.insiders,ok,15 rows,2026-11-23T10:20:07,2026-11-23 10:20
+nasdaq.short_interest,ok,24 rows,2026-11-23T10:20:08,2026-11-23 10:20
+options.yahoo,ok,OI C256/P3,2026-11-23T10:20:08,2026-11-23 10:20
+social.stocktwits,ok,watch 3688; +1 msgs,2026-11-23T10:20:09,2026-11-23 10:20
+social.reddit,skip,blocked,2026-11-23T10:20:09,2026-11-23 10:20
+borrow.iborrowdesk,skip,unreachable,2026-11-23T10:20:13,2026-11-23 10:20
+analysts.yahoo,ok,PT mean 36.22222,2026-11-23T10:20:14,2026-11-23 10:20
+news.google_rss,ok,154 items,2026-11-23T10:20:15,2026-11-23 10:20
