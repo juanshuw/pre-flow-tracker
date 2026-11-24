@@ -1,252 +1,252 @@
 {
  "meta": {
   "symbol": "PRE",
-  "built_at": "2026-11-24 12:05 UTC",
-  "last_trade_date": "2026-11-23",
+  "built_at": "2026-11-24 20:55 UTC",
+  "last_trade_date": "2026-11-24",
   "shares_a": 15356748,
   "sources": [
    {
     "source": "prices.yahoo",
     "status": "ok",
-    "note": "475 rows",
-    "ts": "2026-11-24T12:00:24"
+    "note": "476 rows",
+    "ts": "2026-11-24T20:55:12"
    },
    {
     "source": "prices.stooq",
     "status": "skip",
     "note": "empty/blocked",
-    "ts": "2026-11-24T12:04:33"
+    "ts": "2026-11-24T20:55:12"
    },
    {
     "source": "prices.nasdaq",
     "status": "ok",
     "note": "475 rows",
-    "ts": "2026-11-24T12:04:36"
+    "ts": "2026-11-24T20:55:16"
    },
    {
     "source": "prices.peers",
     "status": "ok",
-    "note": "475 rows",
-    "ts": "2026-11-24T12:04:36"
+    "note": "476 rows",
+    "ts": "2026-11-24T20:55:17"
    },
    {
     "source": "prices.intraday_1m",
     "status": "ok",
     "note": "7 days",
-    "ts": "2026-11-24T12:04:36"
+    "ts": "2026-11-24T20:55:17"
    },
    {
     "source": "finra.regsho_daily",
     "status": "ok",
-    "note": "+17 days, total 273",
-    "ts": "2026-11-24T12:04:37"
+    "note": "+16 days, total 273",
+    "ts": "2026-11-24T20:55:18"
    },
    {
     "source": "finra.otc_weekly",
     "status": "ok",
     "note": "247 rows since 2026-08-20; latest week 2026-10-19",
-    "ts": "2026-11-24T12:04:37"
+    "ts": "2026-11-24T20:55:18"
    },
    {
     "source": "finra.otc_monthly",
     "status": "ok",
     "note": "8 rows",
-    "ts": "2026-11-24T12:04:38"
+    "ts": "2026-11-24T20:55:18"
    },
    {
     "source": "finra.short_interest",
     "status": "ok",
     "note": "latest 2026-10-30",
-    "ts": "2026-11-24T12:04:38"
+    "ts": "2026-11-24T20:55:19"
    },
    {
     "source": "sec.edgar_filings",
     "status": "ok",
-    "note": "105 filings; latest 2026-11-23",
-    "ts": "2026-11-24T12:04:38"
+    "note": "106 filings; latest 2026-11-24",
+    "ts": "2026-11-24T20:55:19"
    },
    {
     "source": "sec.form4",
     "status": "ok",
-    "note": "no new Form 4",
-    "ts": "2026-11-24T12:04:38"
+    "note": "+1 filings parsed",
+    "ts": "2026-11-24T20:55:19"
    },
    {
     "source": "sec.edgar_events",
     "status": "ok",
     "note": "no new docs",
-    "ts": "2026-11-24T12:04:38"
+    "ts": "2026-11-24T20:55:19"
    },
    {
     "source": "sec.13f",
     "status": "ok",
     "note": "360 hits; nothing new",
-    "ts": "2026-11-24T12:04:41"
+    "ts": "2026-11-24T20:55:24"
    },
    {
     "source": "sec.ftd",
     "status": "ok",
     "note": "fetched ['202610b']; +2 rows",
-    "ts": "2026-11-24T12:04:43"
+    "ts": "2026-11-24T20:55:26"
    },
    {
     "source": "sec.shares",
     "status": "ok",
     "note": "latest 16,874,089 as of 2025-12-31",
-    "ts": "2026-11-24T12:04:43"
+    "ts": "2026-11-24T20:55:26"
    },
    {
     "source": "nasdaq.circuit_breaker",
     "status": "ok",
     "note": "+2 days; in effect ['2026-11-23']",
-    "ts": "2026-11-24T12:04:45"
+    "ts": "2026-11-24T20:55:28"
    },
    {
     "source": "nasdaq.threshold",
     "status": "ok",
     "note": "+1 days; on list []",
-    "ts": "2026-11-24T12:04:46"
+    "ts": "2026-11-24T20:55:29"
    },
    {
     "source": "nasdaq.institutional",
     "status": "ok",
     "note": "inst own 16.36%; holders 53",
-    "ts": "2026-11-24T12:04:49"
+    "ts": "2026-11-24T20:55:32"
    },
    {
     "source": "nasdaq.insiders",
     "status": "ok",
     "note": "15 rows",
-    "ts": "2026-11-24T12:04:52"
+    "ts": "2026-11-24T20:55:36"
    },
    {
     "source": "nasdaq.short_interest",
     "status": "ok",
     "note": "24 rows",
-    "ts": "2026-11-24T12:04:55"
+    "ts": "2026-11-24T20:55:38"
    },
    {
     "source": "options.yahoo",
     "status": "ok",
-    "note": "OI C1054/P52",
-    "ts": "2026-11-24T12:04:56"
+    "note": "OI C1527/P94",
+    "ts": "2026-11-24T20:55:39"
    },
    {
     "source": "social.stocktwits",
     "status": "ok",
-    "note": "watch 3750; +0 msgs",
-    "ts": "2026-11-24T12:04:56"
+    "note": "watch 3777; +2 msgs",
+    "ts": "2026-11-24T20:55:40"
    },
    {
     "source": "social.reddit",
     "status": "skip",
     "note": "blocked",
-    "ts": "2026-11-24T12:04:56"
+    "ts": "2026-11-24T20:55:40"
    },
    {
     "source": "borrow.iborrowdesk",
     "status": "skip",
     "note": "unreachable",
-    "ts": "2026-11-24T12:05:01"
+    "ts": "2026-11-24T20:55:45"
    },
    {
     "source": "analysts.yahoo",
     "status": "ok",
     "note": "PT mean 36.22222",
-    "ts": "2026-11-24T12:05:01"
+    "ts": "2026-11-24T20:55:45"
    },
    {
     "source": "news.google_rss",
-    "status": "skip",
-    "note": "empty",
-    "ts": "2026-11-24T12:05:42"
+    "status": "ok",
+    "note": "138 items",
+    "ts": "2026-11-24T20:55:46"
    }
   ],
   "baseline_ats_pct": 24.1
  },
  "kpis": {
-  "close": 9.77,
-  "ret_pct": 11.02,
-  "volume": 604000,
-  "vol_x_adv20": 2.05,
-  "turnover_pct": 3.93,
-  "close_vs_vwap_pct": -0.6,
-  "last30_pct": 8.1,
-  "offexch_pct": 44.1,
-  "short_pct": 39.1,
+  "close": 10.07,
+  "ret_pct": 3.07,
+  "volume": 309004,
+  "vol_x_adv20": 0.97,
+  "turnover_pct": 2.01,
+  "close_vs_vwap_pct": -0.68,
+  "last30_pct": 7.9,
+  "offexch_pct": null,
+  "short_pct": null,
   "si": 507416,
   "si_date": "2026-10-30",
   "dtc": 2.8,
   "inst_pct": 14.6,
   "nq_inst_pct": "16.36%",
-  "rsi": 26.8,
-  "dist_ma50": -48.4,
-  "ma50": 18.95,
-  "ma200": 19.32,
+  "rsi": 28.5,
+  "dist_ma50": -46.1,
+  "ma50": 18.69,
+  "ma200": 19.27,
   "stage": "B 主跌",
-  "score": "2/12"
+  "score": "3/12"
  },
  "latest": {
-  "date": "2026-11-23",
-  "open": 9.68,
-  "high": 10.49,
-  "low": 9.26,
-  "close": 9.77,
-  "volume": 604000,
+  "date": "2026-11-24",
+  "open": 9.95,
+  "high": 10.6,
+  "low": 9.77,
+  "close": 10.07,
+  "volume": 309004,
   "source": "yahoo",
-  "ret_pct": 11.02,
-  "turnover_pct": 3.93,
-  "adv20": 295200.0,
-  "vol_x_adv20": 2.05,
-  "close_pos": 0.41,
-  "gap_pct": 10.0,
-  "intraday_pct": 0.93,
-  "ma20": 15.56,
-  "ma50": 18.95,
-  "ma200": 19.32,
-  "rsi14": 26.8,
-  "pct_b": 0.03,
-  "dist_ma50_pct": -48.4,
+  "ret_pct": 3.07,
+  "turnover_pct": 2.01,
+  "adv20": 319610.0,
+  "vol_x_adv20": 0.97,
+  "close_pos": 0.36,
+  "gap_pct": 1.84,
+  "intraday_pct": 1.21,
+  "ma20": 15.14,
+  "ma50": 18.69,
+  "ma200": 19.27,
+  "rsi14": 28.5,
+  "pct_b": 0.11,
+  "dist_ma50_pct": -46.1,
   "dist_day": 0,
-  "acc_day": 1,
-  "vwap": 9.83,
-  "close_vs_vwap_pct": -0.6,
-  "first30_pct": 20.8,
-  "last30_pct": 8.1,
-  "last60_pct": 10.5,
-  "max_1m_vol": 59190.0,
-  "max_1m_time": "11:36",
-  "minutes_traded": 216.0,
-  "vol_1m_sum": 583450.0,
-  "short": 104047.79,
-  "short_exempt": 12537.83,
-  "offexch_total": 266402.93,
-  "short_pct": 39.1,
-  "offexch_pct": 44.1,
-  "in_effect": 1.0,
+  "acc_day": 0,
+  "vwap": 10.14,
+  "close_vs_vwap_pct": -0.68,
+  "first30_pct": 18.7,
+  "last30_pct": 7.9,
+  "last60_pct": 11.3,
+  "max_1m_vol": 26520.0,
+  "max_1m_time": "09:30",
+  "minutes_traded": 174.0,
+  "vol_1m_sum": 307687.0,
+  "short": null,
+  "short_exempt": null,
+  "offexch_total": null,
+  "short_pct": null,
+  "offexch_pct": null,
+  "in_effect": 0.0,
   "triggered_today": 0.0,
-  "trigger_time": "11/20/2026 2:34:20 PM",
-  "on_threshold_list": 0.0,
-  "flags": "放量|熔断生效中"
+  "trigger_time": null,
+  "on_threshold_list": null,
+  "flags": ""
  },
  "scorecard": {
   "stage": "B 主跌",
-  "passed": 2,
+  "passed": 3,
   "near": 1,
   "total": 12,
   "items": [
    {
     "id": 1,
     "name": "价格 vs 价值锚",
-    "value": "$9.77",
+    "value": "$10.07",
     "target": "≤ $17.20（管理层/增发价带 +5%）",
     "pass": true,
-    "note": "EV/收入 ≈ 0.19x FY26E（净现金按 6/30 $109M，FY26E 收入 $220M）"
+    "note": "EV/收入 ≈ 0.21x FY26E（净现金按 6/30 $109M，FY26E 收入 $220M）"
    },
    {
     "id": 2,
     "name": "超卖程度",
-    "value": "RSI 26.8 / %B 0.03 / 距50日线 -48.4%",
+    "value": "RSI 28.5 / %B 0.11 / 距50日线 -46.1%",
     "target": "RSI<25 或 %B<−0.2",
     "pass": false,
     "note": "接近"
@@ -262,7 +262,7 @@
    {
     "id": 4,
     "name": "缩量枯竭（近 3 日）",
-    "value": "倍数 3.32, 2.17, 2.05",
+    "value": "倍数 2.17, 2.05, 0.97",
     "target": "连续 3 日 <0.6 倍均量且不创新低",
     "pass": false,
     "note": ""
@@ -310,15 +310,15 @@
    {
     "id": 10,
     "name": "新买方（近 30 日）",
-    "value": "无",
+    "value": "内部人买入 2 笔",
     "target": "内部人买入 / 新回购授权 / 新 5% 股东",
-    "pass": false,
+    "pass": true,
     "note": ""
    },
    {
     "id": 11,
     "name": "板块（近 10 日）",
-    "value": "HIMS -34.4% / IWM -5.9% / XBI -6.2%",
+    "value": "HIMS -22.9% / IWM -4.8% / XBI 1.1%",
     "target": "同行未显著下跌",
     "pass": false,
     "note": ""
@@ -326,7 +326,7 @@
    {
     "id": 12,
     "name": "散户关注（Stocktwits 近 7 日）",
-    "value": "19 条",
+    "value": "21 条",
     "target": "沉默（无追涨盘待清）或投降式放量讨论",
     "pass": false,
     "note": ""
@@ -342,17 +342,17 @@
    "权证强制行权线": 21.6,
    "公司 2026 回购均价": 20.5,
    "卢煜明换股成本": 13.5,
-   "8/18 以来成交 VWAP": 19.19
+   "8/18 以来成交 VWAP": 19.03
   }
  },
  "participants": [
   {
    "group": "散户 / 活跃交易者",
    "signal": "Stocktwits 近 7 日消息 / 关注数",
-   "value": "19 条 / 3750",
+   "value": "21 条 / 3777",
    "reading": "沉默=无追涨盘也无接盘；放量讨论+下跌=投降",
    "source": "Stocktwits API",
-   "asof": "2026-11-23"
+   "asof": "2026-11-24"
   },
   {
    "group": "散户 / 活跃交易者",
@@ -365,10 +365,10 @@
   {
    "group": "做市商 / 高频",
    "signal": "最新日卖空占场外成交",
-   "value": "39.1%",
+   "value": "None%",
    "reading": ">55% 做市商在给买单供货；<35% 多头主动卖",
    "source": "FINRA Reg SHO 日度",
-   "asof": "2026-11-23"
+   "asof": "2026-11-24"
   },
   {
    "group": "做市商 / 高频",
@@ -397,10 +397,10 @@
   {
    "group": "机构（暗池 / 大宗）",
    "signal": "最新日场外占比",
-   "value": "44.1%",
+   "value": "None%",
    "reading": ">55% 疑似协议大宗",
    "source": "FINRA Reg SHO 日度",
-   "asof": "2026-11-23"
+   "asof": "2026-11-24"
   },
   {
    "group": "13F 机构",
@@ -445,10 +445,10 @@
   {
    "group": "内部人 / 大股东",
    "signal": "最近 Form 4 买入 / 卖出",
-   "value": "买 2026-08-25 / 卖 无",
+   "value": "买 2026-11-23 / 卖 无",
    "reading": "历史规律：财报后开窗即买",
    "source": "SEC Form 4",
-   "asof": "2026-11-20"
+   "asof": "2026-11-24"
   },
   {
    "group": "内部人 / 大股东",
@@ -456,7 +456,7 @@
    "value": "无",
    "reading": "≥5% 股东变动 ≥1% 须 2 日内申报",
    "source": "SEC EDGAR",
-   "asof": "2026-11-23"
+   "asof": "2026-11-24"
   },
   {
    "group": "公司",
@@ -464,7 +464,7 @@
    "value": "2026-11-23 nan",
    "reading": "回购授权/增发/权证生效=供需变化",
    "source": "SEC EDGAR",
-   "asof": "2026-11-23"
+   "asof": "2026-11-24"
   },
   {
    "group": "公司",
@@ -472,7 +472,7 @@
    "value": "最近 EFFECT 2025-09-11",
    "reading": "生效后 $18 以上有权证供给",
    "source": "SEC EDGAR",
-   "asof": "2026-11-23"
+   "asof": "2026-11-24"
   },
   {
    "group": "卖方 / 分析师",
@@ -493,50 +493,13 @@
   {
    "group": "期权",
    "signal": "未平仓 看涨/看跌",
-   "value": "1054 / 52 张",
+   "value": "1527 / 94 张",
    "reading": "对冲股数上限 =(C+P)×100；小=无衍生品驱动",
    "source": "Yahoo 期权链",
    "asof": "2026-11-24"
   }
  ],
  "daily": [
-  {
-   "date": "2025-11-11",
-   "open": 12.5,
-   "high": 13.0,
-   "low": 12.234999656677246,
-   "close": 12.930000305175781,
-   "volume": 154700,
-   "ret_pct": 8.75,
-   "turnover_pct": 1.01,
-   "vol_x_adv20": 0.78,
-   "close_pos": 0.91,
-   "gap_pct": 5.13,
-   "intraday_pct": 3.44,
-   "ma20": 14.28,
-   "ma50": 12.89,
-   "ma200": 8.03,
-   "rsi14": 47.2,
-   "pct_b": 0.31,
-   "vwap": null,
-   "close_vs_vwap_pct": null,
-   "first30_pct": null,
-   "last30_pct": null,
-   "max_1m_vol": null,
-   "max_1m_time": null,
-   "short": 29007.0,
-   "short_exempt": 0.0,
-   "offexch_total": 72602.0,
-   "short_pct": 40.0,
-   "offexch_pct": 46.9,
-   "in_effect": null,
-   "triggered_today": null,
-   "trigger_time": null,
-   "on_threshold_list": null,
-   "acc_day": 0,
-   "dist_day": 0,
-   "flags": ""
-  },
   {
    "date": "2025-11-12",
    "open": 13.180000305175781,
@@ -10119,6 +10082,43 @@
    "acc_day": 1,
    "dist_day": 0,
    "flags": "放量|熔断生效中"
+  },
+  {
+   "date": "2026-11-24",
+   "open": 9.949999809265137,
+   "high": 10.600000381469727,
+   "low": 9.770000457763672,
+   "close": 10.069999694824219,
+   "volume": 309004,
+   "ret_pct": 3.07,
+   "turnover_pct": 2.01,
+   "vol_x_adv20": 0.97,
+   "close_pos": 0.36,
+   "gap_pct": 1.84,
+   "intraday_pct": 1.21,
+   "ma20": 15.14,
+   "ma50": 18.69,
+   "ma200": 19.27,
+   "rsi14": 28.5,
+   "pct_b": 0.11,
+   "vwap": 10.139,
+   "close_vs_vwap_pct": -0.68,
+   "first30_pct": 18.7,
+   "last30_pct": 7.9,
+   "max_1m_vol": 26520.0,
+   "max_1m_time": "09:30",
+   "short": null,
+   "short_exempt": null,
+   "offexch_total": null,
+   "short_pct": null,
+   "offexch_pct": null,
+   "in_effect": 0.0,
+   "triggered_today": 0.0,
+   "trigger_time": null,
+   "on_threshold_list": null,
+   "acc_day": 0,
+   "dist_day": 0,
+   "flags": ""
   }
  ],
  "weekly": [
@@ -12066,10 +12066,10 @@
   {
    "date": "2026-11-24",
    "expiry": "TOTAL",
-   "calls_oi": 1054,
-   "puts_oi": 52,
-   "calls_vol": 840,
-   "puts_vol": 15
+   "calls_oi": 1527,
+   "puts_oi": 94,
+   "calls_vol": 92,
+   "puts_vol": 20
   }
  ],
  "options_top": {
@@ -12080,8 +12080,16 @@
     "type": "C",
     "strike": 20.0,
     "oi": 753,
-    "vol": 750,
-    "last": 2.0
+    "vol": 2,
+    "last": 1.6
+   },
+   {
+    "expiry": "2027-02-19",
+    "type": "C",
+    "strike": 17.5,
+    "oi": 324,
+    "vol": 4,
+    "last": 2.07
    },
    {
     "expiry": "2027-02-19",
@@ -12090,6 +12098,22 @@
     "oi": 181,
     "vol": 1,
     "last": 6.5
+   },
+   {
+    "expiry": "2027-02-19",
+    "type": "C",
+    "strike": 12.5,
+    "oi": 65,
+    "vol": 1,
+    "last": 1.8
+   },
+   {
+    "expiry": "2027-08-20",
+    "type": "C",
+    "strike": 22.5,
+    "oi": 32,
+    "vol": 25,
+    "last": 2.95
    },
    {
     "expiry": "2027-02-19",
@@ -12106,6 +12130,14 @@
     "oi": 30,
     "vol": 1,
     "last": 5.2
+   },
+   {
+    "expiry": "2027-08-20",
+    "type": "C",
+    "strike": 17.5,
+    "oi": 27,
+    "vol": 1,
+    "last": 4.7
    },
    {
     "expiry": "2027-08-20",
@@ -12716,28 +12748,12 @@
   },
   {
    "date": "2026-11-24",
-   "st_msgs": 0,
+   "st_msgs": 2,
    "reddit_posts": 0,
-   "st_watchlist": 3750.0
+   "st_watchlist": 3777.0
   }
  ],
  "stocktwits_recent": [
-  {
-   "id": 661151548,
-   "created_at": "2026-08-06T16:24:45Z",
-   "user": "Sidoti",
-   "followers": 70,
-   "sentiment": null,
-   "body": "New research today on @Prenetics $PRE #sidotiresearch Read note: http://dlvr.it/TTtt5x #investing #smallcap #microcap"
-  },
-  {
-   "id": 661356378,
-   "created_at": "2026-08-08T22:49:03Z",
-   "user": "KaylasPort",
-   "followers": 45,
-   "sentiment": "Bullish",
-   "body": "$PRE we are crushing it bulls"
-  },
   {
    "id": 662068454,
    "created_at": "2026-08-17T15:04:15Z",
@@ -13201,6 +13217,22 @@
    "followers": 4,
    "sentiment": "Bullish",
    "body": "$PRE $NERV $FWRD $IZM $FORM §§"
+  },
+  {
+   "id": 670042044,
+   "created_at": "2026-11-24T13:09:58Z",
+   "user": "FilingTracker",
+   "followers": 621,
+   "sentiment": null,
+   "body": "$PRE Insider bought the dip: https://filingtracker.ai/filing/1695607/0001628280-26-075614?doc=wk-form4_1795525570.xml"
+  },
+  {
+   "id": 670047354,
+   "created_at": "2026-11-24T14:05:58Z",
+   "user": "openmarketalerts",
+   "followers": 45,
+   "sentiment": null,
+   "body": "$PRE — CFO Rosin Brian J bought $404K of stock from Nov 20 to Nov 23. 40,000 shares."
   }
  ],
  "reddit_recent": [],
@@ -14051,36 +14083,6 @@
  },
  "form4": [
   {
-   "accession": "0001628280-26-021854",
-   "filing_date": "2026-03-30",
-   "form": "3",
-   "owner": "Yeung Danny Sheng Wu",
-   "title": "Chief Executive Officer",
-   "tx_date": null,
-   "code": "H",
-   "shares": null,
-   "price": null,
-   "acq_disp": null,
-   "post_shares": 647592.0,
-   "security": "Class B Ordinary Share, par value $0.0015 per share",
-   "note": "holding only"
-  },
-  {
-   "accession": "0001628280-26-021857",
-   "filing_date": "2026-03-30",
-   "form": "3",
-   "owner": "Shah Darshan Ravindra",
-   "title": "Director",
-   "tx_date": null,
-   "code": "H",
-   "shares": null,
-   "price": null,
-   "acq_disp": null,
-   "post_shares": 4506.0,
-   "security": "Class A Ordinary Share, par value $0.0015 per share",
-   "note": "holding only"
-  },
-  {
    "accession": "0001628280-26-036733",
    "filing_date": "2026-05-20",
    "form": "4",
@@ -14372,11 +14374,11 @@
    "owner": "Yeung Danny Sheng Wu",
    "title": "Chief Executive Officer",
    "tx_date": "2026-08-20",
-   "code": "J",
-   "shares": 49912.0,
-   "price": 0.0,
-   "acq_disp": "D",
-   "post_shares": 87735.0,
+   "code": "P",
+   "shares": 7500.0,
+   "price": 18.31,
+   "acq_disp": "A",
+   "post_shares": 95235.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -14401,12 +14403,27 @@
    "form": "4",
    "owner": "Yeung Danny Sheng Wu",
    "title": "Chief Executive Officer",
-   "tx_date": "2026-08-20",
+   "tx_date": "2026-08-24",
    "code": "P",
-   "shares": 7500.0,
-   "price": 18.31,
+   "shares": 11181.0,
+   "price": 21.4,
    "acq_disp": "A",
-   "post_shares": 95235.0,
+   "post_shares": 112416.0,
+   "security": "Class A Ordinary Share, par value $0.0015 per share",
+   "note": null
+  },
+  {
+   "accession": "0001628280-26-058760",
+   "filing_date": "2026-08-24",
+   "form": "4",
+   "owner": "Yeung Danny Sheng Wu",
+   "title": "Chief Executive Officer",
+   "tx_date": "2026-08-20",
+   "code": "J",
+   "shares": 49912.0,
+   "price": 0.0,
+   "acq_disp": "D",
+   "post_shares": 87735.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -14422,21 +14439,6 @@
    "price": 0.0001,
    "acq_disp": "A",
    "post_shares": 137647.0,
-   "security": "Class A Ordinary Share, par value $0.0015 per share",
-   "note": null
-  },
-  {
-   "accession": "0001628280-26-058760",
-   "filing_date": "2026-08-24",
-   "form": "4",
-   "owner": "Yeung Danny Sheng Wu",
-   "title": "Chief Executive Officer",
-   "tx_date": "2026-08-24",
-   "code": "P",
-   "shares": 11181.0,
-   "price": 21.4,
-   "acq_disp": "A",
-   "post_shares": 112416.0,
    "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
@@ -14495,9 +14497,9 @@
    "code": "M",
    "shares": 2000.0,
    "price": 0.0,
-   "acq_disp": "D",
-   "post_shares": 18003.0,
-   "security": "[衍生] Restricted Stock Unit",
+   "acq_disp": "A",
+   "post_shares": 6001.0,
+   "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   },
   {
@@ -14510,9 +14512,9 @@
    "code": "M",
    "shares": 2000.0,
    "price": 0.0,
-   "acq_disp": "A",
-   "post_shares": 6001.0,
-   "security": "Class A Ordinary Share, par value $0.0015 per share",
+   "acq_disp": "D",
+   "post_shares": 18003.0,
+   "security": "[衍生] Restricted Stock Unit",
    "note": null
   },
   {
@@ -14648,6 +14650,36 @@
    "acq_disp": "A",
    "post_shares": 8446.0,
    "security": "[衍生] Restricted Stock Unit",
+   "note": null
+  },
+  {
+   "accession": "0001628280-26-075614",
+   "filing_date": "2026-11-24",
+   "form": "4",
+   "owner": "Rosin Brian J",
+   "title": "CFO of IM8 (US) LLC",
+   "tx_date": "2026-11-20",
+   "code": "P",
+   "shares": 30000.0,
+   "price": 10.14,
+   "acq_disp": "A",
+   "post_shares": 53100.0,
+   "security": "Class A Ordinary Share, par value $0.0015 per share",
+   "note": null
+  },
+  {
+   "accession": "0001628280-26-075614",
+   "filing_date": "2026-11-24",
+   "form": "4",
+   "owner": "Rosin Brian J",
+   "title": "CFO of IM8 (US) LLC",
+   "tx_date": "2026-11-23",
+   "code": "P",
+   "shares": 10000.0,
+   "price": 10.0,
+   "acq_disp": "A",
+   "post_shares": 63100.0,
+   "security": "Class A Ordinary Share, par value $0.0015 per share",
    "note": null
   }
  ],
@@ -14819,15 +14851,6 @@
   }
  ],
  "filings": [
-  {
-   "filing_date": "2025-09-12",
-   "form": "6-K",
-   "description": "6-K",
-   "tags": "业绩",
-   "pct_of_class": null,
-   "snippet": null,
-   "url": "https://www.sec.gov/Archives/edgar/data/1876431/000187643125000013/a6-kx2025q2.htm"
-  },
   {
    "filing_date": "2025-10-21",
    "form": "6-K/A",
@@ -15538,6 +15561,15 @@
    "pct_of_class": null,
    "snippet": "On November 23, 2026, Prenetics Global Limited (the “Company”) announced that it will hold its 2026 annual general meeting of shareholders on November 30, 2026.",
    "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026075387/a6-kxfy26agmnotice.htm"
+  },
+  {
+   "filing_date": "2026-11-24",
+   "form": "4",
+   "description": "FORM 4",
+   "tags": null,
+   "pct_of_class": null,
+   "snippet": null,
+   "url": "https://www.sec.gov/Archives/edgar/data/1876431/000162828026075614/xslF345X06/wk-form4_1795525570.xml"
   }
  ],
  "analysts": {
@@ -15623,7 +15655,7 @@
   "targets": [
    {
     "date": "2026-11-24",
-    "pt_current": 9.77,
+    "pt_current": 10.15,
     "pt_low": 22.0,
     "pt_high": 54.0,
     "pt_mean": 36.22222,
@@ -15639,23 +15671,9 @@
  "news": [
   {
    "date": "2026-11-18",
-   "title": "Prenetics Reports Q3 2026 Revenue Growth Led by IM8 - TipRanks",
-   "source": "TipRanks",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSm1nS29UY3JHVXBNd1FSMWVQeGlvLU5FNG1MMzhGU3k3QnRFX2s1Z3NSVFFxNjJYVmpyMUw0TDZSSzJhZW94UlY2YkZGRzl5ODE1MWRMNENOdTRQd290QkpUZ0ZOalN3cDlEUDkzLUtSUTFfY08xeWhtQnhoaHFDdmcwSmhqVUlQNzRyWWE0ZUdmMVRLX3A1NG03V2JMNkE5Ul81Um5B?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Lake Street Views Prenetics (PRE) 40% Selloff as Overdone, Highl - GuruFocus",
-   "source": "GuruFocus",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRDkweDVWNS1vNUpVSkJaemZwaWdfcnlQTldoQTNtb09oRWwyeHlmbURKOEZCbk11dGJZRWhySXlmaFhLYjdhSGFwS09yRTlUWW9VUWNMaFBmTlFFRnRmQWJESnl2Nkh1OWFoMk1HRWYxSkI0S1ZuTGgyMVZsdFJfdnFhRktIcEcyOWdwM1dXeVFyYVNSenA2QXBYRmhFVUV2VUtOSnlnV3l3bHlDQ2Y2cC1oR3pYaXlDcmxBTzN0cHdnS2hmbWlEa2dB?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Prenetics (PRE) Q3 2026 Earnings Call Transcript - The Motley Fool",
-   "source": "The Motley Fool",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRThNX1RJWDRyWjhuR0ppTUxZdDNvaFNKdnMwNHlPQWVjNTFiMXNwMUR0LVBPa0s3UV9ZclJyQnl3bV9XM1NZOG4zREhRNk5TU0c1TWF6S09Ld2RKbDd4eGwzZVhZZXJLWHBWZE4xYzk5TWZLeFNNVHh3ZEh2MExxTTN5V0lqSmlsM2daX3RLMWcyaUFZVVBvNDBoZW1vZDB5dHlhWDNjM08?oc=5",
+   "title": "Prenetics Q3 2026 slides: revenue beats, but growth spend sinks stock - Investing.com",
+   "source": "Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYTVRbUdoeklKUEk1dGxBTFZJcVA2SzAtdFh3MFRsa0o5RkwxX2VzSEw3YzlZZko0MWVEb0dfSGttaW9DSmpoUlN0OXBqTV9xaGFQY0c1YlVnMGZ4VE5lOGdPY1F0WXRNTDN4OVFRY1paSmRISXUzQUlsODZHNm5sZzRRb25kSm1BN2hWUXN2V1gtb2RwSnNtZ2dqS2VwZEZ2blZBLW9SVmlNOVJBa1JvQ09rY2VKSkZqRVl4UGhaNENaUQ?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15667,86 +15685,9 @@
   },
   {
    "date": "2026-11-18",
-   "title": "PRE: Record IM8 growth drives higher acquisition investment and a wider H2 loss outlook - TradingView",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPVEpCS2dwZ2tZM1ZXbmFVUEZjVjlVSUJINGVWMGg1NENwNTNQNmRlRmFkbkVBa1RvX1FDYnhza1o4MEZqUFRRM2lfUGFURFAwZl8tRXMwWnRPWV9UcG9SZVZaR1FPZlh6WFhncjdUSWU1T2NiWWkxVFlUMW1jZlhqOUZFVmdrU2txcktpQm56RnlPeW8zNmZPY3dwd2E0U1VCN21YQTRRbHNsdGtjb2RTSjhYT0hGeThsZ3MxT29vajRkV0hRNXRWWUZJR0dDQ2hmTWdfN0xXbmZ2YnluRmh1WTZ5SjNYdUNrR1YxUjROY2d5WnJXLWgtRkJNUmZudw?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Earnings call transcript: Prenetics tops Q3 2026 revenue forecast but shares sink - Investing.com Australia",
-   "source": "Investing.com Australia",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUTNEei1PZF85WmxRd0N1dEc3QlZzQUt1U3VKd3owenV6b1pILXFxdmlBLWcxY1hveko2R1lqVWpUWmpId1pKZHNYYnR3WWlqZWdkZnI3ckk4aFVWcXd4U05pWEE4a2NaZ25jQXBHT1owNFNCR3JsZ3pqaEh0OW5yLTNxbkVjaklaUEQwQ2g2WmFYSkZ5MmRhc2RXZXpNaE5CMlA0MUlmZ3l4TVF0Q0d5OHJPTzRWeWN6UjUtU0N6V2gwaGttdnlKbnBRS0FmdlE2VGNQZVpMUlY?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Prenetics Global Q3 Results: Loss widens to $1.43/share, revenue beats - scanx.trade",
-   "source": "scanx.trade",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaWFNYmdEQURlT3NKSndUVjMxMklPcEw4blhDU1N6M0ltc2lzWjltRnFuclZ4WmdkQUxHWkYxRUFZXzJCNmltb3pDWGFXQnp2NWlnZTEwZlhPOUo0VkNxLVFySW9LaDM3bFI0cXJEX1FVNWJTZFEwcWUyd1k3cWNrbVZxeFFMVHVsOE93Z3dxajBvaDFkbklTbVA3ekJ4dnc1VkJHaU5JNHRmOUlyRjNXcnlQNFEzV3V3WnUwZFZ3?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Earnings call transcript: Prenetics tops Q3 2026 revenue forecast but shares sink - Investing.com",
-   "source": "Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVW1KX1NVcUJtenZKaGg2RTJ3NEkxY2JFU2R3Nmxka3d1U1Q3REkwWEpwRXlnMUdaQlN3VVpMWHl1bnJRMXhTajEwSl9ZSjFmR09SbXVpTHdSVUNwMVd4cllyTTFKcEFaTFZTZnpQUzZFT2dQanZMY1l3aFhjY0JoaHlzYS1GVmRkdlZCXzB6QWVxa3hNS19TcXQ1dHlQY0xVZEZxZlZIakF2eXN0NXpVblpGUldDelFwaUxncG9VREg2LXk2d2plSWtzeUhXRnVmOFE?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Prenetics Beats On Revenue But Misses On EPS As IM8 Growth Comes With A Much Larger Loss Plan - Finviz",
-   "source": "Finviz",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbTNuY1JhekduZXdrTllGRVlLcTFCX2hvb3pHd1JveTRLckR2LUs4R0ZpQmxpM2hEbkxyYXJJSVdnUE5VbElKeWlRV25MNlNJd2pyUVVSN0tpN2FvX01UVTRJTmw5MGc5QVpPVW9nRWtMVlRmcnE1bVN2aFVpS2ItaDcxVEYwUkV1QjNsemZHdzBWMVl3aFB2anlmZHdxWlB6RUpLdHJQQnNfOWhGTkRUcU1rc2lERTRJTE1sT295ZGRHZw?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Prenetics Global (PRE): Q3 2026 IM8 revenue hits $62.9M, up about 266% YoY - Quantisnow",
-   "source": "Quantisnow",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNTc0UVA5X2J2VEdBUEh0UExUX2p5QlZrQ3NOLUctZXAza2FjWVpqc3dTakV4TjF0NFFGamtPcGJuenBPaGhQNzlwdG55SllWWi1jUGUxVXp0bzZKQWxUVDBFb25sUUswakJJSE1GaXRHaEhLdUxpWXM1a1lkMmQ0Y1JuZlJ6LUhFdkM4RjdLYjY3Y3M?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Q3 revenue rose about 228%, but Prenetics (PRE) now expects a larger second-half adjusted EBITDA loss. - Stock Titan",
-   "source": "Stock Titan",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSmtFcldQREVyX1lKZ2VKT2JsbDFfalV6MHVoWHoyWmRDTzJWYW1pWklOb09VZ0VuZEFSVjAwZWpyU2ZzSDdVeGt1VHVmYjJLT0NEQVVHWVNieFpSVk5JYW92cVh3d0xpMlhfR2V1MjF4b1hKRXJ5VFF4SUl1S1d5ZWlxcTlhR0d4LUpoNjhPOGJmeGFJV3llM2VzZTFmeHU3ZFduXzFsUFBnbmlQazBnb2hxX2JHZw?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Prenetics Global Ltd reports results for the quarter ended September 30 - Earnings Summary - TradingView",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY0htZk9KTk1XcThsQ1dROGkxV2dtSmVyOWcxMjdBTTFTZ0k0dVhjVHlEZVVfbkF6Yi1HdGFGY1gySTFhSG1vMGpFYkV6Y2xzYzJSUFRic0c0ZWJwbU9MMzd0bDV0dUd4N01yUnlSRURsdnNFUHVad2dTZFpaMVh1T2xSUGhoZlJCVzBUZDl4NnFEcUQ3a3BNdm5kNVZfWEZ2MG4tZGNnRGRZWHFtYVR2cVRuSHBKNzZVZDF1WGNhUFUxRGg1MVRRckhFcVpZTHZiMlZnR05ZdDBUZDFCMlIwX2o3WjgxR3dBWFRkSjA5QQ?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Supplements maker Prenetics Global's Q3 revenue jumps on IM8 brand growth - TradingView",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWDBETTh0NGFmZUhVM2JOSzJYRzFZRElSeDQzMW41eklvUEQtcU5XRGEtWlgwLVk3NGZ6WU92ZE5rSllvbjkyR2NJdWxJbTI1R05tTE1SWXZ3enZVRHdiTnVVYnFjWE1sQ21WQjVqUUduUm02TFRtS0txMUhIanV0QmpJY05xNzR4Smh0NFo2a3p6QzhucWxpZTBHTDRRaUxjaENrQWlnT2FvRWtiU2l4QzU1S0NQNExrSEdTMVRocWR0VzhuQnRhU05lUXczNnFWdmNkYXJwMlNOTkU?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Prenetics Global Limited Reports Earnings Results for the Third Quarter and Nine Months Ended September 30, 2026 - marketscreener.com",
-   "source": "marketscreener.com",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOc1JXZHRNRzdjbHJpOTJEV3JvOFZvSGV0RmlHeFhYLXowdS11NFlOcnlNRFRzelMzcElyQXhPQkZTRml0dTJac05Wa1VFMzV6UndwTHlJcGZsZnliOGpra3pramw1dmhIRWtsZ01QMDQ5aXdMMlFQR3lwSHBEdU1LSXg4eDVlUXB6amRDMjJ6X2dJcHBKdDlEeUJWVHh4YndqY2VsR19INE9EVGl6NGJ1dFRTVDJrMWZ4ZDJqNGJUNU1PazhuSXFEMkprUUNqS2tnNW1RaklEdzVrZG5kbG1PQk50YWhERkpm?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Prenetics’ IM8 Reports Q3 2026 Revenue Growth of 266% YoY; Earliest... - Quantisnow",
-   "source": "Quantisnow",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT3pDU0I5LVZoa3kyWHdRRTJkMkdROWtZa1UxbEYyQ0dwajdhZkdIS3kwR283X0tIZ1FxdXo3UkNBSVFuZm5PUkgzdzNscHBJX0pERUtjWmEtNUZjdmMwR1p1a2hTNzhXNnZfZmlXZDZMMDZJYXZKYkhTdjdTZjhnSHVqZnBPTXdHS252SWp1UWxmNmlqWVNzR1VleEJQYUE?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-18",
-   "title": "Prenetics Q3 2026 slides: revenue beats, but growth spend sinks stock - Investing.com",
-   "source": "Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYTVRbUdoeklKUEk1dGxBTFZJcVA2SzAtdFh3MFRsa0o5RkwxX2VzSEw3YzlZZko0MWVEb0dfSGttaW9DSmpoUlN0OXBqTV9xaGFQY0c1YlVnMGZ4VE5lOGdPY1F0WXRNTDN4OVFRY1paSmRISXUzQUlsODZHNm5sZzRRb25kSm1BN2hWUXN2V1gtb2RwSnNtZ2dqS2VwZEZ2blZBLW9SVmlNOVJBa1JvQ09rY2VKSkZqRVl4UGhaNENaUQ?oc=5",
+   "title": "Prenetics Reports Q3 2026 Revenue Growth Led by IM8 - TipRanks",
+   "source": "TipRanks",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSm1nS29UY3JHVXBNd1FSMWVQeGlvLU5FNG1MMzhGU3k3QnRFX2s1Z3NSVFFxNjJYVmpyMUw0TDZSSzJhZW94UlY2YkZGRzl5ODE1MWRMNENOdTRQd290QkpUZ0ZOalN3cDlEUDkzLUtSUTFfY08xeWhtQnhoaHFDdmcwSmhqVUlQNzRyWWE0ZUdmMVRLX3A1NG03V2JMNkE5Ul81Um5B?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15758,9 +15699,51 @@
   },
   {
    "date": "2026-11-18",
+   "title": "Prenetics Global Limited Reports Earnings Results for the Third Quarter and Nine Months Ended September 30, 2026 - marketscreener.com",
+   "source": "marketscreener.com",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOc1JXZHRNRzdjbHJpOTJEV3JvOFZvSGV0RmlHeFhYLXowdS11NFlOcnlNRFRzelMzcElyQXhPQkZTRml0dTJac05Wa1VFMzV6UndwTHlJcGZsZnliOGpra3pramw1dmhIRWtsZ01QMDQ5aXdMMlFQR3lwSHBEdU1LSXg4eDVlUXB6amRDMjJ6X2dJcHBKdDlEeUJWVHh4YndqY2VsR19INE9EVGl6NGJ1dFRTVDJrMWZ4ZDJqNGJUNU1PazhuSXFEMkprUUNqS2tnNW1RaklEdzVrZG5kbG1PQk50YWhERkpm?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-18",
    "title": "Prenetics Global Limited Q3 2026 Earnings Call Summary - Yahoo Finance",
    "source": "Yahoo Finance",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZmc5NFVwbmRlcFROR3VVYTBJdGJPQVJnSU9PTXNibmtGbjlidU9mamN6UWRiSDc0aE1BcjE0RjRBY2g3UGxzNXd5RDFKdTdPamZGYlcxYlBQMVZOZXBrcjVlSk8xUU5xRDF0alVlZkh4YlJ2eVE0Qkl6cFlnZWwzV1RPSDBfUnlJRHU5N3hkTS0yUjIxSEdpaC0tLXp0dw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "Prenetics Global Ltd reports results for the quarter ended September 30 - Earnings Summary - TradingView",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY0htZk9KTk1XcThsQ1dROGkxV2dtSmVyOWcxMjdBTTFTZ0k0dVhjVHlEZVVfbkF6Yi1HdGFGY1gySTFhSG1vMGpFYkV6Y2xzYzJSUFRic0c0ZWJwbU9MMzd0bDV0dUd4N01yUnlSRURsdnNFUHVad2dTZFpaMVh1T2xSUGhoZlJCVzBUZDl4NnFEcUQ3a3BNdm5kNVZfWEZ2MG4tZGNnRGRZWHFtYVR2cVRuSHBKNzZVZDF1WGNhUFUxRGg1MVRRckhFcVpZTHZiMlZnR05ZdDBUZDFCMlIwX2o3WjgxR3dBWFRkSjA5QQ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "Prenetics Global (PRE): Q3 2026 IM8 revenue hits $62.9M, up about 266% YoY - Quantisnow",
+   "source": "Quantisnow",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNTc0UVA5X2J2VEdBUEh0UExUX2p5QlZrQ3NOLUctZXAza2FjWVpqc3dTakV4TjF0NFFGamtPcGJuenBPaGhQNzlwdG55SllWWi1jUGUxVXp0bzZKQWxUVDBFb25sUUswakJJSE1GaXRHaEhLdUxpWXM1a1lkMmQ0Y1JuZlJ6LUhFdkM4RjdLYjY3Y3M?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "Prenetics Beats On Revenue But Misses On EPS As IM8 Growth Comes With A Much Larger Loss Plan - Finviz",
+   "source": "Finviz",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbTNuY1JhekduZXdrTllGRVlLcTFCX2hvb3pHd1JveTRLckR2LUs4R0ZpQmxpM2hEbkxyYXJJSVdnUE5VbElKeWlRV25MNlNJd2pyUVVSN0tpN2FvX01UVTRJTmw5MGc5QVpPVW9nRWtMVlRmcnE1bVN2aFVpS2ItaDcxVEYwUkV1QjNsemZHdzBWMVl3aFB2anlmZHdxWlB6RUpLdHJQQnNfOWhGTkRUcU1rc2lERTRJTE1sT295ZGRHZw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "Earnings call transcript: Prenetics tops Q3 2026 revenue forecast but shares sink - Investing.com Australia",
+   "source": "Investing.com Australia",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUTNEei1PZF85WmxRd0N1dEc3QlZzQUt1U3VKd3owenV6b1pILXFxdmlBLWcxY1hveko2R1lqVWpUWmpId1pKZHNYYnR3WWlqZWdkZnI3ckk4aFVWcXd4U05pWEE4a2NaZ25jQXBHT1owNFNCR3JsZ3pqaEh0OW5yLTNxbkVjaklaUEQwQ2g2WmFYSkZ5MmRhc2RXZXpNaE5CMlA0MUlmZ3l4TVF0Q0d5OHJPTzRWeWN6UjUtU0N6V2gwaGttdnlKbnBRS0FmdlE2VGNQZVpMUlY?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "Q3 revenue rose about 228%, but Prenetics (PRE) now expects a larger second-half adjusted EBITDA loss. - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSmtFcldQREVyX1lKZ2VKT2JsbDFfalV6MHVoWHoyWmRDTzJWYW1pWklOb09VZ0VuZEFSVjAwZWpyU2ZzSDdVeGt1VHVmYjJLT0NEQVVHWVNieFpSVk5JYW92cVh3d0xpMlhfR2V1MjF4b1hKRXJ5VFF4SUl1S1d5ZWlxcTlhR0d4LUpoNjhPOGJmeGFJV3llM2VzZTFmeHU3ZFduXzFsUFBnbmlQazBnb2hxX2JHZw?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15771,66 +15754,24 @@
    "query": "Prenetics"
   },
   {
-   "date": "2026-11-19",
-   "title": "Why Is Prenetics (NASDAQ:PRE) Widening Its Loss Guidance While Revenue Climbs? - kalkine.ca",
-   "source": "kalkine.ca",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaXhhazJ5cmNnNGJsM0sybTJrMjZILTlFekJvTDB0V1cxYUtsYkdFems1OUJMcGV2N0JTSXFWa1QzaWRJNWVnTE15ajJkWVpOX01nR2t1Y3VSUVF6aGpjSERaT09IVUJFN1lRdFY2ZlV1NXhHcGp3eUloMjNVRlVhc2JSV29vVmFFTGhWbFQzYmg5dDU2U3EwbG9tYnFXMWZHeEJObFNYUDY3djdMdFE?oc=5",
+   "date": "2026-11-18",
+   "title": "Prenetics (PRE) Q3 2026 Earnings Call Transcript - The Motley Fool",
+   "source": "The Motley Fool",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRThNX1RJWDRyWjhuR0ppTUxZdDNvaFNKdnMwNHlPQWVjNTFiMXNwMUR0LVBPa0s3UV9ZclJyQnl3bV9XM1NZOG4zREhRNk5TU0c1TWF6S09Ld2RKbDd4eGwzZVhZZXJLWHBWZE4xYzk5TWZLeFNNVHh3ZEh2MExxTTN5V0lqSmlsM2daX3RLMWcyaUFZVVBvNDBoZW1vZDB5dHlhWDNjM08?oc=5",
    "query": "Prenetics"
   },
   {
-   "date": "2026-11-19",
-   "title": "Prenetics Global earnings missed by $0.61, revenue topped estimates - Investing.com India",
-   "source": "Investing.com India",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUUwtOER1R2RKMmRCSnQyTjM0b2hiS3pNZFR4VWt6ZjduV0FtXzVNTFZVNzNJdGRrVmZRT0pSb1JlQlVKRGJGTFVyN3RacUpHUnM5Z0NhS3B2bEpwS1NVZngxNGh1RmJqWm1Pd2tteEl1UE1kQWduQnR6SGV3OEEydVZESUE2QmRFekhxMVpEMkVmajdIT19uaVl1ZW55MDVGTzNxMlhIUUF3ajJPdHBDNg?oc=5",
+   "date": "2026-11-18",
+   "title": "Prenetics Global Q3 Results: Loss widens to $1.43/share, revenue beats - scanx.trade",
+   "source": "scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaWFNYmdEQURlT3NKSndUVjMxMklPcEw4blhDU1N6M0ltc2lzWjltRnFuclZ4WmdkQUxHWkYxRUFZXzJCNmltb3pDWGFXQnp2NWlnZTEwZlhPOUo0VkNxLVFySW9LaDM3bFI0cXJEX1FVNWJTZFEwcWUyd1k3cWNrbVZxeFFMVHVsOE93Z3dxajBvaDFkbklTbVA3ekJ4dnc1VkJHaU5JNHRmOUlyRjNXcnlQNFEzV3V3WnUwZFZ3?oc=5",
    "query": "Prenetics"
   },
   {
-   "date": "2026-11-19",
-   "title": "What Led to Roughly 37% Declines at Stem (NYSE:STEM) and Prenetics After Third-Quarter Reports? - kalkine.ca",
-   "source": "kalkine.ca",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcHFKTGZzTllkVnFtSlNWUzRJY0J2VEpscE9JejgtYlJnc0ZhNVhuMzNLQ3RJYnV1b0dRS0xxUG9jQzZZSG1QNXRlTGxRLVVoQ2thT0VHbHRQQlo0bUZoMFl3UnpYTTZhajRxeVNwMXgzUk9NM1ZlcnFNb0JveF9aaGd3QzZCT0V4Q3AwSjdlU1ZnS3pOdXVGbGgzQ2RmVlVYRzV1N21ScU5IWmVyeUxMb0hwV2NiZks5eEw2WG9PV0JwbFE?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Target Raises FY2026 Outlook After Q3 Beat; Prenetics Falls 42%, Ardent Prices $116 Million Offering, ChronoScale Lands $7.5 Billion AI Deal - HDFC Sky",
-   "source": "HDFC Sky",
-   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSUp0MzJHTUpJekd4QXpvLTdvbUFHdG8yVldQdUdybngtc2tLTXpfLWZCNnY4T3h2UFNXakFDa1Y2dzJDSUo1RVlOR3ZTdnZKM2tGcUxOVFZ4MEFUUFNPSHFXM3hDRHc4VG5VWjl1Z0dUbjV6OXZvbU5pNnFaTm01R0hCVG4yYUJua29KSW9UWmRMTnRtckpGaC1NRjl2TXNzbFZzelJ3X2drcnM0RmFiVVlEVjlWYlFjSDJLREk3WE9NNk9jU1BBcUFCYmxsdmRJSUtOc09reHFxS0FteFV1dEljZmpHZjBiVzE0RGJRWE93ajMxY3B3RnpR?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Which Top 5 Guidance and Leadership Shake-Up of November 18 Inflicts the Deepest Lasting Harm: Universal Technical Institute (NYSE:UTI), Auna (NYSE:AUNA), Quanterix (NASDAQ:QTRX), Prenetics (NASDAQ:PR",
-   "source": "kalkine.ca",
-   "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPTml4ZkI0MmctMWsxckxBbW5hUDl4QUdRT0loZzBfd09CUlFLQ1dwMmVzT1lpQVBhMThFeFBGNzFSRFlnaXhNb1ZOODA4R29ObGxsU0dxcVpOemhKempjemkwNHlZS05TVUZ0VGJ3UUlDSFl6cC0ybi1oM0FLbFRTM2dCT0ZoZ3JwNFA3V1dRLU9pd0UwOHY0WDAzMnJfUWxES0dfUmN3SjZTSWdVNWV5LThUNFFDTmpEUTkwZzYxbzVZQkZVdl9iNUthTzZldG15Z05qZjd1ck1SaE4tZkRVbGJmR3NEZ2RiWlpwd0o0bk9DN2l3TF90VnMyMzFYZVR2M2Yyd3c3QnNPbTNuUUU2aVh4WE43MkNNbndFdElmUG8wVms5enpNUWh4Znl2STF1dlhwM21GcU9WcE52X0NTem1KZm44MHZGdm9Dc1FsZmVfNmRw?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Prenetics Global Earnings Date and Estimates - MarketBeat",
-   "source": "MarketBeat",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON3dQb29JbDZqdFlMN0pES011ZXlPTEplcnUtTm80c1ZaNzFMTW1WU2IyLVYtVDZuZGt3NjBxWEpkcm5KSHl5RWhrM1FnSWoyaTRKa2xwcHNZMEdMNDJlVFFDb2NlZVEtel9tTlVkSlhUczZHM0poLU5LN1dJdXZYMWRENnZyMU5KTlZQdlFaWQ?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Prenetics Earnings Call Signals Growth at a Cost - TipRanks",
-   "source": "TipRanks",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMVEtQmIxYlcxSkFQRldYS0xFMS1UaUZwUkNTVnBLeVdfUXlzNWp4THhfNGZHb1N4LWhjUWJwNUc1NVFiY1hsc1YxdnlxNDdnM1NPOHA2ekRkQkltVlNwRDhzVzdPbzF5ZjMzTXZvSWdnUGoxQ1NpOHpkOFptWmxoNWFfcHRkWHZtYWJZR2ZBeXZ3VVcycnV0d1lGWEUxRGNYZGc?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "How Did Prenetics' IM8 Brand (NASDAQ:PRE) Achieve 266% Revenue Growth and a $284 Million Run Rate? - Kalkine",
-   "source": "Kalkine",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSFZDcnJYdnp3NGZQaC1tWjA3YWNSV3ctbHhnTGFIUHRIVk5Lb19sa0MwTFZrcTJfZ2JBV3hCMzJSVnFJTVVhbHNGSWwzeDB3VVlXMTMwdkFYOFNOaTh5TVk3clZNYzI2MEdDQ3NDRlJLQmhTT193Y1I4SkdUUVdWYlprejlhWmZhczZCQm9palRiamFrSDl5dF9JaURIYkFFV1ZwZjNDVXhiYmdyUmk4MTVRczVtSTExYlJWWVQ1VXJXa1k4aGNJ?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Prenetics Global earnings missed by $0.61, revenue topped estimates - Investing.com Nigeria",
-   "source": "Investing.com Nigeria",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZllXZWFVbGJCYllKMXl3RHlmYkgyRGVKQng0YXpYWEtRUGhQbW96TW10VnhKUGJJRFJoWnNSaEl1bFdWT3Z1MHRBVDNQMWtLWUtqSWNxZEhtNjNYWUhKQ2doLURZWWlucl8xcFdTRWNzS3YwamJubEtPOGpSMUxMUk9TblZnTV9EckFqdUFRZGJ4cE5aZ1g5MTF5dGtwSkxkQUNwRXI1dnRHaXlfV0RqaA?oc=5",
+   "date": "2026-11-18",
+   "title": "PRE: Record IM8 growth drives higher acquisition investment and a wider H2 loss outlook - TradingView",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPVEpCS2dwZ2tZM1ZXbmFVUEZjVjlVSUJINGVWMGg1NENwNTNQNmRlRmFkbkVBa1RvX1FDYnhza1o4MEZqUFRRM2lfUGFURFAwZl8tRXMwWnRPWV9UcG9SZVZaR1FPZlh6WFhncjdUSWU1T2NiWWkxVFlUMW1jZlhqOUZFVmdrU2txcktpQm56RnlPeW8zNmZPY3dwd2E0U1VCN21YQTRRbHNsdGtjb2RTSjhYT0hGeThsZ3MxT29vajRkV0hRNXRWWUZJR0dDQ2hmTWdfN0xXbmZ2YnluRmh1WTZ5SjNYdUNrR1YxUjROY2d5WnJXLWgtRkJNUmZudw?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15842,6 +15783,20 @@
   },
   {
    "date": "2026-11-19",
+   "title": "B. Riley Adjusts Prenetics Global Price Target to $31 From $37, Maintains Buy Rating - marketscreener.com",
+   "source": "marketscreener.com",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYVNJczZyNU1HXzJDX3dobjhMVGJRNFlWdnlPZkVRLVQ0ZVdWYzBrLWVkU3pOS1JVdmFfaEV1QTJfa0xIN2syNjhWQU9wRy1CMTNYTmNpelVPRzlTQ3BLVWg0dFcwVXBGN2VJYnJWUHUtSi1sb2VHTnJoQVEyc0pLaVFZZ29zMGRPQUNuNUdOdlo2c3FEaEFiY1g4UThETGFxbDhWTGdBeVhkSjZXbkdMdjRpR0xYdVRKX1FtTDJURUxHVHpfalJEZ1VsTXUtZw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Target Raises FY2026 Outlook After Q3 Beat; Prenetics Falls 42%, Ardent Prices $116 Million Offering, ChronoScale Lands $7.5 Billion AI Deal - HDFC Sky",
+   "source": "HDFC Sky",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSUp0MzJHTUpJekd4QXpvLTdvbUFHdG8yVldQdUdybngtc2tLTXpfLWZCNnY4T3h2UFNXakFDa1Y2dzJDSUo1RVlOR3ZTdnZKM2tGcUxOVFZ4MEFUUFNPSHFXM3hDRHc4VG5VWjl1Z0dUbjV6OXZvbU5pNnFaTm01R0hCVG4yYUJua29KSW9UWmRMTnRtckpGaC1NRjl2TXNzbFZzelJ3X2drcnM0RmFiVVlEVjlWYlFjSDJLREk3WE9NNk9jU1BBcUFCYmxsdmRJSUtOc09reHFxS0FteFV1dEljZmpHZjBiVzE0RGJRWE93ajMxY3B3RnpR?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-19",
    "title": "Lake Street Maintains Prenetics Global(PRE.US) With Buy Rating, Maintains Target Price $35 - Moomoo",
    "source": "Moomoo",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORzZseFVBelp3VzhIUWZoV28wRTlvQ2JrSGM4dGdPRnJPZXYxOGhVbDRkVUNJcE1GdVhQcVBVN1lXaXp1aDktcGFwV0VqejdrXzRmUzNCQ3c1czVGZEtPdlc5am0wbXpZaXB2OUJfbVh3ZENYU0w3cG9XS1piYWU2bGMxVXBIUi1YME9jb3FQUjdJOXZtVWJVYVU0YjQ0ZC14YkdjY2RkRnhhYXAxOEF6UEg1aWU?oc=5",
@@ -15849,9 +15804,30 @@
   },
   {
    "date": "2026-11-19",
-   "title": "B. Riley Adjusts Prenetics Global Price Target to $31 From $37, Maintains Buy Rating - marketscreener.com",
-   "source": "marketscreener.com",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYVNJczZyNU1HXzJDX3dobjhMVGJRNFlWdnlPZkVRLVQ0ZVdWYzBrLWVkU3pOS1JVdmFfaEV1QTJfa0xIN2syNjhWQU9wRy1CMTNYTmNpelVPRzlTQ3BLVWg0dFcwVXBGN2VJYnJWUHUtSi1sb2VHTnJoQVEyc0pLaVFZZ29zMGRPQUNuNUdOdlo2c3FEaEFiY1g4UThETGFxbDhWTGdBeVhkSjZXbkdMdjRpR0xYdVRKX1FtTDJURUxHVHpfalJEZ1VsTXUtZw?oc=5",
+   "title": "Prenetics Global earnings missed by $0.61, revenue topped estimates - Investing.com Nigeria",
+   "source": "Investing.com Nigeria",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZllXZWFVbGJCYllKMXl3RHlmYkgyRGVKQng0YXpYWEtRUGhQbW96TW10VnhKUGJJRFJoWnNSaEl1bFdWT3Z1MHRBVDNQMWtLWUtqSWNxZEhtNjNYWUhKQ2doLURZWWlucl8xcFdTRWNzS3YwamJubEtPOGpSMUxMUk9TblZnTV9EckFqdUFRZGJ4cE5aZ1g5MTF5dGtwSkxkQUNwRXI1dnRHaXlfV0RqaA?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Prenetics Global Shares Down on Wider Loss, Lowered 2H Guidance - Moomoo",
+   "source": "Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNkRXdWdyUzFELVUtRC1zUXMxUzlDZE1nNG1YelYtU2RMNTR0VlQ5OTIwTGhaNWJnVHRxR01fRTZQbFhGWEdGR2lFU3VydU9pS211OW1IY1o5SlpHellwRmtzR2FVRm1OcVNXSTNmRGg4LWY2TkNmX01FdkdkMTloODFHcElGbktVZzB0S09mQVFBWFJ1Z1Q5WWRKdzhVQWRYZFktb05PNE04UQ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Prenetics Global earnings missed by $0.61, revenue topped estimates - Investing.com India",
+   "source": "Investing.com India",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUUwtOER1R2RKMmRCSnQyTjM0b2hiS3pNZFR4VWt6ZjduV0FtXzVNTFZVNzNJdGRrVmZRT0pSb1JlQlVKRGJGTFVyN3RacUpHUnM5Z0NhS3B2bEpwS1NVZngxNGh1RmJqWm1Pd2tteEl1UE1kQWduQnR6SGV3OEEydVZESUE2QmRFekhxMVpEMkVmajdIT19uaVl1ZW55MDVGTzNxMlhIUUF3ajJPdHBDNg?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Which Top 5 Guidance and Leadership Shake-Up of November 18 Inflicts the Deepest Lasting Harm: Universal Technical Institute (NYSE:UTI), Auna (NYSE:AUNA), Quanterix (NASDAQ:QTRX), Prenetics (NASDAQ:PR",
+   "source": "kalkine.ca",
+   "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPTml4ZkI0MmctMWsxckxBbW5hUDl4QUdRT0loZzBfd09CUlFLQ1dwMmVzT1lpQVBhMThFeFBGNzFSRFlnaXhNb1ZOODA4R29ObGxsU0dxcVpOemhKempjemkwNHlZS05TVUZ0VGJ3UUlDSFl6cC0ybi1oM0FLbFRTM2dCT0ZoZ3JwNFA3V1dRLU9pd0UwOHY0WDAzMnJfUWxES0dfUmN3SjZTSWdVNWV5LThUNFFDTmpEUTkwZzYxbzVZQkZVdl9iNUthTzZldG15Z05qZjd1ck1SaE4tZkRVbGJmR3NEZ2RiWlpwd0o0bk9DN2l3TF90VnMyMzFYZVR2M2Yyd3c3QnNPbTNuUUU2aVh4WE43MkNNbndFdElmUG8wVms5enpNUWh4Znl2STF1dlhwM21GcU9WcE52X0NTem1KZm44MHZGdm9Dc1FsZmVfNmRw?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15863,13 +15839,6 @@
   },
   {
    "date": "2026-11-19",
-   "title": "Prenetics Global earnings missed by $0.61, revenue topped estimates - Investing.com UK",
-   "source": "Investing.com UK",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcVcwNGxLaC1SXzVzdWhwWWtwSE1TTHZ5V3paMUNBeXZncFNGTFVERUZmZC16Wk9HeTVVTm9feDVUemNieVVZTjk4SHpmcERJaTlKNXc5RjNpQzZMbnJKbVdNQmFUNUxUOVdVY2JRZVlySjN6MnptOW1Wdy1ZTndYTTVzZE9MSUl5bVhRMzJ3NmF6WXh4ZGFFTy1JNS0zci14Y0FyZElfMG15dTM4UEU3YQ?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
    "title": "Prenetics Global earnings missed by $0.61, revenue topped estimates - Investing.com",
    "source": "Investing.com",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaEpFdWtXbUdPNUhZdVZ0NmlBMXpJV2l3Y3hSS3BVYVZHdDBJdEFYazhEZlYzR21XQzlJOHVfNzdsOThCRlBENHZqbE1Sdi14ZTllR1ljVFFPTWN0NHlUYUZXaW42WDJtTWhVamhlNzRpU1B0Ni1qOVNXUXpVemFTdC1jcWZXU1U1djRsNmFpZ1cybkFjbFBTZF85S3R1a0xnS3VLR2NESjhTeGhzYUpGU0FR?oc=5",
@@ -15877,9 +15846,44 @@
   },
   {
    "date": "2026-11-19",
-   "title": "Prenetics Global Shares Down on Wider Loss, Lowered 2H Guidance - Moomoo",
-   "source": "Moomoo",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNkRXdWdyUzFELVUtRC1zUXMxUzlDZE1nNG1YelYtU2RMNTR0VlQ5OTIwTGhaNWJnVHRxR01fRTZQbFhGWEdGR2lFU3VydU9pS211OW1IY1o5SlpHellwRmtzR2FVRm1OcVNXSTNmRGg4LWY2TkNmX01FdkdkMTloODFHcElGbktVZzB0S09mQVFBWFJ1Z1Q5WWRKdzhVQWRYZFktb05PNE04UQ?oc=5",
+   "title": "How Did Prenetics' IM8 Brand (NASDAQ:PRE) Achieve 266% Revenue Growth and a $284 Million Run Rate? - Kalkine",
+   "source": "Kalkine",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSFZDcnJYdnp3NGZQaC1tWjA3YWNSV3ctbHhnTGFIUHRIVk5Lb19sa0MwTFZrcTJfZ2JBV3hCMzJSVnFJTVVhbHNGSWwzeDB3VVlXMTMwdkFYOFNOaTh5TVk3clZNYzI2MEdDQ3NDRlJLQmhTT193Y1I4SkdUUVdWYlprejlhWmZhczZCQm9palRiamFrSDl5dF9JaURIYkFFV1ZwZjNDVXhiYmdyUmk4MTVRczVtSTExYlJWWVQ1VXJXa1k4aGNJ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Why Is Prenetics (NASDAQ:PRE) Widening Its Loss Guidance While Revenue Climbs? - kalkine.ca",
+   "source": "kalkine.ca",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaXhhazJ5cmNnNGJsM0sybTJrMjZILTlFekJvTDB0V1cxYUtsYkdFems1OUJMcGV2N0JTSXFWa1QzaWRJNWVnTE15ajJkWVpOX01nR2t1Y3VSUVF6aGpjSERaT09IVUJFN1lRdFY2ZlV1NXhHcGp3eUloMjNVRlVhc2JSV29vVmFFTGhWbFQzYmg5dDU2U3EwbG9tYnFXMWZHeEJObFNYUDY3djdMdFE?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Prenetics Global Earnings Date and Estimates - MarketBeat",
+   "source": "MarketBeat",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON3dQb29JbDZqdFlMN0pES011ZXlPTEplcnUtTm80c1ZaNzFMTW1WU2IyLVYtVDZuZGt3NjBxWEpkcm5KSHl5RWhrM1FnSWoyaTRKa2xwcHNZMEdMNDJlVFFDb2NlZVEtel9tTlVkSlhUczZHM0poLU5LN1dJdXZYMWRENnZyMU5KTlZQdlFaWQ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Prenetics Global earnings missed by $0.61, revenue topped estimates - Investing.com UK",
+   "source": "Investing.com UK",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcVcwNGxLaC1SXzVzdWhwWWtwSE1TTHZ5V3paMUNBeXZncFNGTFVERUZmZC16Wk9HeTVVTm9feDVUemNieVVZTjk4SHpmcERJaTlKNXc5RjNpQzZMbnJKbVdNQmFUNUxUOVdVY2JRZVlySjN6MnptOW1Wdy1ZTndYTTVzZE9MSUl5bVhRMzJ3NmF6WXh4ZGFFTy1JNS0zci14Y0FyZElfMG15dTM4UEU3YQ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Prenetics Earnings Call Signals Growth at a Cost - TipRanks",
+   "source": "TipRanks",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMVEtQmIxYlcxSkFQRldYS0xFMS1UaUZwUkNTVnBLeVdfUXlzNWp4THhfNGZHb1N4LWhjUWJwNUc1NVFiY1hsc1YxdnlxNDdnM1NPOHA2ekRkQkltVlNwRDhzVzdPbzF5ZjMzTXZvSWdnUGoxQ1NpOHpkOFptWmxoNWFfcHRkWHZtYWJZR2ZBeXZ3VVcycnV0d1lGWEUxRGNYZGc?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "What Led to Roughly 37% Declines at Stem (NYSE:STEM) and Prenetics After Third-Quarter Reports? - kalkine.ca",
+   "source": "kalkine.ca",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcHFKTGZzTllkVnFtSlNWUzRJY0J2VEpscE9JejgtYlJnc0ZhNVhuMzNLQ3RJYnV1b0dRS0xxUG9jQzZZSG1QNXRlTGxRLVVoQ2thT0VHbHRQQlo0bUZoMFl3UnpYTTZhajRxeVNwMXgzUk9NM1ZlcnFNb0JveF9aaGd3QzZCT0V4Q3AwSjdlU1ZnS3pOdXVGbGgzQ2RmVlVYRzV1N21ScU5IWmVyeUxMb0hwV2NiZks5eEw2WG9PV0JwbFE?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15915,6 +15919,34 @@
    "title": "Prenetics Global Announces Virtual 2026 Annual Meeting for Nov. 30 - TipRanks",
    "source": "TipRanks",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTlBYQ2Fxemt3UzBUMktvT0VCOWd2bGs2WkZTVThSQ1FKZXVTRDJlZm9FekxrRXpvYVE3N3NNbXVhMmExSnEtbGYzVmQ0ZW9LbjN3WjVSdDB0cVhab2o2OTVMVnk3MDU5bTFvT0oxTHNiNEtKZnZ6WWFKelRQejE1aDNWeER3SnFkWWUzZFZfRHNhd2xRVlNMWTY0d2xIc1VoNnBObk1vZmU5VGRuOUdPZzVYYzRtNHlZ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "IM8 (US) LLC’s CFO bought 30,000 Prenetics Global (PRE) shares on Nov. 20 and 10,000 more on Nov. 23. - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdjQ5RnN5MzlYM2tOVGZlNjdNRWxINS1GdjZnVC14TDBiLS1hZ0FxSlFiMllCVklMbjZBcVVhTzZWMFFfOVJYdGY1aV9DU0xXMWVSUlRiQUIwMEwwQ1hqeGh2S1lmUFhDSUxIMmZCWXpVQXZmVG4tdmZwLVFWZExodlVONlZYalhHalVBRmRXY1g5Zm9BUEh5YWFvWm1tOUtENVRjZUI4bzlkSkpwZTdvbmFSYw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Prenetics Global (PRE) CFO Rosin bought 40,000 shares for $404K at an average $10.11 - Quantisnow",
+   "source": "Quantisnow",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdGFhdlNEZUV1ZU10X2gwRXU1RXkzZ2xZSHVuM21HNk5lRThVY3pNNGxXRnI2WjctY1BtMGtOWHFVR2lQTFVhWmx3THZkZFZ1UTZTX1BxUVR0VHo4LTVLTWpEaklyd2tXN2VQcDRSOTJSN2xNb3lJdjZ6VVlLWXA0LUNxcHRSQW0zb3QyZkd4ajludw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "[HK Special Report] NASDAQ-listed Prenetics’ Danny Yeung on building a global health brand - Jumpstart Magazine",
+   "source": "Jumpstart Magazine",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONjR2T2M5b0c0QTF0NTJuTGM5Y3gtQlNjUGNjbjFER2RlRFFxOHVHc3A3SG5LZlpiUmNFRm9oclpIMmpvMGRGNjF2OS03VTAwWW5jOVQxNnJHYXF6MHZtcUJUWmRrZm9GNjZPQi1pXzNDVTdQZ0ZDa1pfUnVkMUw1enpWajBYV0Jtcm9RdUUyLVZFdFU2TnpEX3RLZ0NLZVU1UUNWU2g5THJsU2lvUGZ5TDhSS1E1S0tC?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Prenetics Global (PRE) CFO Brian Rosin Buys 40,000 Shares - GuruFocus",
+   "source": "GuruFocus",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWnFiRkxHZXZmYkF0cnVpdTk2WC10ZlNxZ3ZVY3REUDF5bjlaM3hvVnZjWU9FSTI4V2RuNXZXNG5YYzJuOVRWOC03Xzg1MWNaeXZoYm5LN3V1em4yQnc3QVRJUkNtdHhtV29ZSjB0VFpXQjAtXzBCVEVFX2pGYkVlWHJUVlVXRXlJb3g3QnhKbFVHbFA3RzNHWA?oc=5",
    "query": "Prenetics"
   }
  ]
