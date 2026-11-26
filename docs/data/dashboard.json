@@ -1,7 +1,7 @@
 {
  "meta": {
   "symbol": "PRE",
-  "built_at": "2026-11-26 10:29 UTC",
+  "built_at": "2026-11-26 19:59 UTC",
   "last_trade_date": "2026-11-25",
   "shares_a": 15356748,
   "sources": [
@@ -9,157 +9,157 @@
     "source": "prices.yahoo",
     "status": "ok",
     "note": "477 rows",
-    "ts": "2026-11-26T10:28:53"
+    "ts": "2026-11-26T19:54:53"
    },
    {
     "source": "prices.stooq",
     "status": "skip",
     "note": "empty/blocked",
-    "ts": "2026-11-26T10:28:53"
+    "ts": "2026-11-26T19:59:03"
    },
    {
     "source": "prices.nasdaq",
     "status": "ok",
     "note": "477 rows",
-    "ts": "2026-11-26T10:28:56"
+    "ts": "2026-11-26T19:59:06"
    },
    {
     "source": "prices.peers",
     "status": "ok",
     "note": "477 rows",
-    "ts": "2026-11-26T10:28:57"
+    "ts": "2026-11-26T19:59:07"
    },
    {
     "source": "prices.intraday_1m",
     "status": "ok",
     "note": "7 days",
-    "ts": "2026-11-26T10:28:57"
+    "ts": "2026-11-26T19:59:07"
    },
    {
     "source": "finra.regsho_daily",
     "status": "ok",
-    "note": "+17 days, total 275",
-    "ts": "2026-11-26T10:28:58"
+    "note": "+16 days, total 275",
+    "ts": "2026-11-26T19:59:08"
    },
    {
     "source": "finra.otc_weekly",
     "status": "ok",
     "note": "247 rows since 2026-08-20; latest week 2026-10-19",
-    "ts": "2026-11-26T10:28:58"
+    "ts": "2026-11-26T19:59:08"
    },
    {
     "source": "finra.otc_monthly",
     "status": "ok",
     "note": "8 rows",
-    "ts": "2026-11-26T10:28:59"
+    "ts": "2026-11-26T19:59:09"
    },
    {
     "source": "finra.short_interest",
     "status": "ok",
     "note": "latest 2026-11-13",
-    "ts": "2026-11-26T10:28:59"
+    "ts": "2026-11-26T19:59:09"
    },
    {
     "source": "sec.edgar_filings",
     "status": "ok",
     "note": "109 filings; latest 2026-11-25",
-    "ts": "2026-11-26T10:28:59"
+    "ts": "2026-11-26T19:59:09"
    },
    {
     "source": "sec.form4",
     "status": "ok",
     "note": "no new Form 4",
-    "ts": "2026-11-26T10:28:59"
+    "ts": "2026-11-26T19:59:09"
    },
    {
     "source": "sec.edgar_events",
     "status": "ok",
     "note": "no new docs",
-    "ts": "2026-11-26T10:28:59"
+    "ts": "2026-11-26T19:59:09"
    },
    {
     "source": "sec.13f",
     "status": "ok",
     "note": "362 hits; nothing new",
-    "ts": "2026-11-26T10:29:01"
+    "ts": "2026-11-26T19:59:14"
    },
    {
     "source": "sec.ftd",
     "status": "ok",
     "note": "fetched ['202610b']; +2 rows",
-    "ts": "2026-11-26T10:29:03"
+    "ts": "2026-11-26T19:59:15"
    },
    {
     "source": "sec.shares",
     "status": "ok",
     "note": "latest 16,874,089 as of 2025-12-31",
-    "ts": "2026-11-26T10:29:03"
+    "ts": "2026-11-26T19:59:16"
    },
    {
     "source": "nasdaq.circuit_breaker",
     "status": "ok",
     "note": "+2 days; in effect []",
-    "ts": "2026-11-26T10:29:05"
+    "ts": "2026-11-26T19:59:18"
    },
    {
     "source": "nasdaq.threshold",
     "status": "ok",
     "note": "+2 days; on list []",
-    "ts": "2026-11-26T10:29:07"
+    "ts": "2026-11-26T19:59:19"
    },
    {
     "source": "nasdaq.institutional",
     "status": "ok",
     "note": "inst own 16.36%; holders 53",
-    "ts": "2026-11-26T10:29:09"
+    "ts": "2026-11-26T19:59:20"
    },
    {
     "source": "nasdaq.insiders",
     "status": "ok",
-    "note": "17 rows",
-    "ts": "2026-11-26T10:29:11"
+    "note": "22 rows",
+    "ts": "2026-11-26T19:59:22"
    },
    {
     "source": "nasdaq.short_interest",
     "status": "ok",
     "note": "25 rows",
-    "ts": "2026-11-26T10:29:14"
+    "ts": "2026-11-26T19:59:24"
    },
    {
     "source": "options.yahoo",
     "status": "ok",
     "note": "OI C1529/P97",
-    "ts": "2026-11-26T10:29:15"
+    "ts": "2026-11-26T19:59:24"
    },
    {
     "source": "social.stocktwits",
     "status": "ok",
-    "note": "watch 3848; +0 msgs",
-    "ts": "2026-11-26T10:29:15"
+    "note": "watch 3855; +1 msgs",
+    "ts": "2026-11-26T19:59:24"
    },
    {
     "source": "social.reddit",
     "status": "skip",
     "note": "blocked",
-    "ts": "2026-11-26T10:29:15"
+    "ts": "2026-11-26T19:59:24"
    },
    {
     "source": "borrow.iborrowdesk",
     "status": "skip",
     "note": "unreachable",
-    "ts": "2026-11-26T10:29:20"
+    "ts": "2026-11-26T19:59:29"
    },
    {
     "source": "analysts.yahoo",
     "status": "ok",
     "note": "PT mean 36.875",
-    "ts": "2026-11-26T10:29:21"
+    "ts": "2026-11-26T19:59:29"
    },
    {
     "source": "news.google_rss",
     "status": "ok",
-    "note": "137 items",
-    "ts": "2026-11-26T10:29:21"
+    "note": "200 items",
+    "ts": "2026-11-26T19:59:30"
    }
   ],
   "baseline_ats_pct": 24.1
@@ -326,7 +326,7 @@
    {
     "id": 12,
     "name": "散户关注（Stocktwits 近 7 日）",
-    "value": "24 条",
+    "value": "25 条",
     "target": "沉默（无追涨盘待清）或投降式放量讨论",
     "pass": false,
     "note": ""
@@ -349,7 +349,7 @@
   {
    "group": "散户 / 活跃交易者",
    "signal": "Stocktwits 近 7 日消息 / 关注数",
-   "value": "24 条 / 3848",
+   "value": "25 条 / 3855",
    "reading": "沉默=无追涨盘也无接盘；放量讨论+下跌=投降",
    "source": "Stocktwits API",
    "asof": "2026-11-25"
@@ -12776,20 +12776,12 @@
   },
   {
    "date": "2026-11-26",
-   "st_msgs": 0,
+   "st_msgs": 1,
    "reddit_posts": 0,
-   "st_watchlist": 3848.0
+   "st_watchlist": 3855.0
   }
  ],
  "stocktwits_recent": [
-  {
-   "id": 662150742,
-   "created_at": "2026-08-18T12:27:54Z",
-   "user": "IPO_Candy",
-   "followers": 2885,
-   "sentiment": null,
-   "body": "$PRE It's not a typical IPO but we are treating this like one. The company has had some incarnations and now is in the health and wellness space. More to come."
-  },
   {
    "id": 662164568,
    "created_at": "2026-08-18T14:07:09Z",
@@ -13261,6 +13253,14 @@
    "followers": 50,
    "sentiment": null,
    "body": "$PRE Prenetics CEO Danny Yeung bought 75,000 shares on the open market from 20 to 24 Nov, about 733K at an average near 9.77 a share. His direct holding went from 112,416 to 187,416 shares, and the filing shows no pre-set trading plan. CFO Stephen Lo added 12,435 shares, about 127K. Form 4: https://www.sec.gov/Archives/edgar/data/1876431/000162828026075886/0001628280-26-075886-index.htm"
+  },
+  {
+   "id": 670247935,
+   "created_at": "2026-11-26T15:09:09Z",
+   "user": "openmarketalerts",
+   "followers": 46,
+   "sentiment": null,
+   "body": "Insider cluster buys filed Wed, Nov 25 $BBT Beacon Financial — 8 insiders bought $331K (Oct 26 – Nov 23) $HBCP Home Bancorp — 2 insiders bought $346K (Nov 20–23) $TROX Tronox Holdings — 5 insiders bought $299K (Nov 9–24) $PRE Prenetics Global — 3 insiders bought $1.3M (Nov 20–24) $NANO Forge Nano Holdings — 2 insiders bought $275K (Nov 23–24) Open-market purchases from SEC filings. No stock grants"
   }
  ],
  "reddit_recent": [],
@@ -14746,6 +14746,17 @@
    "url": "/market-activity/insiders/rosin-brian-j-1013441"
   },
   {
+   "insider": "YEUNG DANNY SHENG WU",
+   "relation": "Officer",
+   "lastDate": "11/20/2026",
+   "transactionType": "Buy",
+   "ownType": "Direct",
+   "sharesTraded": "35,000",
+   "lastPrice": "$9.62",
+   "sharesHeld": "147,416",
+   "url": "/market-activity/insiders/yeung-danny-sheng-wu-1218156"
+  },
+  {
    "insider": "ROSIN BRIAN J",
    "relation": "Officer",
    "lastDate": "11/23/2026",
@@ -14755,6 +14766,50 @@
    "lastPrice": "$10.00",
    "sharesHeld": "63,100",
    "url": "/market-activity/insiders/rosin-brian-j-1013441"
+  },
+  {
+   "insider": "YEUNG DANNY SHENG WU",
+   "relation": "Officer",
+   "lastDate": "11/23/2026",
+   "transactionType": "Buy",
+   "ownType": "Direct",
+   "sharesTraded": "15,000",
+   "lastPrice": "$9.50",
+   "sharesHeld": "162,416",
+   "url": "/market-activity/insiders/yeung-danny-sheng-wu-1218156"
+  },
+  {
+   "insider": "LO HOI CHUN",
+   "relation": "Officer",
+   "lastDate": "11/23/2026",
+   "transactionType": "Buy",
+   "ownType": "Direct",
+   "sharesTraded": "9,200",
+   "lastPrice": "$9.60",
+   "sharesHeld": "582,848",
+   "url": "/market-activity/insiders/lo-hoi-chun-1374205"
+  },
+  {
+   "insider": "YEUNG DANNY SHENG WU",
+   "relation": "Officer",
+   "lastDate": "11/24/2026",
+   "transactionType": "Buy",
+   "ownType": "Direct",
+   "sharesTraded": "25,000",
+   "lastPrice": "$10.00",
+   "sharesHeld": "187,416",
+   "url": "/market-activity/insiders/yeung-danny-sheng-wu-1218156"
+  },
+  {
+   "insider": "LO HOI CHUN",
+   "relation": "Officer",
+   "lastDate": "11/24/2026",
+   "transactionType": "Buy",
+   "ownType": "Direct",
+   "sharesTraded": "3,235",
+   "lastPrice": "$12.00",
+   "sharesHeld": "586,083",
+   "url": "/market-activity/insiders/lo-hoi-chun-1374205"
   },
   {
    "insider": "VANDERVEEN DAVID",
@@ -15721,34 +15776,6 @@
  "news": [
   {
    "date": "2026-11-19",
-   "title": "B. Riley Securities maintains Prenetics Global at Buy, lowers price target to $31 from $37 - TradingView",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMFVMd3YxdnhBcTVLajF6b1FLNElZd3JpVVhUNjlVeWJFYlhJekNGcDQ4VmprMFlha0ZUSTJGVTh1UGhrYVBLdVFFV0U4WXJTZ3YwMExyYmdtZ0paQ01lS05ZcDhVaExLc1B4S2RPUDJTT1MyRjl0NmtxWWxOUE9tUksyNm5LWVdETTFzX1NjdHVITGxXUmYtN2cwUDRaUzZQVmE2dmxRbk1hMTBVZU5uTlJGUWt2c3pUMnlEcVZxOUI2d292UEQySzYxN2FPNU82N1drNmRPTGxzWDl2bDVaODJR?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Prenetics Global Earnings Date and Estimates - MarketBeat",
-   "source": "MarketBeat",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON3dQb29JbDZqdFlMN0pES011ZXlPTEplcnUtTm80c1ZaNzFMTW1WU2IyLVYtVDZuZGt3NjBxWEpkcm5KSHl5RWhrM1FnSWoyaTRKa2xwcHNZMEdMNDJlVFFDb2NlZVEtel9tTlVkSlhUczZHM0poLU5LN1dJdXZYMWRENnZyMU5KTlZQdlFaWQ?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "B. Riley Adjusts Prenetics Global Price Target to $31 From $37, Maintains Buy Rating - marketscreener.com",
-   "source": "marketscreener.com",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYVNJczZyNU1HXzJDX3dobjhMVGJRNFlWdnlPZkVRLVQ0ZVdWYzBrLWVkU3pOS1JVdmFfaEV1QTJfa0xIN2syNjhWQU9wRy1CMTNYTmNpelVPRzlTQ3BLVWg0dFcwVXBGN2VJYnJWUHUtSi1sb2VHTnJoQVEyc0pLaVFZZ29zMGRPQUNuNUdOdlo2c3FEaEFiY1g4UThETGFxbDhWTGdBeVhkSjZXbkdMdjRpR0xYdVRKX1FtTDJURUxHVHpfalJEZ1VsTXUtZw?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Prenetics Earnings Call Signals Growth at a Cost - TipRanks",
-   "source": "TipRanks",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMVEtQmIxYlcxSkFQRldYS0xFMS1UaUZwUkNTVnBLeVdfUXlzNWp4THhfNGZHb1N4LWhjUWJwNUc1NVFiY1hsc1YxdnlxNDdnM1NPOHA2ekRkQkltVlNwRDhzVzdPbzF5ZjMzTXZvSWdnUGoxQ1NpOHpkOFptWmxoNWFfcHRkWHZtYWJZR2ZBeXZ3VVcycnV0d1lGWEUxRGNYZGc?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
    "title": "Prenetics Global earnings missed by $0.61, revenue topped estimates - Investing.com",
    "source": "Investing.com",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaEpFdWtXbUdPNUhZdVZ0NmlBMXpJV2l3Y3hSS3BVYVZHdDBJdEFYazhEZlYzR21XQzlJOHVfNzdsOThCRlBENHZqbE1Sdi14ZTllR1ljVFFPTWN0NHlUYUZXaW42WDJtTWhVamhlNzRpU1B0Ni1qOVNXUXpVemFTdC1jcWZXU1U1djRsNmFpZ1cybkFjbFBTZF85S3R1a0xnS3VLR2NESjhTeGhzYUpGU0FR?oc=5",
@@ -15756,37 +15783,9 @@
   },
   {
    "date": "2026-11-19",
-   "title": "B. Riley Securities belässt Prenetics Global auf „Buy“ und senkt das Kursziel von $37 auf $31 - TradingView",
+   "title": "B. Riley Securities maintains Prenetics Global at Buy, lowers price target to $31 from $37 - TradingView",
    "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GNmpVNjdoVk00LWptQk1rc3phY0VjYXJ0VzZzUURUWGZ5akpvck01LTVYMUVEZ2tibl9pbGpOSm1KaGxsSGpFRU9kQV82azZDVDU3NVBKbmJnTV9YWnN3M1dGMjByWmFpNHhybV9R?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "How Did Prenetics' IM8 Brand (NASDAQ:PRE) Achieve 266% Revenue Growth and a $284 Million Run Rate? - Kalkine",
-   "source": "Kalkine",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSFZDcnJYdnp3NGZQaC1tWjA3YWNSV3ctbHhnTGFIUHRIVk5Lb19sa0MwTFZrcTJfZ2JBV3hCMzJSVnFJTVVhbHNGSWwzeDB3VVlXMTMwdkFYOFNOaTh5TVk3clZNYzI2MEdDQ3NDRlJLQmhTT193Y1I4SkdUUVdWYlprejlhWmZhczZCQm9palRiamFrSDl5dF9JaURIYkFFV1ZwZjNDVXhiYmdyUmk4MTVRczVtSTExYlJWWVQ1VXJXa1k4aGNJ?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Target Raises FY2026 Outlook After Q3 Beat; Prenetics Falls 42%, Ardent Prices $116 Million Offering, ChronoScale Lands $7.5 Billion AI Deal - HDFC Sky",
-   "source": "HDFC Sky",
-   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSUp0MzJHTUpJekd4QXpvLTdvbUFHdG8yVldQdUdybngtc2tLTXpfLWZCNnY4T3h2UFNXakFDa1Y2dzJDSUo1RVlOR3ZTdnZKM2tGcUxOVFZ4MEFUUFNPSHFXM3hDRHc4VG5VWjl1Z0dUbjV6OXZvbU5pNnFaTm01R0hCVG4yYUJua29KSW9UWmRMTnRtckpGaC1NRjl2TXNzbFZzelJ3X2drcnM0RmFiVVlEVjlWYlFjSDJLREk3WE9NNk9jU1BBcUFCYmxsdmRJSUtOc09reHFxS0FteFV1dEljZmpHZjBiVzE0RGJRWE93ajMxY3B3RnpR?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-19",
-   "title": "Prenetics Global earnings missed by $0.61, revenue topped estimates - Investing.com UK",
-   "source": "Investing.com UK",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcVcwNGxLaC1SXzVzdWhwWWtwSE1TTHZ5V3paMUNBeXZncFNGTFVERUZmZC16Wk9HeTVVTm9feDVUemNieVVZTjk4SHpmcERJaTlKNXc5RjNpQzZMbnJKbVdNQmFUNUxUOVdVY2JRZVlySjN6MnptOW1Wdy1ZTndYTTVzZE9MSUl5bVhRMzJ3NmF6WXh4ZGFFTy1JNS0zci14Y0FyZElfMG15dTM4UEU3YQ?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-20",
-   "title": "Form 4 Prenetics Global Ltd: Hoi Chun Lo (CFO) For: 18 November - Investing.com UK",
-   "source": "Investing.com UK",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbWdkMlFPQkFHZnM2d01SWE5Gb0xfRHFqZTExakdqdUtwMmpRZzFkTk43eHVXQlgyaTlzMnpJay10LW4ySVNjelJpZWV3cDRqdEFRZ3NmR0tGd1hJS2dCMWZ1OEJMd0lncFBlWE1vT2RLVzVSN0xRZHhldEhJRTB6NmRKNUk0M3BfRFJWeUx5T3IyRURwWkdIMDNVNkpnaHVmZmdnYzFnRXlYRDZPdnNqaTNqZHdWMUd6TjE1UA?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMFVMd3YxdnhBcTVLajF6b1FLNElZd3JpVVhUNjlVeWJFYlhJekNGcDQ4VmprMFlha0ZUSTJGVTh1UGhrYVBLdVFFV0U4WXJTZ3YwMExyYmdtZ0paQ01lS05ZcDhVaExLc1B4S2RPUDJTT1MyRjl0NmtxWWxOUE9tUksyNm5LWVdETTFzX1NjdHVITGxXUmYtN2cwUDRaUzZQVmE2dmxRbk1hMTBVZU5uTlJGUWt2c3pUMnlEcVZxOUI2d292UEQySzYxN2FPNU82N1drNmRPTGxzWDl2bDVaODJR?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15798,9 +15797,30 @@
   },
   {
    "date": "2026-11-20",
+   "title": "Roth MKM Maintains Prenetics Global(PRE.US) With Buy Rating, Cuts Target Price to $30 - Moomoo",
+   "source": "Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWDB1VkRRdllHVUpybU9BM0JVMjBnS0tZLWg1ZUFfakZJVnMyaFNDclhVeDFBRzljOGVDUHU3Nmx1NWhMTkdObkhuOWp2Y0FyeTgySDJtRlZUdGhSdmt1ZWhQQ1hfLUJXTEEyVEFWbmd3RGJMTXdTQXMzRXg0TnFLOEMtRlJrUl9kT2tHdVFTTlREcHN6TnV0bDhmNjlYMlJ4MFhiZmFaZWxrdw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-20",
    "title": "Prenetics Global falls 14.65% in Friday's session - Global Banking & Finance Review",
    "source": "Global Banking & Finance Review",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFI1YThDYXlDalYyYTJvR1M0Z05scjlDODlodnpNYlVfMEx1SlVKZWZDMkFRd09Cb2Raa3hIejZvNzA0VjhIQk1qc3IzcVBCb3czX29HbzFxY0VqU3QtQlR0anU3Sm1YRm00VTFxOUFKRU1jSVNHTElFOWY2OFBjQ05NNEI?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Form 4 Prenetics Global Ltd: Hoi Chun Lo (CFO) For: 18 November - Investing.com Canada",
+   "source": "Investing.com Canada",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPd0U1Vjd0RzNRaS1nVmlQY2xrRjd6cmE1am1GbUw4NEtucXFiWWVSdEZuZ0NZN1V1RnAwaEVzQzZycHZqWHA4eUllSk9pMGJvdlYwS1dTR21GOHBGQnVTSi1CYk1SVXNwblM0YzNvOEdFeDNJbEhzWjlaVzROdlF6Vk1YZWI3WDdZVXBfaU9Xa0Z1dTZGMkRpa01zUkR5UTRDMXEtU1Bybkl0RGg2eXNiaV9jdkhfbmk0X3ZPVw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Form 4 Prenetics Global Ltd: Hoi Chun Lo (CFO) For: 18 November - Investing.com UK",
+   "source": "Investing.com UK",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbWdkMlFPQkFHZnM2d01SWE5Gb0xfRHFqZTExakdqdUtwMmpRZzFkTk43eHVXQlgyaTlzMnpJay10LW4ySVNjelJpZWV3cDRqdEFRZ3NmR0tGd1hJS2dCMWZ1OEJMd0lncFBlWE1vT2RLVzVSN0xRZHhldEhJRTB6NmRKNUk0M3BfRFJWeUx5T3IyRURwWkdIMDNVNkpnaHVmZmdnYzFnRXlYRDZPdnNqaTNqZHdWMUd6TjE1UA?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15819,9 +15839,9 @@
   },
   {
    "date": "2026-11-23",
-   "title": "PRE: SEC Form 6-K filed by Prenetics Global Limited - Quantisnow",
-   "source": "Quantisnow",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeDUwN0RVUGNaWEhXYzVBRmZSNWJDNUNQX0l6UWo1VmlIVk04SkYycUI1NDcwcGE2N3U0clZFa1dCandNOTcybXJPMDZMcU1rSzdDamdKczNqejdPV3k5MDhvR0NzdG1fTDc1aVRibTF3T1Y3NVg0aDNnMk9SSlZET1lqcWxmaHlmS0pFdWtOeGI3OTg?oc=5",
+   "title": "Eligible shareholders must register online by Nov. 27 at 10 a.m. ET to attend Prenetics (PRE)’s virtual annual meeting. - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbjRiN1R2eFZEMFdRdDE0SjI4Y3hLVzF3X3lkTWNLdU1JeTV5c3B4MkM2NlU4cXpqVnktbDljQ2dOMTZNdmVUVDFwWjJvQzdPcEZ4YWdYOFlMZ01NUHJvSEJZMFpHMnl2Q2xjcmZkeEJTREVuNzBWaGF2LWJIV24xZWMxdmYwdUxrT0xZY2d4SWtIcHQ0N0x0NFlTSTEteDdHZ0RPLWdrajI1Ykp6ZHJ2TEpWNUVhdw?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15833,16 +15853,9 @@
   },
   {
    "date": "2026-11-23",
-   "title": "Prenetics Global Sets 2026 AGM for November 30 - kalkine.com",
-   "source": "kalkine.com",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT3VJbEE3bkp5OTZZUUVYeTg4aHFCVEl5cVBDZ3oyY1A4VGlNN0J5RHRzYy1uS2c1Wnl2MXVTaGFCV1JlQlk0WGQ2YldaQ1ppMmxXOEZ3VDk4ZXJaM0g4Z185N2ItVjB6WkJiY0VVeXBvaTVHVTJ5eXdLOElFREIwTFdFcjZ2b192TkRhZUhn?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-23",
-   "title": "Beckham-Backed Supplement Brand Soars 266%, Adds Diplo - Streetwise Reports",
-   "source": "Streetwise Reports",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZlljRXpzTFU4WVR5NExTd3p2UXBuWHhCQlB3cVZCRUhCQkJqbmVHWnNIVXFJdXlGdVFucDZtZTdUZmo0cXFNYTJQbldzOGxPbkpTd2xtOVRHQ1BOQ3hjWDQ0UEdUWFMwV1NwSXJ5OTNVd1lkdGVKX3IyN0hTOXZqcjZXZ3loYVZfQi1zZDMySWlmd3F0RExCdnZMS2ZxUFJNdmNkN0NZMEFiU1Y1OTdZ?oc=5",
+   "title": "PRE: SEC Form 6-K filed by Prenetics Global Limited - Quantisnow",
+   "source": "Quantisnow",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeDUwN0RVUGNaWEhXYzVBRmZSNWJDNUNQX0l6UWo1VmlIVk04SkYycUI1NDcwcGE2N3U0clZFa1dCandNOTcybXJPMDZMcU1rSzdDamdKczNqejdPV3k5MDhvR0NzdG1fTDc1aVRibTF3T1Y3NVg0aDNnMk9SSlZET1lqcWxmaHlmS0pFdWtOeGI3OTg?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15854,16 +15867,44 @@
   },
   {
    "date": "2026-11-23",
+   "title": "Beckham-Backed Supplement Brand Soars 266%, Adds Diplo - Streetwise Reports",
+   "source": "Streetwise Reports",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZlljRXpzTFU4WVR5NExTd3p2UXBuWHhCQlB3cVZCRUhCQkJqbmVHWnNIVXFJdXlGdVFucDZtZTdUZmo0cXFNYTJQbldzOGxPbkpTd2xtOVRHQ1BOQ3hjWDQ0UEdUWFMwV1NwSXJ5OTNVd1lkdGVKX3IyN0hTOXZqcjZXZ3loYVZfQi1zZDMySWlmd3F0RExCdnZMS2ZxUFJNdmNkN0NZMEFiU1Y1OTdZ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-23",
+   "title": "Prenetics Global Sets 2026 AGM for November 30 - kalkine.com",
+   "source": "kalkine.com",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT3VJbEE3bkp5OTZZUUVYeTg4aHFCVEl5cVBDZ3oyY1A4VGlNN0J5RHRzYy1uS2c1Wnl2MXVTaGFCV1JlQlk0WGQ2YldaQ1ppMmxXOEZ3VDk4ZXJaM0g4Z185N2ItVjB6WkJiY0VVeXBvaTVHVTJ5eXdLOElFREIwTFdFcjZ2b192TkRhZUhn?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-23",
    "title": "Prenetics Global Announces Virtual 2026 Annual Meeting for Nov. 30 - TipRanks",
    "source": "TipRanks",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTlBYQ2Fxemt3UzBUMktvT0VCOWd2bGs2WkZTVThSQ1FKZXVTRDJlZm9FekxrRXpvYVE3N3NNbXVhMmExSnEtbGYzVmQ0ZW9LbjN3WjVSdDB0cVhab2o2OTVMVnk3MDU5bTFvT0oxTHNiNEtKZnZ6WWFKelRQejE1aDNWeER3SnFkWWUzZFZfRHNhd2xRVlNMWTY0d2xIc1VoNnBObk1vZmU5VGRuOUdPZzVYYzRtNHlZ?oc=5",
    "query": "Prenetics"
   },
   {
-   "date": "2026-11-23",
-   "title": "Eligible shareholders must register online by Nov. 27 at 10 a.m. ET to attend Prenetics (PRE)’s virtual annual meeting. - Stock Titan",
-   "source": "Stock Titan",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbjRiN1R2eFZEMFdRdDE0SjI4Y3hLVzF3X3lkTWNLdU1JeTV5c3B4MkM2NlU4cXpqVnktbDljQ2dOMTZNdmVUVDFwWjJvQzdPcEZ4YWdYOFlMZ01NUHJvSEJZMFpHMnl2Q2xjcmZkeEJTREVuNzBWaGF2LWJIV24xZWMxdmYwdUxrT0xZY2d4SWtIcHQ0N0x0NFlTSTEteDdHZ0RPLWdrajI1Ykp6ZHJ2TEpWNUVhdw?oc=5",
+   "date": "2026-11-24",
+   "title": "[HK Special Report] NASDAQ-listed Prenetics’ Danny Yeung on building a global health brand - Jumpstart Magazine",
+   "source": "Jumpstart Magazine",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONjR2T2M5b0c0QTF0NTJuTGM5Y3gtQlNjUGNjbjFER2RlRFFxOHVHc3A3SG5LZlpiUmNFRm9oclpIMmpvMGRGNjF2OS03VTAwWW5jOVQxNnJHYXF6MHZtcUJUWmRrZm9GNjZPQi1pXzNDVTdQZ0ZDa1pfUnVkMUw1enpWajBYV0Jtcm9RdUUyLVZFdFU2TnpEX3RLZ0NLZVU1UUNWU2g5THJsU2lvUGZ5TDhSS1E1S0tC?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Prenetics Global (PRE) CFO Rosin bought 40,000 shares for $404K at an average $10.11 - Quantisnow",
+   "source": "Quantisnow",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZUN6UHBkLUREVVZVME05enJ3VTNUSWJBUFNsYndWbTZmMjcxRDI5aTkxRkcxZ19lNjhDV2dqOFFIdTI1Ukd2MHMwU2tFcjRac3lRdk5FZU56bkRXOExvLTk2S1FDTHRhYjlYMGdRMEY4Ykw2X3hVcDJ6QVVnTlhvclFTWXpUUHVzNzB5Ng?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Prenetics Global (PRE) CFO Brian Rosin Buys 40,000 Shares - GuruFocus",
+   "source": "GuruFocus",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWnFiRkxHZXZmYkF0cnVpdTk2WC10ZlNxZ3ZVY3REUDF5bjlaM3hvVnZjWU9FSTI4V2RuNXZXNG5YYzJuOVRWOC03Xzg1MWNaeXZoYm5LN3V1em4yQnc3QVRJUkNtdHhtV29ZSjB0VFpXQjAtXzBCVEVFX2pGYkVlWHJUVlVXRXlJb3g3QnhKbFVHbFA3RzNHWA?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15871,13 +15912,6 @@
    "title": "IM8 (US) LLC’s CFO bought 30,000 Prenetics Global (PRE) shares on Nov. 20 and 10,000 more on Nov. 23. - Stock Titan",
    "source": "Stock Titan",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdjQ5RnN5MzlYM2tOVGZlNjdNRWxINS1GdjZnVC14TDBiLS1hZ0FxSlFiMllCVklMbjZBcVVhTzZWMFFfOVJYdGY1aV9DU0xXMWVSUlRiQUIwMEwwQ1hqeGh2S1lmUFhDSUxIMmZCWXpVQXZmVG4tdmZwLVFWZExodlVONlZYalhHalVBRmRXY1g5Zm9BUEh5YWFvWm1tOUtENVRjZUI4bzlkSkpwZTdvbmFSYw?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-24",
-   "title": "Prenetics Global (PRE) CFO Rosin bought 40,000 shares for $404K at an average $10.11 - Quantisnow",
-   "source": "Quantisnow",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdGFhdlNEZUV1ZU10X2gwRXU1RXkzZ2xZSHVuM21HNk5lRThVY3pNNGxXRnI2WjctY1BtMGtOWHFVR2lQTFVhWmx3THZkZFZ1UTZTX1BxUVR0VHo4LTVLTWpEaklyd2tXN2VQcDRSOTJSN2xNb3lJdjZ6VVlLWXA0LUNxcHRSQW0zb3QyZkd4ajludw?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15891,63 +15925,7 @@
    "date": "2026-11-24",
    "title": "Prenetics Global (PRE) CFO Rosin bought 40,000 shares for $404K at an average $10.11 - Quantisnow",
    "source": "Quantisnow",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZUN6UHBkLUREVVZVME05enJ3VTNUSWJBUFNsYndWbTZmMjcxRDI5aTkxRkcxZ19lNjhDV2dqOFFIdTI1Ukd2MHMwU2tFcjRac3lRdk5FZU56bkRXOExvLTk2S1FDTHRhYjlYMGdRMEY4Ykw2X3hVcDJ6QVVnTlhvclFTWXpUUHVzNzB5Ng?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-24",
-   "title": "[HK Special Report] NASDAQ-listed Prenetics’ Danny Yeung on building a global health brand - Jumpstart Magazine",
-   "source": "Jumpstart Magazine",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONjR2T2M5b0c0QTF0NTJuTGM5Y3gtQlNjUGNjbjFER2RlRFFxOHVHc3A3SG5LZlpiUmNFRm9oclpIMmpvMGRGNjF2OS03VTAwWW5jOVQxNnJHYXF6MHZtcUJUWmRrZm9GNjZPQi1pXzNDVTdQZ0ZDa1pfUnVkMUw1enpWajBYV0Jtcm9RdUUyLVZFdFU2TnpEX3RLZ0NLZVU1UUNWU2g5THJsU2lvUGZ5TDhSS1E1S0tC?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-24",
-   "title": "Prenetics Global (PRE) CFO Brian Rosin Buys 40,000 Shares - GuruFocus",
-   "source": "GuruFocus",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWnFiRkxHZXZmYkF0cnVpdTk2WC10ZlNxZ3ZVY3REUDF5bjlaM3hvVnZjWU9FSTI4V2RuNXZXNG5YYzJuOVRWOC03Xzg1MWNaeXZoYm5LN3V1em4yQnc3QVRJUkNtdHhtV29ZSjB0VFpXQjAtXzBCVEVFX2pGYkVlWHJUVlVXRXlJb3g3QnhKbFVHbFA3RzNHWA?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-25",
-   "title": "Form 4 Prenetics Global Ltd: Hoi Chun Lo (CFO) For: 23 November - Investing.com UK",
-   "source": "Investing.com UK",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNm1lM3RZXzV0aHM4WXFhTFpZY3ZWR3c4T0diYm5sOGlGVHBZSXM3Mlhod0F0Uy12VV9xQkRpUnBJcDVubVg5U3N0WmdJbFhkaWQ4b01UVnBaaUVoMVNmeDdFTVh5Zk5sX2ZZdlZ1NVlIbERaelNHcWs4c3FCZ01vaEZsd05XaVEtX2Z6a1BEa0tiQktsLUdIYWtBZW81ZHh3RWQxVk1HbjVGZTI0N1RSc2JiXy1RV3M0TWVMYg?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-25",
-   "title": "Prenetics Global Limited Leadership Boosts Personal Shareholdings to Approximately $5.0 Million Since November 2025 - Quiver Quantitative",
-   "source": "Quiver Quantitative",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcE40cWVGZUJ4Tkg3Y2V3Ml9ULUptdFd0WWw3T25CMGthUDVLbVRsUG1FQVpFc0t5VFpYVHRhamxLRHZVNWhtLVBJRTVRYUVsZTZIT09ySFEyT1laTnBWYS0tTDJ5TzU0VVRack1SRjExLU5aYTVXTDFHN0x1RzE4MW54Q1NCa1RiU3Zyb25CaGlDUXJvbWJQOTJDSkJ6eE0xSWNMU0N6dUlvOVY3a2JkdU5PRlVHNEJFM3VmTl9WeUVDU3pocWx5UnBqN290Q3pXSGx0MUZpd0dYOHhaV0RhaU5qcUI?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-25",
-   "title": "Prenetics’ IM8 Leadership Purchases $1.26 Million of Shares Following Third Quarter Results - Carroll County Mirror-Democrat",
-   "source": "Carroll County Mirror-Democrat",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRWFvNFJhdWljT1V5YUlxQVB1NW1Sd09hU3poSjUzam1FbWx2RWtUX1NQc3kzOXUtRGdGenprdkFFNi1jWlBBT0hIRlNuaVBsaTVJd3dOcnhJZC1nbzFMRWZKRHVXX2VYQ1RXMDBQQTl3bXNTOENkcEtsWUVUdGNyOHVFeDdpMVpUNUZJMGhXRjdOVVg5cWRIZE5TQnJMcUFwTEt6TkpvYk5RTmk5UGtoa0xsYlpBelE?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-25",
-   "title": "Prenetics executives buy $1.26M in shares after Q3 results - StreetInsider",
-   "source": "StreetInsider",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWU1jWnROTDZ5LVpsTkFSaTZGeDc4OVI5Tm5oTEFUclh6cUJQU29yYVlITTBJWFR2elgydXE4Q3NfN1FOMVZFOG43Zjlnd1YzTmxzUTJTcVBrZDJXSkozVmVPaFE0QmVtYVdNeWxFMVdpVEZnMGNVWW42ZGJOdENRVVFPbktueXlqVFJHWGhjZEIzemFlNVYzX2JIdUxNNlAzR0ctMW9ZMERrak1QWHAwb2FHNFZGc21UdWhB?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-25",
-   "title": "Prenetics Chief Executive Officer Purchased Shares Worth Over $733K - TradingView",
-   "source": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaWZNUVJDRHpTT0NCVlZMTXhvelNCWkdPVFZiNG5sdVhramRtRU1YU3c2S25RNHFtdXEtc1NiVnljZ0R5Q1hZekN3bnlFOEo3UnV3MktUTFVfemNjOE9Lam51MFJkVVVqVHUxaGdxSmNRNVpibjBCcVVtRVFCenRId3Nxc0lEd1hCcnVaejBtTzl1aklJREJHYlpXRE85UGtFX3YxUTRGMURkcU9VUGxMMXFGejYzQWdVZk5MRkx4N2I2UXhTaEJR?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-25",
-   "title": "At $9.60 and $12 a share, CFO Hoi Chun Lo bought Prenetics Global (PRE) stock on consecutive days. - Stock Titan",
-   "source": "Stock Titan",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaUZ5N1FrSWZiX3cxd19TdkFCYXRNT2dZT0cwbV9hcjBCY3UtUlFUcjdRWlB4NEgtM1h2b3VzZ3pFMmZOdjFnRk1aZkRuT1BUb0E0Zlo5UjVyc1JyLTBMaWpVQmRoZHFEc0cwX3NucVF6dW5NMWtqdjFjb1EyLXFyVTV5QWVKcnotVVhNZmhFd3ZsTEw2Vlk0MUpDeUkwejlLSHFZZTgtTlFYU2FPdEJwUFh4UQ?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdGFhdlNEZUV1ZU10X2gwRXU1RXkzZ2xZSHVuM21HNk5lRThVY3pNNGxXRnI2WjctY1BtMGtOWHFVR2lQTFVhWmx3THZkZFZ1UTZTX1BxUVR0VHo4LTVLTWpEaklyd2tXN2VQcDRSOTJSN2xNb3lJdjZ6VVlLWXA0LUNxcHRSQW0zb3QyZkd4ajludw?oc=5",
    "query": "Prenetics"
   },
   {
@@ -15966,6 +15944,90 @@
   },
   {
    "date": "2026-11-25",
+   "title": "Prenetics CFO Lo Hoi Chun Buys 12,435 Shares in Two Days - kalkine.com",
+   "source": "kalkine.com",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUXNfZ2lsb1k0OFRLU19QUUpzQkktWWJ0XzkyWlZNR2FHYmlENFhlUHIyQURIVGhaNVJpQl94Y3o5NGg0R0xFSnlsU3lEZFpCX1liS0xPVTlSY3h0LWRGTHNPbnhlelhVQVA2RHBPak5PUTBpMzF6YVhPUm13TXp0cDZFeEVNZjdZMlpmVkVtTHNwZWRURmRSdlNB?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Across four stock buys, the CEO of Prenetics Global (PRE) paid as much as $10 a share. - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ0p5Q0JDdFBJZmdTNnh6VWhoY3RiTjRCcW9BWElmaHhlTWpkcnhMeXZBbEhfOFdYb2FOMDg3c1pIcTJ4UUVjMUlnVnBVWlg5V3hFSEtjQ3JBQTB5cVpGNjZ1cGhQaUNsNmNxSzFWUkI3M3c5ekJXUWFORmdXMzdYR3FfRUh0cGZwRmhqa2Q0ekNfWHJjYUlfcEVjR3FweC1ham43Z2kxakhteDg4LVR3YTcxaw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Prenetics Global Ltd (PRE) (Q3 2026) Earnings Call Highlights: IM8 Revenue Surges 3. ... By GuruFocus - Investing.com Canada",
+   "source": "Investing.com Canada",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMTF3bnREeFR2d2g1MzhLZjhLTG8tdHl2X290RjRFNE5hOXp2bG1nT25MM0JRMmRHRzczS25oRGNfaWRTRnVTbldUQ3VRbDZyQm0xOGxhaEZ6ZDM4dmp5a0g2NVN4MDh4Wm5jc2hVMElVV1NVWkN0eDB0dWpHeUNkOWRENVRHbGVZMGZLVWMyQTFPMEhPVXVuRFFYZkRlckVxcjk3dDBtX2NHYUJwVHRHbVNoZzIzX2ZxckNtVVB0TWMyZVVoZFFodkxB?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "At $9.60 and $12 a share, CFO Hoi Chun Lo bought Prenetics Global (PRE) stock on consecutive days. - Stock Titan",
+   "source": "Stock Titan",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaUZ5N1FrSWZiX3cxd19TdkFCYXRNT2dZT0cwbV9hcjBCY3UtUlFUcjdRWlB4NEgtM1h2b3VzZ3pFMmZOdjFnRk1aZkRuT1BUb0E0Zlo5UjVyc1JyLTBMaWpVQmRoZHFEc0cwX3NucVF6dW5NMWtqdjFjb1EyLXFyVTV5QWVKcnotVVhNZmhFd3ZsTEw2Vlk0MUpDeUkwejlLSHFZZTgtTlFYU2FPdEJwUFh4UQ?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Prenetics CEO Yeung Buys 75,000 Shares at $9.50-$10.00 - kalkine.com",
+   "source": "kalkine.com",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNenJQcy05RDBwTGhCd21ITE9OVTdJQzgweGJETlpBa0hIdFJ3azVyQnJLT0lwVzZPaW5TWHF2SG5paXNQamd6UjlndHFUUFpsNHlWNDk3WDc3dnBxZVBFLUFGdzlVVnc0UWJQZGFlM3A2SG1ZNlpYMmZrZnpvSXNmOVhsbUFIZEdtSm5fM3EzdkRqdw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Prenetics Chief Executive Officer Purchased Shares Worth Over $733K - TradingView",
+   "source": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaWZNUVJDRHpTT0NCVlZMTXhvelNCWkdPVFZiNG5sdVhramRtRU1YU3c2S25RNHFtdXEtc1NiVnljZ0R5Q1hZekN3bnlFOEo3UnV3MktUTFVfemNjOE9Lam51MFJkVVVqVHUxaGdxSmNRNVpibjBCcVVtRVFCenRId3Nxc0lEd1hCcnVaejBtTzl1aklJREJHYlpXRE85UGtFX3YxUTRGMURkcU9VUGxMMXFGejYzQWdVZk5MRkx4N2I2UXhTaEJR?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Prenetics executives buy $1.26M in shares after Q3 results - StreetInsider",
+   "source": "StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWU1jWnROTDZ5LVpsTkFSaTZGeDc4OVI5Tm5oTEFUclh6cUJQU29yYVlITTBJWFR2elgydXE4Q3NfN1FOMVZFOG43Zjlnd1YzTmxzUTJTcVBrZDJXSkozVmVPaFE0QmVtYVdNeWxFMVdpVEZnMGNVWW42ZGJOdENRVVFPbktueXlqVFJHWGhjZEIzemFlNVYzX2JIdUxNNlAzR0ctMW9ZMERrak1QWHAwb2FHNFZGc21UdWhB?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "PRE: Prenetics Global Limited Latest Stock Price, Analysis, News and Trading Ideas - Stocktwits",
+   "source": "Stocktwits",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBJdHlwTUE0VFgxN3NpdHNwRWlLdnQwYVZ3VkdwcVhqUXNMSlhsOHdKdTNKY1NEdVdZelRGeVlQMUM4MXkwcXNpSw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Prenetics Global (PRE) CFO Lo bought 12,435 shares for $127K at an average $10.22 - Quantisnow",
+   "source": "Quantisnow",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNVhiSG9NNTlhVHdkTEk1QzJIdmt6U2ZKcHg2RC0wOEstYU05U1FMRnpzai1jWi1vcXpEVUlKNnBsOXZIb0Z0eGMwemNHdlJLdm10aG1MUUpHSjlTUjI0bzZIYzl4dm05WWcybkprWUtRcVpFdm1wVlVSX0ZXVW9xbHpPWURGTEtFUDJBR0RhUjJqRFJranlLSnpPZ2E4dw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Form 4 Prenetics Global Ltd: Hoi Chun Lo (CFO) For: 23 November By Investing.com - Investing.com India",
+   "source": "Investing.com India",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb3NkSnVYUUZFOWZBcnktYzFEaFByYUtOdlowUUVtbmhoVjUzcFRCaDBsNDRLb1RDb3hQelpmRkFPOHJVWEtiaTlpdDg3UkV4dEZJMGpmcFJxbElVbUt5RzFhMHlIcFhPSGFJWVFRWDNuQ2xjYW5rWGhlQmxOek5EdzlRSW5aX0FhVTNnYVVyR3VLRUpNN1M1UnM4aVlpVnJad1NSb1gtN3hYLU9rdzdQekVHX0F0T3FLU2NlSw?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Form 4 Prenetics Global Ltd: Hoi Chun Lo (CFO) For: 23 November - Investing.com UK",
+   "source": "Investing.com UK",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNm1lM3RZXzV0aHM4WXFhTFpZY3ZWR3c4T0diYm5sOGlGVHBZSXM3Mlhod0F0Uy12VV9xQkRpUnBJcDVubVg5U3N0WmdJbFhkaWQ4b01UVnBaaUVoMVNmeDdFTVh5Zk5sX2ZZdlZ1NVlIbERaelNHcWs4c3FCZ01vaEZsd05XaVEtX2Z6a1BEa0tiQktsLUdIYWtBZW81ZHh3RWQxVk1HbjVGZTI0N1RSc2JiXy1RV3M0TWVMYg?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "Prenetics Global Limited Leadership Boosts Personal Shareholdings to Approximately $5.0 Million Since November 2025 - Quiver Quantitative",
+   "source": "Quiver Quantitative",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcE40cWVGZUJ4Tkg3Y2V3Ml9ULUptdFd0WWw3T25CMGthUDVLbVRsUG1FQVpFc0t5VFpYVHRhamxLRHZVNWhtLVBJRTVRYUVsZTZIT09ySFEyT1laTnBWYS0tTDJ5TzU0VVRack1SRjExLU5aYTVXTDFHN0x1RzE4MW54Q1NCa1RiU3Zyb25CaGlDUXJvbWJQOTJDSkJ6eE0xSWNMU0N6dUlvOVY3a2JkdU5PRlVHNEJFM3VmTl9WeUVDU3pocWx5UnBqN290Q3pXSGx0MUZpd0dYOHhaV0RhaU5qcUI?oc=5",
+   "query": "Prenetics"
+  },
+  {
+   "date": "2026-11-25",
    "title": "Prenetics Global (PRE) CFO Lo bought 12,435 shares for $127K at an average $10.22 - Quantisnow",
    "source": "Quantisnow",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb3VDMnRGcU55U1pEZVhIdVJyZlhwWndydHVULWs0dkNhNmRkN0FKdDNwallJLUJyR1FSM0ZWdExTQ3lZakdlUXgtRXJxMHdaUFFLd2ZUc1ktcWR4Y1ZiU0JJRnFpVjhsZF85UTU2RTBiNGZSVGl4a2hOVWl2TWE1VG5tdzlLM0tTU2VLQ1BXVE9jWThEcDEyX2RFc3RxY1FZSHpB?oc=5",
@@ -15980,23 +16042,16 @@
   },
   {
    "date": "2026-11-25",
-   "title": "Form 4 Prenetics Global Ltd: Hoi Chun Lo (CFO) For: 23 November By Investing.com - Investing.com India",
-   "source": "Investing.com India",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb3NkSnVYUUZFOWZBcnktYzFEaFByYUtOdlowUUVtbmhoVjUzcFRCaDBsNDRLb1RDb3hQelpmRkFPOHJVWEtiaTlpdDg3UkV4dEZJMGpmcFJxbElVbUt5RzFhMHlIcFhPSGFJWVFRWDNuQ2xjYW5rWGhlQmxOek5EdzlRSW5aX0FhVTNnYVVyR3VLRUpNN1M1UnM4aVlpVnJad1NSb1gtN3hYLU9rdzdQekVHX0F0T3FLU2NlSw?oc=5",
+   "title": "Prenetics’ IM8 Leadership Purchases $1.26 Million of Shares Following Third Quarter Results - Carroll County Mirror-Democrat",
+   "source": "Carroll County Mirror-Democrat",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRWFvNFJhdWljT1V5YUlxQVB1NW1Sd09hU3poSjUzam1FbWx2RWtUX1NQc3kzOXUtRGdGenprdkFFNi1jWlBBT0hIRlNuaVBsaTVJd3dOcnhJZC1nbzFMRWZKRHVXX2VYQ1RXMDBQQTl3bXNTOENkcEtsWUVUdGNyOHVFeDdpMVpUNUZJMGhXRjdOVVg5cWRIZE5TQnJMcUFwTEt6TkpvYk5RTmk5UGtoa0xsYlpBelE?oc=5",
    "query": "Prenetics"
   },
   {
-   "date": "2026-11-25",
-   "title": "Across four stock buys, the CEO of Prenetics Global (PRE) paid as much as $10 a share. - Stock Titan",
-   "source": "Stock Titan",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ0p5Q0JDdFBJZmdTNnh6VWhoY3RiTjRCcW9BWElmaHhlTWpkcnhMeXZBbEhfOFdYb2FOMDg3c1pIcTJ4UUVjMUlnVnBVWlg5V3hFSEtjQ3JBQTB5cVpGNjZ1cGhQaUNsNmNxSzFWUkI3M3c5ekJXUWFORmdXMzdYR3FfRUh0cGZwRmhqa2Q0ekNfWHJjYUlfcEVjR3FweC1ham43Z2kxakhteDg4LVR3YTcxaw?oc=5",
-   "query": "Prenetics"
-  },
-  {
-   "date": "2026-11-25",
-   "title": "Prenetics Global (PRE) CFO Lo bought 12,435 shares for $127K at an average $10.22 - Quantisnow",
-   "source": "Quantisnow",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNVhiSG9NNTlhVHdkTEk1QzJIdmt6U2ZKcHg2RC0wOEstYU05U1FMRnpzai1jWi1vcXpEVUlKNnBsOXZIb0Z0eGMwemNHdlJLdm10aG1MUUpHSjlTUjI0bzZIYzl4dm05WWcybkprWUtRcVpFdm1wVlVSX0ZXVW9xbHpPWURGTEtFUDJBR0RhUjJqRFJranlLSnpPZ2E4dw?oc=5",
+   "date": "2026-11-26",
+   "title": "Form 4 Prenetics Global Ltd: Danny Sheng Wu Yeung (Director, CEO) For: 20 November - Investing.com Canada",
+   "source": "Investing.com Canada",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdjg2V2ZOY0NLZXJIY0NFOGl5MnRzblBQMzkzMnhKNE01WGRic1BsMHZMZFoxN2w4cGpHX3FSN19yYkNSbVprTmhSZm1fRDRGNXR4dnNSTU5FQnUzakZOSmp1dkFvTWxkQjRWdUU4VFJ3R2ljdFFvLThMUW5iSVpCeXZlUmxlWFotMjFiMWp4bVN1VGtIa25fRHRIY0NHS2Nfb1Z2bU9ZS3dRY013QUVnNG5OMnlPQ0plWE8yRDlfYUxSNG9zRDhDVHBXblRiSWtUWE5UXw?oc=5",
    "query": "Prenetics"
   }
  ]
