@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "summary": {
   "SharesOutstandingPCT": "16.36%",
   "ShareoutstandingTotal": "16",
@@ -46,7 +46,7 @@
    "sharesHeld": "401,150",
    "sharesChange": "165,350",
    "sharesChangePCT": "70.123%",
-   "marketValue": "$4,024"
+   "marketValue": "$4,036"
   },
   {
    "ownerName": "Ameriprise Financial Inc",
@@ -54,7 +54,7 @@
    "sharesHeld": "200,167",
    "sharesChange": "200,167",
    "sharesChangePCT": "New",
-   "marketValue": "$2,008"
+   "marketValue": "$2,014"
   },
   {
    "ownerName": "Pillsbury Lake Capital Llc",
@@ -62,7 +62,7 @@
    "sharesHeld": "190,545",
    "sharesChange": "190,545",
    "sharesChangePCT": "New",
-   "marketValue": "$1,911"
+   "marketValue": "$1,917"
   },
   {
    "ownerName": "Millennium Management Llc",
@@ -70,7 +70,7 @@
    "sharesHeld": "169,805",
    "sharesChange": "43,719",
    "sharesChangePCT": "34.674%",
-   "marketValue": "$1,703"
+   "marketValue": "$1,708"
   },
   {
    "ownerName": "4D Advisors, Llc",
@@ -78,7 +78,7 @@
    "sharesHeld": "165,000",
    "sharesChange": "165,000",
    "sharesChangePCT": "New",
-   "marketValue": "$1,655"
+   "marketValue": "$1,660"
   },
   {
    "ownerName": "Marshall Wace, Llp",
@@ -86,7 +86,7 @@
    "sharesHeld": "157,489",
    "sharesChange": "110,162",
    "sharesChangePCT": "232.768%",
-   "marketValue": "$1,580"
+   "marketValue": "$1,584"
   },
   {
    "ownerName": "Jane Street Group, Llc",
@@ -94,7 +94,7 @@
    "sharesHeld": "135,335",
    "sharesChange": "-89,758",
    "sharesChangePCT": "-39.876%",
-   "marketValue": "$1,357"
+   "marketValue": "$1,361"
   },
   {
    "ownerName": "Walleye Capital Llc",
@@ -102,7 +102,7 @@
    "sharesHeld": "125,880",
    "sharesChange": "125,880",
    "sharesChangePCT": "New",
-   "marketValue": "$1,263"
+   "marketValue": "$1,266"
   },
   {
    "ownerName": "Point72 Asset Management, L.P.",
@@ -110,7 +110,7 @@
    "sharesHeld": "98,464",
    "sharesChange": "98,464",
    "sharesChangePCT": "New",
-   "marketValue": "$988"
+   "marketValue": "$991"
   },
   {
    "ownerName": "Citadel Advisors Llc",
@@ -118,7 +118,7 @@
    "sharesHeld": "96,109",
    "sharesChange": "79,922",
    "sharesChangePCT": "493.742%",
-   "marketValue": "$964"
+   "marketValue": "$967"
   },
   {
    "ownerName": "Two Sigma Investments, Lp",
@@ -126,7 +126,7 @@
    "sharesHeld": "87,286",
    "sharesChange": "87,286",
    "sharesChangePCT": "New",
-   "marketValue": "$875"
+   "marketValue": "$878"
   },
   {
    "ownerName": "Xtx Topco Ltd",
@@ -134,7 +134,7 @@
    "sharesHeld": "81,903",
    "sharesChange": "51,418",
    "sharesChangePCT": "168.667%",
-   "marketValue": "$821"
+   "marketValue": "$824"
   },
   {
    "ownerName": "Prelude Capital Management, Llc",
@@ -142,7 +142,7 @@
    "sharesHeld": "79,086",
    "sharesChange": "79,086",
    "sharesChangePCT": "New",
-   "marketValue": "$793"
+   "marketValue": "$796"
   },
   {
    "ownerName": "Qube Research & Technologies Ltd",
@@ -150,7 +150,7 @@
    "sharesHeld": "75,055",
    "sharesChange": "51,245",
    "sharesChangePCT": "215.225%",
-   "marketValue": "$753"
+   "marketValue": "$755"
   },
   {
    "ownerName": "Potrero Capital Research Llc",
@@ -158,7 +158,7 @@
    "sharesHeld": "64,943",
    "sharesChange": "64,943",
    "sharesChangePCT": "New",
-   "marketValue": "$651"
+   "marketValue": "$653"
   },
   {
    "ownerName": "Bank Of America Corp /De/",
@@ -166,7 +166,7 @@
    "sharesHeld": "56,110",
    "sharesChange": "56,110",
    "sharesChangePCT": "New",
-   "marketValue": "$563"
+   "marketValue": "$564"
   },
   {
    "ownerName": "Fortress Private Ledger, Llc",
@@ -174,7 +174,7 @@
    "sharesHeld": "50,282",
    "sharesChange": "50,282",
    "sharesChangePCT": "New",
-   "marketValue": "$504"
+   "marketValue": "$506"
   },
   {
    "ownerName": "Morgan Stanley",
@@ -182,7 +182,7 @@
    "sharesHeld": "39,626",
    "sharesChange": "16,183",
    "sharesChangePCT": "69.031%",
-   "marketValue": "$397"
+   "marketValue": "$399"
   },
   {
    "ownerName": "Balyasny Asset Management L.P.",
@@ -190,7 +190,7 @@
    "sharesHeld": "34,213",
    "sharesChange": "34,213",
    "sharesChangePCT": "New",
-   "marketValue": "$343"
+   "marketValue": "$344"
   },
   {
    "ownerName": "Woodline Partners Lp",
@@ -198,7 +198,7 @@
    "sharesHeld": "33,522",
    "sharesChange": "33,522",
    "sharesChangePCT": "New",
-   "marketValue": "$336"
+   "marketValue": "$337"
   },
   {
    "ownerName": "Stevens Capital Partners",
@@ -206,7 +206,7 @@
    "sharesHeld": "30,674",
    "sharesChange": "2,527",
    "sharesChangePCT": "8.978%",
-   "marketValue": "$308"
+   "marketValue": "$309"
   },
   {
    "ownerName": "Hrt Financial Lp",
@@ -214,7 +214,7 @@
    "sharesHeld": "28,936",
    "sharesChange": "28,936",
    "sharesChangePCT": "New",
-   "marketValue": "$290"
+   "marketValue": "$291"
   },
   {
    "ownerName": "Susquehanna International Group, Llp",
@@ -238,7 +238,7 @@
    "sharesHeld": "15,001",
    "sharesChange": "-27,100",
    "sharesChangePCT": "-64.369%",
-   "marketValue": "$150"
+   "marketValue": "$151"
   },
   {
    "ownerName": "Acadian Asset Management Llc",
@@ -254,7 +254,7 @@
    "sharesHeld": "11,400",
    "sharesChange": "11,400",
    "sharesChangePCT": "New",
-   "marketValue": "$114"
+   "marketValue": "$115"
   },
   {
    "ownerName": "Goldman Sachs Group Inc",
@@ -270,7 +270,7 @@
    "sharesHeld": "10,898",
    "sharesChange": "10,898",
    "sharesChangePCT": "New",
-   "marketValue": "$109"
+   "marketValue": "$110"
   },
   {
    "ownerName": "Wells Fargo & Company/Mn",
@@ -278,7 +278,7 @@
    "sharesHeld": "10,000",
    "sharesChange": "0",
    "sharesChangePCT": "0%",
-   "marketValue": "$100"
+   "marketValue": "$101"
   },
   {
    "ownerName": "Ubs Group Ag",
@@ -286,7 +286,7 @@
    "sharesHeld": "9,219",
    "sharesChange": "-27,821",
    "sharesChangePCT": "-75.111%",
-   "marketValue": "$92"
+   "marketValue": "$93"
   },
   {
    "ownerName": "Exoduspoint Capital Management, Lp",
